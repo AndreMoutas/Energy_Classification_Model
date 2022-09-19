@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\KungFoo"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 44,
+				"name": "someCall",
+				"file": "C:\\Github\\KungFoo\\build_android\\src\\com\\onetwofivegames\\kungfoobarracuda\\KungFooBarracudaNativeActivity.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"sources": [
+		"C:\\Github\\dagger"
+	],
+	"total": 14,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 33,
+				"name": "componentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\Hilt_DaggerApp.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 48,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\Hilt_MainActivity.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\bookmark\\match\\Hilt_MatchBookmarkFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\bookmark\\player\\Hilt_PlayerBookmarkFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\competitive\\Hilt_CompetitiveFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\leaderboard\\Hilt_RegionFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\matchstats\\Hilt_MatchStatsFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\profile\\Hilt_ProfileFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\profile\\heroes\\Hilt_HeroFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\profile\\matches\\Hilt_MatchFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\profile\\matches\\byhero\\Hilt_MatchesByHeroFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\profile\\peers\\Hilt_PeerFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\search\\Hilt_SearchFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "createComponentManager",
+				"file": "C:\\Github\\dagger\\app\\build\\generated\\source\\kapt\\debug\\com\\nikola\\jakshic\\dagger\\stream\\Hilt_StreamFragment.java"
+			}
+		]
+	}
+}

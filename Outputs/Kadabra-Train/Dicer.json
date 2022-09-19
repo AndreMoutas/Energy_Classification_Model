@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\Dicer"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 431,
+				"name": "rollDice",
+				"file": "C:\\Github\\Dicer\\app\\src\\main\\java\\com\\platypus\\dicer\\MainActivity.java"
+			},
+			{
+				"line": 57,
+				"name": "onAccuracyChanged",
+				"file": "C:\\Github\\Dicer\\app\\src\\main\\java\\com\\platypus\\dicer\\ShakeListener.java"
+			}
+		]
+	}
+}

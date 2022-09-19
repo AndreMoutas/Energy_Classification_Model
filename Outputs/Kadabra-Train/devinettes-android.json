@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\devinettes-android"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\devinettes-android\\app\\src\\test\\java\\com\\workingagenda\\devinettes\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

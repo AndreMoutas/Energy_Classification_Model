@@ -1,0 +1,94 @@
+{
+	"sources": [
+		"C:\\Github\\Form-N-Fun"
+	],
+	"total": 16,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 113,
+				"name": "getRoll",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 113,
+				"name": "getRoll",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 115,
+				"name": "getRoll",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 115,
+				"name": "getPitch",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 113,
+				"name": "getRoll",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 113,
+				"name": "getRoll",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 115,
+				"name": "getRoll",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 115,
+				"name": "getPitch",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\GraphicThread.java"
+			},
+			{
+				"line": 39,
+				"name": "getPoints",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\Maze.java"
+			},
+			{
+				"line": 39,
+				"name": "getPoints",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\Maze.java"
+			},
+			{
+				"line": 40,
+				"name": "getPoints",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\Maze.java"
+			},
+			{
+				"line": 40,
+				"name": "getPoints",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\main\\java\\com\\formfun\\graphics\\Maze.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\Form-N-Fun\\app\\src\\test\\java\\formandfun\\com\\form_n_fun\\ExampleUnitTest.java"
+			},
+			{
+				"line": 212,
+				"name": "surfaceCreated",
+				"file": "C:\\Github\\Form-N-Fun\\opencv-java\\src\\main\\java\\org\\opencv\\android\\CameraBridgeViewBase.java"
+			},
+			{
+				"line": 446,
+				"name": "connectCamera",
+				"file": "C:\\Github\\Form-N-Fun\\opencv-java\\src\\main\\java\\org\\opencv\\android\\CameraBridgeViewBase.java"
+			},
+			{
+				"line": 452,
+				"name": "disconnectCamera",
+				"file": "C:\\Github\\Form-N-Fun\\opencv-java\\src\\main\\java\\org\\opencv\\android\\CameraBridgeViewBase.java"
+			}
+		]
+	}
+}

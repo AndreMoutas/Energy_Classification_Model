@@ -1,0 +1,21 @@
+{
+	"sources": [
+		"C:\\Github\\EbtNewNote"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 192,
+				"file": "C:\\Github\\EbtNewNote\\app\\src\\main\\java\\com\\marv42\\ebt\\newnote\\ResultsFragmentData.java"
+			},
+			{
+				"line": 244,
+				"file": "C:\\Github\\EbtNewNote\\app\\src\\main\\java\\com\\marv42\\ebt\\newnote\\ResultsFragmentData.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

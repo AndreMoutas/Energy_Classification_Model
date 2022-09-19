@@ -1,0 +1,115 @@
+{
+	"sources": [
+		"C:\\Github\\Mines3D"
+	],
+	"total": 20,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 79,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 88,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 99,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 79,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 88,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 99,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 79,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 88,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 99,
+				"name": "getIsReal",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\data\\MinesContainer.java"
+			},
+			{
+				"line": 319,
+				"name": "getCrossLinesAnimation",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\MineField.java"
+			},
+			{
+				"line": 324,
+				"name": "getMinesLinesAnimation",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\MineField.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 319,
+				"name": "getCrossLinesAnimation",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\MineField.java"
+			},
+			{
+				"line": 324,
+				"name": "getMinesLinesAnimation",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\MineField.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 143,
+				"name": "stringFromJNI",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\MainActivity.java"
+			},
+			{
+				"line": 54,
+				"name": "sendVerifiedTap",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\AbstractDrawable.java"
+			},
+			{
+				"line": 55,
+				"name": "sendVerifiedLongTap",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\AbstractDrawable.java"
+			},
+			{
+				"line": 56,
+				"name": "sendVerifiedDoubleTap",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\AbstractDrawable.java"
+			},
+			{
+				"line": 127,
+				"name": "getStatusLabelX",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\MinesLayoutComputor.java"
+			},
+			{
+				"line": 131,
+				"name": "getStatusLabelY",
+				"file": "C:\\Github\\Mines3D\\app\\src\\main\\java\\cos\\premy\\mines\\graphics\\MinesLayoutComputor.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\Mines3D\\app\\src\\test\\java\\cos\\premy\\mines\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

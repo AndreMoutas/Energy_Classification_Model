@@ -1,0 +1,39 @@
+{
+	"sources": [
+		"C:\\Github\\AWhip"
+	],
+	"total": 5,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 62,
+				"name": "getTitleId",
+				"file": "C:\\Github\\AWhip\\app\\src\\main\\java\\at\\h4x\\awhip\\WhipDef.java"
+			},
+			{
+				"line": 63,
+				"name": "getDetailsId",
+				"file": "C:\\Github\\AWhip\\app\\src\\main\\java\\at\\h4x\\awhip\\WhipDef.java"
+			},
+			{
+				"line": 64,
+				"name": "getDrawableId",
+				"file": "C:\\Github\\AWhip\\app\\src\\main\\java\\at\\h4x\\awhip\\WhipDef.java"
+			},
+			{
+				"line": 65,
+				"name": "getAudioFileId",
+				"file": "C:\\Github\\AWhip\\app\\src\\main\\java\\at\\h4x\\awhip\\WhipDef.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\AWhip\\app\\src\\test\\java\\at\\h4x\\awhip\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

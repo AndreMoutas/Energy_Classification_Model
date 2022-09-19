@@ -1,0 +1,51 @@
+{
+	"sources": [
+		"C:\\Github\\candymem"
+	],
+	"total": 8,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 80,
+				"name": "setVerbose",
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\Main.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 22,
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\data\\Config.java"
+			},
+			{
+				"line": 13,
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\data\\EntryList.java"
+			},
+			{
+				"line": 27,
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\logic\\Handler.java"
+			},
+			{
+				"line": 28,
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\logic\\Handler.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 83,
+				"name": "onUpdate",
+				"file": "C:\\Github\\candymem\\core\\src\\se\\tube42\\kidsmem\\App.java"
+			},
+			{
+				"line": 18,
+				"name": "accessFile",
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\logic\\DirWalker.java"
+			},
+			{
+				"line": 19,
+				"name": "accessDir",
+				"file": "C:\\Github\\candymem\\submodules\\marm\\src\\se\\tube42\\marm\\logic\\DirWalker.java"
+			}
+		]
+	}
+}

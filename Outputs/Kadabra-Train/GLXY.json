@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\GLXY"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 44,
+				"name": "onKeyUp",
+				"file": "C:\\Github\\GLXY\\core\\src\\com\\kaeruct\\glxy\\screen\\Screen.java"
+			}
+		]
+	}
+}

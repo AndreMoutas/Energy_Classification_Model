@@ -1,0 +1,351 @@
+{
+	"sources": [
+		"C:\\Github\\android-chess"
+	],
+	"total": 70,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 158,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\TimesealingSocket.java"
+			},
+			{
+				"line": 69,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\timeseal\\TimesealingSocket.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 54,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\com\\kalab\\chess\\enginesupport\\ChessEngineResolver.java"
+			},
+			{
+				"line": 1114,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSClient.java"
+			},
+			{
+				"line": 1124,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSClient.java"
+			},
+			{
+				"line": 97,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 120,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 126,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 143,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 166,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 201,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 331,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 350,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 368,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSPatterns.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\services\\GameApi.java"
+			},
+			{
+				"line": 254,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\ChessPuzzleProvider.java"
+			},
+			{
+				"line": 236,
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\PGNProvider.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 158,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\TimesealingSocket.java"
+			},
+			{
+				"line": 212,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\TimesealingSocket.java"
+			},
+			{
+				"line": 35,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\timeseal\\TimesealingSocket.java"
+			},
+			{
+				"line": 69,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\timeseal\\TimesealingSocket.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 73,
+				"name": "play",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\engine\\EngineApi.java"
+			},
+			{
+				"line": 74,
+				"name": "isReady",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\engine\\EngineApi.java"
+			},
+			{
+				"line": 75,
+				"name": "abort",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\engine\\EngineApi.java"
+			},
+			{
+				"line": 76,
+				"name": "destroy",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\engine\\EngineApi.java"
+			},
+			{
+				"line": 125,
+				"name": "isUserPlaying",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\ics\\ICSServer.java"
+			},
+			{
+				"line": 205,
+				"name": "updateGUI",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\puzzle\\PuzzleActivity.java"
+			},
+			{
+				"line": 26,
+				"name": "getBlackRemaining",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\services\\ClockApi.java"
+			},
+			{
+				"line": 28,
+				"name": "getWhiteRemaining",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\services\\ClockApi.java"
+			},
+			{
+				"line": 145,
+				"name": "processPGN",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\tools\\PGNProcessor.java"
+			},
+			{
+				"line": 147,
+				"name": "getString",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\android\\chess\\tools\\PGNProcessor.java"
+			},
+			{
+				"line": 348,
+				"name": "destroy",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 350,
+				"name": "isInited",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 352,
+				"name": "requestMove",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 354,
+				"name": "move",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 356,
+				"name": "undo",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 358,
+				"name": "reset",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 360,
+				"name": "putPiece",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 362,
+				"name": "searchMove",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 364,
+				"name": "searchDepth",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 366,
+				"name": "getMove",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 368,
+				"name": "getBoardValue",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 370,
+				"name": "peekSearchDone",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 372,
+				"name": "peekSearchBestMove",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 374,
+				"name": "peekSearchBestValue",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 376,
+				"name": "peekSearchDepth",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 378,
+				"name": "getEvalCount",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 380,
+				"name": "setPromo",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 382,
+				"name": "getState",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 384,
+				"name": "isEnded",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 386,
+				"name": "setCastlingsEPAnd50",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 388,
+				"name": "getNumBoard",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 390,
+				"name": "getTurn",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 392,
+				"name": "commitBoard",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 394,
+				"name": "setTurn",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 397,
+				"name": "getMoveArraySize",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 399,
+				"name": "getMoveArrayAt",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 401,
+				"name": "pieceAt",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 403,
+				"name": "getMyMoveToString",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 405,
+				"name": "getMyMove",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 407,
+				"name": "isLegalPosition",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 409,
+				"name": "isAmbiguousCastle",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 411,
+				"name": "doCastleMove",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 413,
+				"name": "toFEN",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 415,
+				"name": "removePiece",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 417,
+				"name": "getHashKey",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 419,
+				"name": "loadDB",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 421,
+				"name": "interrupt",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 423,
+				"name": "getNumCaptured",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\JNI.java"
+			},
+			{
+				"line": 21,
+				"name": "setWeights4Test",
+				"file": "C:\\Github\\android-chess\\app\\src\\main\\java\\jwtc\\chess\\Valuation.java"
+			}
+		]
+	}
+}

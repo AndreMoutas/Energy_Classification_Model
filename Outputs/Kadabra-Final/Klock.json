@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\Klock"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\Klock\\app\\src\\test\\java\\com\\koshai_limited\\klock\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

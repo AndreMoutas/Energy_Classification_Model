@@ -1,0 +1,155 @@
+{
+	"sources": [
+		"C:\\Github\\RoboZZle-Droid"
+	],
+	"total": 28,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 573,
+				"name": "getStepTime",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\Solver.java"
+			},
+			{
+				"line": 575,
+				"name": "getStepTime",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\Solver.java"
+			},
+			{
+				"line": 907,
+				"name": "getSolutions",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\Solver.java"
+			},
+			{
+				"line": 907,
+				"name": "getSolutions",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\Solver.java"
+			},
+			{
+				"line": 905,
+				"name": "getSessions",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\Solver.java"
+			},
+			{
+				"line": 167,
+				"name": "isBlack",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\model\\ProgramState.java"
+			},
+			{
+				"line": 172,
+				"name": "isBlack",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\model\\ProgramState.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 54,
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\GenericPuzzleActivity.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 77,
+				"name": "getOldCommand",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\EditCommand.java"
+			},
+			{
+				"line": 78,
+				"name": "getNewCommand",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\EditCommand.java"
+			},
+			{
+				"line": 79,
+				"name": "getFunction",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\EditCommand.java"
+			},
+			{
+				"line": 79,
+				"name": "getCommandOffset",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\EditCommand.java"
+			},
+			{
+				"line": 43,
+				"name": "getSteps",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\PlayCommand.java"
+			},
+			{
+				"line": 77,
+				"name": "getSteps",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\PlayCommand.java"
+			},
+			{
+				"line": 97,
+				"name": "getSteps",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\PlayCommand.java"
+			},
+			{
+				"line": 97,
+				"name": "getSteps",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\Actions\\PlayCommand.java"
+			},
+			{
+				"line": 53,
+				"name": "getTimeStamp",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\SessionLogEntry.java"
+			},
+			{
+				"line": 53,
+				"name": "getCommand",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\SessionLogEntry.java"
+			},
+			{
+				"line": 46,
+				"name": "getProduct",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\TelemetrySource.java"
+			},
+			{
+				"line": 46,
+				"name": "getProduct",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\TelemetrySource.java"
+			},
+			{
+				"line": 46,
+				"name": "getVersion",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\TelemetrySource.java"
+			},
+			{
+				"line": 46,
+				"name": "getVersion",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\TelemetrySource.java"
+			},
+			{
+				"line": 62,
+				"name": "getProduct",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\TelemetrySource.java"
+			},
+			{
+				"line": 62,
+				"name": "getVersion",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\RoboZZle\\Telemetry\\TelemetrySource.java"
+			},
+			{
+				"line": 465,
+				"name": "getHelper",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\GenericPuzzleActivity.java"
+			},
+			{
+				"line": 474,
+				"name": "getHelper",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\GenericPuzzleActivity.java"
+			},
+			{
+				"line": 155,
+				"name": "getStepsMade",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\model\\ProgramState.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 24,
+				"name": "isDone",
+				"file": "C:\\Github\\RoboZZle-Droid\\src\\com\\team242\\robozzle\\achievements\\Achievement.java"
+			}
+		]
+	}
+}

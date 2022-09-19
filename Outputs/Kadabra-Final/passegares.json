@@ -1,0 +1,171 @@
+{
+	"sources": [
+		"C:\\Github\\passegares"
+	],
+	"total": 32,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 172,
+				"name": "getIdLignes",
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\GareCtrl.java"
+			},
+			{
+				"line": 175,
+				"name": "getId",
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\GareCtrl.java"
+			},
+			{
+				"line": 298,
+				"name": "getId",
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\ImportCSV.java"
+			},
+			{
+				"line": 163,
+				"name": "getId",
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\TamponCtrl.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 45,
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\ImportCSV.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\ImportCSV.java"
+			},
+			{
+				"line": 170,
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\ImportCSV.java"
+			},
+			{
+				"line": 171,
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\controlleur\\ImportCSV.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 24,
+				"name": "getNom",
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\modele\\ObjetVendable.java"
+			},
+			{
+				"line": 33,
+				"name": "actionPostAchat",
+				"file": "C:\\Github\\passegares\\app\\src\\main\\java\\fr\\nocle\\passegares\\modele\\ObjetVendable.java"
+			},
+			{
+				"line": 16,
+				"name": "getHexa_rouge_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 22,
+				"name": "getHexa_cyan_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 28,
+				"name": "getHexa_jaune_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 34,
+				"name": "getHexa_lime_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 40,
+				"name": "getHexa_marron_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 46,
+				"name": "getHexa_orange_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 52,
+				"name": "getHexa_vert_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 58,
+				"name": "getHexa_violet_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 64,
+				"name": "getHexa_autre_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\CouleurOutilsTest.java"
+			},
+			{
+				"line": 72,
+				"name": "displayBeautifullNameStation_unMot_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 77,
+				"name": "displayBeautifullNameStation_troisMot_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 82,
+				"name": "displayBeautifullNameStation_troisMotTiret_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 87,
+				"name": "displayBeautifullNameStation_troisMotEspaceTiret_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 92,
+				"name": "displayBeautifullNameStation_longTitreCoupe_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 97,
+				"name": "displayBeautifullNameStation_longTitreCoupeDix_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 102,
+				"name": "displayBeautifullNameStation_troisMotParentheses_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 107,
+				"name": "displayBeautifullNameStation_troisMotParenthesesLiaisons_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 112,
+				"name": "displayBeautifullNameStation_troisMotApostrophe_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 117,
+				"name": "displayBeautifullNameStation_premierMotApostropheLiaison_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 122,
+				"name": "displayBeautifullNameStation_tiretEntreEspaces_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 128,
+				"name": "displayBeautifullNameStation_casReel_formattageCorrect",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			},
+			{
+				"line": 259,
+				"name": "manageDeParticule_casGeneraux",
+				"file": "C:\\Github\\passegares\\app\\src\\test\\java\\fr\\nocle\\passegares\\StringOutilsTest.java"
+			}
+		]
+	}
+}

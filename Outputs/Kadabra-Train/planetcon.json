@@ -1,0 +1,310 @@
+{
+	"sources": [
+		"C:\\Github\\planetcon"
+	],
+	"total": 59,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 1356,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1558,
+				"name": "getPlayers",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1590,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1595,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1598,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1598,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1595,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1598,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1598,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1626,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1627,
+				"name": "getArrivals",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1639,
+				"name": "getArrivals",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1667,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1719,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1721,
+				"name": "getRuleDefense",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1728,
+				"name": "getRuleUpkeep",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1732,
+				"name": "getRuleUpkeep",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1742,
+				"name": "getRuleDefense",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1756,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1781,
+				"name": "getRuleUpkeep",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1784,
+				"name": "getRuleUpkeep",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 1806,
+				"name": "getPlayers",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\activities\\GameActivity.java"
+			},
+			{
+				"line": 96,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 102,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 244,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 260,
+				"name": "getActivePlayers",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 429,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 562,
+				"name": "getMaxTurns",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 562,
+				"name": "getMaxTurns",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 689,
+				"name": "getMaxTurns",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 689,
+				"name": "getMaxTurns",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ai\\AIData.java"
+			},
+			{
+				"line": 600,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 606,
+				"name": "getCurrentPlayer",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 784,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 785,
+				"name": "getCurrentPlayer",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 792,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 793,
+				"name": "getCurrentPlayer",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 794,
+				"name": "getRuleFow",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 796,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 799,
+				"name": "getRuleFow",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 801,
+				"name": "getCurrentTurn",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 824,
+				"name": "getArrivals",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 826,
+				"name": "getRuleFow",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 826,
+				"name": "getCurrentPlayer",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 839,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 840,
+				"name": "getCurrentPlayer",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 1151,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 1170,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 1171,
+				"name": "ij2xy",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 1172,
+				"name": "ij2xy",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			},
+			{
+				"line": 71,
+				"name": "getPlanets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\TextBuilder.java"
+			},
+			{
+				"line": 77,
+				"name": "getPlayers",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\TextBuilder.java"
+			},
+			{
+				"line": 83,
+				"name": "getFleets",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\TextBuilder.java"
+			},
+			{
+				"line": 84,
+				"name": "getCurrentPlayer",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\TextBuilder.java"
+			},
+			{
+				"line": 91,
+				"name": "getArrivals",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\TextBuilder.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 147,
+				"name": "getNumber",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\settings\\NumberPickerPreference.java"
+			},
+			{
+				"line": 200,
+				"name": "getNumber",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\settings\\NumberPickerPreference.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 365,
+				"name": "getDistance",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\data\\GalaxyData.java"
+			},
+			{
+				"line": 1243,
+				"name": "getDistanceDouble",
+				"file": "C:\\Github\\planetcon\\src\\com\\dftec\\planetcon\\ui\\GalaxyView.java"
+			}
+		]
+	}
+}

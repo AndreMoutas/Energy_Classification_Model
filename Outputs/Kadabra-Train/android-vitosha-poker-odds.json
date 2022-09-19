@@ -1,0 +1,423 @@
+{
+	"sources": [
+		"C:\\Github\\android-vitosha-poker-odds"
+	],
+	"total": 82,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 86,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 88,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 89,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 90,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 94,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 94,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 218,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 218,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 222,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 222,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 222,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 222,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 223,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 223,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 297,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 297,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 298,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 298,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 307,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 307,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 307,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 307,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 308,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 308,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 310,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 310,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 310,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 310,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 311,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 311,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 313,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 313,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 313,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 313,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 314,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 314,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 316,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 316,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 316,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 316,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 317,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 317,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 319,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 319,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 319,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 319,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 320,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 320,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 322,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 322,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 322,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 322,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 323,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 323,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 325,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 325,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 325,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 325,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 326,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 326,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 297,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 297,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 297,
+				"name": "getSuit",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 298,
+				"name": "getDeck",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 298,
+				"name": "getCards",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 298,
+				"name": "getRank",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1015,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1015,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1016,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1017,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1015,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1015,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1016,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1017,
+				"name": "value",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1048,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1048,
+				"name": "getBoard",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1052,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1053,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1058,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1059,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1240,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			},
+			{
+				"line": 1241,
+				"name": "getPlayers",
+				"file": "C:\\Github\\android-vitosha-poker-odds\\VitoshaPokerOdds\\src\\main\\java\\eu\\veldsoft\\vitosha\\poker\\odds\\model\\MonteCarlo.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

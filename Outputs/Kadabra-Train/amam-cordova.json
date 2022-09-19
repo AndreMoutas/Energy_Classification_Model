@@ -1,0 +1,158 @@
+{
+	"sources": [
+		"C:\\Github\\amam-cordova"
+	],
+	"total": 29,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 32,
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPreferences.java"
+			},
+			{
+				"line": 161,
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CoreAndroid.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 234,
+				"name": "getActivity",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaInterfaceImpl.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 66,
+				"name": "initialize",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 72,
+				"name": "pluginInitialize",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 134,
+				"name": "execute",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 143,
+				"name": "onPause",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 151,
+				"name": "onResume",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 157,
+				"name": "onStart",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 163,
+				"name": "onStop",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 169,
+				"name": "onNewIntent",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 175,
+				"name": "onDestroy",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 187,
+				"name": "onSaveInstanceState",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 199,
+				"name": "onRestoreStateForActivityResult",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 208,
+				"name": "onMessage",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 222,
+				"name": "onActivityResult",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 241,
+				"name": "shouldAllowRequest",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 255,
+				"name": "shouldAllowNavigation",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 278,
+				"name": "shouldOpenExternalUrl",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 288,
+				"name": "onOverrideUrlLoading",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 308,
+				"name": "remapUri",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 317,
+				"name": "handleOpenForRead",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 348,
+				"name": "onReset",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 363,
+				"name": "onReceivedHttpAuthRequest",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 377,
+				"name": "onReceivedClientCertRequest",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 386,
+				"name": "onConfigurationChanged",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 397,
+				"name": "requestPermissions",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 407,
+				"name": "hasPermisssion",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			},
+			{
+				"line": 418,
+				"name": "onRequestPermissionResult",
+				"file": "C:\\Github\\amam-cordova\\node_modules\\cordova-android\\framework\\src\\org\\apache\\cordova\\CordovaPlugin.java"
+			}
+		]
+	}
+}

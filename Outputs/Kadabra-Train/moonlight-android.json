@@ -1,0 +1,224 @@
+{
+	"sources": [
+		"C:\\Github\\moonlight-android"
+	],
+	"total": 42,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 520,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 524,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 559,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 559,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 559,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 592,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 592,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\AppView.java"
+			},
+			{
+				"line": 118,
+				"name": "getElements",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\virtual_controller\\DigitalButton.java"
+			},
+			{
+				"line": 339,
+				"name": "getElements",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\virtual_controller\\VirtualControllerConfigurationLoader.java"
+			},
+			{
+				"line": 354,
+				"name": "getElements",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\virtual_controller\\VirtualControllerConfigurationLoader.java"
+			},
+			{
+				"line": 824,
+				"name": "getUniqueId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\computers\\ComputerManagerService.java"
+			},
+			{
+				"line": 825,
+				"name": "getCryptoProvider",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\computers\\ComputerManagerService.java"
+			},
+			{
+				"line": 59,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\grid\\AppGridAdapter.java"
+			},
+			{
+				"line": 69,
+				"name": "getAppId",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\grid\\AppGridAdapter.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 29,
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\grid\\assets\\MemoryAssetLoader.java"
+			},
+			{
+				"line": 28,
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\mdns\\MdnsDiscoveryAgent.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 1122,
+				"name": "getModifierState",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\Game.java"
+			},
+			{
+				"line": 2009,
+				"name": "getModifierState",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\Game.java"
+			},
+			{
+				"line": 2012,
+				"name": "getModifierState",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\Game.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 15,
+				"name": "destroy",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\capture\\InputCaptureProvider.java"
+			},
+			{
+				"line": 25,
+				"name": "eventHasRelativeMouseAxes",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\capture\\InputCaptureProvider.java"
+			},
+			{
+				"line": 29,
+				"name": "getRelativeAxisX",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\capture\\InputCaptureProvider.java"
+			},
+			{
+				"line": 33,
+				"name": "getRelativeAxisY",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\capture\\InputCaptureProvider.java"
+			},
+			{
+				"line": 37,
+				"name": "onWindowFocusChanged",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\capture\\InputCaptureProvider.java"
+			},
+			{
+				"line": 42,
+				"name": "start",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\driver\\AbstractController.java"
+			},
+			{
+				"line": 43,
+				"name": "stop",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\driver\\AbstractController.java"
+			},
+			{
+				"line": 52,
+				"name": "rumble",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\driver\\AbstractController.java"
+			},
+			{
+				"line": 161,
+				"name": "handleRead",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\driver\\AbstractXboxController.java"
+			},
+			{
+				"line": 162,
+				"name": "doInit",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\driver\\AbstractXboxController.java"
+			},
+			{
+				"line": 281,
+				"name": "onElementDraw",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\virtual_controller\\VirtualControllerElement.java"
+			},
+			{
+				"line": 283,
+				"name": "onElementTouchEvent",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\binding\\input\\virtual_controller\\VirtualControllerElement.java"
+			},
+			{
+				"line": 57,
+				"name": "populateView",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\grid\\GenericGridAdapter.java"
+			},
+			{
+				"line": 4,
+				"name": "setup",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 6,
+				"name": "start",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 8,
+				"name": "stop",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 12,
+				"name": "submitDecodeUnit",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 15,
+				"name": "cleanup",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 17,
+				"name": "getCapabilities",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 19,
+				"name": "setHdrMode",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\av\\video\\VideoDecoderRenderer.java"
+			},
+			{
+				"line": 445,
+				"name": "getServerVersion",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\http\\NvHTTP.java"
+			},
+			{
+				"line": 498,
+				"name": "getGpuType",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\http\\NvHTTP.java"
+			},
+			{
+				"line": 503,
+				"name": "getGfeVersion",
+				"file": "C:\\Github\\moonlight-android\\app\\src\\main\\java\\com\\limelight\\nvstream\\http\\NvHTTP.java"
+			}
+		]
+	}
+}

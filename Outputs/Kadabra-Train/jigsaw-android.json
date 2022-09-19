@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\jigsaw-android"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 66,
+				"name": "onItemViewAppear",
+				"file": "C:\\Github\\jigsaw-android\\app\\src\\main\\java\\im\\r_c\\android\\commonrecyclerviewadapter\\CommonRecyclerViewAdapter.java"
+			},
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\jigsaw-android\\app\\src\\test\\java\\im\\r_c\\android\\jigsaw\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

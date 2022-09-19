@@ -1,0 +1,28 @@
+{
+	"sources": [
+		"C:\\Github\\pocketbandit"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 25,
+				"file": "C:\\Github\\pocketbandit\\src\\de\\onyxbits\\bureauengine\\screen\\LinkHandler.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 145,
+				"name": "createAssetManager",
+				"file": "C:\\Github\\pocketbandit\\src\\de\\onyxbits\\bureauengine\\BureauGame.java"
+			},
+			{
+				"line": 153,
+				"name": "createSpriteBatch",
+				"file": "C:\\Github\\pocketbandit\\src\\de\\onyxbits\\bureauengine\\BureauGame.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"sources": [
+		"C:\\Github\\rechnen-android"
+	],
+	"total": 13,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 364,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\DataBinderMapperImpl.java"
+			},
+			{
+				"line": 102,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\data\\Database_Impl.java"
+			},
+			{
+				"line": 120,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\data\\Database_Impl.java"
+			},
+			{
+				"line": 135,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\data\\Database_Impl.java"
+			},
+			{
+				"line": 164,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\data\\Database_Impl.java"
+			},
+			{
+				"line": 165,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\data\\Database_Impl.java"
+			},
+			{
+				"line": 200,
+				"file": "C:\\Github\\rechnen-android\\app\\build\\generated\\source\\kapt\\debug\\com\\rechnen\\app\\data\\Database_Impl.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 15,
+				"name": "user",
+				"file": "C:\\Github\\rechnen-android\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\rechnen\\app\\data\\Database.java"
+			},
+			{
+				"line": 18,
+				"name": "savedTask",
+				"file": "C:\\Github\\rechnen-android\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\rechnen\\app\\data\\Database.java"
+			},
+			{
+				"line": 21,
+				"name": "statisticTaskResult",
+				"file": "C:\\Github\\rechnen-android\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\rechnen\\app\\data\\Database.java"
+			},
+			{
+				"line": 50,
+				"name": "getReadableTask",
+				"file": "C:\\Github\\rechnen-android\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\rechnen\\app\\data\\modelparts\\Task.java"
+			},
+			{
+				"line": 53,
+				"name": "getTaskPresentation",
+				"file": "C:\\Github\\rechnen-android\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\rechnen\\app\\data\\modelparts\\Task.java"
+			},
+			{
+				"line": 55,
+				"name": "checkSolution",
+				"file": "C:\\Github\\rechnen-android\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\rechnen\\app\\data\\modelparts\\Task.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,330 @@
+{
+	"sources": [
+		"C:\\Github\\privacy-friendly-sudoku"
+	],
+	"total": 63,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 295,
+				"name": "getValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\GameController.java"
+			},
+			{
+				"line": 298,
+				"name": "getValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\GameController.java"
+			},
+			{
+				"line": 174,
+				"name": "getSize",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\NewLevelManager.java"
+			},
+			{
+				"line": 174,
+				"name": "getSize",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\NewLevelManager.java"
+			},
+			{
+				"line": 124,
+				"name": "getSize",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\helper\\GameInfoContainer.java"
+			},
+			{
+				"line": 125,
+				"name": "getSize",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\helper\\GameInfoContainer.java"
+			},
+			{
+				"line": 266,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\helper\\GameInfoContainer.java"
+			},
+			{
+				"line": 1027,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1028,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1042,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1027,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1028,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1093,
+				"name": "sectionToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1094,
+				"name": "sectionToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1108,
+				"name": "sectionToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1093,
+				"name": "sectionToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1094,
+				"name": "sectionToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1159,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1160,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1174,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1159,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1160,
+				"name": "rowColumnToCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 1225,
+				"name": "cellToSectionStartCell",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 225,
+				"name": "getField",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameBoard.java"
+			},
+			{
+				"line": 225,
+				"name": "getField",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameBoard.java"
+			},
+			{
+				"line": 154,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 154,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 170,
+				"name": "getPosition",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\LoadGameActivity.java"
+			},
+			{
+				"line": 216,
+				"name": "getHighlightedValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuFieldLayout.java"
+			},
+			{
+				"line": 216,
+				"name": "getValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuFieldLayout.java"
+			},
+			{
+				"line": 217,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuFieldLayout.java"
+			},
+			{
+				"line": 217,
+				"name": "getHighlightedValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuFieldLayout.java"
+			},
+			{
+				"line": 269,
+				"name": "getErrorList",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuFieldLayout.java"
+			},
+			{
+				"line": 198,
+				"name": "getSize",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuKeyboardLayout.java"
+			},
+			{
+				"line": 199,
+				"name": "getSelectedValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuKeyboardLayout.java"
+			},
+			{
+				"line": 190,
+				"name": "getNoteStatus",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuSpecialButtonLayout.java"
+			},
+			{
+				"line": 195,
+				"name": "getNoteStatus",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\SudokuSpecialButtonLayout.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 107,
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\build\\generated\\ap_generated_sources\\debug\\out\\org\\secuso\\privacyfriendlysudoku\\ui\\view\\DataBinderMapperImpl.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 227,
+				"name": "getSize",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\GameController.java"
+			},
+			{
+				"line": 118,
+				"name": "getRound",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\LogItem.java"
+			},
+			{
+				"line": 120,
+				"name": "getType",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\LogItem.java"
+			},
+			{
+				"line": 225,
+				"name": "getField",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameBoard.java"
+			},
+			{
+				"line": 69,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 93,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 101,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 109,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 148,
+				"name": "getCol",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 148,
+				"name": "getCol",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 149,
+				"name": "getRow",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 149,
+				"name": "getRow",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 150,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 150,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 151,
+				"name": "getValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 151,
+				"name": "getValue",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 152,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 152,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 154,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 154,
+				"name": "getNotes",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			},
+			{
+				"line": 189,
+				"name": "isFixed",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\game\\GameCell.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 34,
+				"name": "migrate",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\database\\migration\\Migration.java"
+			},
+			{
+				"line": 202,
+				"name": "setRandom",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\controller\\qqwing\\QQWing.java"
+			},
+			{
+				"line": 189,
+				"name": "onCreateOptionsMenu",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\DailySudokuActivity.java"
+			},
+			{
+				"line": 229,
+				"name": "callFragment",
+				"file": "C:\\Github\\privacy-friendly-sudoku\\app\\src\\main\\java\\org\\secuso\\privacyfriendlysudoku\\ui\\MainActivity.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"sources": [
+		"C:\\Github\\MHGenDatabase"
+	],
+	"total": 11,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 102,
+				"file": "C:\\Github\\MHGenDatabase\\multilevelexpindlistview\\src\\main\\java\\com\\oissela\\software\\multilevelexpindlistview\\MultiLevelExpIndListAdapter.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 54,
+				"name": "getIndentation",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\components\\WeaponListEntry.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 135,
+				"name": "getGroupCustomFormat",
+				"file": "C:\\Github\\MHGenDatabase\\android-section-adapter\\src\\main\\java\\com\\github\\monxalo\\android\\widget\\SectionCursorAdapter.java"
+			},
+			{
+				"line": 345,
+				"name": "onForcedUpgrade",
+				"file": "C:\\Github\\MHGenDatabase\\android-sqlite-asset-helper\\src\\main\\java\\com\\readystatesoftware\\sqliteasset\\SQLiteAssetHelper.java"
+			},
+			{
+				"line": 92,
+				"name": "getSelectedSection",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\GenericActionBarActivity.java"
+			},
+			{
+				"line": 19,
+				"name": "createFragment",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\GenericActivity.java"
+			},
+			{
+				"line": 64,
+				"name": "showFatalError",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\GenericActivity.java"
+			},
+			{
+				"line": 40,
+				"name": "getGroupName",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\SectionArrayAdapter.java"
+			},
+			{
+				"line": 43,
+				"name": "bindView",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\SectionArrayAdapter.java"
+			},
+			{
+				"line": 44,
+				"name": "newView",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\SectionArrayAdapter.java"
+			},
+			{
+				"line": 18,
+				"name": "loadCursor",
+				"file": "C:\\Github\\MHGenDatabase\\app\\src\\main\\java\\com\\ghstudios\\android\\loader\\SQLiteCursorLoader.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\LifeCounter"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\LifeCounter\\app\\src\\test\\java\\com\\marceljurtz\\lifecounter\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

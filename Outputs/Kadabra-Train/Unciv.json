@@ -1,0 +1,17 @@
+{
+	"sources": [
+		"C:\\Github\\Unciv"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 36,
+				"file": "C:\\Github\\Unciv\\tests\\src\\com\\unciv\\testing\\GdxTestRunner.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

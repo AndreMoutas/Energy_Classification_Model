@@ -1,0 +1,37 @@
+{
+	"sources": [
+		"C:\\Github\\nds4droid"
+	],
+	"total": 6,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 74,
+				"file": "C:\\Github\\nds4droid\\app\\src\\main\\java\\com\\opendoorstudios\\ds4droid\\Button.java"
+			},
+			{
+				"line": 85,
+				"file": "C:\\Github\\nds4droid\\app\\src\\main\\java\\com\\opendoorstudios\\ds4droid\\Button.java"
+			},
+			{
+				"line": 161,
+				"file": "C:\\Github\\nds4droid\\app\\src\\main\\java\\com\\opendoorstudios\\ds4droid\\ButtonLayoutEditor.java"
+			},
+			{
+				"line": 72,
+				"file": "C:\\Github\\nds4droid\\app\\src\\main\\java\\com\\opendoorstudios\\ds4droid\\Controls.java"
+			},
+			{
+				"line": 91,
+				"file": "C:\\Github\\nds4droid\\app\\src\\main\\java\\com\\opendoorstudios\\ds4droid\\FileDialog.java"
+			},
+			{
+				"line": 232,
+				"file": "C:\\Github\\nds4droid\\app\\src\\main\\java\\com\\opendoorstudios\\ds4droid\\FileDialog.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

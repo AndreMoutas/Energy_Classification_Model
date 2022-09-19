@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.3.1">
+
+    <issue
+        id="LintError"
+        severity="Error"
+        message="Unexpected failure during lint analysis (this is a bug in lint or one of the libraries it depends on)&#xA;&#xA;Stack: `NullPointerException:DirtyBootDetector.afterCheckProject(DirtyBootDetector.java:144)←Detector.afterCheckRootProject(Detector.kt:204)←LintDriver$checkProject$1.run(LintDriver.kt:939)←LintClient.runReadAction(LintClient.kt:1557)←LintDriver$LintClientWrapper.runReadAction(LintDriver.kt:2177)←LintDriver.checkProject(LintDriver.kt:937)←LintDriver.analyze(LintDriver.kt:416)←LintCliClient.run(LintCliClient.java:235)`&#xA;&#xA;You can set environment variable `LINT_PRINT_STACKTRACE=true` to dump a full stacktrace to stdout."
+        category="Lint"
+        priority="10"
+        summary="Lint Failure"
+        explanation="This issue type represents a problem running lint itself. Examples include failure to find bytecode for source files (which means certain detectors could not be run), parsing errors in lint configuration files, etc.&#xA;&#xA;These errors are not errors in your own code, but they are shown to make it clear that some checks were not completed.">
+        <location
+            file="C:\Github\nounours-android\common"/>
+    </issue>
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`com.example.greenchecks.MyIssueRegistry`) which did not specify the Lint API version it was compiled with.&#xA;&#xA;**This means that the lint checks are likely not compatible.**&#xA;&#xA;If you are the author of this lint check, make your lint `IssueRegistry` class contain&#xA;  override val api: Int = com.android.tools.lint.detector.api.CURRENT_API&#xA;or from Java,&#xA;  @Override public int getApi() { return com.android.tools.lint.detector.api.ApiKt.CURRENT_API; }&#xA;&#xA;If you are just using lint checks from a third party library you have no control over, you can disable these lint checks (if they misbehave) like this:&#xA;&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;BluetoothLowEnergy&quot;,&#xA;                    &quot;DarkUI&quot;,&#xA;                    &quot;DirtyBoot&quot;,&#xA;                    &quot;DurableWakeLock&quot;,&#xA;                    &quot;EverlastingService&quot;,&#xA;                    &quot;FusedLocationProvider&quot;,&#xA;                    &quot;InternetInTheLoop&quot;,&#xA;                    &quot;KeepCPUOn&quot;,&#xA;                    &quot;KeepScreenOn&quot;,&#xA;                    &quot;RigidAlarm&quot;,&#xA;                    &quot;SensorCoalesce&quot;,&#xA;                    &quot;SensorLeak&quot;,&#xA;                    &quot;UncompressedDataTransmission&quot;&#xA;        }&#xA;    }&#xA;"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks."
+        includedVariants="debug"
+        excludedVariants="release">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+</issues>

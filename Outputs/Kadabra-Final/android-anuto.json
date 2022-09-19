@@ -1,0 +1,367 @@
+{
+	"sources": [
+		"C:\\Github\\android-anuto"
+	],
+	"total": 72,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 103,
+				"name": "getEntityName",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\DefaultGameSimulator.java"
+			},
+			{
+				"line": 142,
+				"name": "getEntityName",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\DefaultGameSimulator.java"
+			},
+			{
+				"line": 177,
+				"name": "getEntityName",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\DefaultGameSimulator.java"
+			},
+			{
+				"line": 224,
+				"name": "getPosition",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\DefaultGameSimulator.java"
+			},
+			{
+				"line": 224,
+				"name": "getWayPoints",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\DefaultGameSimulator.java"
+			},
+			{
+				"line": 224,
+				"name": "getPosition",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\DefaultGameSimulator.java"
+			},
+			{
+				"line": 163,
+				"name": "getPlateaus",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\game\\GameLoader.java"
+			},
+			{
+				"line": 57,
+				"name": "getEnemies",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\wave\\WaveAttender.java"
+			},
+			{
+				"line": 148,
+				"name": "getWaveInfos",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\wave\\WaveManager.java"
+			},
+			{
+				"line": 150,
+				"name": "getGameMap",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\wave\\WaveManager.java"
+			},
+			{
+				"line": 150,
+				"name": "getPaths",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\wave\\WaveManager.java"
+			},
+			{
+				"line": 103,
+				"name": "getOrigin",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\effect\\Explosion.java"
+			},
+			{
+				"line": 108,
+				"name": "getOrigin",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\effect\\StraightLaser.java"
+			},
+			{
+				"line": 112,
+				"name": "getOrigin",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\effect\\StraightLaser.java"
+			},
+			{
+				"line": 121,
+				"name": "getOrigin",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\effect\\StraightLaser.java"
+			},
+			{
+				"line": 102,
+				"name": "sample",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\DualCanon.java"
+			},
+			{
+				"line": 105,
+				"name": "getSpriteFactory",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\DualCanon.java"
+			},
+			{
+				"line": 105,
+				"name": "createStatic",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\DualCanon.java"
+			},
+			{
+				"line": 143,
+				"name": "getGameEngine",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\DualCanon.java"
+			},
+			{
+				"line": 155,
+				"name": "getGameEngine",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\DualCanon.java"
+			},
+			{
+				"line": 112,
+				"name": "getSpriteFactory",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 112,
+				"name": "createStatic",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 147,
+				"name": "getGameEngine",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 159,
+				"name": "getGameEngine",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 191,
+				"name": "getPosition",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 192,
+				"name": "getGameEngine",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 233,
+				"name": "getPoint1",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 254,
+				"name": "getPosition",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 254,
+				"name": "getRange",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\GlueTower.java"
+			},
+			{
+				"line": 85,
+				"name": "getDamage",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\MineLayer.java"
+			},
+			{
+				"line": 88,
+				"name": "getGameEngine",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\MineLayer.java"
+			},
+			{
+				"line": 269,
+				"name": "getPosition",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\MineLayer.java"
+			},
+			{
+				"line": 269,
+				"name": "getRange",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\MineLayer.java"
+			},
+			{
+				"line": 114,
+				"name": "getCredits",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\game\\TowerViewControl.java"
+			},
+			{
+				"line": 49,
+				"name": "getPaths",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\map\\MapThumbGenerator.java"
+			},
+			{
+				"line": 51,
+				"name": "getWayPoints",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\map\\MapThumbGenerator.java"
+			},
+			{
+				"line": 71,
+				"name": "getPlateaus",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\map\\MapThumbGenerator.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 13,
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\TowerTiers.java"
+			},
+			{
+				"line": 16,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\tower\\TowerDefaultValue.java"
+			},
+			{
+				"line": 16,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\wave\\EnemyDefaultHealth.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\EntityRegistry.java"
+			},
+			{
+				"line": 15,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\EntityStore.java"
+			},
+			{
+				"line": 27,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\sound\\SoundFactory.java"
+			},
+			{
+				"line": 27,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\load\\SaveGamesAdapter.java"
+			},
+			{
+				"line": 26,
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\map\\MapsAdapter.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 39,
+				"name": "tick",
+				"file": "C:\\Github\\android-anuto\\app\\src\\androidTest\\java\\ch\\logixisland\\anuto\\GameSimulator.java"
+			},
+			{
+				"line": 50,
+				"name": "getDefaultMapId",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\business\\game\\MapRepository.java"
+			},
+			{
+				"line": 72,
+				"name": "getEntityType",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\Entity.java"
+			},
+			{
+				"line": 74,
+				"name": "getEntityName",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\Entity.java"
+			},
+			{
+				"line": 78,
+				"name": "initStatic",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\Entity.java"
+			},
+			{
+				"line": 82,
+				"name": "init",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\Entity.java"
+			},
+			{
+				"line": 96,
+				"name": "tick",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\Entity.java"
+			},
+			{
+				"line": 7,
+				"name": "create",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\logic\\entity\\EntityFactory.java"
+			},
+			{
+				"line": 34,
+				"name": "createStatic",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\render\\sprite\\SpriteFactory.java"
+			},
+			{
+				"line": 38,
+				"name": "createAnimated",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\render\\sprite\\SpriteFactory.java"
+			},
+			{
+				"line": 42,
+				"name": "createReplication",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\render\\sprite\\SpriteFactory.java"
+			},
+			{
+				"line": 27,
+				"name": "getIndex",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\engine\\render\\sprite\\SpriteInstance.java"
+			},
+			{
+				"line": 55,
+				"name": "effectBegin",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\effect\\Effect.java"
+			},
+			{
+				"line": 59,
+				"name": "effectEnd",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\effect\\Effect.java"
+			},
+			{
+				"line": 63,
+				"name": "getTextId",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\enemy\\Enemy.java"
+			},
+			{
+				"line": 65,
+				"name": "drawPreview",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\enemy\\Enemy.java"
+			},
+			{
+				"line": 85,
+				"name": "getAimer",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\Tower.java"
+			},
+			{
+				"line": 89,
+				"name": "preview",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\Tower.java"
+			},
+			{
+				"line": 91,
+				"name": "getTowerInfoValues",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\entity\\tower\\Tower.java"
+			},
+			{
+				"line": 10,
+				"name": "fetchNext",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\iterator\\LazyIterator.java"
+			},
+			{
+				"line": 65,
+				"name": "close",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\iterator\\StreamIterator.java"
+			},
+			{
+				"line": 178,
+				"name": "map",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\iterator\\StreamIterator.java"
+			},
+			{
+				"line": 182,
+				"name": "filter",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\iterator\\StreamIterator.java"
+			},
+			{
+				"line": 198,
+				"name": "cast",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\iterator\\StreamIterator.java"
+			},
+			{
+				"line": 116,
+				"name": "calculate",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\math\\Function.java"
+			},
+			{
+				"line": 118,
+				"name": "sample",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\util\\math\\Function.java"
+			},
+			{
+				"line": 20,
+				"name": "getActivityType",
+				"file": "C:\\Github\\android-anuto\\app\\src\\main\\java\\ch\\logixisland\\anuto\\view\\AnutoActivity.java"
+			}
+		]
+	}
+}

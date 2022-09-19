@@ -1,0 +1,34 @@
+{
+	"sources": [
+		"C:\\Github\\BrainstonzForAndroid"
+	],
+	"total": 4,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 208,
+				"name": "getPosition",
+				"file": "C:\\Github\\BrainstonzForAndroid\\BrainstonzForAndroid\\src\\main\\java\\eu\\veldsoft\\brainstonz\\GameActivity.java"
+			},
+			{
+				"line": 208,
+				"name": "getPosition",
+				"file": "C:\\Github\\BrainstonzForAndroid\\BrainstonzForAndroid\\src\\main\\java\\eu\\veldsoft\\brainstonz\\GameActivity.java"
+			},
+			{
+				"line": 180,
+				"name": "getDelay",
+				"file": "C:\\Github\\BrainstonzForAndroid\\BrainstonzForAndroid\\src\\main\\java\\eu\\veldsoft\\brainstonz\\GameModel.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 192,
+				"name": "playerAt",
+				"file": "C:\\Github\\BrainstonzForAndroid\\BrainstonzForAndroid\\src\\main\\java\\eu\\veldsoft\\brainstonz\\GameModel.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.0.4">
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`com.example.greenchecks.MyIssueRegistry`)&#xA;which did not specify the Lint API version it was compiled with.&#xA;&#xA;**This means that the lint checks are likely not compatible.**&#xA;&#xA;If you are the author of this lint check, make your lint&#xA;`IssueRegistry` class contain&#xA;  override val api: Int = com.android.tools.lint.detector.api.CURRENT_API&#xA;or from Java,&#xA;  @Override public int getApi() { return com.android.tools.lint.detector.api.ApiKt.CURRENT_API; }&#xA;&#xA;If you are just using lint checks from a third party library&#xA;you have no control over, you can disable these lint checks (if&#xA;they misbehave) like this:&#xA;&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;BluetoothLowEnergy&quot;,&#xA;                    &quot;DarkUI&quot;,&#xA;                    &quot;DirtyBoot&quot;,&#xA;                    &quot;DurableWakeLock&quot;,&#xA;                    &quot;EverlastingService&quot;,&#xA;                    &quot;FusedLocationProvider&quot;,&#xA;                    &quot;InternetInTheLoop&quot;,&#xA;                    &quot;KeepCPUOn&quot;,&#xA;                    &quot;KeepScreenOn&quot;,&#xA;                    &quot;RigidAlarm&quot;,&#xA;                    &quot;SensorCoalesce&quot;,&#xA;                    &quot;SensorLeak&quot;,&#xA;                    &quot;UncompressedDataTransmission&quot;&#xA;        }&#xA;    }&#xA;"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks.">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`com.example.greenchecks.MyIssueRegistry`)&#xA;which did not specify the Lint API version it was compiled with.&#xA;&#xA;**This means that the lint checks are likely not compatible.**&#xA;&#xA;If you are the author of this lint check, make your lint&#xA;`IssueRegistry` class contain&#xA;  override val api: Int = com.android.tools.lint.detector.api.CURRENT_API&#xA;or from Java,&#xA;  @Override public int getApi() { return com.android.tools.lint.detector.api.ApiKt.CURRENT_API; }&#xA;&#xA;If you are just using lint checks from a third party library&#xA;you have no control over, you can disable these lint checks (if&#xA;they misbehave) like this:&#xA;&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;BluetoothLowEnergy&quot;,&#xA;                    &quot;DarkUI&quot;,&#xA;                    &quot;DirtyBoot&quot;,&#xA;                    &quot;DurableWakeLock&quot;,&#xA;                    &quot;EverlastingService&quot;,&#xA;                    &quot;FusedLocationProvider&quot;,&#xA;                    &quot;InternetInTheLoop&quot;,&#xA;                    &quot;KeepCPUOn&quot;,&#xA;                    &quot;KeepScreenOn&quot;,&#xA;                    &quot;RigidAlarm&quot;,&#xA;                    &quot;SensorCoalesce&quot;,&#xA;                    &quot;SensorLeak&quot;,&#xA;                    &quot;UncompressedDataTransmission&quot;&#xA;        }&#xA;    }&#xA;"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks.">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        severity="Warning"
+        message="Loaded lint jar file from C:\Users\André\.android\lint (C:\Users\André\.android\lint\greenchecks.jar.name); this will stop working soon. If you need to push lint rules into a build, use the `ANDROID_LINT_JARS` environment variable or the `--lint-rule-jars` flag or a `lint.xml` file setting `&lt;lint lintJars=&quot;path&quot;...>`"
+        category="Lint"
+        priority="5"
+        summary="Lint Failure"
+        explanation="This issue type represents a problem running lint itself. Examples include unsupported tags in configuration files, etc.&#xA;&#xA;These errors are not errors in your own code, but they are shown to make it clear that some checks were not completed.">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        severity="Warning"
+        message="Loaded lint jar file from C:\Users\André\.android\lint (C:\Users\André\.android\lint\greenchecks.jar.name); this will stop working soon. If you need to push lint rules into a build, use the `ANDROID_LINT_JARS` environment variable or the `--lint-rule-jars` flag or a `lint.xml` file setting `&lt;lint lintJars=&quot;path&quot;...>`"
+        category="Lint"
+        priority="5"
+        summary="Lint Failure"
+        explanation="This issue type represents a problem running lint itself. Examples include unsupported tags in configuration files, etc.&#xA;&#xA;These errors are not errors in your own code, but they are shown to make it clear that some checks were not completed.">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="InlinedApi"
+        severity="Warning"
+        message="Field requires API level 18 (current min is 16): `android.content.pm.ActivityInfo#SCREEN_ORIENTATION_LOCKED`"
+        category="Correctness"
+        priority="6"
+        summary="Using inlined constants on older versions"
+        explanation="This check scans through all the Android API field references in the application and flags certain constants, such as static final integers and Strings, which were introduced in later versions. These will actually be copied into the class files rather than being referenced, which means that the value is available even when running on older devices. In some cases that&apos;s fine, and in other cases it can result in a runtime crash or incorrect behavior. It depends on the context, so consider the code carefully and decide whether it&apos;s safe and can be suppressed or whether the code needs to be guarded.&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level."
+        errorLine1="                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\java\org\jfo\app\makesomenoise\MainActivity.java"
+            line="214"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="NonConstantResourceId"
+        severity="Warning"
+        message="Resource IDs will be non-final by default in Android Gradle Plugin version 8.0, avoid using them in switch case statements"
+        category="Correctness"
+        priority="5"
+        summary="Checks use of resource IDs in places requiring constants"
+        explanation="Avoid the usage of resource IDs where constant expressions are required.&#xA;&#xA;A future version of the Android Gradle Plugin will generate R classes with non-constant IDs in order to improve the performance of incremental compilation."
+        errorLine1="            case R.id.mHelp :"
+        errorLine2="                 ~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\java\org\jfo\app\makesomenoise\MainActivity.java"
+            line="129"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="NonConstantResourceId"
+        severity="Warning"
+        message="Resource IDs will be non-final by default in Android Gradle Plugin version 8.0, avoid using them in switch case statements"
+        category="Correctness"
+        priority="5"
+        summary="Checks use of resource IDs in places requiring constants"
+        explanation="Avoid the usage of resource IDs where constant expressions are required.&#xA;&#xA;A future version of the Android Gradle Plugin will generate R classes with non-constant IDs in order to improve the performance of incremental compilation."
+        errorLine1="            case R.id.mAbout:"
+        errorLine2="                 ~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\java\org\jfo\app\makesomenoise\MainActivity.java"
+            line="134"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="NonConstantResourceId"
+        severity="Warning"
+        message="Resource IDs will be non-final by default in Android Gradle Plugin version 8.0, avoid using them in switch case statements"
+        category="Correctness"
+        priority="5"
+        summary="Checks use of resource IDs in places requiring constants"
+        explanation="Avoid the usage of resource IDs where constant expressions are required.&#xA;&#xA;A future version of the Android Gradle Plugin will generate R classes with non-constant IDs in order to improve the performance of incremental compilation."
+        errorLine1="            case R.id.mQuit:"
+        errorLine2="                 ~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\java\org\jfo\app\makesomenoise\MainActivity.java"
+            line="137"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.5.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.4.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\build.gradle"
+            line="51"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.google.android.material:material than 1.5.0 is available: 1.6.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;com.google.android.material:material:1.5.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\build.gradle"
+            line="52"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.3 is available: 2.1.4"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.3&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\build.gradle"
+            line="53"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDynamicVersion"
+        severity="Warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (junit:junit:4.+)"
+        category="Correctness"
+        priority="4"
+        summary="Gradle Dynamic Version"
+        explanation="Using `+` in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)"
+        errorLine1="    testImplementation &apos;junit:junit:4.+&apos;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\build.gradle"
+            line="55"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="            android:onClick=&quot;b1Click&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout\activity_main.xml"
+            line="37"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="            android:onClick=&quot;b2Click&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout\activity_main.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="                    android:onClick=&quot;b1Click&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="49"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="            android:onClick=&quot;b3Click&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout\activity_main.xml"
+            line="55"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="                    android:onClick=&quot;b2Click&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="58"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="            android:onClick=&quot;b4Click&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout\activity_main.xml"
+            line="64"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="                    android:onClick=&quot;b3Click&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="67"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="            android:onClick=&quot;b5Click&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout\activity_main.xml"
+            line="73"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="                    android:onClick=&quot;b4Click&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="76"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="                    android:onClick=&quot;b5Click&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="85"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="            android:onClick=&quot;bClickLastsound&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout\activity_main.xml"
+            line="85"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingOnClickInXml"
+        severity="Warning"
+        message="Use databinding or explicit wiring of click listener in code"
+        category="Correctness"
+        priority="1"
+        summary="Using `android:onClick` on older version of the platform is broken"
+        explanation="Old versions of the platform do not properly support resolving `android:onClick`"
+        errorLine1="                android:onClick=&quot;bClickLastsound&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="100"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;de&quot; (German) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Make Some Noise&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-de\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;es&quot; (Spanish) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Make Some Noise&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-es\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;fr&quot; (French) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Make Some Noise&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-fr\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;it&quot; (Italian) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Make Some Noise&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-it\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;b2&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;fr&quot; (French) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;b2&quot;>Dun Dun Duuuun&lt;/string>"
+        errorLine2="            ~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-fr\strings.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="AllowBackup"
+        severity="Warning"
+        message="On SDK version 23 and up, your app data will be automatically backed up and restored on app install. Consider adding the attribute `android:fullBackupContent` to specify an `@xml` resource which configures which files to backup, or just set `android:fullBackupOnly=true`. More info: https://developer.android.com/guide/topics/data/autobackup"
+        category="Security"
+        priority="3"
+        summary="AllowBackup/FullBackupContent Problems"
+        explanation="The `allowBackup` attribute determines if an application&apos;s data can be backed up and restored. It is documented at https://developer.android.com/reference/android/R.attr.html#allowBackup&#xA;&#xA;By default, this flag is set to `true` which means application data can be backed up and restored by the OS. Setting `allowBackup=&quot;false&quot;` opts the application out of being backed up and so users can&apos;t restore data related to it when they go through the device setup wizard.&#xA;&#xA;Allowing backups may have security consequences for an application. Currently `adb backup` allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. `adb restore` allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.&#xA;&#xA;To fix this warning, decide whether your application should support backup, and explicitly set `android:allowBackup=(true|false)&quot;`.&#xA;&#xA;If not set to false, and if targeting API 23 or later, lint will also warn that you should set `android:fullBackupContent` or `android:fullBackupOnly` to configure auto backup."
+        url="https://developer.android.com/guide/topics/data/autobackup"
+        urls="https://developer.android.com/guide/topics/data/autobackup,https://developer.android.com/reference/android/R.attr.html#allowBackup"
+        errorLine1="        android:allowBackup=&quot;true&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\AndroidManifest.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NestedWeights"
+        severity="Warning"
+        message="Nested weights are bad for performance"
+        category="Performance"
+        priority="3"
+        summary="Nested layout weights"
+        explanation="Layout weights require a widget to be measured twice. When a `LinearLayout` with non-zero weights is nested inside another `LinearLayout` with non-zero weights, then the number of measurements increase exponentially."
+        errorLine1="                android:layout_weight=&quot;1&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="41"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="NestedWeights"
+        severity="Warning"
+        message="Nested weights are bad for performance"
+        category="Performance"
+        priority="3"
+        summary="Nested layout weights"
+        explanation="Layout weights require a widget to be measured twice. When a `LinearLayout` with non-zero weights is nested inside another `LinearLayout` with non-zero weights, then the number of measurements increase exponentially."
+        errorLine1="                    android:layout_weight=&quot;1&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\layout-land\activity_main.xml"
+            line="48"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="https://en.wikipedia.org/wiki/Ellipsis"
+        urls="https://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;settings&quot;>Einstellungen ...&lt;/string>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-de\strings.xml"
+            line="11"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="https://en.wikipedia.org/wiki/Ellipsis"
+        urls="https://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;settings&quot;>Ajustes ...&lt;/string>"
+        errorLine2="                            ~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-es\strings.xml"
+            line="11"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="https://en.wikipedia.org/wiki/Ellipsis"
+        urls="https://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;settings&quot;>Parametri...&lt;/string>"
+        errorLine2="                            ~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-it\strings.xml"
+            line="11"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="https://en.wikipedia.org/wiki/Ellipsis"
+        urls="https://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;settings&quot;>Settings ...&lt;/string>"
+        errorLine2="                            ~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values\strings.xml"
+            line="11"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="https://en.wikipedia.org/wiki/Ellipsis"
+        urls="https://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;settings&quot;>Paramètres ...&lt;/string>"
+        errorLine2="                            ~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\res\values-fr\strings.xml"
+            line="12"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="SensorCoalesce"
+        severity="Warning"
+        message="Should use `registerListener(SensorEventListener, Sensor, int, int)` instead of `registerListener(SensorEventListener, Sensor, int)`"
+        category="Greenness"
+        priority="6"
+        summary="Events should be kept temporarily before being delivered"
+        explanation="The method registerListener(SensorEventListener, Sensor, int, int) allows eventsto be stored in the hardware queue (FIFO) up to maxReportLatencyUs. Setting maxReportLatencyUs to a positive value allows to reduce the number of interrupts the AP receives, hence reducing power consumption."
+        url="https://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int,%20int)"
+        urls="https://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int,%20int)"
+        errorLine1="            sensorManager.registerListener(this, sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_GAME);"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\makesomenoise\app\src\main\java\org\jfo\app\makesomenoise\MainActivity.java"
+            line="259"
+            column="13"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,970 @@
+{
+	"sources": [
+		"C:\\Github\\AndTTT"
+	],
+	"total": 191,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 17,
+				"name": "getPatterns",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\EasyBot.java"
+			},
+			{
+				"line": 19,
+				"name": "getSymbol",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\EasyBot.java"
+			},
+			{
+				"line": 19,
+				"name": "getSymbol",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\EasyBot.java"
+			},
+			{
+				"line": 38,
+				"name": "getSymbol",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\HardBot.java"
+			},
+			{
+				"line": 53,
+				"name": "getPatterns",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\HardBot.java"
+			},
+			{
+				"line": 17,
+				"name": "getSymbol",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\MediumBot.java"
+			},
+			{
+				"line": 17,
+				"name": "getSymbol",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\MediumBot.java"
+			},
+			{
+				"line": 19,
+				"name": "getPatterns",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\MediumBot.java"
+			},
+			{
+				"line": 19,
+				"name": "getPatterns",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\bots\\MediumBot.java"
+			},
+			{
+				"line": 50,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClient.java"
+			},
+			{
+				"line": 58,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 50,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRoom.java"
+			},
+			{
+				"line": 58,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 52,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsResponse.java"
+			},
+			{
+				"line": 51,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 65,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 79,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 93,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 107,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 121,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 135,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 149,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 163,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 52,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 66,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 80,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 94,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 108,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 122,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 136,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 150,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 164,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 178,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 192,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 212,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 59,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 72,
+				"name": "parser",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 181,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 182,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 183,
+				"name": "getClientsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 184,
+				"name": "getClientsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 196,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 199,
+				"name": "getClientsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 415,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 416,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 181,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 182,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 183,
+				"name": "getRoomsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 184,
+				"name": "getRoomsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 196,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 199,
+				"name": "getRoomsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 415,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 416,
+				"name": "getCount",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 191,
+				"name": "getNumGoroutines",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 192,
+				"name": "getNumGoroutines",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 193,
+				"name": "getNumRegisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 194,
+				"name": "getNumRegisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 195,
+				"name": "getNumUnregisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 196,
+				"name": "getNumUnregisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 197,
+				"name": "getNumRooms",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 198,
+				"name": "getNumRooms",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 210,
+				"name": "getNumGoroutines",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 212,
+				"name": "getNumRegisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 214,
+				"name": "getNumUnregisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 216,
+				"name": "getNumRooms",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 421,
+				"name": "getNumGoroutines",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 422,
+				"name": "getNumGoroutines",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 424,
+				"name": "getNumRegisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 425,
+				"name": "getNumRegisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 427,
+				"name": "getNumUnregisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 428,
+				"name": "getNumUnregisteredClients",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 430,
+				"name": "getNumRooms",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 431,
+				"name": "getNumRooms",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 322,
+				"name": "getTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 323,
+				"name": "getTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 324,
+				"name": "getReady",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 325,
+				"name": "getReady",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 348,
+				"name": "getTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 351,
+				"name": "getReady",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 582,
+				"name": "getSymbolValue",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 584,
+				"name": "getTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 585,
+				"name": "getTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 587,
+				"name": "getReady",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 588,
+				"name": "getReady",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 125,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 126,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 138,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 334,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 335,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 158,
+				"name": "getRoomsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsResponse.java"
+			},
+			{
+				"line": 159,
+				"name": "getRoomsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsResponse.java"
+			},
+			{
+				"line": 172,
+				"name": "getRoomsList",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsResponse.java"
+			},
+			{
+				"line": 125,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 126,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 138,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 334,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 335,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 125,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 126,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 138,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 334,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 335,
+				"name": "getPosition",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 1086,
+				"name": "getErrorValue",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 342,
+				"name": "getRestartValue",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RestartRequest.java"
+			},
+			{
+				"line": 342,
+				"name": "getRestartValue",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RestartResponse.java"
+			},
+			{
+				"line": 406,
+				"name": "getIsProtected",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 407,
+				"name": "getIsProtected",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 438,
+				"name": "getIsProtected",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 703,
+				"name": "getIsProtected",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 704,
+				"name": "getIsProtected",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 256,
+				"name": "getMyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 257,
+				"name": "getMyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 258,
+				"name": "getEnemyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 259,
+				"name": "getEnemyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 278,
+				"name": "getMyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 281,
+				"name": "getEnemyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 492,
+				"name": "getMySymbolValue",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 495,
+				"name": "getEnemySymbolValue",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 497,
+				"name": "getMyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 498,
+				"name": "getMyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 500,
+				"name": "getEnemyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 501,
+				"name": "getEnemyTurn",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 38,
+				"name": "init",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\drawings\\Draw.java"
+			},
+			{
+				"line": 238,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClient.java"
+			},
+			{
+				"line": 554,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClient.java"
+			},
+			{
+				"line": 276,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 779,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiClients.java"
+			},
+			{
+				"line": 238,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRoom.java"
+			},
+			{
+				"line": 554,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRoom.java"
+			},
+			{
+				"line": 276,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 779,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiRooms.java"
+			},
+			{
+				"line": 292,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 605,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\ApiStatus.java"
+			},
+			{
+				"line": 427,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 1009,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Client.java"
+			},
+			{
+				"line": 290,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\CreateRoomRequest.java"
+			},
+			{
+				"line": 627,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\CreateRoomRequest.java"
+			},
+			{
+				"line": 239,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\CreateRoomResponse.java"
+			},
+			{
+				"line": 500,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\CreateRoomResponse.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyDisconnectedResponse.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyDisconnectedResponse.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyDisconnectedResponse.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyLeftResponse.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyLeftResponse.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyLeftResponse.java"
+			},
+			{
+				"line": 214,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 431,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\EnemyMovedResponse.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsRequest.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsRequest.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsRequest.java"
+			},
+			{
+				"line": 249,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsResponse.java"
+			},
+			{
+				"line": 718,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\GetRoomsResponse.java"
+			},
+			{
+				"line": 290,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\JoinRoomRequest.java"
+			},
+			{
+				"line": 627,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\JoinRoomRequest.java"
+			},
+			{
+				"line": 239,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\JoinRoomResponse.java"
+			},
+			{
+				"line": 500,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\JoinRoomResponse.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\LeaveRoomRequest.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\LeaveRoomRequest.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\LeaveRoomRequest.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\LeaveRoomResponse.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\LeaveRoomResponse.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\LeaveRoomResponse.java"
+			},
+			{
+				"line": 214,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 431,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveRequest.java"
+			},
+			{
+				"line": 214,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 431,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\MoveResponse.java"
+			},
+			{
+				"line": 239,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RegisterNameRequest.java"
+			},
+			{
+				"line": 500,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RegisterNameRequest.java"
+			},
+			{
+				"line": 239,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RegisterNameResponse.java"
+			},
+			{
+				"line": 500,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RegisterNameResponse.java"
+			},
+			{
+				"line": 692,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 2169,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Request.java"
+			},
+			{
+				"line": 878,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 2828,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Response.java"
+			},
+			{
+				"line": 221,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RestartRequest.java"
+			},
+			{
+				"line": 456,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RestartRequest.java"
+			},
+			{
+				"line": 221,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RestartResponse.java"
+			},
+			{
+				"line": 456,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\RestartResponse.java"
+			},
+			{
+				"line": 514,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 1339,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\Room.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackRequest.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackRequest.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackRequest.java"
+			},
+			{
+				"line": 359,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 784,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\StarterPackResponse.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\UnrecognizedRequest.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\UnrecognizedRequest.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\UnrecognizedRequest.java"
+			},
+			{
+				"line": 77,
+				"name": "writeTo",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\UnrecognizedResponse.java"
+			},
+			{
+				"line": 187,
+				"name": "newBuilderForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\UnrecognizedResponse.java"
+			},
+			{
+				"line": 372,
+				"name": "getDefaultInstanceForType",
+				"file": "C:\\Github\\AndTTT\\app\\src\\main\\java\\com\\github\\dawidd6\\andttt\\proto\\UnrecognizedResponse.java"
+			}
+		]
+	}
+}

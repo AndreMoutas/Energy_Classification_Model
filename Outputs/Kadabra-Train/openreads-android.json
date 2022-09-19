@@ -1,0 +1,77 @@
+{
+	"sources": [
+		"C:\\Github\\openreads-android"
+	],
+	"total": 15,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 86,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\BooksDatabase_Impl.java"
+			},
+			{
+				"line": 130,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\BooksDatabase_Impl.java"
+			},
+			{
+				"line": 131,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\BooksDatabase_Impl.java"
+			},
+			{
+				"line": 154,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\BooksDatabase_Impl.java"
+			},
+			{
+				"line": 86,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\LanguageDatabase_Impl.java"
+			},
+			{
+				"line": 115,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\LanguageDatabase_Impl.java"
+			},
+			{
+				"line": 116,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\LanguageDatabase_Impl.java"
+			},
+			{
+				"line": 139,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\LanguageDatabase_Impl.java"
+			},
+			{
+				"line": 86,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\YearDatabase_Impl.java"
+			},
+			{
+				"line": 137,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\YearDatabase_Impl.java"
+			},
+			{
+				"line": 138,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\YearDatabase_Impl.java"
+			},
+			{
+				"line": 161,
+				"file": "C:\\Github\\openreads-android\\app\\build\\generated\\source\\kapt\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\YearDatabase_Impl.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 30,
+				"name": "getBooksDao",
+				"file": "C:\\Github\\openreads-android\\app\\build\\tmp\\kapt3\\stubs\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\BooksDatabase.java"
+			},
+			{
+				"line": 19,
+				"name": "getLanguageDao",
+				"file": "C:\\Github\\openreads-android\\app\\build\\tmp\\kapt3\\stubs\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\LanguageDatabase.java"
+			},
+			{
+				"line": 28,
+				"name": "getYearDao",
+				"file": "C:\\Github\\openreads-android\\app\\build\\tmp\\kapt3\\stubs\\fdroidDebug\\software\\mdev\\bookstracker\\data\\db\\YearDatabase.java"
+			}
+		]
+	}
+}

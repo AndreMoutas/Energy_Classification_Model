@@ -1,0 +1,94 @@
+{
+	"sources": [
+		"C:\\Github\\Klooni1010"
+	],
+	"total": 16,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 208,
+				"name": "getName",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\Klooni.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 100,
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\Klooni.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 41,
+				"name": "getShareImageFilePath",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\ShareChallenge.java"
+			},
+			{
+				"line": 44,
+				"name": "shareScreenshot",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\ShareChallenge.java"
+			},
+			{
+				"line": 76,
+				"name": "showcase",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 80,
+				"name": "usedItemUpdated",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 82,
+				"name": "use",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 84,
+				"name": "isBought",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 86,
+				"name": "isUsed",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 88,
+				"name": "getPrice",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 90,
+				"name": "performBuy",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\actors\\ShopCard.java"
+			},
+			{
+				"line": 105,
+				"name": "pause",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\game\\BaseScorer.java"
+			},
+			{
+				"line": 108,
+				"name": "resume",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\game\\BaseScorer.java"
+			},
+			{
+				"line": 111,
+				"name": "isGameOver",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\game\\BaseScorer.java"
+			},
+			{
+				"line": 113,
+				"name": "isNewRecord",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\game\\BaseScorer.java"
+			},
+			{
+				"line": 115,
+				"name": "gameOverReason",
+				"file": "C:\\Github\\Klooni1010\\core\\src\\dev\\lonami\\klooni\\game\\BaseScorer.java"
+			}
+		]
+	}
+}

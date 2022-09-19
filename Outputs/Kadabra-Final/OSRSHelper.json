@@ -1,0 +1,72 @@
+{
+	"sources": [
+		"C:\\Github\\OSRSHelper"
+	],
+	"total": 12,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 17,
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\enums\\TrackerTime.java"
+			},
+			{
+				"line": 63,
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\network\\TrackerApi.java"
+			},
+			{
+				"line": 93,
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\tasks\\TrackerFetcherTask.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 44,
+				"name": "getAlternativeName",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\enums\\SkillType.java"
+			},
+			{
+				"line": 44,
+				"name": "getSkillName",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\enums\\SkillType.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 29,
+				"name": "getCount",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\adapters\\OSRSNestedViewPagerAdapter.java"
+			},
+			{
+				"line": 31,
+				"name": "createFragment",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\adapters\\OSRSNestedViewPagerAdapter.java"
+			},
+			{
+				"line": 33,
+				"name": "getTitle",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\adapters\\OSRSNestedViewPagerAdapter.java"
+			},
+			{
+				"line": 19,
+				"name": "onBackPressed",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\fragments\\OSRSFragment.java"
+			},
+			{
+				"line": 23,
+				"name": "refreshDataOnPreferencesChanged",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\fragments\\OSRSFragment.java"
+			},
+			{
+				"line": 11,
+				"name": "onPageVisible",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\fragments\\OSRSPagerFragment.java"
+			},
+			{
+				"line": 49,
+				"name": "onLoadMore",
+				"file": "C:\\Github\\OSRSHelper\\app\\src\\main\\java\\com\\infonuascape\\osrshelper\\listeners\\EndlessRecyclerOnScrollListener.java"
+			}
+		]
+	}
+}

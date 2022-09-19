@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.1.2">
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`com.example.greenchecks.MyIssueRegistry`)&#xA;which did not specify the Lint API version it was compiled with.&#xA;&#xA;**This means that the lint checks are likely not compatible.**&#xA;&#xA;If you are the author of this lint check, make your lint&#xA;`IssueRegistry` class contain&#xA;  override val api: Int = com.android.tools.lint.detector.api.CURRENT_API&#xA;or from Java,&#xA;  @Override public int getApi() { return com.android.tools.lint.detector.api.ApiKt.CURRENT_API; }&#xA;&#xA;If you are just using lint checks from a third party library&#xA;you have no control over, you can disable these lint checks (if&#xA;they misbehave) like this:&#xA;&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;BluetoothLowEnergy&quot;,&#xA;                    &quot;DarkUI&quot;,&#xA;                    &quot;DirtyBoot&quot;,&#xA;                    &quot;DurableWakeLock&quot;,&#xA;                    &quot;EverlastingService&quot;,&#xA;                    &quot;FusedLocationProvider&quot;,&#xA;                    &quot;InternetInTheLoop&quot;,&#xA;                    &quot;KeepCPUOn&quot;,&#xA;                    &quot;KeepScreenOn&quot;,&#xA;                    &quot;RigidAlarm&quot;,&#xA;                    &quot;SensorCoalesce&quot;,&#xA;                    &quot;SensorLeak&quot;,&#xA;                    &quot;UncompressedDataTransmission&quot;&#xA;        }&#xA;    }&#xA;"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks.">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="ScopedStorage"
+        severity="Warning"
+        message="WRITE_EXTERNAL_STORAGE no longer provides write access when targeting Android 10+"
+        category="Correctness"
+        priority="8"
+        summary="Affected by scoped storage"
+        explanation="Scoped storage is enforced on Android 10+ (or Android 11+ if using `requestLegacyExternalStorage`). In particular, `WRITE_EXTERNAL_STORAGE` will no longer provide write access to all files; it will provide the equivalent of `READ_EXTERNAL_STORAGE` instead.&#xA;&#xA;The `MANAGE_EXTERNAL_STORAGE` permission can be used to manage all files, but it is rarely necessary and most apps on Google Play are not allowed to use it. Most apps should instead migrate to use scoped storage. To modify or delete files, apps should request write access from the user as described at https://goo.gle/android-mediastore-createwriterequest.&#xA;&#xA;To learn more, read these resources: Play policy: https://goo.gle/policy-storage-help Allowable use cases: https://goo.gle/policy-storage-usecases"
+        url="https://goo.gle/android-storage-usecases"
+        urls="https://goo.gle/android-storage-usecases"
+        errorLine1=" &lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot; />"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\Trollslate\app\src\debug\AndroidManifest.xml"
+            line="10"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; is marked as translatable=&quot;false&quot;, but is translated to &quot;in&quot; (Indonesian) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot; translatable=&quot;false&quot;>Trollslate&lt;/string>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\Trollslate\app\src\main\res\values-in\strings.xml"
+            line="2"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;de&quot; (German) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Trollslate&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\Trollslate\app\src\main\res\values-de\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Untranslatable"
+        severity="Warning"
+        message="The resource string &quot;app_name&quot; has been marked as translatable=&quot;false&quot; elsewhere (usually in the `values` folder), but is translated to &quot;fr&quot; (French) here"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Translated Untranslatable"
+        explanation="Strings can be marked with `translatable=false` to indicate that they are not intended to be translated, but are present in the resource file for other purposes (for example for non-display strings that should vary by some other configuration qualifier such as screen size or API level).&#xA;&#xA;There are cases where translators accidentally translate these strings anyway, and lint will flag these occurrences with this lint check."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Trollslate&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\Trollslate\app\src\main\res\values-fr-rFR\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;Theme.Trollslate&quot; parent=&quot;android:Theme.Material.Light.NoActionBar&quot; />"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\Trollslate\app\src\main\res\values\themes.xml"
+            line="4"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="SensorCoalesce"
+        severity="Warning"
+        message="Should use `registerListener(SensorEventListener, Sensor, int, int)` instead of `registerListener(SensorEventListener, Sensor, int)`"
+        category="Greenness"
+        priority="6"
+        summary="Events should be kept temporarily before being delivered"
+        explanation="The method registerListener(SensorEventListener, Sensor, int, int) allows eventsto be stored in the hardware queue (FIFO) up to maxReportLatencyUs. Setting maxReportLatencyUs to a positive value allows to reduce the number of interrupts the AP receives, hence reducing power consumption."
+        url="https://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int,%20int)"
+        urls="https://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int,%20int)"
+        errorLine1="        sensorManager?.registerListener("
+        errorLine2="        ^">
+        <location
+            file="C:\Github\Trollslate\app\src\main\java\org\scotthamilton\trollslate\ui\MainActivityScaffold.kt"
+            line="37"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="SensorLeak"
+        severity="Error"
+        message="The unregistration of this sensor is missing"
+        category="Greenness"
+        priority="6"
+        summary="You did not unregister a sensor properly"
+        explanation="Always make sure to disable sensors you don&apos;t need, especially when your activity is paused. Failing to do so can drain the battery in just a few hours. Note that the system will not disable sensors automatically when the screen turns off"
+        url="https://developer.android.com/reference/android/hardware/SensorManager"
+        urls="https://developer.android.com/reference/android/hardware/SensorManager"
+        errorLine1="        sensorManager?.registerListener("
+        errorLine2="        ^">
+        <location
+            file="C:\Github\Trollslate\app\src\main\java\org\scotthamilton\trollslate\ui\MainActivityScaffold.kt"
+            line="37"
+            column="9"/>
+    </issue>
+
+</issues>

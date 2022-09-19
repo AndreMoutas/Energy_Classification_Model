@@ -1,0 +1,255 @@
+{
+	"sources": [
+		"C:\\Github\\MoTAC"
+	],
+	"total": 48,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 204,
+				"name": "getPosX",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 204,
+				"name": "getPosX",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 204,
+				"name": "getPosY",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 204,
+				"name": "getPosY",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 351,
+				"name": "isStartField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 261,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardManager.java"
+			},
+			{
+				"line": 261,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardManager.java"
+			},
+			{
+				"line": 110,
+				"name": "getTotalSize",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardStack.java"
+			},
+			{
+				"line": 293,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\network\\PlayerThread.java"
+			},
+			{
+				"line": 164,
+				"name": "getClient",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\network\\SocketAliveThread.java"
+			},
+			{
+				"line": 164,
+				"name": "getServerCommand",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\network\\SocketAliveThread.java"
+			},
+			{
+				"line": 169,
+				"name": "getClientCommand",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\network\\SocketAliveThread.java"
+			},
+			{
+				"line": 394,
+				"name": "getStartPoint",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\Board.java"
+			},
+			{
+				"line": 398,
+				"name": "getEndPoint",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\Board.java"
+			},
+			{
+				"line": 257,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\BoardControl.java"
+			},
+			{
+				"line": 262,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\BoardControl.java"
+			},
+			{
+				"line": 262,
+				"name": "isStartField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\BoardControl.java"
+			},
+			{
+				"line": 267,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\BoardControl.java"
+			},
+			{
+				"line": 267,
+				"name": "isStartField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\BoardControl.java"
+			},
+			{
+				"line": 153,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\CardStackView.java"
+			},
+			{
+				"line": 239,
+				"name": "getCardType",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\CardStackView.java"
+			},
+			{
+				"line": 164,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\fragments\\CardGridDialog.java"
+			},
+			{
+				"line": 148,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\fragments\\CardGridFragment.java"
+			},
+			{
+				"line": 157,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\fragments\\CardGridFragment.java"
+			},
+			{
+				"line": 201,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\fragments\\CardGridFragment.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 154,
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardManager.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 911,
+				"name": "getActionCardName",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 110,
+				"name": "getTotalSize",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardStack.java"
+			},
+			{
+				"line": 268,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardStack.java"
+			},
+			{
+				"line": 268,
+				"name": "getCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardStack.java"
+			},
+			{
+				"line": 167,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 185,
+				"name": "getForwardNeighbours",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 187,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 190,
+				"name": "getBallID",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 326,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 338,
+				"name": "getForwardNeighbours",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 341,
+				"name": "getBackwardNeighbours",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 345,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 345,
+				"name": "getBallID",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 363,
+				"name": "isTargetField",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\Point.java"
+			},
+			{
+				"line": 220,
+				"name": "getID",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\network\\Client.java"
+			},
+			{
+				"line": 324,
+				"name": "getID",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\network\\Client.java"
+			},
+			{
+				"line": 109,
+				"name": "isAnimateCards",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\BoardWithCards.java"
+			},
+			{
+				"line": 336,
+				"name": "isMouseDown",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\EnDisImageButton.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 805,
+				"name": "getMaximumHistorySize",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\BoardData.java"
+			},
+			{
+				"line": 310,
+				"name": "getTeamMate",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\core\\CardManager.java"
+			},
+			{
+				"line": 141,
+				"name": "onClick",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\MyButton.java"
+			},
+			{
+				"line": 20,
+				"name": "createFragment",
+				"file": "C:\\Github\\MoTAC\\app\\src\\main\\java\\de\\karbach\\tac\\ui\\SingleFragmentActivity.java"
+			}
+		]
+	}
+}

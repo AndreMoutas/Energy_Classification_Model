@@ -1,0 +1,53 @@
+{
+	"sources": [
+		"C:\\Github\\igo"
+	],
+	"total": 8,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 226,
+				"name": "getArgs",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\BoardHistoryManager.java"
+			},
+			{
+				"line": 116,
+				"name": "compactBoardLocation",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\StoneManager.java"
+			},
+			{
+				"line": 116,
+				"name": "compactBoardLocation",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\StoneManager.java"
+			},
+			{
+				"line": 307,
+				"name": "compactBoardLocation",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\StoneManager.java"
+			},
+			{
+				"line": 307,
+				"name": "compactBoardLocation",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\StoneManager.java"
+			},
+			{
+				"line": 347,
+				"name": "compactBoardLocation",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\StoneManager.java"
+			},
+			{
+				"line": 347,
+				"name": "compactBoardLocation",
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\StoneManager.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 322,
+				"file": "C:\\Github\\igo\\app\\src\\main\\java\\com\\idunnololz\\igo\\Parser.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

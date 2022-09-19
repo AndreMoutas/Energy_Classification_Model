@@ -1,0 +1,103 @@
+{
+	"sources": [
+		"C:\\Github\\noiz2-droid"
+	],
+	"total": 18,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 232,
+				"name": "needToWait",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\graphics\\canvas\\CanvasSurfaceView.java"
+			},
+			{
+				"line": 234,
+				"name": "needToWait",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\graphics\\canvas\\CanvasSurfaceView.java"
+			},
+			{
+				"line": 234,
+				"name": "needToWait",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\graphics\\canvas\\CanvasSurfaceView.java"
+			},
+			{
+				"line": 131,
+				"name": "getRank",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\jp\\gr\\java_conf\\abagames\\bulletml\\Expression.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 55,
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\data\\CanvasBitmapCache.java"
+			},
+			{
+				"line": 43,
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\data\\GLBitmapCache.java"
+			},
+			{
+				"line": 60,
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\sound\\SoundPoolPlayer.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 215,
+				"name": "getProgress",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\widget\\SeekBarPreference.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 133,
+				"name": "shutdown",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\graphics\\RendererGL.java"
+			},
+			{
+				"line": 286,
+				"name": "doInBackground",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\thread\\UserTask.java"
+			},
+			{
+				"line": 294,
+				"name": "onPreExecute",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\thread\\UserTask.java"
+			},
+			{
+				"line": 311,
+				"name": "onPostExecute",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\thread\\UserTask.java"
+			},
+			{
+				"line": 326,
+				"name": "onProgressUpdate",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\thread\\UserTask.java"
+			},
+			{
+				"line": 336,
+				"name": "onCancelled",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\com\\netthreads\\android\\noiz2\\thread\\UserTask.java"
+			},
+			{
+				"line": 373,
+				"name": "getBulletsNum",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\jp\\gr\\java_conf\\abagames\\bulletml\\BulletmlManager.java"
+			},
+			{
+				"line": 262,
+				"name": "start",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\jp\\gr\\java_conf\\abagames\\bulletml\\BulletmlPlayer.java"
+			},
+			{
+				"line": 271,
+				"name": "deactive",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\jp\\gr\\java_conf\\abagames\\bulletml\\BulletmlPlayer.java"
+			},
+			{
+				"line": 275,
+				"name": "terminate",
+				"file": "C:\\Github\\noiz2-droid\\noiz2\\src\\jp\\gr\\java_conf\\abagames\\bulletml\\BulletmlPlayer.java"
+			}
+		]
+	}
+}

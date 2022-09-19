@@ -1,0 +1,133 @@
+{
+	"sources": [
+		"C:\\Github\\FishRingsForAndroid"
+	],
+	"total": 24,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 149,
+				"name": "cwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 152,
+				"name": "ccwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 155,
+				"name": "cwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 158,
+				"name": "ccwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 161,
+				"name": "cwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 164,
+				"name": "ccwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 185,
+				"name": "cwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 188,
+				"name": "cwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 191,
+				"name": "cwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 202,
+				"name": "ccwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 205,
+				"name": "ccwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 208,
+				"name": "ccwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 185,
+				"name": "cwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 188,
+				"name": "cwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 191,
+				"name": "cwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 202,
+				"name": "ccwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 205,
+				"name": "ccwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 208,
+				"name": "ccwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 228,
+				"name": "cwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 238,
+				"name": "ccwa",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 251,
+				"name": "ccwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 262,
+				"name": "cwb",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 275,
+				"name": "ccwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			},
+			{
+				"line": 286,
+				"name": "cwc",
+				"file": "C:\\Github\\FishRingsForAndroid\\src\\eu\\veldsoft\\fish\\rings\\Rings.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

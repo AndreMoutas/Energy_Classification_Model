@@ -1,0 +1,544 @@
+{
+	"sources": [
+		"C:\\Github\\Bummerlzaehler"
+	],
+	"total": 106,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 180,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\FourPlayerStartActivity.java"
+			},
+			{
+				"line": 161,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\ThreePlayerStartActivity.java"
+			},
+			{
+				"line": 145,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\TwoPlayerStartActivity.java"
+			},
+			{
+				"line": 60,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 61,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 104,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 104,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 108,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 108,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 142,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 142,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 151,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 151,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 223,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 224,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl2PController.java"
+			},
+			{
+				"line": 58,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 59,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 60,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 148,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 149,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 150,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 165,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 166,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 167,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 171,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 172,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 173,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 177,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 178,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 179,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 183,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 184,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 185,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 189,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 190,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 191,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 195,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 196,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 197,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 254,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 255,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 256,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 267,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 268,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 269,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 280,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 281,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 282,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 293,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 294,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 295,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 306,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 307,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 308,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 319,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 320,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 321,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl3PController.java"
+			},
+			{
+				"line": 57,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 58,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 65,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 66,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 85,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 86,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 99,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 100,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 231,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 232,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 233,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 234,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\bummerl\\Bummerl4PController.java"
+			},
+			{
+				"line": 44,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames2PController.java"
+			},
+			{
+				"line": 45,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames2PController.java"
+			},
+			{
+				"line": 67,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames2PController.java"
+			},
+			{
+				"line": 67,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames2PController.java"
+			},
+			{
+				"line": 73,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames2PController.java"
+			},
+			{
+				"line": 73,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames2PController.java"
+			},
+			{
+				"line": 46,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 47,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 48,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 70,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 71,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 72,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 78,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 79,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 80,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 87,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 88,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 89,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 96,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 97,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 98,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 105,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 106,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 107,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 114,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 115,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 116,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames3PController.java"
+			},
+			{
+				"line": 49,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames4PController.java"
+			},
+			{
+				"line": 50,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames4PController.java"
+			},
+			{
+				"line": 51,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames4PController.java"
+			},
+			{
+				"line": 52,
+				"name": "getName",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\oldgame\\OldGames4PController.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 63,
+				"name": "getItemId",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\listadapter\\History2PListAdapter.java"
+			},
+			{
+				"line": 64,
+				"name": "getItemId",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\listadapter\\History3PListAdapter.java"
+			},
+			{
+				"line": 62,
+				"name": "getItemId",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\listadapter\\History4PListAdapter.java"
+			},
+			{
+				"line": 60,
+				"name": "getItem",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\listadapter\\NavigationListAdapter.java"
+			},
+			{
+				"line": 64,
+				"name": "getItemId",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\listadapter\\NavigationListAdapter.java"
+			},
+			{
+				"line": 64,
+				"name": "getItemId",
+				"file": "C:\\Github\\Bummerlzaehler\\app\\src\\main\\java\\com\\mobile\\bummerzaehler\\listadapter\\PlayerListAdapter.java"
+			}
+		]
+	}
+}

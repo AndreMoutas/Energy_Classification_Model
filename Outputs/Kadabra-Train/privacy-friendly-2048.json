@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\privacy-friendly-2048"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\privacy-friendly-2048\\app\\src\\test\\java\\org\\secuso\\privacyfriendly2048\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

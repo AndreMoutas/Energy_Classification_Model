@@ -1,0 +1,305 @@
+{
+	"sources": [
+		"C:\\Github\\planes"
+	],
+	"total": 59,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 109,
+				"name": "getValue",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\PlanesVerticalLayout.java"
+			},
+			{
+				"line": 277,
+				"name": "getValue",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\PlanesVerticalLayout.java"
+			},
+			{
+				"line": 298,
+				"name": "getValue",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\PlanesVerticalLayout.java"
+			},
+			{
+				"line": 34,
+				"name": "orientation",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlanePointIterator.java"
+			},
+			{
+				"line": 37,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlanePointIterator.java"
+			},
+			{
+				"line": 40,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlanePointIterator.java"
+			},
+			{
+				"line": 43,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlanePointIterator.java"
+			},
+			{
+				"line": 46,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlanePointIterator.java"
+			},
+			{
+				"line": 15,
+				"name": "x",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PointInfluenceIterator.java"
+			},
+			{
+				"line": 15,
+				"name": "y",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PointInfluenceIterator.java"
+			},
+			{
+				"line": 28,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\test\\java\\PlaneTest.java"
+			},
+			{
+				"line": 28,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\test\\java\\PlaneTest.java"
+			},
+			{
+				"line": 59,
+				"name": "head",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\test\\java\\PlaneTest.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 142,
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\GameBoard.java"
+			},
+			{
+				"line": 88,
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\PlanesVerticalLayout.java"
+			},
+			{
+				"line": 89,
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\PlanesVerticalLayout.java"
+			},
+			{
+				"line": 90,
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\PlanesVerticalLayout.java"
+			},
+			{
+				"line": 119,
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\test\\java\\PlanePointIteratorTest.java"
+			},
+			{
+				"line": 312,
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\BoardPane.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 217,
+				"name": "getColNo",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlaneGrid.java"
+			},
+			{
+				"line": 217,
+				"name": "getRowNo",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\common\\PlaneGrid.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 199,
+				"name": "setBoardEditingStage",
+				"file": "C:\\Github\\planes\\java\\PlanesAndroid\\app\\src\\main\\java\\com\\planes\\android\\GameControlsAdapter.java"
+			},
+			{
+				"line": 11,
+				"name": "createPlanesRound",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 14,
+				"name": "getRowNo",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 15,
+				"name": "getColNo",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 16,
+				"name": "getPlaneNo",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 17,
+				"name": "getPlaneSquareType",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 20,
+				"name": "movePlaneLeft",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 21,
+				"name": "movePlaneRight",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 22,
+				"name": "movePlaneUpwards",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 23,
+				"name": "movePlaneDownwards",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 24,
+				"name": "rotatePlane",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 25,
+				"name": "doneClicked",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 28,
+				"name": "playerGuessAlreadyMade",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 29,
+				"name": "playerGuess",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 30,
+				"name": "playerGuess_RoundEnds",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 31,
+				"name": "playerGuess_IsPlayerWinner",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 32,
+				"name": "playerGuess_ComputerMoveGenerated",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 33,
+				"name": "playerGuess_StatNoPlayerMoves",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 34,
+				"name": "playerGuess_StatNoPlayerHits",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 35,
+				"name": "playerGuess_StatNoPlayerMisses",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 36,
+				"name": "playerGuess_StatNoPlayerDead",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 37,
+				"name": "playerGuess_StatNoPlayerWins",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 38,
+				"name": "playerGuess_StatNoComputerMoves",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 39,
+				"name": "playerGuess_StatNoComputerHits",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 40,
+				"name": "playerGuess_StatNoComputerMisses",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 41,
+				"name": "playerGuess_StatNoComputerDead",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 42,
+				"name": "playerGuess_StatNoComputerWins",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 44,
+				"name": "roundEnds",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 45,
+				"name": "initRound",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 48,
+				"name": "getPlayerGuessesNo",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 49,
+				"name": "getPlayerGuessRow",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 50,
+				"name": "getPlayerGuessCol",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 51,
+				"name": "getPlayerGuessType",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 53,
+				"name": "getComputerGuessesNo",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 54,
+				"name": "getComputerGuessRow",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 55,
+				"name": "getComputerGuessCol",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 56,
+				"name": "getComputerGuessType",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			},
+			{
+				"line": 58,
+				"name": "getGameStage",
+				"file": "C:\\Github\\planes\\java\\obsolete\\PlanesJavaFx\\src\\com\\planes\\javafx\\PlaneRoundJavaFx.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,205 @@
+{
+	"sources": [
+		"C:\\Github\\Blockinger"
+	],
+	"total": 38,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 134,
+				"name": "getBoard",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\WorkThread.java"
+			},
+			{
+				"line": 105,
+				"name": "below",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\components\\Board.java"
+			},
+			{
+				"line": 117,
+				"name": "below",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\components\\Board.java"
+			},
+			{
+				"line": 140,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece.java"
+			},
+			{
+				"line": 141,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece.java"
+			},
+			{
+				"line": 140,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece.java"
+			},
+			{
+				"line": 141,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece.java"
+			},
+			{
+				"line": 87,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 88,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 87,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 88,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 179,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 180,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 179,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 180,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece3x3.java"
+			},
+			{
+				"line": 95,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 96,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 95,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 96,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 195,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 196,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 195,
+				"name": "getWidth",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			},
+			{
+				"line": 196,
+				"name": "getHeight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece4x4.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 165,
+				"name": "above",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Row.java"
+			},
+			{
+				"line": 165,
+				"name": "below",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Row.java"
+			},
+			{
+				"line": 166,
+				"name": "below",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Row.java"
+			},
+			{
+				"line": 166,
+				"name": "above",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Row.java"
+			},
+			{
+				"line": 170,
+				"name": "above",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Row.java"
+			},
+			{
+				"line": 171,
+				"name": "above",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Row.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 134,
+				"name": "startFlash",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Animator.java"
+			},
+			{
+				"line": 138,
+				"name": "cancelBurst",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Animator.java"
+			},
+			{
+				"line": 142,
+				"name": "startBurst",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\Animator.java"
+			},
+			{
+				"line": 254,
+				"name": "popupScore",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\components\\Board.java"
+			},
+			{
+				"line": 168,
+				"name": "rotateLeftReleased",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\components\\Controls.java"
+			},
+			{
+				"line": 180,
+				"name": "rotateRightReleased",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\components\\Controls.java"
+			},
+			{
+				"line": 199,
+				"name": "dropButtonReleased",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\components\\Controls.java"
+			},
+			{
+				"line": 171,
+				"name": "turnLeft",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece.java"
+			},
+			{
+				"line": 176,
+				"name": "turnRight",
+				"file": "C:\\Github\\Blockinger\\src\\org\\blockinger\\game\\pieces\\Piece.java"
+			}
+		]
+	}
+}

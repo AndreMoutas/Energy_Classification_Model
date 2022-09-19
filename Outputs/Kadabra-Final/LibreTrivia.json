@@ -1,0 +1,53 @@
+{
+	"sources": [
+		"C:\\Github\\LibreTrivia"
+	],
+	"total": 8,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 35,
+				"name": "getResults",
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\activities\\TriviaGameResultsActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 72,
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaCategory.java"
+			},
+			{
+				"line": 21,
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaDifficulty.java"
+			},
+			{
+				"line": 20,
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaType.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 76,
+				"name": "getName",
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaCategory.java"
+			},
+			{
+				"line": 25,
+				"name": "getName",
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaDifficulty.java"
+			},
+			{
+				"line": 24,
+				"name": "getName",
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaType.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 30,
+				"name": "checkAnswer",
+				"file": "C:\\Github\\LibreTrivia\\app\\src\\main\\java\\io\\github\\trytonvanmeer\\libretrivia\\trivia\\TriviaQuestion.java"
+			}
+		]
+	}
+}

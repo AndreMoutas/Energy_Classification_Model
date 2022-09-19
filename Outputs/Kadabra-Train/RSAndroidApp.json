@@ -1,0 +1,92 @@
+{
+	"sources": [
+		"C:\\Github\\RSAndroidApp"
+	],
+	"total": 16,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 400,
+				"name": "getProblemType",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\DetailsActivity.java"
+			},
+			{
+				"line": 707,
+				"name": "getCountry",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\DetailsActivity.java"
+			},
+			{
+				"line": 725,
+				"name": "getId",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\MapsActivity.java"
+			},
+			{
+				"line": 725,
+				"name": "getCountry",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\MapsActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 99,
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\MapsActivity.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\mapsforge\\MarkerBitmap.java"
+			},
+			{
+				"line": 41,
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\util\\BitmapCache.java"
+			},
+			{
+				"line": 42,
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\util\\BitmapCache.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 136,
+				"name": "getTextSize",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\mapsforge\\MarkerBitmap.java"
+			},
+			{
+				"line": 35,
+				"name": "getCode",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\model\\Country.java"
+			},
+			{
+				"line": 24,
+				"name": "getId",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\model\\UpdatePolicy.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 302,
+				"name": "getZoomLevelDefault",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\BaseApplication.java"
+			},
+			{
+				"line": 189,
+				"name": "getScreenRatio",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\MapsActivity.java"
+			},
+			{
+				"line": 210,
+				"name": "createCluster",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\mapsforge\\ClusterManager.java"
+			},
+			{
+				"line": 71,
+				"name": "notifyUser",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\main\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\notification\\NearbyBahnhofNotificationManager.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\RSAndroidApp\\app\\src\\test\\java\\de\\bahnhoefe\\deutschlands\\bahnhofsfotos\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

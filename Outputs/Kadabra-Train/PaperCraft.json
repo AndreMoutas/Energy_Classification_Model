@@ -1,0 +1,68 @@
+{
+	"sources": [
+		"C:\\Github\\PaperCraft"
+	],
+	"total": 11,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 648,
+				"name": "setScoreScaleForEvent",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\ui\\MainView.java"
+			},
+			{
+				"line": 1318,
+				"name": "getEnemyOrigin",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\ui\\MainView.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 49,
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\MainActivity.java"
+			},
+			{
+				"line": 13,
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\PaperCraftApplication.java"
+			},
+			{
+				"line": 13,
+				"file": "C:\\Github\\PaperCraft\\shared\\src\\main\\java\\cordproject\\lol\\papercraftshared\\util\\AchievementsUtil.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 202,
+				"name": "getCurrentLevel",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\controller\\GameController.java"
+			},
+			{
+				"line": 206,
+				"name": "getCurrentLevel",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\controller\\GameController.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 1061,
+				"name": "handleEnemyCollision",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\ui\\MainView.java"
+			},
+			{
+				"line": 1113,
+				"name": "initFrameTask",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\ui\\MainView.java"
+			},
+			{
+				"line": 1310,
+				"name": "getEnemyOrigin",
+				"file": "C:\\Github\\PaperCraft\\app\\src\\main\\java\\cordproject\\lol\\papercraft\\ui\\MainView.java"
+			},
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\PaperCraft\\shared\\src\\test\\java\\cordproject\\lol\\papercraftshared\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,137 @@
+{
+	"sources": [
+		"C:\\Github\\flickit"
+	],
+	"total": 25,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 260,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\model\\Game.java"
+			},
+			{
+				"line": 91,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\Hole.java"
+			},
+			{
+				"line": 229,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\Popup.java"
+			},
+			{
+				"line": 57,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 59,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 61,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 160,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 162,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 164,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 194,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 196,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 198,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 100,
+				"name": "getTableInfo",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\GameScreen.java"
+			},
+			{
+				"line": 100,
+				"name": "getHoles",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\GameScreen.java"
+			},
+			{
+				"line": 107,
+				"name": "getTableInfo",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\GameScreen.java"
+			},
+			{
+				"line": 107,
+				"name": "getBumpers",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\GameScreen.java"
+			},
+			{
+				"line": 99,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\MenuScreen.java"
+			},
+			{
+				"line": 100,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\MenuScreen.java"
+			},
+			{
+				"line": 108,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\MenuScreen.java"
+			},
+			{
+				"line": 110,
+				"name": "instance",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\MenuScreen.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 29,
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\model\\Game.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\util\\Assets.java"
+			},
+			{
+				"line": 23,
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\util\\SoundManager.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 135,
+				"name": "getMeterHeight",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\objects\\ShotMeter.java"
+			},
+			{
+				"line": 47,
+				"name": "backClicked",
+				"file": "C:\\Github\\flickit\\core\\src\\com\\studio332\\flickit\\screens\\AbstractScreen.java"
+			}
+		]
+	}
+}

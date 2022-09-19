@@ -1,0 +1,104 @@
+{
+	"sources": [
+		"C:\\Github\\cdlc_player"
+	],
+	"total": 19,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 90,
+				"file": "C:\\Github\\cdlc_player\\app\\build\\generated\\source\\kapt\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase_Impl.java"
+			},
+			{
+				"line": 113,
+				"file": "C:\\Github\\cdlc_player\\app\\build\\generated\\source\\kapt\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase_Impl.java"
+			},
+			{
+				"line": 142,
+				"file": "C:\\Github\\cdlc_player\\app\\build\\generated\\source\\kapt\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase_Impl.java"
+			},
+			{
+				"line": 143,
+				"file": "C:\\Github\\cdlc_player\\app\\build\\generated\\source\\kapt\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase_Impl.java"
+			},
+			{
+				"line": 167,
+				"file": "C:\\Github\\cdlc_player\\app\\build\\generated\\source\\kapt\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase_Impl.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 18,
+				"name": "songDao",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase.java"
+			},
+			{
+				"line": 21,
+				"name": "arrangementDao",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\data\\SongRoomDatabase.java"
+			},
+			{
+				"line": 24,
+				"name": "getEndTime",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\EventShape.java"
+			},
+			{
+				"line": 29,
+				"name": "getSortLevel",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\EventShape.java"
+			},
+			{
+				"line": 31,
+				"name": "getDerived",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\EventShape.java"
+			},
+			{
+				"line": 17,
+				"name": "noteInfo",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\NoteyShape.java"
+			},
+			{
+				"line": 16,
+				"name": "getVertexBuffer",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\Shape.java"
+			},
+			{
+				"line": 19,
+				"name": "getDrawListBuffer",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\Shape.java"
+			},
+			{
+				"line": 21,
+				"name": "getDrawListSize",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\Shape.java"
+			},
+			{
+				"line": 23,
+				"name": "getInstances",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\Shape.java"
+			},
+			{
+				"line": 27,
+				"name": "internalDraw",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\shapes\\Shape.java"
+			},
+			{
+				"line": 12,
+				"name": "getTime",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\viewer\\Event.java"
+			},
+			{
+				"line": 14,
+				"name": "getEndTime",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\viewer\\Event.java"
+			},
+			{
+				"line": 12,
+				"name": "getLevel",
+				"file": "C:\\Github\\cdlc_player\\app\\build\\tmp\\kapt3\\stubs\\debug\\eu\\tilk\\cdlcplayer\\viewer\\SortLevel.java"
+			}
+		]
+	}
+}

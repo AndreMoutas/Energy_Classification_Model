@@ -1,0 +1,205 @@
+{
+	"sources": [
+		"C:\\Github\\Bushido-Blocks"
+	],
+	"total": 38,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 186,
+				"name": "getGridSpaceLeft",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 186,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 186,
+				"name": "getGridSpaceLeft",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 186,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 194,
+				"name": "getGridSpaceRight",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 194,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 194,
+				"name": "getGridSpaceRight",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 194,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 202,
+				"name": "getGridSpaceAbove",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 202,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 202,
+				"name": "getGridSpaceAbove",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 202,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 210,
+				"name": "getGridSpaceBelow",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 210,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 210,
+				"name": "getGridSpaceBelow",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 210,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\Grid.java"
+			},
+			{
+				"line": 219,
+				"name": "onBottomRow",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 220,
+				"name": "getGrid",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 302,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 310,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 318,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 321,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 328,
+				"name": "getGrid",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 328,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 328,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 302,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 310,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 318,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			},
+			{
+				"line": 321,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\PlayScreen.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 70,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GridSpace.java"
+			},
+			{
+				"line": 119,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GridSpace.java"
+			},
+			{
+				"line": 125,
+				"name": "getX",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GridSpace.java"
+			},
+			{
+				"line": 131,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GridSpace.java"
+			},
+			{
+				"line": 137,
+				"name": "getY",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GridSpace.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 74,
+				"name": "touchMoved",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GameInputProcessor.java"
+			},
+			{
+				"line": 156,
+				"name": "update",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GameOverScreen.java"
+			},
+			{
+				"line": 159,
+				"name": "draw",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\GameOverScreen.java"
+			},
+			{
+				"line": 75,
+				"name": "touchMoved",
+				"file": "C:\\Github\\Bushido-Blocks\\bushido-blocks\\src\\com\\sandeel\\bushidoblocks\\MainMenuInputProcessor.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"sources": [
+		"C:\\Github\\ElpeEfpeAndroid"
+	],
+	"total": 11,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 75,
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\CharacterDetailFragment.java"
+			},
+			{
+				"line": 99,
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\CharacterDetailFragment.java"
+			},
+			{
+				"line": 53,
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\DBHandler.java"
+			},
+			{
+				"line": 58,
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\DBHandler.java"
+			},
+			{
+				"line": 34,
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\ElpeEfpeTableView.java"
+			},
+			{
+				"line": 17,
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\Value.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 46,
+				"name": "getContentViewId",
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\CharacterEditActivity.java"
+			},
+			{
+				"line": 47,
+				"name": "getToolbarId",
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\CharacterEditActivity.java"
+			},
+			{
+				"line": 75,
+				"name": "getContainerId",
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\CharacterEditActivity.java"
+			},
+			{
+				"line": 178,
+				"name": "getMenuId",
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\main\\java\\koeln\\mop\\elpeefpe\\CharacterEditActivity.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\ElpeEfpeAndroid\\app\\src\\test\\java\\koeln\\mop\\elpeefpe\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

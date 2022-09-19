@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\hJOPandroidDriver"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 100,
+				"name": "getParsed",
+				"file": "C:\\Github\\hJOPandroidDriver\\app\\src\\main\\java\\cz\\mendelu\\xmarik\\train_manager\\storage\\TrainDb.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 27,
+				"file": "C:\\Github\\hJOPandroidDriver\\app\\src\\main\\java\\cz\\mendelu\\xmarik\\train_manager\\storage\\TrainDb.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

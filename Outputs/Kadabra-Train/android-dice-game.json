@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\android-dice-game"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 64,
+				"name": "getValue",
+				"file": "C:\\Github\\android-dice-game\\app\\src\\main\\java\\com\\ridgelineapps\\resdicegame\\Dice.java"
+			}
+		],
+		"Member Ignoring Method Detector": []
+	}
+}

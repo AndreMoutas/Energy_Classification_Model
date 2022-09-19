@@ -1,0 +1,55 @@
+{
+	"sources": [
+		"C:\\Github\\ogsdroid"
+	],
+	"total": 8,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 369,
+				"name": "traceBoard",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\Board.java"
+			},
+			{
+				"line": 376,
+				"name": "traceBoard",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\Board.java"
+			},
+			{
+				"line": 369,
+				"name": "traceBoard",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\Board.java"
+			},
+			{
+				"line": 376,
+				"name": "traceBoard",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\Board.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 167,
+				"name": "submitRequired",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\BoardView.java"
+			},
+			{
+				"line": 198,
+				"name": "submitRequired",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\BoardView.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 382,
+				"name": "traceBoard",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\main\\java\\com\\ogsdroid\\Board.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\ogsdroid\\app\\src\\test\\java\\com\\ogsdroid\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

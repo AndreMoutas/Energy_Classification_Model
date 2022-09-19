@@ -1,0 +1,1937 @@
+{
+	"sources": [
+		"C:\\Github\\DestinationSol"
+	],
+	"total": 393,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 48,
+				"name": "getObjects",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\FactionDisplay.java"
+			},
+			{
+				"line": 52,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\FactionDisplay.java"
+			},
+			{
+				"line": 53,
+				"name": "getFactionColors",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\FactionDisplay.java"
+			},
+			{
+				"line": 50,
+				"name": "getEnvironment",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\EntitySystemManager.java"
+			},
+			{
+				"line": 52,
+				"name": "getEnvironment",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\SerialisationManager.java"
+			},
+			{
+				"line": 123,
+				"name": "getEntityList",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\SerialisationManager.java"
+			},
+			{
+				"line": 126,
+				"name": "getComponentList",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\SerialisationManager.java"
+			},
+			{
+				"line": 130,
+				"name": "getFieldList",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\SerialisationManager.java"
+			},
+			{
+				"line": 52,
+				"name": "getEnvironmentStatic",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\files\\HullConfigManager.java"
+			},
+			{
+				"line": 38,
+				"name": "getAssetHelper",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\AbilityCommonConfigs.java"
+			},
+			{
+				"line": 262,
+				"name": "getObjects",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\BeaconHandler.java"
+			},
+			{
+				"line": 263,
+				"name": "getShipUnchecked",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\BeaconHandler.java"
+			},
+			{
+				"line": 272,
+				"name": "getSize",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\BeaconHandler.java"
+			},
+			{
+				"line": 281,
+				"name": "getFarShips",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\BeaconHandler.java"
+			},
+			{
+				"line": 87,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\FactionManager.java"
+			},
+			{
+				"line": 122,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 123,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 122,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 123,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 178,
+				"name": "getGalaxyBuilder",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 178,
+				"name": "getBuiltSolarSystems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 267,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 267,
+				"name": "getFarObjs",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 276,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GalaxyFiller.java"
+			},
+			{
+				"line": 279,
+				"name": "getHero",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\MapDrawer.java"
+			},
+			{
+				"line": 279,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\MapDrawer.java"
+			},
+			{
+				"line": 300,
+				"name": "getIcon",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\MapDrawer.java"
+			},
+			{
+				"line": 310,
+				"name": "getHero",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\MapDrawer.java"
+			},
+			{
+				"line": 310,
+				"name": "getTranscendentHero",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\MapDrawer.java"
+			},
+			{
+				"line": 310,
+				"name": "getShip",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\MapDrawer.java"
+			},
+			{
+				"line": 110,
+				"name": "getHero",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ObjectManager.java"
+			},
+			{
+				"line": 78,
+				"name": "getRespawnWaypoints",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 79,
+				"name": "getWaypoints",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 93,
+				"name": "getMapDrawer",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 93,
+				"name": "getWaypointTexture",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 95,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 104,
+				"name": "getItemMan",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 116,
+				"name": "getRespawnItems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\PlayerCreator.java"
+			},
+			{
+				"line": 52,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\RubbleBuilder.java"
+			},
+			{
+				"line": 139,
+				"name": "getItemContainer",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SaveManager.java"
+			},
+			{
+				"line": 204,
+				"name": "getEnvironment",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 273,
+				"name": "getSystems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 275,
+				"name": "getPlanets",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 278,
+				"name": "getMazes",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 281,
+				"name": "getBelts",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 274,
+				"name": "getPlanets",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 275,
+				"name": "getPlanets",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 277,
+				"name": "getMazes",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 278,
+				"name": "getMazes",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 280,
+				"name": "getBelts",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 281,
+				"name": "getBelts",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 367,
+				"name": "getItemContainer",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 527,
+				"name": "getFarObjs",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 617,
+				"name": "getItemContainer",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 619,
+				"name": "isTranscendent",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 621,
+				"name": "getRespawnItems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 619,
+				"name": "isTranscendent",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 621,
+				"name": "getRespawnItems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 625,
+				"name": "getWaypoints",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 626,
+				"name": "getRespawnWaypoints",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 194,
+				"name": "getAsteroidBuilder",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\asteroid\\Asteroid.java"
+			},
+			{
+				"line": 195,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\asteroid\\Asteroid.java"
+			},
+			{
+				"line": 123,
+				"name": "getBelts",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\chunk\\ChunkFiller.java"
+			},
+			{
+				"line": 319,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\chunk\\ChunkFiller.java"
+			},
+			{
+				"line": 175,
+				"name": "getMessage",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\ConsoleImpl.java"
+			},
+			{
+				"line": 176,
+				"name": "getType",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\ConsoleImpl.java"
+			},
+			{
+				"line": 193,
+				"name": "getType",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\ConsoleImpl.java"
+			},
+			{
+				"line": 199,
+				"name": "getType",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\ConsoleImpl.java"
+			},
+			{
+				"line": 187,
+				"name": "getMessage",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\ConsoleImpl.java"
+			},
+			{
+				"line": 193,
+				"name": "getType",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\ConsoleImpl.java"
+			},
+			{
+				"line": 34,
+				"name": "getAssetHelper",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\adapter\\HullConfigAdapter.java"
+			},
+			{
+				"line": 36,
+				"name": "getGame",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\adapter\\HullConfigAdapter.java"
+			},
+			{
+				"line": 36,
+				"name": "getHullConfigManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\adapter\\HullConfigAdapter.java"
+			},
+			{
+				"line": 35,
+				"name": "getAssetHelper",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\suggesters\\HullConfigSuggester.java"
+			},
+			{
+				"line": 31,
+				"name": "getAssetHelper",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\suggesters\\NUIScreenSuggester.java"
+			},
+			{
+				"line": 155,
+				"name": "getMountDetectDrawer",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\drawables\\DrawableManager.java"
+			},
+			{
+				"line": 175,
+				"name": "getPlanetManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\drawables\\DrawableManager.java"
+			},
+			{
+				"line": 176,
+				"name": "getPlanetManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\drawables\\DrawableManager.java"
+			},
+			{
+				"line": 68,
+				"name": "getAngle",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\farBg\\FarBackgroundManagerOld.java"
+			},
+			{
+				"line": 101,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\gun\\SolGun.java"
+			},
+			{
+				"line": 82,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\maze\\MazeBuilder.java"
+			},
+			{
+				"line": 102,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\maze\\MazeBuilder.java"
+			},
+			{
+				"line": 82,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\maze\\MazeBuilder.java"
+			},
+			{
+				"line": 102,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\maze\\MazeBuilder.java"
+			},
+			{
+				"line": 64,
+				"name": "getContext",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\PartMan.java"
+			},
+			{
+				"line": 65,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\PartMan.java"
+			},
+			{
+				"line": 80,
+				"name": "getVelocity",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\PartMan.java"
+			},
+			{
+				"line": 109,
+				"name": "getHull",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\PartMan.java"
+			},
+			{
+				"line": 109,
+				"name": "getParticleEmitters",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\PartMan.java"
+			},
+			{
+				"line": 55,
+				"name": "getFullHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\FlatPlaceFinder.java"
+			},
+			{
+				"line": 57,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\FlatPlaceFinder.java"
+			},
+			{
+				"line": 57,
+				"name": "getWorld",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\FlatPlaceFinder.java"
+			},
+			{
+				"line": 146,
+				"name": "addToDungeon",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\GroundBuilder.java"
+			},
+			{
+				"line": 95,
+				"name": "getPlanetManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\Planet.java"
+			},
+			{
+				"line": 96,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 127,
+				"name": "getOrbitalEnemies",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 128,
+				"name": "getAtmospherePercentage",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 136,
+				"name": "getOrbitalEnemies",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 139,
+				"name": "getDetectionDistance",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 140,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 139,
+				"name": "getDetectionDistance",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 140,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 181,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 184,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 181,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 184,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 200,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 264,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 52,
+				"name": "getLetter",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetTiles.java"
+			},
+			{
+				"line": 171,
+				"name": "getPlanets",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SystemsBuilder.java"
+			},
+			{
+				"line": 135,
+				"name": "getEntitySystemManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\projectile\\Projectile.java"
+			},
+			{
+				"line": 71,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 73,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 73,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 80,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 82,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 104,
+				"name": "getSize",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 106,
+				"name": "getIcon",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 110,
+				"name": "getStarPortTex",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 124,
+				"name": "getStarPortTex",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 140,
+				"name": "getAngle",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 151,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 157,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 158,
+				"name": "getWaypointTexture",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 228,
+				"name": "angleDiff",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\BorderDrawer.java"
+			},
+			{
+				"line": 322,
+				"name": "getPriceMul",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\InventoryScreen.java"
+			},
+			{
+				"line": 540,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\MainGameScreen.java"
+			},
+			{
+				"line": 544,
+				"name": "getShip",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\MainGameScreen.java"
+			},
+			{
+				"line": 550,
+				"name": "isDangerous",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\MainGameScreen.java"
+			},
+			{
+				"line": 167,
+				"name": "getHero",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\MapScreen.java"
+			},
+			{
+				"line": 168,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\MapScreen.java"
+			},
+			{
+				"line": 58,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\EmWave.java"
+			},
+			{
+				"line": 58,
+				"name": "getObjects",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\EmWave.java"
+			},
+			{
+				"line": 63,
+				"name": "getFactionMan",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\EmWave.java"
+			},
+			{
+				"line": 62,
+				"name": "getFactionMan",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\ForceBeacon.java"
+			},
+			{
+				"line": 75,
+				"name": "getSoundManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\ForceBeacon.java"
+			},
+			{
+				"line": 75,
+				"name": "getContext",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\ForceBeacon.java"
+			},
+			{
+				"line": 70,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\KnockBack.java"
+			},
+			{
+				"line": 70,
+				"name": "getObjects",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\KnockBack.java"
+			},
+			{
+				"line": 179,
+				"name": "copy",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\ShipBuilder.java"
+			},
+			{
+				"line": 211,
+				"name": "getDoors",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\ShipBuilder.java"
+			},
+			{
+				"line": 260,
+				"name": "getContext",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\ShipBuilder.java"
+			},
+			{
+				"line": 380,
+				"name": "getItems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\SolShip.java"
+			},
+			{
+				"line": 61,
+				"name": "getObjectManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\UnShield.java"
+			},
+			{
+				"line": 61,
+				"name": "getObjects",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\UnShield.java"
+			},
+			{
+				"line": 74,
+				"name": "getFactionMan",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\UnShield.java"
+			},
+			{
+				"line": 73,
+				"name": "getRatio",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\background\\MenuBackgroundAsteroidManager.java"
+			},
+			{
+				"line": 148,
+				"name": "getEntityManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\rubble\\systems\\RubbleCreationSystem.java"
+			},
+			{
+				"line": 89,
+				"name": "getHero",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\Waypoint.java"
+			},
+			{
+				"line": 89,
+				"name": "getWaypoints",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\Waypoint.java"
+			},
+			{
+				"line": 140,
+				"name": "getShip",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\nui\\screens\\MainGameScreen.java"
+			},
+			{
+				"line": 146,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\nui\\screens\\MainGameScreen.java"
+			},
+			{
+				"line": 147,
+				"name": "getApproxRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\nui\\screens\\MainGameScreen.java"
+			},
+			{
+				"line": 61,
+				"name": "getAssetHelper",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\nui\\screens\\mainMenu\\NewShipScreen.java"
+			},
+			{
+				"line": 85,
+				"name": "getEnvironment",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\GalaxyBuilder.java"
+			},
+			{
+				"line": 175,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\GalaxyBuilder.java"
+			},
+			{
+				"line": 175,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\GalaxyBuilder.java"
+			},
+			{
+				"line": 107,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 122,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 137,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 188,
+				"name": "getRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 222,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 224,
+				"name": "getSolarSystemNumber",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 243,
+				"name": "getPlanetCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 256,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 332,
+				"name": "getSolarSystemNumber",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 150,
+				"name": "getActiveFeatureGenerators",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 170,
+				"name": "getActiveFeatureGenerators",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 172,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 181,
+				"name": "getActiveFeatureGenerators",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 183,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 190,
+				"name": "getActiveFeatureGenerators",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 192,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 192,
+				"name": "getRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 199,
+				"name": "getActiveFeatureGenerators",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 201,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			},
+			{
+				"line": 201,
+				"name": "getRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\generators\\SolarSystemGeneratorTest.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 34,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\IniReader.java"
+			},
+			{
+				"line": 40,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\IniReader.java"
+			},
+			{
+				"line": 65,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\assets\\music\\MusicConfig.java"
+			},
+			{
+				"line": 47,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\assets\\music\\OggMusicManager.java"
+			},
+			{
+				"line": 94,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\assets\\sound\\OggSoundManager.java"
+			},
+			{
+				"line": 95,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\assets\\sound\\OggSoundManager.java"
+			},
+			{
+				"line": 252,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\assets\\sound\\OggSoundManager.java"
+			},
+			{
+				"line": 61,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\body\\systems\\BodyHandlerSystem.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\SerialisationManager.java"
+			},
+			{
+				"line": 51,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\files\\HullConfigManager.java"
+			},
+			{
+				"line": 66,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\files\\HullConfigManager.java"
+			},
+			{
+				"line": 67,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\files\\HullConfigManager.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\AbilityCommonConfigs.java"
+			},
+			{
+				"line": 328,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\CollisionMeshLoader.java"
+			},
+			{
+				"line": 33,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\GameColors.java"
+			},
+			{
+				"line": 69,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ObjectManager.java"
+			},
+			{
+				"line": 33,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolNames.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\drawables\\SpriteManager.java"
+			},
+			{
+				"line": 204,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\input\\AiPilot.java"
+			},
+			{
+				"line": 39,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\item\\ItemManager.java"
+			},
+			{
+				"line": 41,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\item\\ItemManager.java"
+			},
+			{
+				"line": 27,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\EffectTypes.java"
+			},
+			{
+				"line": 44,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\BeltConfigManager.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\BeltConfigManager.java"
+			},
+			{
+				"line": 53,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetConfigManager.java"
+			},
+			{
+				"line": 125,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 252,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetObjectsBuilder.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetTiles.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetTiles.java"
+			},
+			{
+				"line": 44,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SolarSystemConfigManager.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SolarSystemConfigManager.java"
+			},
+			{
+				"line": 43,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SysConfigs.java"
+			},
+			{
+				"line": 44,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SysConfigs.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SysConfigs.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\SysConfigs.java"
+			},
+			{
+				"line": 44,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\projectile\\ProjectileConfigs.java"
+			},
+			{
+				"line": 41,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\sound\\DebugHint.java"
+			},
+			{
+				"line": 34,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\sound\\DebugHintDrawer.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\sound\\DebugHintDrawer.java"
+			},
+			{
+				"line": 47,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\sound\\OggSoundManager.java"
+			},
+			{
+				"line": 48,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\sound\\OggSoundManager.java"
+			},
+			{
+				"line": 157,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\sound\\OggSoundManager.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\DebugCollector.java"
+			},
+			{
+				"line": 52,
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\ui\\UiDrawer.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 295,
+				"name": "getKeyUpMouseName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 295,
+				"name": "getKeyDownMouseName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 295,
+				"name": "getKeyUpName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 296,
+				"name": "getKeyShoot2Name",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 297,
+				"name": "getKeyAbilityName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 297,
+				"name": "getKeyEscapeName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 298,
+				"name": "getKeyTalkName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 298,
+				"name": "getKeyPauseName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 298,
+				"name": "getKeyDropName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 298,
+				"name": "getKeySellMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 299,
+				"name": "getKeyBuyMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 299,
+				"name": "getKeyChangeShipMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 299,
+				"name": "getKeyHireShipMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 300,
+				"name": "getKeyZoomInName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 300,
+				"name": "getKeyZoomOutName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 301,
+				"name": "getControllerAxisShoot",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 301,
+				"name": "getControllerAxisShoot2",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 302,
+				"name": "getControllerAxisAbility",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 302,
+				"name": "getControllerAxisLeftRight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 303,
+				"name": "isControllerAxisLeftRightInverted",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 303,
+				"name": "getControllerAxisUpDown",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 304,
+				"name": "isControllerAxisUpDownInverted",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 304,
+				"name": "getControllerButtonShoot",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 305,
+				"name": "getControllerButtonShoot2",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 305,
+				"name": "getControllerButtonAbility",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 306,
+				"name": "getControllerButtonLeft",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 306,
+				"name": "getControllerButtonRight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 307,
+				"name": "getControllerButtonUp",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 307,
+				"name": "getControllerButtonDown",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 308,
+				"name": "getMapScrollSpeed",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 308,
+				"name": "getNuiUiScale",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 317,
+				"name": "getKeyUpMouseName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 327,
+				"name": "getKeyDownMouseName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 364,
+				"name": "getKeyUpName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 475,
+				"name": "getKeyShoot2Name",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 508,
+				"name": "getKeyShootName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 518,
+				"name": "getKeyShoot2Name",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 527,
+				"name": "getKeyAbilityName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 549,
+				"name": "getKeyEscapeName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 593,
+				"name": "getKeyEscapeName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 613,
+				"name": "getKeyShootName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 753,
+				"name": "getKeyFreeCameraMovementName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 770,
+				"name": "getKeyTalkName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 792,
+				"name": "getKeyPauseName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 814,
+				"name": "getKeyDropName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 836,
+				"name": "getKeySellMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 858,
+				"name": "getKeyBuyMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 880,
+				"name": "getKeyChangeShipMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 902,
+				"name": "getKeyHireShipMenuName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\GameOptions.java"
+			},
+			{
+				"line": 51,
+				"name": "getMass",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\body\\components\\BodyLinked.java"
+			},
+			{
+				"line": 309,
+				"name": "getRealZoom",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolCam.java"
+			},
+			{
+				"line": 320,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolCam.java"
+			},
+			{
+				"line": 334,
+				"name": "getPlanetManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\SolGame.java"
+			},
+			{
+				"line": 95,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\StarPort.java"
+			},
+			{
+				"line": 225,
+				"name": "getName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\CommandParameter.java"
+			},
+			{
+				"line": 286,
+				"name": "getTypeRaw",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\CommandParameter.java"
+			},
+			{
+				"line": 190,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\item\\Loot.java"
+			},
+			{
+				"line": 96,
+				"name": "getAngleOffset",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 97,
+				"name": "getHasLight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 98,
+				"name": "getTrigger",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 99,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 100,
+				"name": "getEffectConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 101,
+				"name": "getWorkSounds",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 102,
+				"name": "getWorkSounds",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 201,
+				"name": "isContinuous",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 201,
+				"name": "isWorking",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 246,
+				"name": "isContinuous",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\particle\\DSParticleEmitter.java"
+			},
+			{
+				"line": 78,
+				"name": "getGroundHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\Planet.java"
+			},
+			{
+				"line": 245,
+				"name": "getPilot",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\SolShip.java"
+			},
+			{
+				"line": 247,
+				"name": "getPilot",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\SolShip.java"
+			},
+			{
+				"line": 473,
+				"name": "getMerc",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\SolShip.java"
+			},
+			{
+				"line": 85,
+				"name": "getWidth",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\rendering\\RenderableElement.java"
+			},
+			{
+				"line": 86,
+				"name": "getHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\rendering\\RenderableElement.java"
+			},
+			{
+				"line": 132,
+				"name": "size",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\util\\CircularBuffer.java"
+			},
+			{
+				"line": 81,
+				"name": "getStartingDistanceFromSystemCenter",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\Orbital.java"
+			},
+			{
+				"line": 81,
+				"name": "getWidth",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\Orbital.java"
+			},
+			{
+				"line": 90,
+				"name": "getDistanceFromCenterOfSolarSystem",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\BeltGenerator.java"
+			},
+			{
+				"line": 90,
+				"name": "getBeltConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\BeltGenerator.java"
+			},
+			{
+				"line": 103,
+				"name": "layoutIsSet",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\MazeGenerator.java"
+			},
+			{
+				"line": 104,
+				"name": "getMazeConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\MazeGenerator.java"
+			},
+			{
+				"line": 104,
+				"name": "getMazeLayout",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\MazeGenerator.java"
+			},
+			{
+				"line": 106,
+				"name": "getMazeConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\MazeGenerator.java"
+			},
+			{
+				"line": 68,
+				"name": "getSolarSystemPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 68,
+				"name": "getAngleInSolarSystem",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 68,
+				"name": "getDistanceFromSolarSystemCenter",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 69,
+				"name": "getInitialPlanetAngle",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 69,
+				"name": "getGroundHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 70,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 78,
+				"name": "getPlanetConfigManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 78,
+				"name": "getIsInnerPlanet",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 78,
+				"name": "getIsInFirstSolarSystem",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 79,
+				"name": "getIsInnerPlanet",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 79,
+				"name": "getIsInFirstSolarSystem",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 88,
+				"name": "getDistanceFromSolarSystemCenter",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 97,
+				"name": "getGroundHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 107,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 122,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 137,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 150,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 151,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 159,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 160,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 168,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 169,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 177,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 178,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 188,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 189,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 201,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 213,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 226,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 239,
+				"name": "getPlanetConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 275,
+				"name": "getGroundHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 275,
+				"name": "getAtmosphereHeight",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 188,
+				"name": "getRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 222,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 224,
+				"name": "getSolarSystemNumber",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 243,
+				"name": "getPlanetCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 256,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 277,
+				"name": "getPlanetCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 300,
+				"name": "getMazeCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 324,
+				"name": "getPossibleBeltCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 332,
+				"name": "getSolarSystemNumber",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 355,
+				"name": "getOtherFeaturesCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 500,
+				"name": "getPosition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 500,
+				"name": "getSolarSystemConfig",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 500,
+				"name": "getName",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 500,
+				"name": "getRadius",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 511,
+				"name": "getSolarSystemConfigManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 511,
+				"name": "getSolarSystemNumber",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 29,
+				"name": "initialise",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 35,
+				"name": "preBegin",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 41,
+				"name": "postBegin",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 47,
+				"name": "preAutoSave",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 53,
+				"name": "postAutoSave",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 59,
+				"name": "preSave",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 65,
+				"name": "postSave",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 71,
+				"name": "shutdown",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\ComponentSystem.java"
+			},
+			{
+				"line": 81,
+				"name": "getEntityManager",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\entitysystem\\EntitySystemManager.java"
+			},
+			{
+				"line": 44,
+				"name": "set",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ColorSpan.java"
+			},
+			{
+				"line": 111,
+				"name": "areEnemies",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\FactionManager.java"
+			},
+			{
+				"line": 55,
+				"name": "initialise",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\Hero.java"
+			},
+			{
+				"line": 80,
+				"name": "constructParameters",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\console\\AbstractCommand.java"
+			},
+			{
+				"line": 135,
+				"name": "getDungeonEntrance",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\planet\\PlanetTiles.java"
+			},
+			{
+				"line": 24,
+				"name": "getItems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\InventoryOperationsScreen.java"
+			},
+			{
+				"line": 26,
+				"name": "isUsing",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\InventoryOperationsScreen.java"
+			},
+			{
+				"line": 30,
+				"name": "getPriceMul",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\InventoryOperationsScreen.java"
+			},
+			{
+				"line": 34,
+				"name": "getHeader",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\InventoryOperationsScreen.java"
+			},
+			{
+				"line": 70,
+				"name": "shouldWarn",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\screens\\WarnDrawer.java"
+			},
+			{
+				"line": 700,
+				"name": "changeDisposition",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\game\\ship\\SolShip.java"
+			},
+			{
+				"line": 29,
+				"name": "getHeader",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 37,
+				"name": "getItems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 44,
+				"name": "getDisplayDetail",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 51,
+				"name": "isEnterNewKey",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 58,
+				"name": "setEnterNewKey",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 65,
+				"name": "setSelectedIndex",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 72,
+				"name": "getSelectedIndex",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 79,
+				"name": "save",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 86,
+				"name": "resetToDefaults",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\menu\\InputMapOperations.java"
+			},
+			{
+				"line": 287,
+				"name": "getEnvironment",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\modules\\ModuleManager.java"
+			},
+			{
+				"line": 36,
+				"name": "build",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\FeatureGenerator.java"
+			},
+			{
+				"line": 122,
+				"name": "calculateDefaultMazeSize",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\MazeGenerator.java"
+			},
+			{
+				"line": 254,
+				"name": "getGroundHeightUsingDefault",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\PlanetGenerator.java"
+			},
+			{
+				"line": 145,
+				"name": "build",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 153,
+				"name": "getSolarSystemSize",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 160,
+				"name": "getCustomFeaturesCount",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\main\\java\\org\\destinationsol\\world\\generators\\SolarSystemGenerator.java"
+			},
+			{
+				"line": 151,
+				"name": "receiveForce",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\game\\RubbleTest.java"
+			},
+			{
+				"line": 105,
+				"name": "populatesSolarSystemsList",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\GalaxyBuilderTest.java"
+			},
+			{
+				"line": 114,
+				"name": "populatesFeatureGeneratorsList",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\GalaxyBuilderTest.java"
+			},
+			{
+				"line": 122,
+				"name": "createsCorrectNumberOfSolarSystemGenerators",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\GalaxyBuilderTest.java"
+			},
+			{
+				"line": 130,
+				"name": "createsCorrectNumberOfSolarSystems",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\GalaxyBuilderTest.java"
+			},
+			{
+				"line": 138,
+				"name": "setsContext",
+				"file": "C:\\Github\\DestinationSol\\engine\\src\\test\\java\\org\\destinationsol\\world\\GalaxyBuilderTest.java"
+			}
+		]
+	}
+}

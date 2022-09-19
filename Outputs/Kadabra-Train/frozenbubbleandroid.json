@@ -1,0 +1,230 @@
+{
+	"sources": [
+		"C:\\Github\\frozenbubbleandroid"
+	],
+	"total": 43,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 610,
+				"name": "lostLevel",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\FrozenGame.java"
+			},
+			{
+				"line": 610,
+				"name": "lostLevel",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\FrozenGame.java"
+			},
+			{
+				"line": 1051,
+				"name": "getDifficulty",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\FrozenGame.java"
+			},
+			{
+				"line": 2173,
+				"name": "surfaceOK",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\GameView.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 512,
+				"name": "checked",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\BubbleSprite.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 88,
+				"name": "actionCenter",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 89,
+				"name": "actionDown",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 90,
+				"name": "actionLeft",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 91,
+				"name": "actionRight",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 92,
+				"name": "actionUp",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 97,
+				"name": "checkNewActionKeyPress",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 98,
+				"name": "getLastKeyCode",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 99,
+				"name": "setKeyDown",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 100,
+				"name": "setKeyUp",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 101,
+				"name": "setTouchEvent",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 102,
+				"name": "setTrackBallDx",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\efortin\\frozenbubble\\VirtualInput.java"
+			},
+			{
+				"line": 1030,
+				"name": "ModPlug_CloseDown",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1031,
+				"name": "ModPlug_Init",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1032,
+				"name": "ModPlug_JGetName",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1033,
+				"name": "ModPlug_JGetSoundData",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1034,
+				"name": "ModPlug_JLoad",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1035,
+				"name": "ModPlug_JNumChannels",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1036,
+				"name": "ModPlug_JUnload",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1041,
+				"name": "ModPlug_ChangeTempo",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1042,
+				"name": "ModPlug_ChangePattern",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1043,
+				"name": "ModPlug_RepeatPattern",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1044,
+				"name": "ModPlug_SetCurrentPattern",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1045,
+				"name": "ModPlug_SetLoopCount",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1046,
+				"name": "ModPlug_SetNextPattern",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1047,
+				"name": "ModPlug_SetPatternLoopMode",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1048,
+				"name": "ModPlug_SetPatternLoopRange",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1049,
+				"name": "ModPlug_SetTempo",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1054,
+				"name": "ModPlug_CheckPatternChange",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1055,
+				"name": "ModPlug_GetCurrentOrder",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1056,
+				"name": "ModPlug_GetCurrentPattern",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1057,
+				"name": "ModPlug_GetCurrentPos",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1058,
+				"name": "ModPlug_GetCurrentRow",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1059,
+				"name": "ModPlug_GetMaxPos",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1060,
+				"name": "ModPlug_GetNativeTempo",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 1065,
+				"name": "ModPlug_LogOutput",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\com\\peculiargames\\andmodplug\\PlayerThread.java"
+			},
+			{
+				"line": 147,
+				"name": "play",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\GameScreen.java"
+			},
+			{
+				"line": 98,
+				"name": "getTypeId",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\Sprite.java"
+			},
+			{
+				"line": 146,
+				"name": "paint",
+				"file": "C:\\Github\\frozenbubbleandroid\\src\\org\\jfedor\\frozenbubble\\Sprite.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,1170 @@
+{
+	"sources": [
+		"C:\\Github\\forkyz"
+	],
+	"total": 234,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 364,
+				"name": "getIsViewArchive",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivityViewModel.java"
+			},
+			{
+				"line": 366,
+				"name": "getFileHandler",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivityViewModel.java"
+			},
+			{
+				"line": 376,
+				"name": "getHistory",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\ClueListActivity.java"
+			},
+			{
+				"line": 154,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\PageScraper.java"
+			},
+			{
+				"line": 399,
+				"name": "getBoard",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditText.java"
+			},
+			{
+				"line": 399,
+				"name": "isSkipCompletedLetters",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditText.java"
+			},
+			{
+				"line": 449,
+				"name": "getCol",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditText.java"
+			},
+			{
+				"line": 468,
+				"name": "getCol",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditText.java"
+			},
+			{
+				"line": 250,
+				"name": "getHighlightLetter",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 250,
+				"name": "getHighlightLetter",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 294,
+				"name": "getHighlightLetter",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 929,
+				"name": "getPuzzle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 1170,
+				"name": "getImages",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 222,
+				"name": "getPuzzle",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\GuardianJSONIO.java"
+			},
+			{
+				"line": 525,
+				"name": "setBarredTop",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\IPuzIO.java"
+			},
+			{
+				"line": 528,
+				"name": "setBarredBottom",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\IPuzIO.java"
+			},
+			{
+				"line": 531,
+				"name": "setBarredLeft",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\IPuzIO.java"
+			},
+			{
+				"line": 534,
+				"name": "setBarredRight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\IPuzIO.java"
+			},
+			{
+				"line": 1029,
+				"name": "getWidth",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\IPuzIO.java"
+			},
+			{
+				"line": 1903,
+				"name": "getHistory",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\IPuzIO.java"
+			},
+			{
+				"line": 597,
+				"name": "getClues",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\JPZIO.java"
+			},
+			{
+				"line": 198,
+				"name": "getAcrossClues",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\UclickXMLIO.java"
+			},
+			{
+				"line": 201,
+				"name": "getDownClues",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\UclickXMLIO.java"
+			},
+			{
+				"line": 30,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 30,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 71,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 71,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 68,
+				"name": "getHistory",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion5.java"
+			},
+			{
+				"line": 859,
+				"name": "getClueID",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 859,
+				"name": "getListName",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 863,
+				"name": "getClueID",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 321,
+				"name": "getImages",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzzleBuilder.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 839,
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivity.java"
+			},
+			{
+				"line": 100,
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\Downloaders.java"
+			},
+			{
+				"line": 127,
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\Downloaders.java"
+			},
+			{
+				"line": 201,
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\PageScraper.java"
+			},
+			{
+				"line": 578,
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 200,
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\MetaCache.java"
+			},
+			{
+				"line": 209,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\GuardianJSONIO.java"
+			},
+			{
+				"line": 124,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\JPZIO.java"
+			},
+			{
+				"line": 595,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\JPZIO.java"
+			},
+			{
+				"line": 197,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\RCIJeuxMFJIO.java"
+			},
+			{
+				"line": 235,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\RaetselZentraleSchwedenJSONIO.java"
+			},
+			{
+				"line": 22,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 13,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\MutableClueList.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 53,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 353,
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzzleBuilder.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 526,
+				"name": "getPendingImport",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivity.java"
+			},
+			{
+				"line": 100,
+				"name": "getIsViewArchive",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivityViewModel.java"
+			},
+			{
+				"line": 241,
+				"name": "getIsViewArchive",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivityViewModel.java"
+			},
+			{
+				"line": 364,
+				"name": "getIsViewArchive",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivityViewModel.java"
+			},
+			{
+				"line": 411,
+				"name": "getIsViewArchive",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\BrowseActivityViewModel.java"
+			},
+			{
+				"line": 90,
+				"name": "getCurrentDate",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\DownloadPickerDialogBuilder.java"
+			},
+			{
+				"line": 128,
+				"name": "getCurrentDate",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\DownloadPickerDialogBuilder.java"
+			},
+			{
+				"line": 105,
+				"name": "getTimer",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\PuzzleActivity.java"
+			},
+			{
+				"line": 148,
+				"name": "getTimer",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\PuzzleActivity.java"
+			},
+			{
+				"line": 169,
+				"name": "getTimer",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\PuzzleActivity.java"
+			},
+			{
+				"line": 198,
+				"name": "getTimer",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\PuzzleActivity.java"
+			},
+			{
+				"line": 90,
+				"name": "getPuzHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\forkyz\\ForkyzApplication.java"
+			},
+			{
+				"line": 96,
+				"name": "getBoard",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\forkyz\\ForkyzApplication.java"
+			},
+			{
+				"line": 109,
+				"name": "getFileHandler",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\forkyz\\ForkyzApplication.java"
+			},
+			{
+				"line": 119,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\AbstractDateDownloader.java"
+			},
+			{
+				"line": 178,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\AbstractDateDownloader.java"
+			},
+			{
+				"line": 180,
+				"name": "getSupportUrl",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\AbstractDateDownloader.java"
+			},
+			{
+				"line": 101,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\PageScraper.java"
+			},
+			{
+				"line": 154,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\PageScraper.java"
+			},
+			{
+				"line": 156,
+				"name": "getSupportUrl",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\PageScraper.java"
+			},
+			{
+				"line": 233,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\net\\PageScraper.java"
+			},
+			{
+				"line": 19,
+				"name": "getUri",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\DirHandle.java"
+			},
+			{
+				"line": 19,
+				"name": "getUri",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\DirHandle.java"
+			},
+			{
+				"line": 24,
+				"name": "getUri",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\DirHandle.java"
+			},
+			{
+				"line": 36,
+				"name": "getRootDirectory",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandlerJavaFile.java"
+			},
+			{
+				"line": 43,
+				"name": "getRootDirectory",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandlerJavaFile.java"
+			},
+			{
+				"line": 24,
+				"name": "getMainFileHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzHandle.java"
+			},
+			{
+				"line": 24,
+				"name": "getMainFileHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzHandle.java"
+			},
+			{
+				"line": 42,
+				"name": "getPuzHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzMetaFile.java"
+			},
+			{
+				"line": 49,
+				"name": "getPuzHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzMetaFile.java"
+			},
+			{
+				"line": 53,
+				"name": "getPuzHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzMetaFile.java"
+			},
+			{
+				"line": 223,
+				"name": "getBoard",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 230,
+				"name": "getBoard",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 320,
+				"name": "getBoard",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 417,
+				"name": "getScale",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 423,
+				"name": "getScale",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\PlayboardRenderer.java"
+			},
+			{
+				"line": 30,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 49,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 50,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 51,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 71,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 80,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 81,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 82,
+				"name": "getCharset",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\versions\\IOVersion1.java"
+			},
+			{
+				"line": 54,
+				"name": "isCheated",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 54,
+				"name": "isCheated",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 57,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 57,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 61,
+				"name": "isCircled",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 61,
+				"name": "isCircled",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 65,
+				"name": "getResponder",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 66,
+				"name": "getResponder",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 73,
+				"name": "getResponse",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 73,
+				"name": "getResponse",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 77,
+				"name": "getSolution",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 77,
+				"name": "getSolution",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 81,
+				"name": "isBarredTop",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 81,
+				"name": "isBarredTop",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 84,
+				"name": "isBarredBottom",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 84,
+				"name": "isBarredBottom",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 87,
+				"name": "isBarredLeft",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 87,
+				"name": "isBarredLeft",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 90,
+				"name": "isBarredRight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 90,
+				"name": "isBarredRight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 93,
+				"name": "getColor",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 93,
+				"name": "getColor",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 96,
+				"name": "getMarks",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 97,
+				"name": "getMarks",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 116,
+				"name": "isCheated",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 117,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 118,
+				"name": "isCircled",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 119,
+				"name": "isBarredTop",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 120,
+				"name": "isBarredBottom",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 121,
+				"name": "isBarredLeft",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 122,
+				"name": "isBarredRight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 124,
+				"name": "getResponder",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 124,
+				"name": "getResponder",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 125,
+				"name": "getResponse",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 126,
+				"name": "getSolution",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 127,
+				"name": "getColor",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 135,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 137,
+				"name": "getSolution",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 139,
+				"name": "getSolution",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 207,
+				"name": "getSolution",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 232,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 259,
+				"name": "getResponse",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 357,
+				"name": "isBarredTop",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 357,
+				"name": "isBarredBottom",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 358,
+				"name": "isBarredLeft",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 358,
+				"name": "isBarredRight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Box.java"
+			},
+			{
+				"line": 49,
+				"name": "getClueID",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 49,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 49,
+				"name": "getHint",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 62,
+				"name": "getClueID",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 62,
+				"name": "getClueID",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 63,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 63,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 64,
+				"name": "getHint",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 64,
+				"name": "getHint",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 65,
+				"name": "getZone",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 65,
+				"name": "getZone",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 71,
+				"name": "getClueID",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 71,
+				"name": "getClueNumber",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 71,
+				"name": "getHint",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 71,
+				"name": "getZone",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Clue.java"
+			},
+			{
+				"line": 21,
+				"name": "getIndex",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 22,
+				"name": "getListName",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 32,
+				"name": "getListName",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 33,
+				"name": "getListName",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 46,
+				"name": "getIndex",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 46,
+				"name": "getIndex",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 50,
+				"name": "getListName",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 50,
+				"name": "getIndex",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 54,
+				"name": "getListName",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 54,
+				"name": "getIndex",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\ClueID.java"
+			},
+			{
+				"line": 112,
+				"name": "getClues",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\MutableClueList.java"
+			},
+			{
+				"line": 112,
+				"name": "getClues",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\MutableClueList.java"
+			},
+			{
+				"line": 306,
+				"name": "isShowErrorsGrid",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Playboard.java"
+			},
+			{
+				"line": 306,
+				"name": "isShowErrorsCursor",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Playboard.java"
+			},
+			{
+				"line": 62,
+				"name": "getURL",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 62,
+				"name": "getURL",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 63,
+				"name": "getRow",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 63,
+				"name": "getRow",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 64,
+				"name": "getCol",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 64,
+				"name": "getCol",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 65,
+				"name": "getWidth",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 65,
+				"name": "getWidth",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 66,
+				"name": "getHeight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 66,
+				"name": "getHeight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzImage.java"
+			},
+			{
+				"line": 221,
+				"name": "getWidth",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 222,
+				"name": "getHeight",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 223,
+				"name": "getBoxes",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\Puzzle.java"
+			},
+			{
+				"line": 317,
+				"name": "getPuzzle",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\puz\\PuzzleBuilder.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 100,
+				"name": "onStop",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\KeyboardManager.java"
+			},
+			{
+				"line": 105,
+				"name": "onDestroy",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\KeyboardManager.java"
+			},
+			{
+				"line": 80,
+				"name": "getCrosswordsDirectory",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 81,
+				"name": "getArchiveDirectory",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 82,
+				"name": "isStorageMounted",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 83,
+				"name": "isStorageFull",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 85,
+				"name": "getFileHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 86,
+				"name": "exists",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 87,
+				"name": "exists",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 88,
+				"name": "listFiles",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 89,
+				"name": "getUri",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 90,
+				"name": "getUri",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 91,
+				"name": "getName",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 92,
+				"name": "getLastModified",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 97,
+				"name": "getOutputStream",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 100,
+				"name": "getInputStream",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 374,
+				"name": "createFileHandle",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 383,
+				"name": "moveToUnsync",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 392,
+				"name": "deleteUnsync",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\FileHandler.java"
+			},
+			{
+				"line": 34,
+				"name": "accept",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzHandle.java"
+			},
+			{
+				"line": 35,
+				"name": "accept",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\util\\files\\PuzHandle.java"
+			},
+			{
+				"line": 136,
+				"name": "findPosition",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 141,
+				"name": "fitToView",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 285,
+				"name": "onClick",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 305,
+				"name": "render",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 317,
+				"name": "getSuppressNotesList",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\BoardEditView.java"
+			},
+			{
+				"line": 257,
+				"name": "onResume",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\ClueTabs.java"
+			},
+			{
+				"line": 261,
+				"name": "onPause",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\ClueTabs.java"
+			},
+			{
+				"line": 182,
+				"name": "getEditorInfo",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\ForkyzKeyboard.java"
+			},
+			{
+				"line": 34,
+				"name": "onScaleBegin",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\MultitouchHandler.java"
+			},
+			{
+				"line": 191,
+				"name": "onDown",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\ScrollingImageView.java"
+			},
+			{
+				"line": 196,
+				"name": "onFling",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\ScrollingImageView.java"
+			},
+			{
+				"line": 224,
+				"name": "onShowPress",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\ScrollingImageView.java"
+			},
+			{
+				"line": 10,
+				"name": "remove",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\recycler\\RemovableRecyclerViewAdapter.java"
+			},
+			{
+				"line": 51,
+				"name": "onAnimationStart",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\recycler\\ShowHideOnScroll.java"
+			},
+			{
+				"line": 58,
+				"name": "onAnimationRepeat",
+				"file": "C:\\Github\\forkyz\\app\\src\\main\\java\\app\\crossword\\yourealwaysbe\\view\\recycler\\ShowHideOnScroll.java"
+			},
+			{
+				"line": 138,
+				"name": "getKeyLength",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\XTEA.java"
+			},
+			{
+				"line": 48,
+				"name": "contains",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\charset\\MacRoman.java"
+			},
+			{
+				"line": 52,
+				"name": "newDecoder",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\charset\\MacRoman.java"
+			},
+			{
+				"line": 56,
+				"name": "newEncoder",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\charset\\MacRoman.java"
+			},
+			{
+				"line": 69,
+				"name": "getDecoderSingleByteMappings",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\charset\\MacRoman.java"
+			},
+			{
+				"line": 74,
+				"name": "getEncoderIndex1",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\charset\\MacRoman.java"
+			},
+			{
+				"line": 78,
+				"name": "getEncoderIndex2",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\main\\java\\app\\crossword\\yourealwaysbe\\io\\charset\\MacRoman.java"
+			},
+			{
+				"line": 34,
+				"name": "testApp",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\AppTest.java"
+			},
+			{
+				"line": 7,
+				"name": "testAcrossLite",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 15,
+				"name": "testJPZ",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 23,
+				"name": "testBrainsOnly",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 31,
+				"name": "testKingFeaturesPlaintext",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 39,
+				"name": "testUclick",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 47,
+				"name": "testIPuz",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 55,
+				"name": "testRaetzelZentraleSchweden",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 63,
+				"name": "testRCIJeuxMFJ",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			},
+			{
+				"line": 71,
+				"name": "testPrzekroj",
+				"file": "C:\\Github\\forkyz\\puzlib\\src\\test\\java\\app\\crossword\\yourealwaysbe\\io\\PuzzleStreamReaderTest.java"
+			}
+		]
+	}
+}

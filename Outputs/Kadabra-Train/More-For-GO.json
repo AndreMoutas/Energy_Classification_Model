@@ -1,0 +1,33 @@
+{
+	"sources": [
+		"C:\\Github\\More-For-GO"
+	],
+	"total": 4,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 329,
+				"name": "onSaveExtraInfo",
+				"file": "C:\\Github\\More-For-GO\\IssueReporter\\src\\main\\java\\com\\heinrichreimersoftware\\androidissuereporter\\IssueReporterActivity.java"
+			},
+			{
+				"line": 332,
+				"name": "getTarget",
+				"file": "C:\\Github\\More-For-GO\\IssueReporter\\src\\main\\java\\com\\heinrichreimersoftware\\androidissuereporter\\IssueReporterActivity.java"
+			},
+			{
+				"line": 334,
+				"name": "getGuestToken",
+				"file": "C:\\Github\\More-For-GO\\IssueReporter\\src\\main\\java\\com\\heinrichreimersoftware\\androidissuereporter\\IssueReporterActivity.java"
+			},
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\More-For-GO\\app\\src\\test\\java\\com\\tomer\\poke\\notifier\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

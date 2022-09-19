@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\FBEditPlus"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 404,
+				"name": "getLevelsSize",
+				"file": "C:\\Github\\FBEditPlus\\src\\sk\\halmi\\fbeditplus\\UploadLevelPackActivity.java"
+			}
+		]
+	}
+}

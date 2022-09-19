@@ -1,0 +1,68 @@
+{
+	"sources": [
+		"C:\\Github\\Politrics"
+	],
+	"total": 11,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 83,
+				"name": "getLineups",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\GameActivity.java"
+			},
+			{
+				"line": 103,
+				"name": "getLineups",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\GameActivity.java"
+			},
+			{
+				"line": 197,
+				"name": "index",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Board.java"
+			},
+			{
+				"line": 202,
+				"name": "index",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Board.java"
+			},
+			{
+				"line": 795,
+				"name": "unselect",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Board.java"
+			},
+			{
+				"line": 824,
+				"name": "index",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Board.java"
+			},
+			{
+				"line": 827,
+				"name": "index",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Board.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 26,
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\GameActivity.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Board.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 19,
+				"name": "canStepIn",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Figure.java"
+			},
+			{
+				"line": 79,
+				"name": "index",
+				"file": "C:\\Github\\Politrics\\src\\eu\\veldsoft\\politrics\\model\\Figure.java"
+			}
+		]
+	}
+}

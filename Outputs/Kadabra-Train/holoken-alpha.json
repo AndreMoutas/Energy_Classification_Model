@@ -1,0 +1,34 @@
+{
+	"sources": [
+		"C:\\Github\\holoken-alpha"
+	],
+	"total": 4,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 581,
+				"name": "getUserValue",
+				"file": "C:\\Github\\holoken-alpha\\src\\net\\mathdoku\\holoken\\GridView.java"
+			},
+			{
+				"line": 591,
+				"name": "getUserValue",
+				"file": "C:\\Github\\holoken-alpha\\src\\net\\mathdoku\\holoken\\GridView.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 74,
+				"name": "getItemId",
+				"file": "C:\\Github\\holoken-alpha\\src\\net\\mathdoku\\holoken\\SaveGameListAdapter.java"
+			},
+			{
+				"line": 56,
+				"name": "onSharedPreferenceChanged",
+				"file": "C:\\Github\\holoken-alpha\\src\\net\\mathdoku\\holoken\\SettingsActivity.java"
+			}
+		]
+	}
+}

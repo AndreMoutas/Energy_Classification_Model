@@ -1,0 +1,504 @@
+{
+	"sources": [
+		"C:\\Github\\mtg-familiar"
+	],
+	"total": 100,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 604,
+				"name": "getForeignPrintings",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\CardViewFragment.java"
+			},
+			{
+				"line": 605,
+				"name": "getForeignPrintings",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\CardViewFragment.java"
+			},
+			{
+				"line": 604,
+				"name": "getForeignPrintings",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\CardViewFragment.java"
+			},
+			{
+				"line": 605,
+				"name": "getForeignPrintings",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\CardViewFragment.java"
+			},
+			{
+				"line": 1372,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\CardViewFragment.java"
+			},
+			{
+				"line": 353,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 803,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 806,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 806,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 823,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 826,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 827,
+				"name": "getNumber",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 826,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 827,
+				"name": "getNumber",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 1098,
+				"name": "getType",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 501,
+				"name": "getDefaultLife",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\LifeCounterFragment.java"
+			},
+			{
+				"line": 690,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 690,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 694,
+				"name": "getColor",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 694,
+				"name": "getColor",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 698,
+				"name": "getType",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 698,
+				"name": "getType",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 702,
+				"name": "getCmc",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 702,
+				"name": "getCmc",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 706,
+				"name": "getPower",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 706,
+				"name": "getPower",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 710,
+				"name": "getToughness",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 710,
+				"name": "getToughness",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 714,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 714,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 722,
+				"name": "getIndex",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 722,
+				"name": "getIndex",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 726,
+				"name": "getRarity",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 726,
+				"name": "getRarity",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\TradeFragment.java"
+			},
+			{
+				"line": 167,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 376,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 379,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 379,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 399,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 402,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 403,
+				"name": "getNumber",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 402,
+				"name": "getExpansion",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 403,
+				"name": "getNumber",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 612,
+				"name": "getText",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\WishlistFragment.java"
+			},
+			{
+				"line": 376,
+				"name": "getForeignPrintings",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\dialogs\\CardViewDialogFragment.java"
+			},
+			{
+				"line": 99,
+				"name": "isSideboard",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\DecklistHelpers.java"
+			},
+			{
+				"line": 177,
+				"name": "isSideboard",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\DecklistHelpers.java"
+			},
+			{
+				"line": 183,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\DecklistHelpers.java"
+			},
+			{
+				"line": 291,
+				"name": "getPrice",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 345,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 345,
+				"name": "getName",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 349,
+				"name": "getColor",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 349,
+				"name": "getColor",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 353,
+				"name": "getType",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 353,
+				"name": "getType",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 357,
+				"name": "getCmc",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 357,
+				"name": "getCmc",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 361,
+				"name": "getPower",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 361,
+				"name": "getPower",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 365,
+				"name": "getToughness",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 365,
+				"name": "getToughness",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 373,
+				"name": "getTotalPrice",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 373,
+				"name": "getTotalPrice",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 377,
+				"name": "getIndex",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 377,
+				"name": "getIndex",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 381,
+				"name": "getHighestRarity",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 381,
+				"name": "getHighestRarity",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\WishlistHelpers.java"
+			},
+			{
+				"line": 1910,
+				"name": "getForeignPrintings",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\database\\CardDbAdapter.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 164,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\DecklistFragment.java"
+			},
+			{
+				"line": 893,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\LifeCounterFragment.java"
+			},
+			{
+				"line": 904,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\LifeCounterFragment.java"
+			},
+			{
+				"line": 141,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\dialogs\\CardViewDialogFragment.java"
+			},
+			{
+				"line": 377,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\dialogs\\CardViewDialogFragment.java"
+			},
+			{
+				"line": 148,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\CardHelpers.java"
+			},
+			{
+				"line": 48,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\DeckStatsGenerator.java"
+			},
+			{
+				"line": 56,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\DeckStatsGenerator.java"
+			},
+			{
+				"line": 64,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\DeckStatsGenerator.java"
+			},
+			{
+				"line": 203,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\RoundTimerBroadcastReceiver.java"
+			},
+			{
+				"line": 443,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\database\\CardDbAdapter.java"
+			},
+			{
+				"line": 229,
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\updaters\\DbUpdaterService.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 79,
+				"name": "isInSelectMode",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\CardDataAdapter.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 218,
+				"name": "onInterceptSearchKey",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarFragment.java"
+			},
+			{
+				"line": 228,
+				"name": "canInterceptSearchKey",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarFragment.java"
+			},
+			{
+				"line": 303,
+				"name": "onUserInactive",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarFragment.java"
+			},
+			{
+				"line": 310,
+				"name": "onUserActive",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarFragment.java"
+			},
+			{
+				"line": 316,
+				"name": "onWishlistChanged",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarFragment.java"
+			},
+			{
+				"line": 364,
+				"name": "notifyDatabaseUpdated",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarFragment.java"
+			},
+			{
+				"line": 520,
+				"name": "onCardPriceLookupFailure",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarListFragment.java"
+			},
+			{
+				"line": 528,
+				"name": "onCardPriceLookupSuccess",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarListFragment.java"
+			},
+			{
+				"line": 533,
+				"name": "onAllPriceLookupsFinished",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarListFragment.java"
+			},
+			{
+				"line": 545,
+				"name": "shouldShowPrice",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarListFragment.java"
+			},
+			{
+				"line": 550,
+				"name": "getPriceSetting",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarListFragment.java"
+			},
+			{
+				"line": 555,
+				"name": "setPriceSetting",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\fragments\\FamiliarListFragment.java"
+			},
+			{
+				"line": 208,
+				"name": "onItemRemovedFinal",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\CardDataAdapter.java"
+			},
+			{
+				"line": 81,
+				"name": "onClickNotSelectMode",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\CardDataViewHolder.java"
+			},
+			{
+				"line": 72,
+				"name": "setLayout",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\MTGFamiliarAppWidgetProvider.java"
+			},
+			{
+				"line": 64,
+				"name": "getInitialValue",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\NumberButtonOnClickListener.java"
+			},
+			{
+				"line": 72,
+				"name": "getMaxNumber",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\NumberButtonOnClickListener.java"
+			},
+			{
+				"line": 76,
+				"name": "getMinNumber",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\NumberButtonOnClickListener.java"
+			},
+			{
+				"line": 80,
+				"name": "onDialogNumberSet",
+				"file": "C:\\Github\\mtg-familiar\\mobile\\src\\main\\java\\com\\gelakinetic\\mtgfam\\helpers\\NumberButtonOnClickListener.java"
+			}
+		]
+	}
+}

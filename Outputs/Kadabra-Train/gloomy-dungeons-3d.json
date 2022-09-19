@@ -1,0 +1,131 @@
+{
+	"sources": [
+		"C:\\Github\\gloomy-dungeons-3d"
+	],
+	"total": 24,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 382,
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\engine\\Controls.java"
+			},
+			{
+				"line": 383,
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\engine\\Controls.java"
+			},
+			{
+				"line": 198,
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\views\\MenuView.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 87,
+				"name": "setUpdateInterval",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 118,
+				"name": "updateControls",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 120,
+				"name": "update",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 122,
+				"name": "render",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 124,
+				"name": "keyUp",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 126,
+				"name": "keyDown",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 128,
+				"name": "touchEvent",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 130,
+				"name": "trackballEvent",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 132,
+				"name": "surfaceCreated",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 134,
+				"name": "surfaceSizeChanged",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 136,
+				"name": "saveState",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\ZameGame.java"
+			},
+			{
+				"line": 304,
+				"name": "toggleAutoMap",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\engine\\Game.java"
+			},
+			{
+				"line": 614,
+				"name": "setNewControlsType",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\main\\java\\zame\\game\\engine\\Game.java"
+			},
+			{
+				"line": 8,
+				"name": "trackPageView",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withanalytics\\java\\zame\\game\\ZameApplicationAnalyticsHelper.java"
+			},
+			{
+				"line": 12,
+				"name": "trackEvent",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withanalytics\\java\\zame\\game\\ZameApplicationAnalyticsHelper.java"
+			},
+			{
+				"line": 16,
+				"name": "flushEvents",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withanalytics\\java\\zame\\game\\ZameApplicationAnalyticsHelper.java"
+			},
+			{
+				"line": 8,
+				"name": "getMenuResId",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withoutzeemote\\java\\zame\\game\\GameActivityZeemoteHelper.java"
+			},
+			{
+				"line": 12,
+				"name": "onPrepareOptionsMenu",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withoutzeemote\\java\\zame\\game\\GameActivityZeemoteHelper.java"
+			},
+			{
+				"line": 15,
+				"name": "onOptionsItemSelected",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withoutzeemote\\java\\zame\\game\\GameActivityZeemoteHelper.java"
+			},
+			{
+				"line": 19,
+				"name": "onStart",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withoutzeemote\\java\\zame\\game\\GameActivityZeemoteHelper.java"
+			},
+			{
+				"line": 22,
+				"name": "onPause",
+				"file": "C:\\Github\\gloomy-dungeons-3d\\src\\withoutzeemote\\java\\zame\\game\\GameActivityZeemoteHelper.java"
+			}
+		]
+	}
+}

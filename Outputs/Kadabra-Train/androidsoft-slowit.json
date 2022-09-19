@@ -1,0 +1,28 @@
+{
+	"sources": [
+		"C:\\Github\\androidsoft-slowit"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 49,
+				"name": "getItem",
+				"file": "C:\\Github\\androidsoft-slowit\\src\\main\\java\\org\\androidsoft\\games\\utils\\level\\LevelAdapter.java"
+			},
+			{
+				"line": 54,
+				"name": "getItemId",
+				"file": "C:\\Github\\androidsoft-slowit\\src\\main\\java\\org\\androidsoft\\games\\utils\\level\\LevelAdapter.java"
+			},
+			{
+				"line": 97,
+				"name": "getGameActivity",
+				"file": "C:\\Github\\androidsoft-slowit\\src\\main\\java\\org\\androidsoft\\games\\utils\\level\\LevelSelectorActivity.java"
+			}
+		]
+	}
+}

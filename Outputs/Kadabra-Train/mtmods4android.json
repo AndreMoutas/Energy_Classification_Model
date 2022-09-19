@@ -1,0 +1,61 @@
+{
+	"sources": [
+		"C:\\Github\\mtmods4android"
+	],
+	"total": 10,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 96,
+				"name": "isLocal",
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\manager\\ModManager.java"
+			},
+			{
+				"line": 108,
+				"name": "isLocal",
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\manager\\ModManager.java"
+			},
+			{
+				"line": 210,
+				"name": "getInstance",
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\views\\ModListActivity.java"
+			},
+			{
+				"line": 561,
+				"name": "getInstance",
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\views\\ModListActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 16,
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\models\\Game.java"
+			},
+			{
+				"line": 75,
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\models\\Game.java"
+			},
+			{
+				"line": 20,
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\models\\MinetestConf.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\models\\ModList.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 192,
+				"name": "cancelAsyncTask",
+				"file": "C:\\Github\\mtmods4android\\app\\src\\main\\java\\com\\rubenwardy\\minetestmodmanager\\manager\\ModManager.java"
+			},
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\mtmods4android\\app\\src\\test\\java\\com\\rubenwardy\\minetestmodmanager\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

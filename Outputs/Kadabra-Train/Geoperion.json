@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\Geoperion"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 15,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\Geoperion\\android\\app\\src\\test\\java\\com\\getcapacitor\\myapp\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

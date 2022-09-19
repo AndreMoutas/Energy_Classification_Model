@@ -1,0 +1,62 @@
+{
+	"sources": [
+		"C:\\Github\\deckerino"
+	],
+	"total": 10,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 67,
+				"name": "getId",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\models\\Deck.java"
+			},
+			{
+				"line": 100,
+				"name": "getId",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\models\\Deck.java"
+			},
+			{
+				"line": 100,
+				"name": "getId",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\models\\Deck.java"
+			},
+			{
+				"line": 131,
+				"name": "getId",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\models\\Deck.java"
+			},
+			{
+				"line": 154,
+				"name": "getCards",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\ui\\shared\\CardListFragment.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 23,
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\data\\CollectionManager.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\data\\CollectionManager.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\ui\\shared\\CardListCursorAdapter.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 302,
+				"name": "getCost",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\models\\Card.java"
+			},
+			{
+				"line": 302,
+				"name": "getCost",
+				"file": "C:\\Github\\deckerino\\app\\src\\main\\java\\com\\slothwerks\\hearthstone\\compendiumforhearthstone\\models\\Card.java"
+			}
+		],
+		"Member Ignoring Method Detector": []
+	}
+}

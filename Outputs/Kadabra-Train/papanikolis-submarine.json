@@ -1,0 +1,39 @@
+{
+	"sources": [
+		"C:\\Github\\papanikolis-submarine"
+	],
+	"total": 5,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 58,
+				"name": "getHandler",
+				"file": "C:\\Github\\papanikolis-submarine\\papanikolis-android\\src\\com\\niparasc\\papanikolis\\bluetooth\\ConnectedThread.java"
+			},
+			{
+				"line": 312,
+				"name": "getSurface",
+				"file": "C:\\Github\\papanikolis-submarine\\papanikolis\\src\\com\\niparasc\\papanikolis\\directors\\Game1Director.java"
+			},
+			{
+				"line": 328,
+				"name": "getSurface",
+				"file": "C:\\Github\\papanikolis-submarine\\papanikolis\\src\\com\\niparasc\\papanikolis\\directors\\Game1Director.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 38,
+				"name": "direct",
+				"file": "C:\\Github\\papanikolis-submarine\\papanikolis\\src\\com\\niparasc\\papanikolis\\directors\\Director.java"
+			},
+			{
+				"line": 55,
+				"name": "createDirector",
+				"file": "C:\\Github\\papanikolis-submarine\\papanikolis\\src\\com\\niparasc\\papanikolis\\screens\\GameScreen.java"
+			}
+		]
+	}
+}

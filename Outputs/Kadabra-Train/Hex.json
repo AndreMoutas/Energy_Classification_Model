@@ -1,0 +1,134 @@
+{
+	"sources": [
+		"C:\\Github\\Hex"
+	],
+	"total": 24,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 90,
+				"name": "getSuperClass",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\compat\\Game.java"
+			},
+			{
+				"line": 100,
+				"name": "getSuperClass",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\compat\\Game.java"
+			},
+			{
+				"line": 110,
+				"name": "getSuperClass",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\compat\\Game.java"
+			},
+			{
+				"line": 120,
+				"name": "getSuperClass",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\compat\\Game.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 132,
+				"name": "startQuickGame",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\BaseGameActivity.java"
+			},
+			{
+				"line": 134,
+				"name": "inviteFriends",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\BaseGameActivity.java"
+			},
+			{
+				"line": 136,
+				"name": "checkInvites",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\BaseGameActivity.java"
+			},
+			{
+				"line": 138,
+				"name": "openAchievements",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\BaseGameActivity.java"
+			},
+			{
+				"line": 51,
+				"name": "switchToGame",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\NetActivity.java"
+			},
+			{
+				"line": 84,
+				"name": "getPositiveView",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 86,
+				"name": "getPositiveOnClickListener",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 88,
+				"name": "getPositiveXPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 90,
+				"name": "getPositiveYPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 92,
+				"name": "getPositiveSideLengthPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 94,
+				"name": "getNegativeView",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 96,
+				"name": "getNegativeOnClickListener",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 98,
+				"name": "getNegativeXPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 100,
+				"name": "getNegativeYPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 102,
+				"name": "getNegativeSideLengthPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 104,
+				"name": "getNeutralView",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 106,
+				"name": "getNeutralOnClickListener",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 108,
+				"name": "getNeutralXPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 110,
+				"name": "getNeutralYPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			},
+			{
+				"line": 112,
+				"name": "getNeutralSideLengthPercent",
+				"file": "C:\\Github\\Hex\\app\\src\\main\\java\\com\\sam\\hex\\view\\HexDialog.java"
+			}
+		]
+	}
+}

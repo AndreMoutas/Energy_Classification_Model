@@ -1,0 +1,48 @@
+{
+	"sources": [
+		"C:\\Github\\FallingBlocks"
+	],
+	"total": 7,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 180,
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\model\\Baustein.java"
+			},
+			{
+				"line": 181,
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\model\\Baustein.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 94,
+				"name": "getNachbarUnten",
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\model\\Quadrat.java"
+			},
+			{
+				"line": 104,
+				"name": "getNachbarOben",
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\model\\Quadrat.java"
+			},
+			{
+				"line": 114,
+				"name": "getNachbarRechts",
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\model\\Quadrat.java"
+			},
+			{
+				"line": 124,
+				"name": "getNachbarLinks",
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\model\\Quadrat.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 57,
+				"name": "createBitmap",
+				"file": "C:\\Github\\FallingBlocks\\src\\de\\stefan_oltmann\\falling_blocks\\AbstractBoxView.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,139 @@
+{
+	"sources": [
+		"C:\\Github\\gobandroid"
+	],
+	"total": 25,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 65,
+				"name": "getActMove",
+				"file": "C:\\Github\\gobandroid\\android\\src\\main\\java\\org\\ligi\\gobandroid_hd\\ui\\tsumego\\TsumegoHintAlert.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 28,
+				"file": "C:\\Github\\gobandroid\\android\\src\\main\\java\\org\\ligi\\gobandroid_hd\\ui\\review\\SGFMetaResolver.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 20,
+				"name": "isTesting",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\App.java"
+			},
+			{
+				"line": 31,
+				"name": "processAndGetFollowup",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\logic\\cell_gatherer\\CellGatherer.java"
+			},
+			{
+				"line": 13,
+				"name": "draw",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\logic\\markers\\GoMarker.java"
+			},
+			{
+				"line": 18,
+				"name": "getMarkerCode",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\logic\\markers\\GoMarker.java"
+			},
+			{
+				"line": 30,
+				"name": "isBoardFocusWanted",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 35,
+				"name": "getGameExtraFragment",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 46,
+				"name": "isAsk4QuitEnabled",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 109,
+				"name": "quit",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 126,
+				"name": "doMoveWithUIFeedback",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 154,
+				"name": "doAutoSave",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 158,
+				"name": "doTouch",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 162,
+				"name": "initializeStoneMove",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 175,
+				"name": "requestUndo",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 179,
+				"name": "onGameChanged",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoActivity.java"
+			},
+			{
+				"line": 102,
+				"name": "enforceSquare",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GoBoardView.java"
+			},
+			{
+				"line": 19,
+				"name": "getIntent2start",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\GobanDroidTVActivity.java"
+			},
+			{
+				"line": 63,
+				"name": "doFullScreen",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\application\\GobandroidFragmentActivity.java"
+			},
+			{
+				"line": 12,
+				"name": "getMode",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\editing\\model\\EditModeItem.java"
+			},
+			{
+				"line": 16,
+				"name": "getContentDescriptionResId",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\editing\\model\\EditModeItem.java"
+			},
+			{
+				"line": 29,
+				"name": "createView",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\fragments\\GobandroidGameAwareFragment.java"
+			},
+			{
+				"line": 19,
+				"name": "getData$Gobandroid_2_6_0_noAnalyticsNoCloudNoAutostartDebug",
+				"file": "C:\\Github\\gobandroid\\android\\build\\tmp\\kapt3\\stubs\\noAnalyticsNoCloudNoAutostartDebug\\org\\ligi\\gobandroid_hd\\ui\\links\\LinkListFragment.java"
+			},
+			{
+				"line": 59,
+				"name": "onCreate",
+				"file": "C:\\Github\\gobandroid\\android\\src\\main\\java\\org\\ligi\\gobandroid_hd\\ui\\BetterPopupWindow.java"
+			},
+			{
+				"line": 65,
+				"name": "onShow",
+				"file": "C:\\Github\\gobandroid\\android\\src\\main\\java\\org\\ligi\\gobandroid_hd\\ui\\BetterPopupWindow.java"
+			}
+		]
+	}
+}

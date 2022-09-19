@@ -1,0 +1,162 @@
+{
+	"sources": [
+		"C:\\Github\\PathfinderOpenReference"
+	],
+	"total": 33,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 140,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\HtmlRenderFarm.java"
+			},
+			{
+				"line": 141,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\HtmlRenderFarm.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\api\\AbstractContentProvider.java"
+			},
+			{
+				"line": 42,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\DbWrangler.java"
+			},
+			{
+				"line": 74,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\book\\BookDbAdapter.java"
+			},
+			{
+				"line": 89,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\book\\BookDbAdapter.java"
+			},
+			{
+				"line": 26,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiCasterListAdapter.java"
+			},
+			{
+				"line": 25,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiClassSpellListAdapter.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiCreatureListAdapter.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiFeatListAdapter.java"
+			},
+			{
+				"line": 26,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiFilteredClassSpellListAdapter.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiFilteredSpellListAdapter.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiSectionListAdapter.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiSkillListAdapter.java"
+			},
+			{
+				"line": 24,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\index\\ApiSpellListAdapter.java"
+			},
+			{
+				"line": 97,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\LinkRenderer.java"
+			},
+			{
+				"line": 94,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\MythicSpellRenderer.java"
+			},
+			{
+				"line": 181,
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\SpellRenderer.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 124,
+				"name": "isClosed",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\DbWrangler.java"
+			},
+			{
+				"line": 164,
+				"name": "isClosed",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\DbWrangler.java"
+			},
+			{
+				"line": 178,
+				"name": "isClosed",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\DbWrangler.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 76,
+				"name": "onViewCreated",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\DetailsViewFragment.java"
+			},
+			{
+				"line": 121,
+				"name": "onListItemClick",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\ExpandableListFragment.java"
+			},
+			{
+				"line": 188,
+				"name": "getFileId",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\api\\AbstractContentProvider.java"
+			},
+			{
+				"line": 58,
+				"name": "onCreate",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\db\\BaseDbHelper.java"
+			},
+			{
+				"line": 26,
+				"name": "renderTitle",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 28,
+				"name": "renderDetails",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 30,
+				"name": "renderFooter",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 32,
+				"name": "renderHeader",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 34,
+				"name": "renderBelow",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 68,
+				"name": "localSetValues",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 195,
+				"name": "fieldTitle",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\html\\HtmlRenderer.java"
+			},
+			{
+				"line": 7,
+				"name": "render",
+				"file": "C:\\Github\\PathfinderOpenReference\\app\\src\\main\\java\\org\\evilsoft\\pathfinder\\reference\\render\\json\\JsonRenderer.java"
+			}
+		]
+	}
+}

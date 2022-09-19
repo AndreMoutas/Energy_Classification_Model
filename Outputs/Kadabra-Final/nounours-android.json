@@ -1,0 +1,27 @@
+{
+	"sources": [
+		"C:\\Github\\nounours-android"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 344,
+				"file": "C:\\Github\\nounours-android\\handheld\\src\\main\\java\\android\\support\\v4\\content\\FileProvider.java"
+			},
+			{
+				"line": 668,
+				"file": "C:\\Github\\nounours-android\\handheld\\src\\main\\java\\android\\support\\v4\\content\\FileProvider.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 59,
+				"name": "getSettings",
+				"file": "C:\\Github\\nounours-android\\wear\\src\\main\\java\\ca\\rmen\\nounours\\android\\wear\\NounoursWatchFace.java"
+			}
+		]
+	}
+}

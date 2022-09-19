@@ -1,0 +1,1026 @@
+{
+	"sources": [
+		"C:\\Github\\Android_APK_2DGravity"
+	],
+	"total": 204,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 98,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\menu\\Activity_Menu_Levels.java"
+			},
+			{
+				"line": 61,
+				"name": "getObjectsCount",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\model\\WorldGenerator_Gravity.java"
+			},
+			{
+				"line": 77,
+				"name": "getGroundEntities",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\model\\WorldGenerator_Gravity.java"
+			},
+			{
+				"line": 77,
+				"name": "getKillersEntities_forChallengers",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\model\\WorldGenerator_Gravity.java"
+			},
+			{
+				"line": 79,
+				"name": "getMovingEntities",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\model\\WorldGenerator_Gravity.java"
+			},
+			{
+				"line": 88,
+				"name": "getMovingEntities",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\model\\World_Gravity.java"
+			},
+			{
+				"line": 126,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\main\\Activity_Main_Base2D.java"
+			},
+			{
+				"line": 110,
+				"name": "killed",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 142,
+				"name": "groundContact_X",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 170,
+				"name": "groundContact_Y",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 160,
+				"name": "getWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Player.java"
+			},
+			{
+				"line": 165,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Player.java"
+			},
+			{
+				"line": 169,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Player.java"
+			},
+			{
+				"line": 233,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Surface_Base.java"
+			},
+			{
+				"line": 238,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Surface_Base.java"
+			},
+			{
+				"line": 70,
+				"name": "getInstance",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\home_ads\\AdsContainer_HomeAds.java"
+			},
+			{
+				"line": 45,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 46,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 48,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 59,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 60,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 62,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 154,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 155,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 115,
+				"name": "getAchievementsManager",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\achievements\\AchievementsProvider_Base.java"
+			},
+			{
+				"line": 116,
+				"name": "getAchievementsManager",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\achievements\\AchievementsProvider_Base.java"
+			},
+			{
+				"line": 163,
+				"name": "getAchievementsManager",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\achievements\\AchievementsProvider_Base.java"
+			},
+			{
+				"line": 102,
+				"name": "getIconSize",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\marketing\\Activity_Marketing_ItemsList_BaseImpl.java"
+			},
+			{
+				"line": 106,
+				"name": "getDescriptionsDelim",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\marketing\\Activity_Marketing_ItemsList_BaseImpl.java"
+			},
+			{
+				"line": 95,
+				"name": "getIconSize",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\menu\\Activity_Menu_Base.java"
+			},
+			{
+				"line": 71,
+				"name": "getIconSize",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\menu\\Activity_Menu_Colours_Base.java"
+			},
+			{
+				"line": 71,
+				"name": "getIconSize",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\menu\\Activity_Menu_Colours_Base.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 88,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\AdsManager.java"
+			},
+			{
+				"line": 90,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\AdsManager.java"
+			},
+			{
+				"line": 92,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\AdsManager.java"
+			},
+			{
+				"line": 27,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsStore_NoCache.java"
+			},
+			{
+				"line": 20,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\stat\\model\\AdsData.java"
+			},
+			{
+				"line": 13,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 21,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\colours\\ConfigurationUtils_Colours.java"
+			},
+			{
+				"line": 23,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\model\\AchievementsData.java"
+			},
+			{
+				"line": 21,
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\model\\LevelsResults.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 121,
+				"name": "getGroundEntities_SolidOnly",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\World.java"
+			},
+			{
+				"line": 131,
+				"name": "getGroundEntities_NotSolidOnly",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\World.java"
+			},
+			{
+				"line": 101,
+				"name": "getSubType",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Base.java"
+			},
+			{
+				"line": 124,
+				"name": "getDx",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 126,
+				"name": "getDx",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 152,
+				"name": "getDy",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 154,
+				"name": "getDy",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 258,
+				"name": "getWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 258,
+				"name": "getRectangle_LeaderBoards",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_Base.java"
+			},
+			{
+				"line": 260,
+				"name": "getRectangle_LeaderBoards",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_Base.java"
+			},
+			{
+				"line": 368,
+				"name": "getRectangle_LeaderBoards",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_Base.java"
+			},
+			{
+				"line": 414,
+				"name": "getRectangle_LeaderBoards",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_Base.java"
+			},
+			{
+				"line": 460,
+				"name": "getRectangle_LeaderBoards",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_Base.java"
+			},
+			{
+				"line": 128,
+				"name": "getWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Surface_Base.java"
+			},
+			{
+				"line": 134,
+				"name": "getWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Surface_Base.java"
+			},
+			{
+				"line": 140,
+				"name": "getWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Surface_Base.java"
+			},
+			{
+				"line": 235,
+				"name": "getWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Surface_Base.java"
+			},
+			{
+				"line": 110,
+				"name": "getAdID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 116,
+				"name": "isLoading",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 118,
+				"name": "getAdID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 122,
+				"name": "getAdID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 123,
+				"name": "isActive",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 145,
+				"name": "getAdID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 157,
+				"name": "isLoading",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 180,
+				"name": "getExecutor",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 187,
+				"name": "getUiHandler",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 197,
+				"name": "getCurrentContainer",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 206,
+				"name": "getCurrentContainer",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 216,
+				"name": "isActive",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 217,
+				"name": "getCurrentContainer",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 222,
+				"name": "getCurrentContainer",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 224,
+				"name": "getExecutor",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 239,
+				"name": "getUiHandler",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 247,
+				"name": "getCurrentContainer",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 257,
+				"name": "getAdID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 267,
+				"name": "isActive",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 270,
+				"name": "isLoading",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 279,
+				"name": "isLoading",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 300,
+				"name": "isActive",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 313,
+				"name": "isActive",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\flow\\AdLoadFlow_Base.java"
+			},
+			{
+				"line": 61,
+				"name": "getAnalytics",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base_Ads.java"
+			},
+			{
+				"line": 76,
+				"name": "getEngagementProvider",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 77,
+				"name": "getEngagementProvider",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 78,
+				"name": "getEngagementProvider",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 117,
+				"name": "getAnalytics",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 220,
+				"name": "getAnalytics",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 246,
+				"name": "getAppStore",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 154,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 155,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 161,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 162,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 165,
+				"name": "getAll",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\ConfigurationUtils_Base.java"
+			},
+			{
+				"line": 52,
+				"name": "getName",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\menu\\Config_MenuMain_Company_Offline.java"
+			},
+			{
+				"line": 54,
+				"name": "getAppStore",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\cfg\\publishedapp\\PublishedApplication_Base.java"
+			},
+			{
+				"line": 126,
+				"name": "isConnected",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\social\\SocialProvider_Dummy.java"
+			},
+			{
+				"line": 293,
+				"name": "getLayout",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 295,
+				"name": "getLayoutID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 317,
+				"name": "getExecutor",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 338,
+				"name": "getExecutor",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 60,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 68,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 80,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 107,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 108,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 109,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 110,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 111,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 115,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 117,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 120,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 122,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 178,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 194,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 263,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 264,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 309,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 315,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 324,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 326,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 334,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 336,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 360,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 375,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 384,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			},
+			{
+				"line": 396,
+				"name": "getWebView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 79,
+				"name": "getConfigurationLevels",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_APP_2DGravity\\app\\src\\main\\java\\org\\metatrans\\apps\\gravity\\menu\\Activity_Menu_Levels.java"
+			},
+			{
+				"line": 24,
+				"name": "setNextLevel",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\app\\Application_2D_Base.java"
+			},
+			{
+				"line": 26,
+				"name": "createNewWorld",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\app\\Application_2D_Base.java"
+			},
+			{
+				"line": 85,
+				"name": "createMainView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\main\\Activity_Main_Base2D.java"
+			},
+			{
+				"line": 44,
+				"name": "getBackgroundColour",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Base.java"
+			},
+			{
+				"line": 49,
+				"name": "getBitmap",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Base.java"
+			},
+			{
+				"line": 54,
+				"name": "getBitmapTransparency",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Base.java"
+			},
+			{
+				"line": 95,
+				"name": "getTestIterations",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 239,
+				"name": "groundContact_X",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 244,
+				"name": "groundContact_Y",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 249,
+				"name": "killed",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\model\\entities\\Entity2D_Moving.java"
+			},
+			{
+				"line": 51,
+				"name": "createMainView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\Activity_Base2D.java"
+			},
+			{
+				"line": 107,
+				"name": "getBitmapControl_Player",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_4Controls_4Fire.java"
+			},
+			{
+				"line": 108,
+				"name": "getBitmapControl_Shot",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_4Controls_4Fire.java"
+			},
+			{
+				"line": 106,
+				"name": "getMainMenuClass",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons2D\\app\\src\\main\\java\\org\\metatrans\\commons\\graphics2d\\ui\\View_Main_Base.java"
+			},
+			{
+				"line": 79,
+				"name": "getBannerName",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\Activity_Base_Ads_Banner.java"
+			},
+			{
+				"line": 47,
+				"name": "attachBanner_Initially",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 51,
+				"name": "canWorkOffline",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 55,
+				"name": "createBanner",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 56,
+				"name": "createBannerListener",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 57,
+				"name": "destroyBanner",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 58,
+				"name": "request_sync_banner",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 64,
+				"name": "createInterstitial",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 65,
+				"name": "createInterstitialListener",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 66,
+				"name": "destroyInterstitial",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 67,
+				"name": "showInterstitial",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\AdsContainer_Base.java"
+			},
+			{
+				"line": 36,
+				"name": "getExcludedStores",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\home_ads\\AdsContainer_HomeAds_BaseImpl.java"
+			},
+			{
+				"line": 47,
+				"name": "getNextHomeAdInfo",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\home_ads\\AdsContainer_HomeAds_BaseImpl.java"
+			},
+			{
+				"line": 51,
+				"name": "openTarget",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\home_ads\\AdsContainer_HomeAds_BaseImpl.java"
+			},
+			{
+				"line": 54,
+				"name": "createInterstitialIntent",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\home_ads\\AdsContainer_HomeAds_BaseImpl.java"
+			},
+			{
+				"line": 80,
+				"name": "getCurrentHomeAdsSubContainer",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\ads\\impl\\providers\\home_ads\\AdsContainer_HomeAds_BaseImpl.java"
+			},
+			{
+				"line": 32,
+				"name": "getAdsConfigurations",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base_Ads.java"
+			},
+			{
+				"line": 23,
+				"name": "getBannerName",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base_Ads.java"
+			},
+			{
+				"line": 26,
+				"name": "getInterstitialName",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base_Ads.java"
+			},
+			{
+				"line": 53,
+				"name": "createView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\main\\Activity_Result_Base_Ads.java"
+			},
+			{
+				"line": 55,
+				"name": "startNewGame",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_CommonsAds\\app\\src\\main\\java\\org\\metatrans\\commons\\main\\Activity_Result_Base_Ads.java"
+			},
+			{
+				"line": 68,
+				"name": "getBackgroundImageID",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\Activity_Base.java"
+			},
+			{
+				"line": 170,
+				"name": "getBitmapCache",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\Activity_Base.java"
+			},
+			{
+				"line": 38,
+				"name": "sentNotification",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\achievements\\AchievementsManager_Base.java"
+			},
+			{
+				"line": 85,
+				"name": "getAppConfig",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 90,
+				"name": "getKeywords",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 95,
+				"name": "createSocialProvider",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 100,
+				"name": "createLeaderboardsProvider",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 105,
+				"name": "createAchievementsProvider",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 110,
+				"name": "createAchievementsManager",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 142,
+				"name": "isTestMode",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 145,
+				"name": "createUserSettingsObject",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 159,
+				"name": "createGameDataObject",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 237,
+				"name": "getAppStore",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\app\\Application_Base.java"
+			},
+			{
+				"line": 123,
+				"name": "getResID_Icon_Leaderboard",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\leaderboards\\View_Achievements_And_Leaderboards_Base.java"
+			},
+			{
+				"line": 125,
+				"name": "getResID_Button_OpenLeaderboard",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\leaderboards\\View_Achievements_And_Leaderboards_Base.java"
+			},
+			{
+				"line": 127,
+				"name": "getResID_Button_OpenAchievements",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\leaderboards\\View_Achievements_And_Leaderboards_Base.java"
+			},
+			{
+				"line": 225,
+				"name": "getResID_Button_SignIn",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\social\\View_Social_SignIn_Base.java"
+			},
+			{
+				"line": 227,
+				"name": "getResID_Button_SignOut",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\social\\View_Social_SignIn_Base.java"
+			},
+			{
+				"line": 229,
+				"name": "getResID_Button_InProgress",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\engagement\\social\\View_Social_SignIn_Base.java"
+			},
+			{
+				"line": 496,
+				"name": "handleAchievements",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\events\\EventsManager_Base.java"
+			},
+			{
+				"line": 83,
+				"name": "getNextActivityClass",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 85,
+				"name": "getActivityClass_Menu2",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 87,
+				"name": "getLoadingView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 89,
+				"name": "getColoursCfg",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 91,
+				"name": "openInterstitial",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 113,
+				"name": "getText_Menu2",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\Activity_Loading_Base.java"
+			},
+			{
+				"line": 75,
+				"name": "getCommonBitmaps",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_2Buttons.java"
+			},
+			{
+				"line": 76,
+				"name": "getBitmapBackground",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_2Buttons.java"
+			},
+			{
+				"line": 84,
+				"name": "getRectangle_InviteFriends",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_2Buttons.java"
+			},
+			{
+				"line": 89,
+				"name": "getRectangle_GooglePlus",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_2Buttons.java"
+			},
+			{
+				"line": 78,
+				"name": "getCommonBitmaps",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_3Buttons.java"
+			},
+			{
+				"line": 79,
+				"name": "getBitmapBackground",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_3Buttons.java"
+			},
+			{
+				"line": 87,
+				"name": "getRectangle_InviteFriends",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_3Buttons.java"
+			},
+			{
+				"line": 92,
+				"name": "getRectangle_GooglePlus",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_3Buttons.java"
+			},
+			{
+				"line": 81,
+				"name": "getCommonBitmaps",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_Base.java"
+			},
+			{
+				"line": 82,
+				"name": "getBitmapBackground",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\loading\\View_Loading_Base.java"
+			},
+			{
+				"line": 83,
+				"name": "isAvailable",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\marketing\\Activity_Marketing_ItemsList_BaseImpl.java"
+			},
+			{
+				"line": 86,
+				"name": "getItemsList",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\marketing\\Activity_Marketing_ItemsList_BaseImpl.java"
+			},
+			{
+				"line": 89,
+				"name": "openTarget",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\marketing\\Activity_Marketing_ItemsList_BaseImpl.java"
+			},
+			{
+				"line": 134,
+				"name": "getDescriptionsDelim",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\marketing\\Activity_Marketing_ItemsList_BaseImpl.java"
+			},
+			{
+				"line": 203,
+				"name": "handleCustomView",
+				"file": "C:\\Github\\Android_APK_2DGravity\\Android_LIB_Commons\\app\\src\\main\\java\\org\\metatrans\\commons\\web\\Activity_WebView_StatePreservingImpl.java"
+			}
+		]
+	}
+}

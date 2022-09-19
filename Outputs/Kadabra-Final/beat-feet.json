@@ -1,0 +1,17 @@
+{
+	"sources": [
+		"C:\\Github\\beat-feet"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 40,
+				"file": "C:\\Github\\beat-feet\\core\\test\\de\\tomgrill\\gdxtesting\\GdxTestRunner.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

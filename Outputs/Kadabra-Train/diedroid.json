@@ -1,0 +1,58 @@
+{
+	"sources": [
+		"C:\\Github\\diedroid"
+	],
+	"total": 9,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 35,
+				"name": "onNothingSelected",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\DiceSpinListener.java"
+			},
+			{
+				"line": 74,
+				"name": "onStartTrackingTouch",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\PoolDialog.java"
+			},
+			{
+				"line": 79,
+				"name": "onStopTrackingTouch",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\PoolDialog.java"
+			},
+			{
+				"line": 147,
+				"name": "onNothingSelected",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\StatsActivity.java"
+			},
+			{
+				"line": 214,
+				"name": "onStartTrackingTouch",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\StatsActivity.java"
+			},
+			{
+				"line": 219,
+				"name": "onStopTrackingTouch",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\StatsActivity.java"
+			},
+			{
+				"line": 85,
+				"name": "onNothingSelected",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\StatsFragment.java"
+			},
+			{
+				"line": 156,
+				"name": "onStartTrackingTouch",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\StatsFragment.java"
+			},
+			{
+				"line": 161,
+				"name": "onStopTrackingTouch",
+				"file": "C:\\Github\\diedroid\\app\\src\\main\\java\\net\\logomancy\\diedroid\\StatsFragment.java"
+			}
+		]
+	}
+}

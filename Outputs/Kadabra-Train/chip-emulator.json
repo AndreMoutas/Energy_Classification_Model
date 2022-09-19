@@ -1,0 +1,49 @@
+{
+	"sources": [
+		"C:\\Github\\chip-emulator"
+	],
+	"total": 8,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 43,
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\CPU.java"
+			},
+			{
+				"line": 16,
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\instructions\\Instruction_0x0000.java"
+			},
+			{
+				"line": 23,
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\instructions\\Instruction_0x8000.java"
+			},
+			{
+				"line": 16,
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\instructions\\Instruction_0xE000.java"
+			},
+			{
+				"line": 23,
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\instructions\\Instruction_0xF000.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 7,
+				"name": "getFontAddress",
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\Memory.java"
+			},
+			{
+				"line": 11,
+				"name": "getProgramAddress",
+				"file": "C:\\Github\\chip-emulator\\app\\src\\main\\java\\com\\dkanada\\chip\\core\\Memory.java"
+			},
+			{
+				"line": 26,
+				"name": "tearDown",
+				"file": "C:\\Github\\chip-emulator\\app\\src\\test\\java\\com\\dkanada\\chip\\core\\InstructionTest.java"
+			}
+		]
+	}
+}

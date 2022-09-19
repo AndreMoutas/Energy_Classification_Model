@@ -1,0 +1,38 @@
+{
+	"sources": [
+		"C:\\Github\\24-game"
+	],
+	"total": 5,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 219,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\24-game\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 911,
+				"name": "nativeCommitText",
+				"file": "C:\\Github\\24-game\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 913,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\24-game\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 931,
+				"name": "handleMotionEvent",
+				"file": "C:\\Github\\24-game\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 935,
+				"name": "pollInputDevices",
+				"file": "C:\\Github\\24-game\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			}
+		]
+	}
+}

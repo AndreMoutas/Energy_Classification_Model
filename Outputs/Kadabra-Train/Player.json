@@ -1,0 +1,294 @@
+{
+	"sources": [
+		"C:\\Github\\Player"
+	],
+	"total": 56,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 66,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\button_mapping\\ButtonMappingActivity.java"
+			},
+			{
+				"line": 139,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\button_mapping\\ButtonMappingActivity.java"
+			},
+			{
+				"line": 142,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\button_mapping\\ButtonMappingActivity.java"
+			},
+			{
+				"line": 144,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\button_mapping\\ButtonMappingActivity.java"
+			},
+			{
+				"line": 176,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\player\\EasyRpgPlayerActivity.java"
+			},
+			{
+				"line": 322,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\player\\EasyRpgPlayerActivity.java"
+			},
+			{
+				"line": 336,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\player\\EasyRpgPlayerActivity.java"
+			},
+			{
+				"line": 346,
+				"name": "getButtonList",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\player\\EasyRpgPlayerActivity.java"
+			},
+			{
+				"line": 181,
+				"name": "getLibraries",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 54,
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 55,
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 84,
+				"name": "isFavorite",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\game_browser\\Game.java"
+			},
+			{
+				"line": 84,
+				"name": "isFavorite",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\game_browser\\Game.java"
+			},
+			{
+				"line": 87,
+				"name": "isFavorite",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\game_browser\\Game.java"
+			},
+			{
+				"line": 87,
+				"name": "isFavorite",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\game_browser\\Game.java"
+			},
+			{
+				"line": 117,
+				"name": "getTitle",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\game_browser\\Game.java"
+			},
+			{
+				"line": 251,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 302,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 424,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 460,
+				"name": "getId",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 471,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 472,
+				"name": "getId",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 473,
+				"name": "getId",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 486,
+				"name": "getId",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 579,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 596,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 611,
+				"name": "isRegistered",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 140,
+				"name": "sendSDLDownMessage",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\button_mapping\\VirtualCross.java"
+			},
+			{
+				"line": 145,
+				"name": "sendSDLUpMessage",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\button_mapping\\VirtualCross.java"
+			},
+			{
+				"line": 295,
+				"name": "getProjectPath",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\easyrpg\\player\\player\\EasyRpgPlayerActivity.java"
+			},
+			{
+				"line": 490,
+				"name": "onDescriptorRead",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 511,
+				"name": "onReliableWriteCompleted",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 515,
+				"name": "onReadRemoteRssi",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 519,
+				"name": "onMtuChanged",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 678,
+				"name": "HIDDeviceConnected",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 679,
+				"name": "HIDDeviceOpenPending",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 680,
+				"name": "HIDDeviceOpenResult",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 681,
+				"name": "HIDDeviceDisconnected",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 683,
+				"name": "HIDDeviceInputReport",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 684,
+				"name": "HIDDeviceFeatureReport",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 155,
+				"name": "getMainFunction",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 167,
+				"name": "getLibraries",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 323,
+				"name": "pauseNativeThread",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 334,
+				"name": "resumeNativeThread",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 631,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2268,
+				"name": "nativeGenerateScancodeForUnichar",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2270,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 133,
+				"name": "handleMotionEvent",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 140,
+				"name": "pollInputDevices",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 290,
+				"name": "getProductId",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 293,
+				"name": "getVendorId",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 296,
+				"name": "getButtonMask",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 596,
+				"name": "supportsRelativeMouse",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 600,
+				"name": "inRelativeMode",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 604,
+				"name": "setRelativeMouseEnabled",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 608,
+				"name": "reclaimRelativeMouseModeIfNeeded",
+				"file": "C:\\Github\\Player\\builds\\android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			}
+		]
+	}
+}

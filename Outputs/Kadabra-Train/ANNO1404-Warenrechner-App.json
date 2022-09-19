@@ -1,0 +1,270 @@
+{
+	"sources": [
+		"C:\\Github\\ANNO1404-Warenrechner-App"
+	],
+	"total": 52,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 228,
+				"name": "population",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\DataManager.java"
+			},
+			{
+				"line": 242,
+				"name": "population",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\DataManager.java"
+			},
+			{
+				"line": 71,
+				"name": "getMaterials",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 77,
+				"name": "population",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 138,
+				"name": "getBuilding",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 138,
+				"name": "getRequires",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 143,
+				"name": "getChains",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 147,
+				"name": "getChains",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 153,
+				"name": "getChains",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 110,
+				"name": "population",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\main\\GameListAdapter.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 45,
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 65,
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 70,
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 19,
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 57,
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Logic.java"
+			},
+			{
+				"line": 13,
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Population.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 163,
+				"name": "getBeggarPrince",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 178,
+				"name": "getEnvoysFavour",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 196,
+				"name": "getId",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 196,
+				"name": "getId",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Game.java"
+			},
+			{
+				"line": 78,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 79,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 100,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 107,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 112,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 113,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 119,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 120,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 124,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 130,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 135,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 141,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 144,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 145,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 152,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 160,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 161,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 170,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 173,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			},
+			{
+				"line": 177,
+				"name": "getTonsPerMin",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\ProductionBuilding.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 38,
+				"name": "provideGson",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\AppModule.java"
+			},
+			{
+				"line": 59,
+				"name": "provideDataManager",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\AppModule.java"
+			},
+			{
+				"line": 14,
+				"name": "doTask",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\data\\Task.java"
+			},
+			{
+				"line": 19,
+				"name": "getLayoutId",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\BaseActivity.java"
+			},
+			{
+				"line": 19,
+				"name": "getLayoutId",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\BaseFragment.java"
+			},
+			{
+				"line": 21,
+				"name": "onViewCreated",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\BaseFragment.java"
+			},
+			{
+				"line": 44,
+				"name": "providePopulationAdapter",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\GameActivityModule.java"
+			},
+			{
+				"line": 49,
+				"name": "provideChainsAdapter",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\GameActivityModule.java"
+			},
+			{
+				"line": 54,
+				"name": "provideChainsDetailAdapter",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\GameActivityModule.java"
+			},
+			{
+				"line": 59,
+				"name": "provideOtherGoodsOverviewAdapter",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\GameActivityModule.java"
+			},
+			{
+				"line": 64,
+				"name": "provideOtherGoodsDetailAdapter",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\GameActivityModule.java"
+			},
+			{
+				"line": 29,
+				"name": "provideGameListAdapter",
+				"file": "C:\\Github\\ANNO1404-Warenrechner-App\\app\\src\\main\\java\\de\\ktran\\anno1404warenrechner\\views\\MainActivityModule.java"
+			}
+		]
+	}
+}

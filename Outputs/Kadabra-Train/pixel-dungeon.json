@@ -1,0 +1,539 @@
+{
+	"sources": [
+		"C:\\Github\\pixel-dungeon"
+	],
+	"total": 107,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 630,
+				"name": "all",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 651,
+				"name": "all",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 200,
+				"name": "isAlive",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 236,
+				"name": "buffs",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 162,
+				"name": "all",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\mobs\\King.java"
+			},
+			{
+				"line": 67,
+				"name": "attackDelay",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\armor\\HuntressArmor.java"
+			},
+			{
+				"line": 98,
+				"name": "busy",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\quest\\Pickaxe.java"
+			},
+			{
+				"line": 56,
+				"name": "all",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\wands\\WandOfFlock.java"
+			},
+			{
+				"line": 37,
+				"name": "damageRoll",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\weapon\\enchantments\\Luck.java"
+			},
+			{
+				"line": 438,
+				"name": "tunnelTile",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\RegularLevel.java"
+			},
+			{
+				"line": 216,
+				"name": "align",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\scenes\\StartScene.java"
+			},
+			{
+				"line": 110,
+				"name": "buffs",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\ui\\BuffIndicator.java"
+			},
+			{
+				"line": 54,
+				"name": "align",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndBadge.java"
+			},
+			{
+				"line": 131,
+				"name": "tabHeight",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndBag.java"
+			},
+			{
+				"line": 105,
+				"name": "tabHeight",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndCatalogus.java"
+			},
+			{
+				"line": 125,
+				"name": "getKnown",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndCatalogus.java"
+			},
+			{
+				"line": 125,
+				"name": "getKnown",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndCatalogus.java"
+			},
+			{
+				"line": 85,
+				"name": "tabHeight",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndHero.java"
+			},
+			{
+				"line": 180,
+				"name": "buffs",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndHero.java"
+			},
+			{
+				"line": 117,
+				"name": "tabHeight",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndRanking.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 27,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\GamesInProgress.java"
+			},
+			{
+				"line": 54,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\effects\\SpellSprite.java"
+			},
+			{
+				"line": 75,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Generator.java"
+			},
+			{
+				"line": 40,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\ItemStatusHandler.java"
+			},
+			{
+				"line": 41,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\ItemStatusHandler.java"
+			},
+			{
+				"line": 65,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\ItemStatusHandler.java"
+			},
+			{
+				"line": 66,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\ItemStatusHandler.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\armor\\HuntressArmor.java"
+			},
+			{
+				"line": 158,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 226,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 39,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Room.java"
+			},
+			{
+				"line": 79,
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\scenes\\StartScene.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 260,
+				"name": "immunities",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 262,
+				"name": "resistances",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 195,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 304,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 309,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 399,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 401,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 405,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 407,
+				"name": "name",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 217,
+				"name": "color",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\potions\\Potion.java"
+			},
+			{
+				"line": 51,
+				"name": "min0",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\weapon\\melee\\MeleeWeapon.java"
+			},
+			{
+				"line": 51,
+				"name": "min0",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\weapon\\melee\\MeleeWeapon.java"
+			},
+			{
+				"line": 105,
+				"name": "min0",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\weapon\\melee\\MeleeWeapon.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 42,
+				"name": "act",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 62,
+				"name": "onAdd",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 64,
+				"name": "onRemove",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 158,
+				"name": "next",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 219,
+				"name": "attackSkill",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 223,
+				"name": "defenseSkill",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 227,
+				"name": "defenseVerb",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 231,
+				"name": "dr",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 235,
+				"name": "damageRoll",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 239,
+				"name": "attackProc",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 243,
+				"name": "defenseProc",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 470,
+				"name": "stealth",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 516,
+				"name": "resistances",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 520,
+				"name": "immunities",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 189,
+				"name": "tileDesc",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 114,
+				"name": "affectHero",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 118,
+				"name": "affectItem",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 50,
+				"name": "icon",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\buffs\\Buff.java"
+			},
+			{
+				"line": 266,
+				"name": "attackDelay",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 395,
+				"name": "reset",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 409,
+				"name": "description",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 51,
+				"name": "interact",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\actors\\mobs\\npcs\\NPC.java"
+			},
+			{
+				"line": 69,
+				"name": "time2equip",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\EquipableItem.java"
+			},
+			{
+				"line": 73,
+				"name": "doEquip",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\EquipableItem.java"
+			},
+			{
+				"line": 125,
+				"name": "doThrow",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 250,
+				"name": "onDetach",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 333,
+				"name": "getBroken",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 350,
+				"name": "maxDurability",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 370,
+				"name": "isUpgradable",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 378,
+				"name": "isEquipped",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 424,
+				"name": "glowing",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 432,
+				"name": "desc",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 481,
+				"name": "random",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 88,
+				"name": "activate",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 91,
+				"name": "min",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 92,
+				"name": "max",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 98,
+				"name": "acuracyFactor",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 102,
+				"name": "speedFactor",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 106,
+				"name": "proc",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 114,
+				"name": "special",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\armor\\ClassArmor.java"
+			},
+			{
+				"line": 115,
+				"name": "doSpecial",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\armor\\ClassArmor.java"
+			},
+			{
+				"line": 134,
+				"name": "grab",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\bags\\Bag.java"
+			},
+			{
+				"line": 326,
+				"name": "buff",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\rings\\Ring.java"
+			},
+			{
+				"line": 68,
+				"name": "onItemSelected",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\scrolls\\InventoryScroll.java"
+			},
+			{
+				"line": 126,
+				"name": "doRead",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\scrolls\\Scroll.java"
+			},
+			{
+				"line": 178,
+				"name": "onZap",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 329,
+				"name": "adjustPos",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 333,
+				"name": "tilesTex",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 337,
+				"name": "waterTex",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 341,
+				"name": "build",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 343,
+				"name": "decorate",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 345,
+				"name": "createMobs",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 347,
+				"name": "createItems",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 360,
+				"name": "nMobs",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 91,
+				"name": "desc",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\plants\\Plant.java"
+			},
+			{
+				"line": 243,
+				"name": "blood",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\sprites\\CharSprite.java"
+			},
+			{
+				"line": 55,
+				"name": "get",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\ui\\Icons.java"
+			},
+			{
+				"line": 103,
+				"name": "onClick",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\ui\\ScrollPane.java"
+			},
+			{
+				"line": 83,
+				"name": "onClose",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\ui\\Toast.java"
+			},
+			{
+				"line": 153,
+				"name": "onMenuPressed",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\ui\\Window.java"
+			},
+			{
+				"line": 68,
+				"name": "onSelect",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 104,
+				"name": "tabHeight",
+				"file": "C:\\Github\\pixel-dungeon\\src\\com\\watabou\\pixeldungeon\\windows\\WndTabbed.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,259 @@
+{
+	"sources": [
+		"C:\\Github\\openmw-android"
+	],
+	"total": 49,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 156,
+				"name": "getLibraries",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 653,
+				"name": "isShowHidden",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\fragments\\SecondaryChooserFragment.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 53,
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 54,
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 251,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 302,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 424,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 460,
+				"name": "getId",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 471,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 472,
+				"name": "getId",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 473,
+				"name": "getId",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 486,
+				"name": "getId",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 579,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 596,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 611,
+				"name": "isRegistered",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 74,
+				"name": "getChooserActivity",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\StorageChooser.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 490,
+				"name": "onDescriptorRead",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 511,
+				"name": "onReliableWriteCompleted",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 515,
+				"name": "onReadRemoteRssi",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 519,
+				"name": "onMtuChanged",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 662,
+				"name": "HIDDeviceConnected",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 663,
+				"name": "HIDDeviceOpenPending",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 664,
+				"name": "HIDDeviceOpenResult",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 665,
+				"name": "HIDDeviceDisconnected",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 667,
+				"name": "HIDDeviceInputReport",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 668,
+				"name": "HIDDeviceFeatureReport",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 130,
+				"name": "getMainFunction",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 142,
+				"name": "getLibraries",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 167,
+				"name": "getArguments",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 287,
+				"name": "pauseNativeThread",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 298,
+				"name": "resumeNativeThread",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 582,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2359,
+				"name": "nativeGenerateScancodeForUnichar",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2361,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 128,
+				"name": "handleMotionEvent",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 135,
+				"name": "pollInputDevices",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 284,
+				"name": "getProductId",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 287,
+				"name": "getVendorId",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 290,
+				"name": "getButtonMask",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 586,
+				"name": "supportsRelativeMouse",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 590,
+				"name": "inRelativeMode",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 594,
+				"name": "setRelativeMouseEnabled",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 598,
+				"name": "reclaimRelativeMouseModeIfNeeded",
+				"file": "C:\\Github\\openmw-android\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 112,
+				"name": "setOnSelectListener",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\StorageChooser.java"
+			},
+			{
+				"line": 117,
+				"name": "setOnCancelListener",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\StorageChooser.java"
+			},
+			{
+				"line": 121,
+				"name": "setOnMultipleSelectListener",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\StorageChooser.java"
+			},
+			{
+				"line": 36,
+				"name": "arrangeAscending",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\utils\\FileUtil.java"
+			},
+			{
+				"line": 112,
+				"name": "suffixedSize",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\main\\java\\com\\codekidlabs\\storagechooser\\utils\\MemoryUtil.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\openmw-android\\storagechooser\\src\\test\\java\\com\\codekidlabs\\storagechooser\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

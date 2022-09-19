@@ -1,0 +1,38 @@
+{
+	"sources": [
+		"C:\\Github\\dot-race"
+	],
+	"total": 5,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 219,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\dot-race\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 911,
+				"name": "nativeCommitText",
+				"file": "C:\\Github\\dot-race\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 913,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\dot-race\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 931,
+				"name": "handleMotionEvent",
+				"file": "C:\\Github\\dot-race\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 935,
+				"name": "pollInputDevices",
+				"file": "C:\\Github\\dot-race\\android\\src\\org\\libsdl\\app\\SDLActivity.java"
+			}
+		]
+	}
+}

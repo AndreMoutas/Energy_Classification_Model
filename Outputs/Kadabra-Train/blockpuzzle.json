@@ -1,0 +1,527 @@
+{
+	"sources": [
+		"C:\\Github\\blockpuzzle"
+	],
+	"total": 103,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 43,
+				"name": "getSpecialBlockTypes",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\block\\BlockTypes.java"
+			},
+			{
+				"line": 122,
+				"name": "getSpaceObjects",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\ClusterView.java"
+			},
+			{
+				"line": 123,
+				"name": "getInfo",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\ClusterView.java"
+			},
+			{
+				"line": 124,
+				"name": "getInfo",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\ClusterView.java"
+			},
+			{
+				"line": 144,
+				"name": "getSpaceObjects",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\ClusterView.java"
+			},
+			{
+				"line": 21,
+				"name": "getYlist",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 30,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 30,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 30,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 38,
+				"name": "getXlist",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 47,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 47,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 47,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\place\\SpecialBlockBonusPlaceAction.java"
+			},
+			{
+				"line": 171,
+				"name": "getGameDefinitions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\deathstar\\DeathStar.java"
+			},
+			{
+				"line": 67,
+				"name": "getX",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\deathstar\\SpaceNebula.java"
+			},
+			{
+				"line": 67,
+				"name": "getY",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\deathstar\\SpaceNebula.java"
+			},
+			{
+				"line": 49,
+				"name": "getSpecialBlockTypes",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamepiece\\RandomGamePiece.java"
+			},
+			{
+				"line": 146,
+				"name": "getYlist",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 151,
+				"name": "getXlist",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 176,
+				"name": "getXlist",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 178,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 178,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 183,
+				"name": "getYlist",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 185,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 185,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingField.java"
+			},
+			{
+				"line": 154,
+				"name": "getBr",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingFieldView.java"
+			},
+			{
+				"line": 154,
+				"name": "getBr",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingFieldView.java"
+			},
+			{
+				"line": 154,
+				"name": "getBr",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingFieldView.java"
+			},
+			{
+				"line": 154,
+				"name": "getBr",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingFieldView.java"
+			},
+			{
+				"line": 26,
+				"name": "getRows",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationAction.java"
+			},
+			{
+				"line": 38,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationAction.java"
+			},
+			{
+				"line": 57,
+				"name": "getRows",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 65,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 75,
+				"name": "getRows",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 83,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 20,
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\block\\BlockTypes.java"
+			},
+			{
+				"line": 22,
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\block\\BlockTypes.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\ClusterViewModel.java"
+			},
+			{
+				"line": 12,
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\SpaceObjectStates.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 43,
+				"name": "getSpecialBlockTypes",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\block\\BlockTypes.java"
+			},
+			{
+				"line": 56,
+				"name": "getBlockType",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\block\\special\\SpecialBock.java"
+			},
+			{
+				"line": 158,
+				"name": "getName",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\deathstar\\DeathStar.java"
+			},
+			{
+				"line": 166,
+				"name": "getGameDefinitions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\deathstar\\DeathStar.java"
+			},
+			{
+				"line": 171,
+				"name": "getGameDefinitions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\deathstar\\DeathStar.java"
+			},
+			{
+				"line": 41,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 51,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 51,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 53,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 53,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 66,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 74,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 122,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 122,
+				"name": "getMinimumLiberationScore",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 41,
+				"name": "getPlanet",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 73,
+				"name": "get",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\GameState.java"
+			},
+			{
+				"line": 79,
+				"name": "get",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\GameState.java"
+			},
+			{
+				"line": 168,
+				"name": "getGamePieceView1",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\Spielstand.java"
+			},
+			{
+				"line": 169,
+				"name": "getGamePieceView2",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\Spielstand.java"
+			},
+			{
+				"line": 170,
+				"name": "getGamePieceView3",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\Spielstand.java"
+			},
+			{
+				"line": 171,
+				"name": "getGamePieceViewP",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\Spielstand.java"
+			},
+			{
+				"line": 35,
+				"name": "getDefinition",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\StoneWarsGameState.java"
+			},
+			{
+				"line": 79,
+				"name": "getGravitation",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractPlanet.java"
+			},
+			{
+				"line": 94,
+				"name": "getGameDefinitions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractPlanet.java"
+			},
+			{
+				"line": 176,
+				"name": "getGameDefinitions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractPlanet.java"
+			},
+			{
+				"line": 196,
+				"name": "getGameDefinitions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractPlanet.java"
+			},
+			{
+				"line": 24,
+				"name": "getCluster",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractSpaceObject.java"
+			},
+			{
+				"line": 95,
+				"name": "getBlocks",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingFieldView.java"
+			},
+			{
+				"line": 146,
+				"name": "getBlocks",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\PlayingFieldView.java"
+			},
+			{
+				"line": 57,
+				"name": "getRows",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 65,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 75,
+				"name": "getRows",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 83,
+				"name": "getExclusions",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			},
+			{
+				"line": 90,
+				"name": "isFirstGravitationPlayed",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\playingfield\\gravitation\\GravitationData.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 44,
+				"name": "getRandomMax",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\block\\special\\SpecialBock.java"
+			},
+			{
+				"line": 25,
+				"name": "getGalaxyShortName",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\cluster\\Cluster.java"
+			},
+			{
+				"line": 194,
+				"name": "isHandleNoGamePiecesAllowed",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\GameEngine.java"
+			},
+			{
+				"line": 334,
+				"name": "isNewGameButtonVisible",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\GameEngine.java"
+			},
+			{
+				"line": 79,
+				"name": "createGameState",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\GameEngineBuilder.java"
+			},
+			{
+				"line": 96,
+				"name": "getDetectOneColorAreaAction",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\GameEngineBuilder.java"
+			},
+			{
+				"line": 103,
+				"name": "createGameEngine",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\GameEngineBuilder.java"
+			},
+			{
+				"line": 37,
+				"name": "getCheck4VictoryPlaceAction",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\game\\stonewars\\StoneWarsGameEngineBuilder.java"
+			},
+			{
+				"line": 57,
+				"name": "getShortGameName",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\ClassicGameDefinition.java"
+			},
+			{
+				"line": 64,
+				"name": "wonGameIfPlayingFieldIsEmpty",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 71,
+				"name": "showMoves",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 81,
+				"name": "fillStartPlayingField",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 92,
+				"name": "getDescription",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 100,
+				"name": "isLiberated",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 107,
+				"name": "scoreChanged",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\GameDefinition.java"
+			},
+			{
+				"line": 14,
+				"name": "getGravitationStartRow",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 18,
+				"name": "getGamePieceBlocksScoreFactor",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 22,
+				"name": "getHitsScoreFactor",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 26,
+				"name": "isRowsAdditionalBonusEnabled",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 30,
+				"name": "gameGoesOnAfterWonGame",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 34,
+				"name": "createNextGamePieceGenerator",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 38,
+				"name": "isWonAfterNoGamePieces",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 46,
+				"name": "isCrushAllowed",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamedefinition\\OldGameDefinition.java"
+			},
+			{
+				"line": 45,
+				"name": "move",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamepiece\\AbstractBPTouchListener.java"
+			},
+			{
+				"line": 47,
+				"name": "up",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamepiece\\AbstractBPTouchListener.java"
+			},
+			{
+				"line": 45,
+				"name": "isDragAllowed",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamepiece\\GamePieceTouchListener.java"
+			},
+			{
+				"line": 20,
+				"name": "createGameDefinition",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\gamestate\\GameState.java"
+			},
+			{
+				"line": 23,
+				"name": "getTClass",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\global\\AbstractDAO.java"
+			},
+			{
+				"line": 152,
+				"name": "getPaint",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractPlanet.java"
+			},
+			{
+				"line": 154,
+				"name": "getOwnerMarkXFactor",
+				"file": "C:\\Github\\blockpuzzle\\app\\src\\main\\java\\de\\mwvb\\blockpuzzle\\planet\\AbstractPlanet.java"
+			}
+		]
+	}
+}

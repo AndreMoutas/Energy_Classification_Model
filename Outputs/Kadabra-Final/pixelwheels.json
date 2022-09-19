@@ -1,0 +1,563 @@
+{
+	"sources": [
+		"C:\\Github\\pixelwheels"
+	],
+	"total": 117,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 250,
+				"name": "getTracks",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\Assets.java"
+			},
+			{
+				"line": 32,
+				"name": "getTracks",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\GameStatsSetup.java"
+			},
+			{
+				"line": 98,
+				"name": "getWheelInfos",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\SpinningComponent.java"
+			},
+			{
+				"line": 99,
+				"name": "setGripEnabled",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\SpinningComponent.java"
+			},
+			{
+				"line": 149,
+				"name": "getBody",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 185,
+				"name": "isDrifting",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 197,
+				"name": "getMaterial",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 208,
+				"name": "getMaterial",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 254,
+				"name": "getBody",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 308,
+				"name": "triggerTurbo",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 475,
+				"name": "getBody",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 82,
+				"name": "getWheelInfos",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 83,
+				"name": "getSkidmarks",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 88,
+				"name": "getWheelInfos",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 89,
+				"name": "getMaterial",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 89,
+				"name": "isWater",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 91,
+				"name": "getBody",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 110,
+				"name": "getWheelInfos",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 111,
+				"name": "getBody",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 111,
+				"name": "getRegion",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\VehicleRenderer.java"
+			},
+			{
+				"line": 165,
+				"name": "getBeginIndex",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Wheel.java"
+			},
+			{
+				"line": 165,
+				"name": "getEndIndex",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Wheel.java"
+			},
+			{
+				"line": 216,
+				"name": "getAudioManager",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\FinishedOverlay.java"
+			},
+			{
+				"line": 341,
+				"name": "getAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\FinishedOverlay.java"
+			},
+			{
+				"line": 577,
+				"name": "getAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\FinishedOverlay.java"
+			},
+			{
+				"line": 317,
+				"name": "getConfig",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\GameWorldImpl.java"
+			},
+			{
+				"line": 330,
+				"name": "getAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\GameWorldImpl.java"
+			},
+			{
+				"line": 335,
+				"name": "getAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\GameWorldImpl.java"
+			},
+			{
+				"line": 342,
+				"name": "getAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\GameWorldImpl.java"
+			},
+			{
+				"line": 342,
+				"name": "getAudioManager",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\GameWorldImpl.java"
+			},
+			{
+				"line": 209,
+				"name": "getMap",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\HudContent.java"
+			},
+			{
+				"line": 140,
+				"name": "getRacers",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\RaceScreen.java"
+			},
+			{
+				"line": 175,
+				"name": "getPlayerRacers",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\RaceScreen.java"
+			},
+			{
+				"line": 218,
+				"name": "getActiveGameObjects",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\RaceScreen.java"
+			},
+			{
+				"line": 250,
+				"name": "getPlayerRacers",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\RaceScreen.java"
+			},
+			{
+				"line": 217,
+				"name": "getAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\ChampionshipFinishedScreen.java"
+			},
+			{
+				"line": 72,
+				"name": "getConfig",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\KeyboardConfigScreen.java"
+			},
+			{
+				"line": 65,
+				"name": "getConfig",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\MultiPlayerScreen.java"
+			},
+			{
+				"line": 147,
+				"name": "getTracks",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\SelectChampionshipScreen.java"
+			},
+			{
+				"line": 128,
+				"name": "getConfig",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\SelectLanguageScreen.java"
+			},
+			{
+				"line": 298,
+				"name": "getMenuStyle",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\GridMenuItem.java"
+			},
+			{
+				"line": 301,
+				"name": "getLabelColumnWidth",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\MenuItemGroup.java"
+			},
+			{
+				"line": 346,
+				"name": "getLabelColumnWidth",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\MenuItemGroup.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 34,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\Languages.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\debug\\DebugShapeMap.java"
+			},
+			{
+				"line": 41,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\debug\\DebugStringMap.java"
+			},
+			{
+				"line": 40,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\gameinput\\GameInputHandlerFactories.java"
+			},
+			{
+				"line": 39,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\obstacles\\ObstacleCreator.java"
+			},
+			{
+				"line": 40,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\obstacles\\ObstacleCreator.java"
+			},
+			{
+				"line": 29,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Probe.java"
+			},
+			{
+				"line": 353,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\FinishedOverlay.java"
+			},
+			{
+				"line": 33,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\rewards\\Reward.java"
+			},
+			{
+				"line": 38,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\rewards\\RewardManager.java"
+			},
+			{
+				"line": 52,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\KeyboardConfigScreen.java"
+			},
+			{
+				"line": 155,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\SelectLanguageScreen.java"
+			},
+			{
+				"line": 164,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\SelectLanguageScreen.java"
+			},
+			{
+				"line": 181,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\screens\\SelectLanguageScreen.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\sound\\SoundAtlas.java"
+			},
+			{
+				"line": 29,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\stats\\GameStatsImpl.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\stats\\GameStatsImpl.java"
+			},
+			{
+				"line": 31,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\stats\\GameStatsImpl.java"
+			},
+			{
+				"line": 54,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\translations\\Messages.java"
+			},
+			{
+				"line": 56,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\translations\\Messages.java"
+			},
+			{
+				"line": 44,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\translations\\PoParser.java"
+			},
+			{
+				"line": 48,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\DefaultKeys.java"
+			},
+			{
+				"line": 58,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\DefaultKeys.java"
+			},
+			{
+				"line": 52,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\GamepadInputMapper.java"
+			},
+			{
+				"line": 54,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\GamepadInputMapper.java"
+			},
+			{
+				"line": 33,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\KeyMapper.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\StrictTextureAtlas.java"
+			},
+			{
+				"line": 29,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\animscript\\AlignmentArgumentDefinition.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\animscript\\AnimScriptLoader.java"
+			},
+			{
+				"line": 30,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\animscript\\InterpolationArgumentDefinition.java"
+			},
+			{
+				"line": 49,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\MenuItemGroup.java"
+			},
+			{
+				"line": 50,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\MenuItemGroup.java"
+			},
+			{
+				"line": 73,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\uibuilder\\UiBuilder.java"
+			},
+			{
+				"line": 74,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\uibuilder\\UiBuilder.java"
+			},
+			{
+				"line": 75,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\uibuilder\\UiBuilder.java"
+			},
+			{
+				"line": 76,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\uibuilder\\UiBuilder.java"
+			},
+			{
+				"line": 80,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\uibuilder\\UiBuilder.java"
+			},
+			{
+				"line": 81,
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\uibuilder\\UiBuilder.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 87,
+				"name": "getGame",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\gamesetup\\Maestro.java"
+			},
+			{
+				"line": 108,
+				"name": "getGame",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\gamesetup\\Maestro.java"
+			},
+			{
+				"line": 108,
+				"name": "getGame",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\gamesetup\\Maestro.java"
+			},
+			{
+				"line": 325,
+				"name": "getId",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\map\\Track.java"
+			},
+			{
+				"line": 237,
+				"name": "getVehicle",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Racer.java"
+			},
+			{
+				"line": 238,
+				"name": "getVehicle",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Racer.java"
+			},
+			{
+				"line": 126,
+				"name": "getX",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 126,
+				"name": "getY",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racer\\Vehicle.java"
+			},
+			{
+				"line": 305,
+				"name": "getX",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\Helicopter.java"
+			},
+			{
+				"line": 306,
+				"name": "getY",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\Helicopter.java"
+			},
+			{
+				"line": 118,
+				"name": "getIntValue",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\SliderMenuItem.java"
+			},
+			{
+				"line": 126,
+				"name": "getIntValue",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\SliderMenuItem.java"
+			},
+			{
+				"line": 162,
+				"name": "getIntValue",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\SliderMenuItem.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 195,
+				"name": "testParseString",
+				"file": "C:\\Github\\pixelwheels\\core-tests\\src\\com\\agateau\\translations\\PoParserTests.java"
+			},
+			{
+				"line": 147,
+				"name": "getTrack",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\gamesetup\\GameInfo.java"
+			},
+			{
+				"line": 46,
+				"name": "start",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\gamesetup\\Maestro.java"
+			},
+			{
+				"line": 74,
+				"name": "update",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\pixelwheels\\racescreen\\CameraUpdater.java"
+			},
+			{
+				"line": 73,
+				"name": "refreshAssets",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\RefreshHelper.java"
+			},
+			{
+				"line": 76,
+				"name": "refresh",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\RefreshHelper.java"
+			},
+			{
+				"line": 84,
+				"name": "onBackPressed",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\StageScreen.java"
+			},
+			{
+				"line": 87,
+				"name": "isBackKeyPressed",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\StageScreen.java"
+			},
+			{
+				"line": 41,
+				"name": "createCell",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\TableRowCreator.java"
+			},
+			{
+				"line": 70,
+				"name": "getItemRegion",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\TextureRegionItemRendererAdapter.java"
+			},
+			{
+				"line": 33,
+				"name": "parse",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\animscript\\ArgumentDefinition.java"
+			},
+			{
+				"line": 26,
+				"name": "triggered",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\MenuItemListener.java"
+			},
+			{
+				"line": 82,
+				"name": "fireChangeEvent",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\RangeMenuItem.java"
+			},
+			{
+				"line": 125,
+				"name": "createMainActor",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\RangeMenuItem.java"
+			},
+			{
+				"line": 128,
+				"name": "updateMainActor",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\RangeMenuItem.java"
+			},
+			{
+				"line": 131,
+				"name": "decrease",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\RangeMenuItem.java"
+			},
+			{
+				"line": 134,
+				"name": "increase",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\RangeMenuItem.java"
+			},
+			{
+				"line": 187,
+				"name": "formatValue",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\ui\\menu\\SwitchMenuItem.java"
+			},
+			{
+				"line": 70,
+				"name": "createInstance",
+				"file": "C:\\Github\\pixelwheels\\core\\src\\com\\agateau\\utils\\CircularArray.java"
+			},
+			{
+				"line": 54,
+				"name": "run",
+				"file": "C:\\Github\\pixelwheels\\tools\\src\\com\\agateau\\pixelwheels\\tools\\CommandLineApplication.java"
+			},
+			{
+				"line": 33,
+				"name": "undo",
+				"file": "C:\\Github\\pixelwheels\\tools\\src\\com\\agateau\\pixelwheels\\tools\\trackeditor\\EditorAction.java"
+			},
+			{
+				"line": 35,
+				"name": "redo",
+				"file": "C:\\Github\\pixelwheels\\tools\\src\\com\\agateau\\pixelwheels\\tools\\trackeditor\\EditorAction.java"
+			},
+			{
+				"line": 40,
+				"name": "mergeWith",
+				"file": "C:\\Github\\pixelwheels\\tools\\src\\com\\agateau\\pixelwheels\\tools\\trackeditor\\EditorAction.java"
+			}
+		]
+	}
+}

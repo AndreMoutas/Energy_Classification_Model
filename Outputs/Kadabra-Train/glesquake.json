@@ -1,0 +1,43 @@
+{
+	"sources": [
+		"C:\\Github\\glesquake"
+	],
+	"total": 6,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 138,
+				"name": "init",
+				"file": "C:\\Github\\glesquake\\src\\com\\android\\quake\\QuakeLib.java"
+			},
+			{
+				"line": 146,
+				"name": "event",
+				"file": "C:\\Github\\glesquake\\src\\com\\android\\quake\\QuakeLib.java"
+			},
+			{
+				"line": 161,
+				"name": "motionEvent",
+				"file": "C:\\Github\\glesquake\\src\\com\\android\\quake\\QuakeLib.java"
+			},
+			{
+				"line": 174,
+				"name": "trackballEvent",
+				"file": "C:\\Github\\glesquake\\src\\com\\android\\quake\\QuakeLib.java"
+			},
+			{
+				"line": 182,
+				"name": "step",
+				"file": "C:\\Github\\glesquake\\src\\com\\android\\quake\\QuakeLib.java"
+			},
+			{
+				"line": 187,
+				"name": "quit",
+				"file": "C:\\Github\\glesquake\\src\\com\\android\\quake\\QuakeLib.java"
+			}
+		]
+	}
+}

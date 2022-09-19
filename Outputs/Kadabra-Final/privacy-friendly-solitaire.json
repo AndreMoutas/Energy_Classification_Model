@@ -1,0 +1,274 @@
+{
+	"sources": [
+		"C:\\Github\\privacy-friendly-solitaire"
+	],
+	"total": 53,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 149,
+				"name": "getMoves",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 150,
+				"name": "getMoves",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 150,
+				"name": "getMovePointer",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 155,
+				"name": "isLastMoveturnedOverTableau",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 141,
+				"name": "getFaceDown",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 149,
+				"name": "getMoves",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 150,
+				"name": "getMoves",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 150,
+				"name": "getMovePointer",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 155,
+				"name": "isLastMoveturnedOverTableau",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\MoveFinder.java"
+			},
+			{
+				"line": 179,
+				"name": "getFaceUp",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 184,
+				"name": "getFaceDown",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 298,
+				"name": "getTableaus",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 299,
+				"name": "getFaceUp",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 1158,
+				"name": "getNewFanSize",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 153,
+				"name": "getDeckWaste",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\generator\\GeneratorSolitaireInstance.java"
+			},
+			{
+				"line": 153,
+				"name": "getDeck",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\generator\\GeneratorSolitaireInstance.java"
+			},
+			{
+				"line": 61,
+				"name": "getWaste",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\DeckWasteTests.java"
+			},
+			{
+				"line": 61,
+				"name": "getWaste",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\DeckWasteTests.java"
+			},
+			{
+				"line": 66,
+				"name": "getDeck",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\DeckWasteTests.java"
+			},
+			{
+				"line": 78,
+				"name": "getWaste",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\DeckWasteTests.java"
+			},
+			{
+				"line": 78,
+				"name": "getWaste",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\DeckWasteTests.java"
+			},
+			{
+				"line": 83,
+				"name": "getDeck",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\DeckWasteTests.java"
+			},
+			{
+				"line": 55,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\GeneratorTest.java"
+			},
+			{
+				"line": 56,
+				"name": "getRank",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\GeneratorTest.java"
+			},
+			{
+				"line": 161,
+				"name": "getRank",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\GeneratorTest.java"
+			},
+			{
+				"line": 162,
+				"name": "getRank",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\GeneratorTest.java"
+			},
+			{
+				"line": 163,
+				"name": "getColor",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\GeneratorTest.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 67,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 70,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\View.java"
+			},
+			{
+				"line": 73,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\generator\\GeneratorSolitaireInstance.java"
+			},
+			{
+				"line": 188,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\generator\\GeneratorSolitaireInstance.java"
+			},
+			{
+				"line": 189,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\generator\\GeneratorSolitaireInstance.java"
+			},
+			{
+				"line": 73,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\generator\\GeneratorUtils.java"
+			},
+			{
+				"line": 200,
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\test\\GeneratorTest.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 362,
+				"name": "getNavigationDrawerID",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\android\\src\\org\\secuso\\privacyfriendlysolitaire\\Activities\\Solitaire.java"
+			},
+			{
+				"line": 466,
+				"name": "getNavigationDrawerID",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\android\\src\\org\\secuso\\privacyfriendlysolitaire\\Activities\\Solitaire.java"
+			},
+			{
+				"line": 56,
+				"name": "getListener",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\Scorer.java"
+			},
+			{
+				"line": 57,
+				"name": "getListener",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\Scorer.java"
+			},
+			{
+				"line": 57,
+				"name": "getScore",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\game\\Scorer.java"
+			},
+			{
+				"line": 66,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Card.java"
+			},
+			{
+				"line": 66,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Card.java"
+			},
+			{
+				"line": 65,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 65,
+				"name": "getCards",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 67,
+				"name": "getCards",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 73,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 74,
+				"name": "getCards",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 75,
+				"name": "getCards",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 90,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 90,
+				"name": "getCards",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 92,
+				"name": "getSuit",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			},
+			{
+				"line": 94,
+				"name": "getCards",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\core\\src\\org\\secuso\\privacyfriendlysolitaire\\model\\Foundation.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 77,
+				"name": "getNavigationDrawerID",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\android\\src\\org\\secuso\\privacyfriendlysolitaire\\Activities\\BaseActivity.java"
+			},
+			{
+				"line": 476,
+				"name": "getNavigationDrawerID",
+				"file": "C:\\Github\\privacy-friendly-solitaire\\android\\src\\org\\secuso\\privacyfriendlysolitaire\\Activities\\Solitaire.java"
+			}
+		]
+	}
+}

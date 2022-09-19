@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.1.2">
+
+    <issue
+        id="LintError"
+        severity="Error"
+        message="Unexpected failure during lint analysis (this is a bug in lint or one of the libraries it depends on)&#xA;&#xA;&#xA;The crash seems to involve the detector `com.example.greenchecks.checks.DirtyBootDetector`.&#xA;You can try disabling it with something like this:&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;DirtyBoot&quot;&#xA;        }&#xA;    }&#xA;&#xA;Stack: `NullPointerException:DirtyBootDetector.afterCheckProject(DirtyBootDetector.java:144)←Detector.afterCheckRootProject(Detector.kt:195)←LintDriver$checkProject$1.run(LintDriver.kt:970)←LintClient.runReadAction(LintClient.kt:1638)←LintDriver$LintClientWrapper.runReadAction(LintDriver.kt:2236)←LintDriver.checkProject(LintDriver.kt:968)←LintDriver.analyze(LintDriver.kt:446)←LintCliClient.run(LintCliClient.kt:256)`&#xA;&#xA;You can set environment variable `LINT_PRINT_STACKTRACE=true` to dump a full stacktrace to stdout."
+        category="Lint"
+        priority="10"
+        summary="Lint Failure"
+        explanation="This issue type represents a problem running lint itself. Examples include failure to find bytecode for source files (which means certain detectors could not be run), parsing errors in lint configuration files, etc.&#xA;&#xA;These errors are not errors in your own code, but they are shown to make it clear that some checks were not completed.">
+        <location
+            file="C:\Github\MHGenDatabase\android-section-adapter"/>
+    </issue>
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`com.example.greenchecks.MyIssueRegistry`) which did not specify the Lint API version it was compiled with.&#xA;&#xA;**This means that the lint checks are likely not compatible.**&#xA;&#xA;If you are the author of this lint check, make your lint `IssueRegistry` class contain&#xA;  override val api: Int = com.android.tools.lint.detector.api.CURRENT_API&#xA;or from Java,&#xA;  @Override public int getApi() { return com.android.tools.lint.detector.api.ApiKt.CURRENT_API; }&#xA;&#xA;If you are just using lint checks from a third party library you have no control over, you can disable these lint checks (if they misbehave) like this:&#xA;&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;BluetoothLowEnergy&quot;,&#xA;                    &quot;DarkUI&quot;,&#xA;                    &quot;DirtyBoot&quot;,&#xA;                    &quot;DurableWakeLock&quot;,&#xA;                    &quot;EverlastingService&quot;,&#xA;                    &quot;FusedLocationProvider&quot;,&#xA;                    &quot;InternetInTheLoop&quot;,&#xA;                    &quot;KeepCPUOn&quot;,&#xA;                    &quot;KeepScreenOn&quot;,&#xA;                    &quot;RigidAlarm&quot;,&#xA;                    &quot;SensorCoalesce&quot;,&#xA;                    &quot;SensorLeak&quot;,&#xA;                    &quot;UncompressedDataTransmission&quot;&#xA;        }&#xA;    }&#xA;"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks."
+        includedVariants="debug"
+        excludedVariants="release">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.0.0 is available: 1.5.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.0.0&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\MHGenDatabase\android-section-adapter\build.gradle"
+            line="15"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="CursorAdapter.mContext can only be accessed from within the same library group (groupId=androidx.cursoradapter)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by the Gradle library group id)&#xA;* Method can only be accessed from tests.&#xA;&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                convertView = newHeaderView(mContext,mCursor,parent);"
+        errorLine2="                                            ~~~~~~~~">
+        <location
+            file="C:\Github\MHGenDatabase\android-section-adapter\src\main\java\com\github\monxalo\android\widget\SectionCursorAdapter.java"
+            line="162"
+            column="45"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="CursorAdapter.mCursor can only be accessed from within the same library group (groupId=androidx.cursoradapter)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by the Gradle library group id)&#xA;* Method can only be accessed from tests.&#xA;&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                convertView = newHeaderView(mContext,mCursor,parent);"
+        errorLine2="                                                     ~~~~~~~">
+        <location
+            file="C:\Github\MHGenDatabase\android-section-adapter\src\main\java\com\github\monxalo\android\widget\SectionCursorAdapter.java"
+            line="162"
+            column="54"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="CursorAdapter.mContext can only be accessed from within the same library group (groupId=androidx.cursoradapter)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by the Gradle library group id)&#xA;* Method can only be accessed from tests.&#xA;&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            bindHeaderView(convertView,mContext,mCursor,position);"
+        errorLine2="                                       ~~~~~~~~">
+        <location
+            file="C:\Github\MHGenDatabase\android-section-adapter\src\main\java\com\github\monxalo\android\widget\SectionCursorAdapter.java"
+            line="165"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="CursorAdapter.mCursor can only be accessed from within the same library group (groupId=androidx.cursoradapter)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by the Gradle library group id)&#xA;* Method can only be accessed from tests.&#xA;&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            bindHeaderView(convertView,mContext,mCursor,position);"
+        errorLine2="                                                ~~~~~~~">
+        <location
+            file="C:\Github\MHGenDatabase\android-section-adapter\src\main\java\com\github\monxalo\android\widget\SectionCursorAdapter.java"
+            line="165"
+            column="49"/>
+    </issue>
+
+</issues>

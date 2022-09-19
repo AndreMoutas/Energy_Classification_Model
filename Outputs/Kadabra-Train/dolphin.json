@@ -1,0 +1,753 @@
+{
+	"sources": [
+		"C:\\Github\\dolphin"
+	],
+	"total": 149,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 284,
+				"name": "getLibraries",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 297,
+				"name": "setState",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlay.java"
+			},
+			{
+				"line": 386,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlay.java"
+			},
+			{
+				"line": 424,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlay.java"
+			},
+			{
+				"line": 457,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlay.java"
+			},
+			{
+				"line": 150,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 151,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 152,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 153,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 154,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 155,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 155,
+				"name": "getName",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\services\\SyncChannelJobService.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 54,
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 55,
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 65,
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\model\\Settings.java"
+			},
+			{
+				"line": 66,
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\model\\Settings.java"
+			},
+			{
+				"line": 165,
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\model\\Settings.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\ui\\SettingsFragment.java"
+			},
+			{
+				"line": 11,
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\BiMap.java"
+			},
+			{
+				"line": 12,
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\BiMap.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 251,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 302,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 424,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 460,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 471,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 472,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 473,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 486,
+				"name": "getId",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 579,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 596,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 611,
+				"name": "isRegistered",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 196,
+				"name": "isInEditMode",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlay.java"
+			},
+			{
+				"line": 83,
+				"name": "getWidth",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableButton.java"
+			},
+			{
+				"line": 84,
+				"name": "getHeight",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableButton.java"
+			},
+			{
+				"line": 78,
+				"name": "getWidth",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableDpad.java"
+			},
+			{
+				"line": 79,
+				"name": "getHeight",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableDpad.java"
+			},
+			{
+				"line": 161,
+				"name": "getWidth",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableDpad.java"
+			},
+			{
+				"line": 162,
+				"name": "getHeight",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableDpad.java"
+			},
+			{
+				"line": 74,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 115,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 115,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 116,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 118,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 150,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 151,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 152,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 153,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 154,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 155,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 228,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 228,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 229,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			},
+			{
+				"line": 229,
+				"name": "getVirtBounds",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\overlay\\InputOverlayDrawableJoystick.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 490,
+				"name": "onDescriptorRead",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 511,
+				"name": "onReliableWriteCompleted",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 515,
+				"name": "onReadRemoteRssi",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 519,
+				"name": "onMtuChanged",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 668,
+				"name": "HIDDeviceConnected",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 669,
+				"name": "HIDDeviceOpenPending",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 670,
+				"name": "HIDDeviceOpenResult",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 671,
+				"name": "HIDDeviceDisconnected",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 673,
+				"name": "HIDDeviceInputReport",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 674,
+				"name": "HIDDeviceFeatureReport",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 259,
+				"name": "getMainFunction",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 271,
+				"name": "getLibraries",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 295,
+				"name": "getArguments",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 419,
+				"name": "pauseNativeThread",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 430,
+				"name": "resumeNativeThread",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 730,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2407,
+				"name": "nativeGenerateScancodeForUnichar",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2409,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 133,
+				"name": "handleMotionEvent",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 140,
+				"name": "pollInputDevices",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 288,
+				"name": "getProductId",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 291,
+				"name": "getVendorId",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 294,
+				"name": "getButtonMask",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 594,
+				"name": "supportsRelativeMouse",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 598,
+				"name": "inRelativeMode",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 602,
+				"name": "setRelativeMouseEnabled",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 606,
+				"name": "reclaimRelativeMouseModeIfNeeded",
+				"file": "C:\\Github\\dolphin\\Externals\\SDL\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 45,
+				"name": "onUnbindViewHolder",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\adapters\\SettingsRowPresenter.java"
+			},
+			{
+				"line": 43,
+				"name": "trySetImpl",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\cheats\\model\\AbstractCheat.java"
+			},
+			{
+				"line": 62,
+				"name": "equalsImpl",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\cheats\\model\\GeckoCheat.java"
+			},
+			{
+				"line": 21,
+				"name": "getMods",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\cheats\\model\\GraphicsModGroup.java"
+			},
+			{
+				"line": 23,
+				"name": "save",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\cheats\\model\\GraphicsModGroup.java"
+			},
+			{
+				"line": 35,
+				"name": "setEnabledImpl",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\cheats\\model\\ReadOnlyCheat.java"
+			},
+			{
+				"line": 32,
+				"name": "getDiscCount",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 34,
+				"name": "getDiscName",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 36,
+				"name": "getSectionCount",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 38,
+				"name": "getSectionName",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 40,
+				"name": "getOptionCount",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 42,
+				"name": "getOptionName",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 44,
+				"name": "getChoiceCount",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 46,
+				"name": "getChoiceName",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 52,
+				"name": "getSelectedChoice",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\riivolution\\model\\RiivolutionPatches.java"
+			},
+			{
+				"line": 74,
+				"name": "getType",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\model\\view\\SettingsItem.java"
+			},
+			{
+				"line": 76,
+				"name": "getSetting",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\model\\view\\SettingsItem.java"
+			},
+			{
+				"line": 45,
+				"name": "getVisibleness",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\ui\\SettingsFrameLayout.java"
+			},
+			{
+				"line": 63,
+				"name": "findViews",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\ui\\viewholder\\SettingViewHolder.java"
+			},
+			{
+				"line": 71,
+				"name": "bind",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\ui\\viewholder\\SettingViewHolder.java"
+			},
+			{
+				"line": 79,
+				"name": "onClick",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\ui\\viewholder\\SettingViewHolder.java"
+			},
+			{
+				"line": 82,
+				"name": "getItem",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\features\\settings\\ui\\viewholder\\SettingViewHolder.java"
+			},
+			{
+				"line": 207,
+				"name": "stopEmulation",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\fragments\\EmulationFragment.java"
+			},
+			{
+				"line": 25,
+				"name": "getPlatform",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 27,
+				"name": "getTitle",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 29,
+				"name": "getDescription",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 31,
+				"name": "getCompany",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 33,
+				"name": "getCountry",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 35,
+				"name": "getRegion",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 37,
+				"name": "getPath",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 39,
+				"name": "getGameId",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 41,
+				"name": "getGameTdbId",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 43,
+				"name": "getDiscNumber",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 45,
+				"name": "getRevision",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 47,
+				"name": "getBlobType",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 49,
+				"name": "getFileFormatName",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 51,
+				"name": "getBlockSize",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 53,
+				"name": "getCompressionMethod",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 55,
+				"name": "shouldShowFileFormatDetails",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 57,
+				"name": "shouldAllowConversion",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 59,
+				"name": "getFileSize",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 61,
+				"name": "isDatelDisc",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 63,
+				"name": "isNKit",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 65,
+				"name": "getBanner",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 67,
+				"name": "getBannerWidth",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 69,
+				"name": "getBannerHeight",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFile.java"
+			},
+			{
+				"line": 112,
+				"name": "getSize",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 114,
+				"name": "getAllGames",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 116,
+				"name": "addOrGet",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 126,
+				"name": "update",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 134,
+				"name": "updateAdditionalMetadata",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 136,
+				"name": "load",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 138,
+				"name": "save",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\model\\GameFileCache.java"
+			},
+			{
+				"line": 73,
+				"name": "onDestroy",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\ui\\main\\MainPresenter.java"
+			},
+			{
+				"line": 72,
+				"name": "load",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 79,
+				"name": "save",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 86,
+				"name": "getOrCreateSection",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 88,
+				"name": "exists",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 90,
+				"name": "exists",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 92,
+				"name": "deleteSection",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 94,
+				"name": "deleteKey",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 96,
+				"name": "getString",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 98,
+				"name": "getBoolean",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 100,
+				"name": "getInt",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 102,
+				"name": "getFloat",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 104,
+				"name": "setString",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 106,
+				"name": "setBoolean",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 108,
+				"name": "setInt",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			},
+			{
+				"line": 110,
+				"name": "setFloat",
+				"file": "C:\\Github\\dolphin\\Source\\Android\\app\\src\\main\\java\\org\\dolphinemu\\dolphinemu\\utils\\IniFile.java"
+			}
+		]
+	}
+}

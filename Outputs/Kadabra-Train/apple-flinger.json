@@ -1,0 +1,275 @@
+{
+	"sources": [
+		"C:\\Github\\apple-flinger"
+	],
+	"total": 53,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 360,
+				"name": "toString",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\global\\Assets.java"
+			},
+			{
+				"line": 55,
+				"name": "get",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\AchievementsScreen.java"
+			},
+			{
+				"line": 55,
+				"name": "get",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\AchievementsScreen.java"
+			},
+			{
+				"line": 142,
+				"name": "getInputMultiplexer",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\GenericScreen.java"
+			},
+			{
+				"line": 145,
+				"name": "getInputMultiplexer",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\GenericScreen.java"
+			},
+			{
+				"line": 165,
+				"name": "getInputMultiplexer",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\GenericScreen.java"
+			},
+			{
+				"line": 168,
+				"name": "getInputMultiplexer",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\GenericScreen.java"
+			},
+			{
+				"line": 56,
+				"name": "get",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\MissionSelectScreen.java"
+			},
+			{
+				"line": 57,
+				"name": "get",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\screens\\MissionSelectScreen.java"
+			},
+			{
+				"line": 77,
+				"name": "getGameState",
+				"file": "C:\\Github\\apple-flinger\\tests\\src-integration\\com\\gitlab\\ardash\\appleflinger\\testing\\integration\\DesktopTestdriveTest.java"
+			},
+			{
+				"line": 77,
+				"name": "getGameState",
+				"file": "C:\\Github\\apple-flinger\\tests\\src-integration\\com\\gitlab\\ardash\\appleflinger\\testing\\integration\\DesktopTestdriveTest.java"
+			},
+			{
+				"line": 77,
+				"name": "getGameState",
+				"file": "C:\\Github\\apple-flinger\\tests\\src-integration\\com\\gitlab\\ardash\\appleflinger\\testing\\integration\\DesktopTestdriveTest.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 58,
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\helpers\\Pref.java"
+			},
+			{
+				"line": 59,
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\helpers\\Pref.java"
+			},
+			{
+				"line": 32,
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\helpers\\RandomSet.java"
+			},
+			{
+				"line": 92,
+				"file": "C:\\Github\\apple-flinger\\tests\\src-integration\\com\\gitlab\\ardash\\appleflinger\\testing\\integration\\DesktopTestdriveTest.java"
+			},
+			{
+				"line": 93,
+				"file": "C:\\Github\\apple-flinger\\tests\\src-integration\\com\\gitlab\\ardash\\appleflinger\\testing\\integration\\DesktopTestdriveTest.java"
+			},
+			{
+				"line": 41,
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\GdxTestRunner.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 123,
+				"name": "getCurrentMission",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\global\\GameManager.java"
+			},
+			{
+				"line": 201,
+				"name": "isPlayer2CPU",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\global\\GameManager.java"
+			},
+			{
+				"line": 353,
+				"name": "getActionResolver",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\global\\GameManager.java"
+			},
+			{
+				"line": 366,
+				"name": "getActionResolver",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\global\\GameManager.java"
+			},
+			{
+				"line": 103,
+				"name": "getPoints",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\global\\PlayerStatus.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 197,
+				"name": "resetPhysics",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\actors\\PhysicsActor.java"
+			},
+			{
+				"line": 467,
+				"name": "getDamageToPointsFactor",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\actors\\PhysicsActor.java"
+			},
+			{
+				"line": 31,
+				"name": "handleBackButton",
+				"file": "C:\\Github\\apple-flinger\\core\\src\\com\\gitlab\\ardash\\appleflinger\\helpers\\BackButtonAdapter.java"
+			},
+			{
+				"line": 42,
+				"name": "isI18NWorking",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 50,
+				"name": "isI18NWorkingForNB",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 56,
+				"name": "isI18NWorkingForNL",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 63,
+				"name": "isI18NWorkingForDE",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 69,
+				"name": "isI18NWorkingForEO",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 76,
+				"name": "isI18NWorkingForES",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 82,
+				"name": "isI18NWorkingForFR",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 89,
+				"name": "isI18NWorkingForGL",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 96,
+				"name": "isI18NWorkingForIT",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 103,
+				"name": "isI18NWorkingForPL",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 110,
+				"name": "isI18NWorkingForPT",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 117,
+				"name": "isI18NWorkingForRU",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 125,
+				"name": "isI18NWorkingForSV",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 132,
+				"name": "isI18NWorkingForTR",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 139,
+				"name": "isI18NWorkingForPTBR",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 146,
+				"name": "isI18NWorkingForEU",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 153,
+				"name": "isI18NWorkingForHR",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 160,
+				"name": "isI18NWorkingForFI",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 170,
+				"name": "isI18NWorkingEN",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\AssetTest.java"
+			},
+			{
+				"line": 34,
+				"name": "isDebugDisabled",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 39,
+				"name": "isDebugZoomDisabled",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 44,
+				"name": "isSandboxDisabled",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 49,
+				"name": "isAlllevelsDisabled",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 54,
+				"name": "isRecordingDisabled",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 59,
+				"name": "areAllMissionsRecordedInAI",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 64,
+				"name": "areAllMissionsValid",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			},
+			{
+				"line": 69,
+				"name": "areAllAssetsValid",
+				"file": "C:\\Github\\apple-flinger\\tests\\src\\com\\gitlab\\ardash\\appleflinger\\testing\\sanity\\DeploymentSanityUnitTest.java"
+			}
+		]
+	}
+}

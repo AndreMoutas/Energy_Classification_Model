@@ -1,0 +1,168 @@
+{
+	"sources": [
+		"C:\\Github\\MonsterHunter4UDatabase"
+	],
+	"total": 36,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 342,
+				"name": "getId",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\classes\\ASBSession.java"
+			},
+			{
+				"line": 346,
+				"name": "getSkillTree",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\classes\\ASBSession.java"
+			},
+			{
+				"line": 346,
+				"name": "getId",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\classes\\ASBSession.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 283,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\classes\\ASBSession.java"
+			},
+			{
+				"line": 325,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\classes\\ASBSession.java"
+			},
+			{
+				"line": 645,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 724,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 874,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 990,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1101,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1205,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1319,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1432,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1550,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1708,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1878,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2107,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2241,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2323,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2477,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2562,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2772,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2882,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2918,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 3246,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 3481,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 3564,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 3829,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 3850,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\ui\\list\\UniversalSearchFragment.java"
+			},
+			{
+				"line": 102,
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\multilevelexpindlistview\\src\\main\\java\\com\\oissela\\software\\multilevelexpindlistview\\MultiLevelExpIndListAdapter.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 54,
+				"name": "getIndentation",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\ui\\general\\WeaponListEntry.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 18,
+				"name": "loadCursor",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\loader\\SQLiteCursorLoader.java"
+			},
+			{
+				"line": 259,
+				"name": "getSelectedSection",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\ui\\general\\GenericActionBarActivity.java"
+			},
+			{
+				"line": 38,
+				"name": "createFragment",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\ui\\general\\GenericActivity.java"
+			},
+			{
+				"line": 61,
+				"name": "createWeaponAdapter",
+				"file": "C:\\Github\\MonsterHunter4UDatabase\\app\\src\\main\\java\\com\\daviancorp\\android\\ui\\list\\WeaponListFragment.java"
+			}
+		]
+	}
+}

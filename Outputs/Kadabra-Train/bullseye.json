@@ -1,0 +1,50 @@
+{
+	"sources": [
+		"C:\\Github\\bullseye"
+	],
+	"total": 7,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 583,
+				"name": "getLegNr",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX01.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 71,
+				"name": "getCount",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX.java"
+			},
+			{
+				"line": 83,
+				"name": "getCount",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX.java"
+			},
+			{
+				"line": 376,
+				"name": "getCount",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX.java"
+			},
+			{
+				"line": 603,
+				"name": "getPlayer",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX01.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 144,
+				"name": "isNum",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX.java"
+			},
+			{
+				"line": 148,
+				"name": "isFac",
+				"file": "C:\\Github\\bullseye\\app\\src\\main\\java\\x653\\bullseye\\ControllerX.java"
+			}
+		]
+	}
+}

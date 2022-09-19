@@ -1,0 +1,153 @@
+{
+	"sources": [
+		"C:\\Github\\Complica4"
+	],
+	"total": 28,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 207,
+				"name": "isGameOver",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\GameActivity.java"
+			},
+			{
+				"line": 211,
+				"name": "isGameOver",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\GameActivity.java"
+			},
+			{
+				"line": 207,
+				"name": "isGameOver",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\GameActivity.java"
+			},
+			{
+				"line": 211,
+				"name": "isGameOver",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\GameActivity.java"
+			},
+			{
+				"line": 292,
+				"name": "getPiece",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\NetworkTrainingService.java"
+			},
+			{
+				"line": 304,
+				"name": "getColunm",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\NetworkTrainingService.java"
+			},
+			{
+				"line": 149,
+				"name": "getPiece",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ExampleTest.java"
+			},
+			{
+				"line": 152,
+				"name": "getPiece",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ExampleTest.java"
+			},
+			{
+				"line": 231,
+				"name": "getColunm",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ExampleTest.java"
+			},
+			{
+				"line": 234,
+				"name": "getColunm",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ExampleTest.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 510,
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\model\\Board.java"
+			},
+			{
+				"line": 48,
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\model\\ia\\MonteCarloArtificialIntelligence.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 207,
+				"name": "removeOldRecords",
+				"file": "C:\\Github\\Complica4\\client\\src\\eu\\veldsoft\\complica4\\storage\\MovesHistoryDatabaseHelper.java"
+			},
+			{
+				"line": 17,
+				"name": "test",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\InvalidMoveExceptionTest.java"
+			},
+			{
+				"line": 32,
+				"name": "testMinId",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\PieceTest.java"
+			},
+			{
+				"line": 42,
+				"name": "testMaxId",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\PieceTest.java"
+			},
+			{
+				"line": 29,
+				"name": "setUp",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\AlphaBetaArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 33,
+				"name": "tearDown",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\AlphaBetaArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 37,
+				"name": "testMove",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\AlphaBetaArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 30,
+				"name": "setUp",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\ArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 34,
+				"name": "tearDown",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\ArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 38,
+				"name": "testMove",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\ArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 36,
+				"name": "setUp",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\NeuralNetworkArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 40,
+				"name": "tearDown",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\NeuralNetworkArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 107,
+				"name": "testNeuralNetworkArtificialIntelligence",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\NeuralNetworkArtificialIntelligenceTest.java"
+			},
+			{
+				"line": 29,
+				"name": "setUp",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\NoValidMoveExceptionTest.java"
+			},
+			{
+				"line": 33,
+				"name": "tearDown",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\NoValidMoveExceptionTest.java"
+			},
+			{
+				"line": 37,
+				"name": "test",
+				"file": "C:\\Github\\Complica4\\client\\test\\eu\\veldsoft\\complica4\\model\\ia\\NoValidMoveExceptionTest.java"
+			}
+		]
+	}
+}

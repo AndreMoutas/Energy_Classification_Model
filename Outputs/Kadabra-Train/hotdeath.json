@@ -1,0 +1,130 @@
+{
+	"sources": [
+		"C:\\Github\\hotdeath"
+	],
+	"total": 24,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 252,
+				"name": "getLastPlayedCard",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\ComputerPlayer.java"
+			},
+			{
+				"line": 542,
+				"name": "getSeat",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Game.java"
+			},
+			{
+				"line": 542,
+				"name": "getSeat",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Game.java"
+			},
+			{
+				"line": 753,
+				"name": "getColor",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Game.java"
+			},
+			{
+				"line": 755,
+				"name": "setFaceUp",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Game.java"
+			},
+			{
+				"line": 1087,
+				"name": "getType",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Game.java"
+			},
+			{
+				"line": 2215,
+				"name": "getSeat",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Game.java"
+			},
+			{
+				"line": 1787,
+				"name": "getRoundComplete",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\GameTable.java"
+			},
+			{
+				"line": 83,
+				"name": "getStopping",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\HumanPlayer.java"
+			},
+			{
+				"line": 108,
+				"name": "getStopping",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\HumanPlayer.java"
+			},
+			{
+				"line": 140,
+				"name": "getStopping",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\HumanPlayer.java"
+			},
+			{
+				"line": 200,
+				"name": "getStopping",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\HumanPlayer.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 30,
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\CardImageAdapter.java"
+			},
+			{
+				"line": 1060,
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\GameTable.java"
+			},
+			{
+				"line": 1061,
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\GameTable.java"
+			},
+			{
+				"line": 1062,
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\GameTable.java"
+			},
+			{
+				"line": 1063,
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\GameTable.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 64,
+				"name": "getItem",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\CardImageAdapter.java"
+			},
+			{
+				"line": 68,
+				"name": "getItemId",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\CardImageAdapter.java"
+			},
+			{
+				"line": 124,
+				"name": "finishTrick",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Player.java"
+			},
+			{
+				"line": 228,
+				"name": "chooseNumCardsToDeal",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Player.java"
+			},
+			{
+				"line": 232,
+				"name": "startTurn",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Player.java"
+			},
+			{
+				"line": 236,
+				"name": "chooseColor",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Player.java"
+			},
+			{
+				"line": 241,
+				"name": "chooseVictim",
+				"file": "C:\\Github\\hotdeath\\app\\src\\main\\java\\com\\smorgasbork\\hotdeath\\Player.java"
+			}
+		]
+	}
+}

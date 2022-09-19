@@ -1,0 +1,75 @@
+{
+	"sources": [
+		"C:\\Github\\privacy-friendly-ludo"
+	],
+	"total": 12,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 442,
+				"name": "getMyGamefield",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 467,
+				"name": "getMyGamefield",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 622,
+				"name": "getOrder",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 622,
+				"name": "getOrder",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 733,
+				"name": "getId",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 733,
+				"name": "getId",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 344,
+				"name": "getMy_game_field",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 569,
+				"name": "getStart_player_map",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 571,
+				"name": "getMy_game_field",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 576,
+				"name": "getStart_player_map",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			},
+			{
+				"line": 578,
+				"name": "getMy_game_field",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyludo\\logic\\BoardModel.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\privacy-friendly-ludo\\app\\src\\test\\java\\org\\secuso\\privacyfriendlyludo\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

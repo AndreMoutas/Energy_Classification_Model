@@ -1,0 +1,108 @@
+{
+	"sources": [
+		"C:\\Github\\ppsspp"
+	],
+	"total": 19,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 21,
+				"name": "getState",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\Controller.java"
+			},
+			{
+				"line": 24,
+				"name": "setListener",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\Controller.java"
+			},
+			{
+				"line": 27,
+				"name": "init",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\Controller.java"
+			},
+			{
+				"line": 30,
+				"name": "onPause",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\Controller.java"
+			},
+			{
+				"line": 33,
+				"name": "onResume",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\Controller.java"
+			},
+			{
+				"line": 36,
+				"name": "exit",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\Controller.java"
+			},
+			{
+				"line": 11,
+				"name": "getAction",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\KeyEvent.java"
+			},
+			{
+				"line": 14,
+				"name": "getState",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\KeyEvent.java"
+			},
+			{
+				"line": 17,
+				"name": "getKeyCode",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\KeyEvent.java"
+			},
+			{
+				"line": 11,
+				"name": "getAxisValue",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\MotionEvent.java"
+			},
+			{
+				"line": 13,
+				"name": "getAction",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\StateEvent.java"
+			},
+			{
+				"line": 16,
+				"name": "getState",
+				"file": "C:\\Github\\ppsspp\\android\\libs\\MogaStubs\\com\\bda\\controller\\StateEvent.java"
+			},
+			{
+				"line": 139,
+				"name": "registerCallbacks",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeActivity.java"
+			},
+			{
+				"line": 140,
+				"name": "unregisterCallbacks",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeActivity.java"
+			},
+			{
+				"line": 583,
+				"name": "runEGLRenderLoop",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeActivity.java"
+			},
+			{
+				"line": 585,
+				"name": "exitEGLRenderLoop",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeActivity.java"
+			},
+			{
+				"line": 64,
+				"name": "onSurfaceChanged",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeRenderer.java"
+			},
+			{
+				"line": 68,
+				"name": "displayInit",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeRenderer.java"
+			},
+			{
+				"line": 69,
+				"name": "displayRender",
+				"file": "C:\\Github\\ppsspp\\android\\src\\org\\ppsspp\\ppsspp\\NativeRenderer.java"
+			}
+		]
+	}
+}

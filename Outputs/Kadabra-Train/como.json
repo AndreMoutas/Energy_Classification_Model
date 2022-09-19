@@ -1,0 +1,38 @@
+{
+	"sources": [
+		"C:\\Github\\como"
+	],
+	"total": 5,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 25,
+				"name": "userDao",
+				"file": "C:\\Github\\como\\app\\src\\main\\java\\org\\kristbaum\\como\\database\\AppDatabase.java"
+			},
+			{
+				"line": 26,
+				"name": "gameDao",
+				"file": "C:\\Github\\como\\app\\src\\main\\java\\org\\kristbaum\\como\\database\\AppDatabase.java"
+			},
+			{
+				"line": 27,
+				"name": "senseCreationDao",
+				"file": "C:\\Github\\como\\app\\src\\main\\java\\org\\kristbaum\\como\\database\\AppDatabase.java"
+			},
+			{
+				"line": 32,
+				"name": "syncData",
+				"file": "C:\\Github\\como\\app\\src\\main\\java\\org\\kristbaum\\como\\viewModels\\SyncViewModel.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\como\\app\\src\\test\\java\\org\\kristbaum\\como\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

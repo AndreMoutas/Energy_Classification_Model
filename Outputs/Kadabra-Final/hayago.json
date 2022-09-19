@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\hayago"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 49,
+				"name": "onTick",
+				"file": "C:\\Github\\hayago\\app\\src\\main\\java\\com\\biotstoiq\\hayago\\CountDownTimer.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\hayago\\app\\src\\test\\java\\com\\biotstoiq\\hayago\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,120 @@
+{
+	"sources": [
+		"C:\\Github\\vitosha-blackjack"
+	],
+	"total": 21,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 197,
+				"name": "getName",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Dealer.java"
+			},
+			{
+				"line": 140,
+				"name": "getDealer",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\GameActivity.java"
+			},
+			{
+				"line": 156,
+				"name": "getPlayer",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\GameActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 25,
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\GameActivity.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 109,
+				"name": "getName",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\BlackjackPlayer.java"
+			},
+			{
+				"line": 103,
+				"name": "getFace",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Card.java"
+			},
+			{
+				"line": 112,
+				"name": "getFace",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Card.java"
+			},
+			{
+				"line": 112,
+				"name": "getSuit",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Card.java"
+			},
+			{
+				"line": 131,
+				"name": "getValue",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Face.java"
+			},
+			{
+				"line": 136,
+				"name": "getValue",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Face.java"
+			},
+			{
+				"line": 148,
+				"name": "getName",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Face.java"
+			},
+			{
+				"line": 79,
+				"name": "getWallet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 79,
+				"name": "getBet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 114,
+				"name": "getBet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 138,
+				"name": "getBet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 143,
+				"name": "getWallet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 143,
+				"name": "getBet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 149,
+				"name": "getBet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 149,
+				"name": "getWallet",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Player.java"
+			},
+			{
+				"line": 39,
+				"name": "getName",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Suit.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 70,
+				"name": "shuffle",
+				"file": "C:\\Github\\vitosha-blackjack\\VitoshaBlackjack\\src\\main\\java\\eu\\veldsoft\\vitosha\\blackjack\\Deck.java"
+			}
+		]
+	}
+}

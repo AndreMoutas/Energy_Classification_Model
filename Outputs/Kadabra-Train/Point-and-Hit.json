@@ -1,0 +1,30 @@
+{
+	"sources": [
+		"C:\\Github\\Point-and-Hit"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 60,
+				"name": "getRadius",
+				"file": "C:\\Github\\Point-and-Hit\\core\\src\\com\\jmstudios\\pointandhit\\BulletManager.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 88,
+				"name": "getRadius",
+				"file": "C:\\Github\\Point-and-Hit\\core\\src\\com\\jmstudios\\pointandhit\\Target.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 118,
+				"name": "getScreenSizeInDegrees",
+				"file": "C:\\Github\\Point-and-Hit\\core\\src\\com\\jmstudios\\pointandhit\\UserPointer.java"
+			}
+		]
+	}
+}

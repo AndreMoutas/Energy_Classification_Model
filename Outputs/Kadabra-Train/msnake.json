@@ -1,0 +1,48 @@
+{
+	"sources": [
+		"C:\\Github\\msnake"
+	],
+	"total": 7,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 805,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			},
+			{
+				"line": 929,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			},
+			{
+				"line": 931,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			},
+			{
+				"line": 933,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			},
+			{
+				"line": 937,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			},
+			{
+				"line": 962,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			},
+			{
+				"line": 964,
+				"name": "setTile",
+				"file": "C:\\Github\\msnake\\src\\com\\fgrim\\msnake\\SnakeView.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

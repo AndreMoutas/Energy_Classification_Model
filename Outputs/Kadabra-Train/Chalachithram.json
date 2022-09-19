@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\Chalachithram"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\Chalachithram\\app\\src\\test\\java\\ml\\vivekthazhathattil\\chalachithram\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

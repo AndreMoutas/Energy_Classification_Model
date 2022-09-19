@@ -1,0 +1,17 @@
+{
+	"sources": [
+		"C:\\Github\\PianOli"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 59,
+				"file": "C:\\Github\\PianOli\\app\\src\\main\\java\\com\\nicobrailo\\pianoli\\PianoCanvas.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

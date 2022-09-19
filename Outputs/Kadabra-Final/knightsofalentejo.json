@@ -1,0 +1,233 @@
+{
+	"sources": [
+		"C:\\Github\\knightsofalentejo"
+	],
+	"total": 44,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 472,
+				"name": "getCurrentLevel",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\menu\\GameActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 20,
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 173,
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\menu\\GameActivity.java"
+			},
+			{
+				"line": 174,
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\menu\\GameActivity.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 66,
+				"name": "getPosition",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 70,
+				"name": "getPosition",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 74,
+				"name": "getPosition",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 78,
+				"name": "getPosition",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 85,
+				"name": "getPosition",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 18,
+				"name": "getCurrentGameSession",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameConfigurations.java"
+			},
+			{
+				"line": 373,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 375,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 379,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 382,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 385,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 388,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 412,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 414,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 415,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 415,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 418,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 421,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 422,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 425,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 425,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 433,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 433,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 444,
+				"name": "getSelectedPlayer",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 446,
+				"name": "getTotalAvailableKnights",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 450,
+				"name": "getTotalAvailableKnights",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 457,
+				"name": "getTotalAvailableKnights",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 457,
+				"name": "getTotalExitedKnights",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			},
+			{
+				"line": 463,
+				"name": "getTotalAvailableKnights",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameLevel.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 20,
+				"name": "onSwipeLeft",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 23,
+				"name": "onSwipeRight",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 26,
+				"name": "onSwipeUp",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 29,
+				"name": "onSwipeDown",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 32,
+				"name": "onDoubleTap",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 35,
+				"name": "onLongPress",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 23,
+				"name": "notifyEndOfTurn",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 92,
+				"name": "getChar",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Actor.java"
+			},
+			{
+				"line": 491,
+				"name": "onDestroy",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameViewGLES2.java"
+			},
+			{
+				"line": 500,
+				"name": "setTextures",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\GameViewGLES2.java"
+			},
+			{
+				"line": 13,
+				"name": "updateTarget",
+				"file": "C:\\Github\\knightsofalentejo\\app\\src\\main\\java\\br\\odb\\knights\\Monster.java"
+			}
+		]
+	}
+}

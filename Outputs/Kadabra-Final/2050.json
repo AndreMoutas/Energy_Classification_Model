@@ -1,0 +1,17 @@
+{
+	"sources": [
+		"C:\\Github\\2050"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 126,
+				"file": "C:\\Github\\2050\\app\\build\\generated\\source\\kapt\\debug\\org\\mattvchandler\\a2050\\DataBinderMapperImpl.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

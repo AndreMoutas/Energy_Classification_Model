@@ -1,0 +1,64 @@
+{
+	"sources": [
+		"C:\\Github\\fate-sheets"
+	],
+	"total": 10,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 72,
+				"name": "getCharacter",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\activity\\CoreCharacterEditActivity.java"
+			},
+			{
+				"line": 70,
+				"name": "getCharacter",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\activity\\FAECharacterEditActivity.java"
+			},
+			{
+				"line": 42,
+				"name": "getDescription",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Approach.java"
+			},
+			{
+				"line": 42,
+				"name": "getValue",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Skill.java"
+			},
+			{
+				"line": 42,
+				"name": "getValue",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Skill.java"
+			},
+			{
+				"line": 43,
+				"name": "getDescription",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Skill.java"
+			},
+			{
+				"line": 43,
+				"name": "getDescription",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Skill.java"
+			},
+			{
+				"line": 45,
+				"name": "getValue",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Skill.java"
+			},
+			{
+				"line": 45,
+				"name": "getValue",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Skill.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 106,
+				"name": "getSheetType",
+				"file": "C:\\Github\\fate-sheets\\app\\src\\main\\java\\link\\standen\\michael\\fatesheets\\model\\Character.java"
+			}
+		]
+	}
+}

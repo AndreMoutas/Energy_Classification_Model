@@ -1,0 +1,142 @@
+{
+	"sources": [
+		"C:\\Github\\n-puzzle"
+	],
+	"total": 26,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 217,
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\ImageSource.java"
+			},
+			{
+				"line": 131,
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\LicensePages.java"
+			},
+			{
+				"line": 159,
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\LicensePages.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 96,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 97,
+				"name": "getSize",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 198,
+				"name": "getSize",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 199,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 236,
+				"name": "getSize",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 237,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 250,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 252,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 264,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 272,
+				"name": "getSize",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 292,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 293,
+				"name": "getSize",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 329,
+				"name": "getTileCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 331,
+				"name": "getSize",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Board.java"
+			},
+			{
+				"line": 140,
+				"name": "getDifficulty",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Game.java"
+			},
+			{
+				"line": 145,
+				"name": "getSelectedImageId",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Game.java"
+			},
+			{
+				"line": 151,
+				"name": "getDifficulty",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Game.java"
+			},
+			{
+				"line": 152,
+				"name": "isStarted",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Game.java"
+			},
+			{
+				"line": 159,
+				"name": "getMoveCount",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Game.java"
+			},
+			{
+				"line": 160,
+				"name": "getBoard",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\model\\Game.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 206,
+				"name": "onDialogCancel",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\Activity.java"
+			},
+			{
+				"line": 213,
+				"name": "onDialogResponse",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\Activity.java"
+			},
+			{
+				"line": 221,
+				"name": "onCompletion",
+				"file": "C:\\Github\\n-puzzle\\src\\name\\livitski\\games\\puzzle\\android\\Activity.java"
+			}
+		]
+	}
+}

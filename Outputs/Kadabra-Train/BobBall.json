@@ -1,0 +1,320 @@
+{
+	"sources": [
+		"C:\\Github\\BobBall"
+	],
+	"total": 61,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 54,
+				"name": "getWidth",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 54,
+				"name": "getWidth",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 55,
+				"name": "getHeight",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 55,
+				"name": "getHeight",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 62,
+				"name": "getBalls",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 71,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 54,
+				"name": "getWidth",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 54,
+				"name": "getWidth",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 55,
+				"name": "getHeight",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 55,
+				"name": "getHeight",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 62,
+				"name": "getBalls",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 62,
+				"name": "getBalls",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\StupidAIActor.java"
+			},
+			{
+				"line": 129,
+				"name": "getFrame",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Bar.java"
+			},
+			{
+				"line": 133,
+				"name": "getFrame",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Bar.java"
+			},
+			{
+				"line": 75,
+				"name": "getWidth",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameEventNewGame.java"
+			},
+			{
+				"line": 75,
+				"name": "getWidth",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameEventNewGame.java"
+			},
+			{
+				"line": 76,
+				"name": "getHeight",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameEventNewGame.java"
+			},
+			{
+				"line": 76,
+				"name": "getHeight",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameEventNewGame.java"
+			},
+			{
+				"line": 139,
+				"name": "getPlayers",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 147,
+				"name": "timeLeft",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 148,
+				"name": "timeLeft",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 149,
+				"name": "getGrid",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 172,
+				"name": "getBalls",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 193,
+				"name": "getSectionOne",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 193,
+				"name": "getSectionTwo",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 279,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 363,
+				"name": "getPlayers",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 363,
+				"name": "getPlayers",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 74,
+				"name": "getPlayers",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameView.java"
+			},
+			{
+				"line": 81,
+				"name": "getGrid",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameView.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 44,
+				"name": "getSize",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 45,
+				"name": "getX1",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 45,
+				"name": "getY1",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 45,
+				"name": "getX2",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 45,
+				"name": "getY2",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 47,
+				"name": "getHorizontalVelocity",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 48,
+				"name": "getVerticalVelocity",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 109,
+				"name": "getX1",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 110,
+				"name": "getY1",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 111,
+				"name": "getX2",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 112,
+				"name": "getY2",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 87,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 203,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 267,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 277,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 279,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 288,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 300,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 410,
+				"name": "getGameTime",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 15,
+				"name": "getExecFreq",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\Actor.java"
+			},
+			{
+				"line": 22,
+				"name": "newEventCallback",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\Actor.java"
+			},
+			{
+				"line": 25,
+				"name": "reset",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Actors\\Actor.java"
+			},
+			{
+				"line": 483,
+				"name": "surfaceCreated",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\BobBallActivity.java"
+			},
+			{
+				"line": 183,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Ball.java"
+			},
+			{
+				"line": 157,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Bar.java"
+			},
+			{
+				"line": 61,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\BarSection.java"
+			},
+			{
+				"line": 32,
+				"name": "apply",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameEvent.java"
+			},
+			{
+				"line": 402,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameManager.java"
+			},
+			{
+				"line": 83,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\GameState.java"
+			},
+			{
+				"line": 358,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\GameLogic\\Grid.java"
+			},
+			{
+				"line": 62,
+				"name": "describeContents",
+				"file": "C:\\Github\\BobBall\\app\\src\\main\\java\\org\\bobstuff\\bobball\\Player.java"
+			}
+		]
+	}
+}

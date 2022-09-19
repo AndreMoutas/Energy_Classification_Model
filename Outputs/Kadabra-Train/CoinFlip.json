@@ -1,0 +1,28 @@
+{
+	"sources": [
+		"C:\\Github\\CoinFlip"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 156,
+				"name": "onAccuracyChanged",
+				"file": "C:\\Github\\CoinFlip\\mobile\\src\\main\\java\\com\\banasiak\\coinflip\\ShakeListener.java"
+			},
+			{
+				"line": 90,
+				"name": "onStartTrackingTouch",
+				"file": "C:\\Github\\CoinFlip\\mobile\\src\\main\\java\\com\\banasiak\\coinflip\\SliderPreference.java"
+			},
+			{
+				"line": 93,
+				"name": "onStopTrackingTouch",
+				"file": "C:\\Github\\CoinFlip\\mobile\\src\\main\\java\\com\\banasiak\\coinflip\\SliderPreference.java"
+			}
+		]
+	}
+}

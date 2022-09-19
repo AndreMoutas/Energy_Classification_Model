@@ -1,0 +1,24 @@
+{
+	"sources": [
+		"C:\\Github\\Manille"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 79,
+				"name": "getTurns",
+				"file": "C:\\Github\\Manille\\src\\main\\java\\be\\quentinloos\\manille\\util\\ManilleParcelable.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 67,
+				"name": "isEnded",
+				"file": "C:\\Github\\Manille\\src\\main\\java\\be\\quentinloos\\manille\\core\\Manille.java"
+			}
+		]
+	}
+}

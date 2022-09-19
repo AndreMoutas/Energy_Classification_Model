@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\liquid-wars-android"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 211,
+				"name": "changeTeam",
+				"file": "C:\\Github\\liquid-wars-android\\src\\com\\xenris\\liquidwarsos\\MultiplayerGameSetupActivity.java"
+			}
+		]
+	}
+}

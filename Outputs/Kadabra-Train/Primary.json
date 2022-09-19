@@ -1,0 +1,179 @@
+{
+	"sources": [
+		"C:\\Github\\Primary"
+	],
+	"total": 34,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 177,
+				"name": "getLevels",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectMenuActivity.java"
+			},
+			{
+				"line": 197,
+				"name": "getUsername",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectMenuActivity.java"
+			},
+			{
+				"line": 197,
+				"name": "getMaxNum",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 202,
+				"name": "getMinMathOp",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 202,
+				"name": "getMaxMathOp",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 204,
+				"name": "getRounds",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 213,
+				"name": "getDoubles",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 223,
+				"name": "getNegatives",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 228,
+				"name": "getNegatives",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathActivity.java"
+			},
+			{
+				"line": 156,
+				"name": "getMinuteGranularity",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\timemoney\\TimeActivity.java"
+			},
+			{
+				"line": 160,
+				"name": "getMinuteGranularity",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\timemoney\\TimeActivity.java"
+			},
+			{
+				"line": 161,
+				"name": "getMinuteGranularity",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\timemoney\\TimeActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 25,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\Level.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\HorzItemList.java"
+			},
+			{
+				"line": 46,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\HorzItemList.java"
+			},
+			{
+				"line": 47,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\Keyboard.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\SoundEffects.java"
+			},
+			{
+				"line": 38,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\data\\AppData.java"
+			},
+			{
+				"line": 33,
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\data\\Subjects.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 37,
+				"name": "getInputMode",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\StdLevel.java"
+			},
+			{
+				"line": 117,
+				"name": "isReady",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\SoundEffects.java"
+			},
+			{
+				"line": 61,
+				"name": "getDoubles",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\math\\BasicMathLevel.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 126,
+				"name": "onCleanPluralsClick",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\MainActivity.java"
+			},
+			{
+				"line": 42,
+				"name": "getDescription",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\Level.java"
+			},
+			{
+				"line": 44,
+				"name": "getShortDescription",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\Level.java"
+			},
+			{
+				"line": 152,
+				"name": "onBeforeShowProb",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectBaseActivity.java"
+			},
+			{
+				"line": 154,
+				"name": "onShowProbImpl",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectBaseActivity.java"
+			},
+			{
+				"line": 156,
+				"name": "onAfterShowProb",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectBaseActivity.java"
+			},
+			{
+				"line": 379,
+				"name": "onShowLevel",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectBaseActivity.java"
+			},
+			{
+				"line": 622,
+				"name": "onSetStatus",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\SubjectBaseActivity.java"
+			},
+			{
+				"line": 164,
+				"name": "onNewItemClicked",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\HorzItemList.java"
+			},
+			{
+				"line": 168,
+				"name": "onItemClicked",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\HorzItemList.java"
+			},
+			{
+				"line": 177,
+				"name": "populateItem",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\component\\HorzItemList.java"
+			},
+			{
+				"line": 136,
+				"name": "getSubjectForUser",
+				"file": "C:\\Github\\Primary\\app\\src\\main\\java\\com\\quaap\\primary\\base\\data\\UserData.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\ComputationalDemonology"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 108,
+				"name": "stopping",
+				"file": "C:\\Github\\ComputationalDemonology\\app\\src\\main\\java\\com\\quaap\\computationaldemonology\\functions\\Drawgorythm.java"
+			},
+			{
+				"line": 112,
+				"name": "doDraw",
+				"file": "C:\\Github\\ComputationalDemonology\\app\\src\\main\\java\\com\\quaap\\computationaldemonology\\functions\\Drawgorythm.java"
+			}
+		]
+	}
+}

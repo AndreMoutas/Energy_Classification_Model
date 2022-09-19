@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\freeminer"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 59,
+				"name": "onRetainNonConfigurationInstance",
+				"file": "C:\\Github\\freeminer\\build\\android\\src\\main\\java\\net.minetest.minetest\\MinetestAssetCopy.java"
+			},
+			{
+				"line": 61,
+				"name": "onRetainNonConfigurationInstance",
+				"file": "C:\\Github\\freeminer\\build_tools\\android_fm\\src\\org\\freeminer\\freeminer\\freeminerAssetCopy.java"
+			}
+		]
+	}
+}

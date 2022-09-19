@@ -1,0 +1,73 @@
+{
+	"sources": [
+		"C:\\Github\\pcis"
+	],
+	"total": 12,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 117,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 117,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 120,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 120,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 123,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 123,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 124,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			},
+			{
+				"line": 124,
+				"name": "getBody",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\GameStage.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 17,
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\Content.java"
+			},
+			{
+				"line": 18,
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\Content.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 7,
+				"name": "show",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\hud\\HudActor.java"
+			},
+			{
+				"line": 8,
+				"name": "hide",
+				"file": "C:\\Github\\pcis\\core\\src\\pl\\sanszo\\pcis\\hud\\HudActor.java"
+			}
+		]
+	}
+}

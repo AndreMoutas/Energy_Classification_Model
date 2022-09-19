@@ -1,0 +1,53 @@
+{
+	"sources": [
+		"C:\\Github\\rolldash"
+	],
+	"total": 9,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 96,
+				"file": "C:\\Github\\rolldash\\app\\build\\generated\\source\\kapt\\debug\\fr\\bux\\rollingdashboard\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 109,
+				"file": "C:\\Github\\rolldash\\app\\build\\generated\\source\\kapt\\debug\\fr\\bux\\rollingdashboard\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 129,
+				"file": "C:\\Github\\rolldash\\app\\build\\generated\\source\\kapt\\debug\\fr\\bux\\rollingdashboard\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 159,
+				"file": "C:\\Github\\rolldash\\app\\build\\generated\\source\\kapt\\debug\\fr\\bux\\rollingdashboard\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 160,
+				"file": "C:\\Github\\rolldash\\app\\build\\generated\\source\\kapt\\debug\\fr\\bux\\rollingdashboard\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 185,
+				"file": "C:\\Github\\rolldash\\app\\build\\generated\\source\\kapt\\debug\\fr\\bux\\rollingdashboard\\AppDatabase_Impl.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 18,
+				"name": "systemDataDao",
+				"file": "C:\\Github\\rolldash\\app\\build\\tmp\\kapt3\\stubs\\debug\\fr\\bux\\rollingdashboard\\AppDatabase.java"
+			},
+			{
+				"line": 21,
+				"name": "characterDao",
+				"file": "C:\\Github\\rolldash\\app\\build\\tmp\\kapt3\\stubs\\debug\\fr\\bux\\rollingdashboard\\AppDatabase.java"
+			},
+			{
+				"line": 24,
+				"name": "accountConfigurationDao",
+				"file": "C:\\Github\\rolldash\\app\\build\\tmp\\kapt3\\stubs\\debug\\fr\\bux\\rollingdashboard\\AppDatabase.java"
+			}
+		]
+	}
+}

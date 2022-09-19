@@ -1,0 +1,107 @@
+{
+	"sources": [
+		"C:\\Github\\privacy-friendly-boardgame-clock"
+	],
+	"total": 19,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 245,
+				"name": "getRound_time",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\activities\\ChoosePlayersActivity.java"
+			},
+			{
+				"line": 203,
+				"name": "getPlayers",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 205,
+				"name": "getId",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 236,
+				"name": "getPlayers",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 246,
+				"name": "getPlayers",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 247,
+				"name": "getPlayer_round_times",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 255,
+				"name": "getPlayers",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 256,
+				"name": "getPlayer_rounds",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 430,
+				"name": "getPlayers",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 431,
+				"name": "getId",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 86,
+				"name": "getCursorAdapter",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\fragments\\PlayerManagementContactListFragment.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 243,
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\activities\\ChoosePlayersActivity.java"
+			},
+			{
+				"line": 248,
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\activities\\ChoosePlayersActivity.java"
+			},
+			{
+				"line": 320,
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			},
+			{
+				"line": 329,
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\database\\GamesDataSourceSingleton.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 105,
+				"name": "getContext",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\helpers\\GameListAdapter.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 39,
+				"name": "onSwipeLeft",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\helpers\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 42,
+				"name": "onSwipeRight",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\main\\java\\org\\secuso\\privacyfriendlyboardgameclock\\helpers\\OnSwipeTouchListener.java"
+			},
+			{
+				"line": 12,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\privacy-friendly-boardgame-clock\\app\\src\\test\\java\\org\\secuso\\privacyfriendlyboardgameclock\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

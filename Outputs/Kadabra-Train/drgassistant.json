@@ -1,0 +1,29 @@
+{
+	"sources": [
+		"C:\\Github\\drgassistant"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 124,
+				"name": "itemsAsArray",
+				"file": "C:\\Github\\drgassistant\\app\\src\\main\\java\\com\\vladrip\\drgassistant\\MultiChoiceActivity.java"
+			},
+			{
+				"line": 42,
+				"name": "getTiers",
+				"file": "C:\\Github\\drgassistant\\app\\src\\main\\java\\com\\vladrip\\drgassistant\\fr_builds\\BuildFactory.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\drgassistant\\app\\src\\test\\java\\com\\vladrip\\drgassistant\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

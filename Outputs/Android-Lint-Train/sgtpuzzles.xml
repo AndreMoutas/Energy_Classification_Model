@@ -1,0 +1,2938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.0">
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: https://developer.android.com/reference/android/os/Build.VERSION_CODES.html as well as follow this guide:&#xA;https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        url="https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        urls="https://developer.android.com/distribute/best-practices/develop/target-sdk.html,https://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        targetSdkVersion 32"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\build.gradle"
+            line="43"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.5.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.4.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\build.gradle"
+            line="170"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.annotation:annotation than 1.3.0 is available: 1.4.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.annotation:annotation:1.3.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\build.gradle"
+            line="172"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.webkit:webkit than 1.4.0 is available: 1.5.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.webkit:webkit:1.4.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\build.gradle"
+            line="174"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of org.mockito:mockito-core than 4.5.1 is available: 4.6.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    testImplementation &apos;org.mockito:mockito-core:4.5.1&apos;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\build.gradle"
+            line="176"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.annotation:annotation than 1.3.0 is available: 1.4.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    androidTestImplementation &apos;androidx.annotation:annotation:1.3.0&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\build.gradle"
+            line="177"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `@color/webview_background` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
+        errorLine1="    android:background=&quot;@color/webview_background&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\layout\activity_help.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="AlwaysShowAction"
+        severity="Warning"
+        message="Prefer &quot;`SHOW_AS_ACTION_IF_ROOM`&quot; instead of &quot;`SHOW_AS_ACTION_ALWAYS`&quot;"
+        category="Usability"
+        priority="3"
+        summary="Usage of `showAsAction=always`"
+        explanation="Using `showAsAction=&quot;always&quot;` in menu XML, or `MenuItem.SHOW_AS_ACTION_ALWAYS` in Java code is usually a deviation from the user interface style guide.Use `ifRoom` or the corresponding `MenuItem.SHOW_AS_ACTION_IF_ROOM` instead.&#xA;&#xA;If `always` is used sparingly there are usually no problems and behavior is roughly equivalent to `ifRoom` but with preference over other `ifRoom` items. Using it more than twice in the same menu is a bad idea.&#xA;&#xA;This check looks for menu XML files that contain more than two `always` actions, or some `always` actions and no `ifRoom` actions. In Java code, it looks for projects that contain references to `MenuItem.SHOW_AS_ACTION_ALWAYS` and no references to `MenuItem.SHOW_AS_ACTION_IF_ROOM`."
+        errorLine1="  int state = MenuItem.SHOW_AS_ACTION_ALWAYS;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\java\name\boyle\chris\sgtpuzzles\GameChooser.java"
+            line="264"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="AlwaysShowAction"
+        severity="Warning"
+        message="Prefer &quot;`SHOW_AS_ACTION_IF_ROOM`&quot; instead of &quot;`SHOW_AS_ACTION_ALWAYS`&quot;"
+        category="Usability"
+        priority="3"
+        summary="Usage of `showAsAction=always`"
+        explanation="Using `showAsAction=&quot;always&quot;` in menu XML, or `MenuItem.SHOW_AS_ACTION_ALWAYS` in Java code is usually a deviation from the user interface style guide.Use `ifRoom` or the corresponding `MenuItem.SHOW_AS_ACTION_IF_ROOM` instead.&#xA;&#xA;If `always` is used sparingly there are usually no problems and behavior is roughly equivalent to `ifRoom` but with preference over other `ifRoom` items. Using it more than twice in the same menu is a bad idea.&#xA;&#xA;This check looks for menu XML files that contain more than two `always` actions, or some `always` actions and no `ifRoom` actions. In Java code, it looks for projects that contain references to `MenuItem.SHOW_AS_ACTION_ALWAYS` and no references to `MenuItem.SHOW_AS_ACTION_IF_ROOM`."
+        errorLine1="  int state = MenuItem.SHOW_AS_ACTION_ALWAYS;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\java\name\boyle\chris\sgtpuzzles\GamePlay.java"
+            line="1212"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="RtlEnabled"
+        severity="Warning"
+        message="The project references RTL attributes, but does not explicitly enable or disable RTL support with `android:supportsRtl` in the manifest"
+        category="Internationalization:Bidirectional Text"
+        priority="3"
+        summary="Using RTL attributes without enabling RTL support"
+        explanation="To enable right-to-left support, when running on API 17 and higher, you must set the `android:supportsRtl` attribute in the manifest `&lt;application>` element.&#xA;&#xA;If you have started adding RTL attributes, but have not yet finished the migration, you can set the attribute to false to satisfy this lint check.">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\AndroidManifest.xml"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\blackbox.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\blackbox.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\blackbox.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\blackbox.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\blackbox.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox_sym_key_mouse_left.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\blackbox_sym_key_mouse_left.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox_sym_key_mouse_left.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\blackbox_sym_key_mouse_left.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox_sym_key_mouse_left.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\blackbox_sym_key_mouse_left.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="blackbox_sym_key_mouse_left.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\blackbox_sym_key_mouse_left.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="bridges.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\bridges.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="bridges.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\bridges.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="bridges.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\bridges.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="bridges.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\bridges.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="bridges.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\bridges.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="checkerboard.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-nodpi\checkerboard.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="cube.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\cube.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="cube.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\cube.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="cube.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\cube.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="cube.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\cube.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="cube.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\cube.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="dominosa.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\dominosa.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="dominosa.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\dominosa.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="dominosa.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\dominosa.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="dominosa.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\dominosa.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="dominosa.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\dominosa.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="fifteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\fifteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="fifteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\fifteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="fifteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\fifteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="fifteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\fifteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\filling.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\filling.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\filling.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\filling.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\filling.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling_sym_key_mouse_right.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\filling_sym_key_mouse_right.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling_sym_key_mouse_right.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\filling_sym_key_mouse_right.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling_sym_key_mouse_right.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\filling_sym_key_mouse_right.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling_sym_key_mouse_right.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\filling_sym_key_mouse_right.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="filling_sym_key_mouse_right.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\filling_sym_key_mouse_right.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="flip.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\flip.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="flip.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\flip.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="flip.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\flip.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="flip.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\flip.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="flip.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\flip.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="galaxies.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\galaxies.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="galaxies.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\galaxies.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="galaxies.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\galaxies.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="galaxies.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\galaxies.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="galaxies.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\galaxies.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="guess.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\guess.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="guess.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\guess.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="guess.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\guess.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="guess.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\guess.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="guess.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\guess.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_ab_logo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\ic_ab_logo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_ab_logo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\ic_ab_logo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_ab_logo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\ic_ab_logo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_ab_logo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\ic_ab_logo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_action_load.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\ic_action_load.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_action_load.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\ic_action_load.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_action_load.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\ic_action_load.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="inertia.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\inertia.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="inertia.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\inertia.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="inertia.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\inertia.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="inertia.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\inertia.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="inertia.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\inertia.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="keen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\keen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="keen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\keen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="keen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\keen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="keen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\keen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="keen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\keen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-hdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-mdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xhdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xxhdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xxxhdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="lightup.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\lightup.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="loopy.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\loopy.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="loopy.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\loopy.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="loopy.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\loopy.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="loopy.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\loopy.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="loopy.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\loopy.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-hdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-mdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xhdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xxhdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xxxhdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="magnets.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\magnets.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="map.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\map.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="map.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\map.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="map.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\map.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="map.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\map.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="map.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\map.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mines.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\mines.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mines.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\mines.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mines.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\mines.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mines.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\mines.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mines.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\mines.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xxhdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-night-xxxhdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="mosaic.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\mosaic.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="net.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\net.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="net.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\net.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="net.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\net.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="net.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\net.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="net.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\net.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="netslide.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\netslide.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="netslide.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\netslide.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="netslide.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\netslide.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="netslide.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\netslide.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="netslide.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\netslide.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="palisade.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\palisade.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="palisade.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\palisade.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="palisade.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\palisade.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="palisade.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\palisade.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="palisade.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\palisade.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pattern.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\pattern.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pattern.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\pattern.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pattern.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\pattern.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pattern.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\pattern.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pattern.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\pattern.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pearl.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\pearl.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pearl.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\pearl.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pearl.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\pearl.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pearl.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\pearl.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pearl.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\pearl.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pegs.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\pegs.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pegs.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\pegs.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pegs.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\pegs.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pegs.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\pegs.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="pegs.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\pegs.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="range.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\range.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="range.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\range.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="range.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\range.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="range.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\range.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="rect.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\rect.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="rect.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\rect.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="rect.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\rect.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="rect.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\rect.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="rect.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\rect.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="samegame.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\samegame.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="samegame.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\samegame.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="samegame.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\samegame.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="samegame.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\samegame.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="samegame.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\samegame.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="signpost.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\signpost.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="signpost.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\signpost.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="signpost.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\signpost.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="signpost.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\signpost.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="signpost.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\signpost.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="singles.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\singles.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="singles.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\singles.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="singles.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\singles.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="singles.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\singles.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="singles.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\singles.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="sixteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\sixteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="sixteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\sixteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="sixteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\sixteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="sixteen.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\sixteen.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="slant.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\slant.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="slant.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\slant.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="slant.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\slant.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="slant.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\slant.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="slant.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\slant.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="solo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\solo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="solo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\solo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="solo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\solo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="solo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\solo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="solo.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\solo.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="square_filled.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\square_filled.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="square_filled.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\square_filled.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="square_filled.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\square_filled.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="square_filled.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\square_filled.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;LightDarkActionBar&quot; parent=&quot;@style/Theme.AppCompat.Light.DarkActionBar&quot;>"
+        errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\values\styles.xml"
+            line="12"
+            column="38"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;LightDarkActionBar&quot; parent=&quot;@style/Theme.AppCompat.Light.DarkActionBar&quot;>"
+        errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\values-v21\styles.xml"
+            line="13"
+            column="38"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;Button.Completed&quot; parent=&quot;@android:style/Widget.Holo.Light.Button.Small&quot;>"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\values\styles.xml"
+            line="33"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="sym_key_mouse_left.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\sym_key_mouse_left.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tents.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\tents.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tents.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\tents.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tents.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\tents.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tents.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\tents.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tents.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\tents.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="towers.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\towers.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="towers.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\towers.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="towers.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\towers.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="towers.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\towers.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="towers.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\towers.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tracks.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\tracks.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tracks.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\tracks.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tracks.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\tracks.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tracks.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\tracks.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="tracks.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\tracks.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="twiddle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\twiddle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="twiddle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\twiddle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="twiddle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\twiddle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="twiddle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\twiddle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="twiddle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\twiddle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="undead.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\undead.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="undead.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\undead.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="undead.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\undead.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="undead.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\undead.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="undead.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\undead.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unequal.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\unequal.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unequal.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\unequal.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unequal.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\unequal.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unequal.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\unequal.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unruly.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\unruly.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unruly.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\unruly.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unruly.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\unruly.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unruly.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\unruly.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="unruly.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\unruly.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="untangle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-hdpi\untangle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="untangle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-mdpi\untangle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="untangle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xhdpi\untangle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="untangle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxhdpi\untangle.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="untangle.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\res\drawable-xxxhdpi\untangle.png"/>
+    </issue>
+
+    <issue
+        id="KeepScreenOn"
+        severity="Information"
+        message="The flag `FLAG_KEEP_SCREEN_ON` is dangerous"
+        category="Greenness"
+        priority="6"
+        summary="You should avoid to keep the screen on"
+        explanation="As a rule of thumb, keeping the device awake instead of letting it falling asleep is a bad practice"
+        errorLine1="   getWindow().addFlags(android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\java\name\boyle\chris\sgtpuzzles\GamePlay.java"
+            line="1418"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="SensorCoalesce"
+        severity="Warning"
+        message="Should use `registerListener(SensorEventListener, Sensor, int, int)` instead of `registerListener(SensorEventListener, Sensor, int)`"
+        category="Greenness"
+        priority="6"
+        summary="Events should be kept temporarily before being delivered"
+        explanation="The method registerListener(SensorEventListener, Sensor, int, int) allows eventsto be stored in the hardware queue (FIFO) up to maxReportLatencyUs. Setting maxReportLatencyUs to a positive value allows to reduce the number of interrupts the AP receives, hence reducing power consumption."
+        url="https://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int,%20int)"
+        urls="https://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorEventListener,%20android.hardware.Sensor,%20int,%20int)"
+        errorLine1="   if (_sensorManager != null) _sensorManager.registerListener(this, _lightSensor, SensorManager.SENSOR_DELAY_NORMAL);"
+        errorLine2="                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\java\name\boyle\chris\sgtpuzzles\NightModeHelper.java"
+            line="179"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="SensorLeak"
+        severity="Error"
+        message="The unregistration of this sensor is misplaced"
+        category="Greenness"
+        priority="6"
+        summary="You did not unregister a sensor properly"
+        explanation="Always make sure to disable sensors you don&apos;t need, especially when your activity is paused. Failing to do so can drain the battery in just a few hours. Note that the system will not disable sensors automatically when the screen turns off"
+        url="https://developer.android.com/reference/android/hardware/SensorManager"
+        urls="https://developer.android.com/reference/android/hardware/SensorManager"
+        errorLine1="   if (_sensorManager != null) _sensorManager.unregisterListener(this);"
+        errorLine2="                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\sgtpuzzles\app\src\main\java\name\boyle\chris\sgtpuzzles\NightModeHelper.java"
+            line="185"
+            column="32"/>
+    </issue>
+
+</issues>

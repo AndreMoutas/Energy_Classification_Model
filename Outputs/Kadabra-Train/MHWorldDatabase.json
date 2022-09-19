@@ -1,0 +1,885 @@
+{
+	"sources": [
+		"C:\\Github\\MHWorldDatabase"
+	],
+	"total": 185,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 91,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 104,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 119,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 131,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 160,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 161,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase_Impl.java"
+			},
+			{
+				"line": 225,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 237,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 250,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 270,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 284,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 299,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 313,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 331,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 346,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 393,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 409,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 425,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 441,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 454,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 475,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 488,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 505,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 518,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 533,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 547,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 562,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 576,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 591,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 605,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 631,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 645,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 675,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 689,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 704,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 717,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 730,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 744,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 792,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 805,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 953,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 970,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 982,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 996,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1011,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1029,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1044,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1058,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1074,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1094,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1109,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1128,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1154,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			},
+			{
+				"line": 1155,
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\generated\\source\\kapt\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase_Impl.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 18,
+				"name": "isForViewType",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\adapters\\common\\SimpleListDelegate.java"
+			},
+			{
+				"line": 26,
+				"name": "onCreateView",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\adapters\\common\\SimpleListDelegate.java"
+			},
+			{
+				"line": 32,
+				"name": "bindView",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\adapters\\common\\SimpleListDelegate.java"
+			},
+			{
+				"line": 16,
+				"name": "onCreateView",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\adapters\\common\\SimpleRecyclerViewAdapter.java"
+			},
+			{
+				"line": 19,
+				"name": "bindView",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\adapters\\common\\SimpleRecyclerViewAdapter.java"
+			},
+			{
+				"line": 14,
+				"name": "shouldDraw",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\components\\BaseVerticalDivider.java"
+			},
+			{
+				"line": 23,
+				"name": "performDraw",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\components\\BaseVerticalDivider.java"
+			},
+			{
+				"line": 14,
+				"name": "bookmarkDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase.java"
+			},
+			{
+				"line": 17,
+				"name": "userEquipmentSetDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\AppDatabase.java"
+			},
+			{
+				"line": 14,
+				"name": "loadArmorListSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 19,
+				"name": "loadArmorList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 25,
+				"name": "loadArmorListBySet",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 30,
+				"name": "loadArmorSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 35,
+				"name": "loadArmorIdsByArmorTypeSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 78,
+				"name": "loadArmorSetBonusSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 83,
+				"name": "loadArmorComponentsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 88,
+				"name": "loadArmorSkillsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ArmorDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadBookmarks",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BookmarksDao.java"
+			},
+			{
+				"line": 18,
+				"name": "delete",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BookmarksDao.java"
+			},
+			{
+				"line": 27,
+				"name": "loadArmorByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 33,
+				"name": "loadItemsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 39,
+				"name": "loadCharmsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 45,
+				"name": "loadDecorationsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 51,
+				"name": "loadLocationsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 57,
+				"name": "loadMonstersByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 63,
+				"name": "loadSkillTreesByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 69,
+				"name": "loadWeaponsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 75,
+				"name": "loadKinsectsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 81,
+				"name": "loadToolsByIdList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\BulkLoaderDao.java"
+			},
+			{
+				"line": 14,
+				"name": "loadCharmsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\CharmDao.java"
+			},
+			{
+				"line": 19,
+				"name": "loadCharmList",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\CharmDao.java"
+			},
+			{
+				"line": 24,
+				"name": "loadCharmListSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\CharmDao.java"
+			},
+			{
+				"line": 51,
+				"name": "loadCharmSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\CharmDao.java"
+			},
+			{
+				"line": 56,
+				"name": "loadCharmComponentsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\CharmDao.java"
+			},
+			{
+				"line": 61,
+				"name": "loadCharmSkillsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\CharmDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadDecorations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\DecorationDao.java"
+			},
+			{
+				"line": 16,
+				"name": "loadDecorationsWithSkills",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\DecorationDao.java"
+			},
+			{
+				"line": 21,
+				"name": "loadDecorationsWithSkillsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\DecorationDao.java"
+			},
+			{
+				"line": 26,
+				"name": "loadDecoration",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\DecorationDao.java"
+			},
+			{
+				"line": 31,
+				"name": "loadDecorationSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\DecorationDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadItems",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 17,
+				"name": "loadItem",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 25,
+				"name": "loadItemLocationsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 33,
+				"name": "loadItemMonsterRewardsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 38,
+				"name": "loadItemQuestRewardsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 52,
+				"name": "loadItemCombinationsBaseSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 67,
+				"name": "loadCharmUsageForSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 72,
+				"name": "loadArmorUsageForSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 77,
+				"name": "loadWeaponUsageForSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ItemDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadKinsectSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\KinsectDao.java"
+			},
+			{
+				"line": 16,
+				"name": "loadKinsectComponents",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\KinsectDao.java"
+			},
+			{
+				"line": 21,
+				"name": "loadKinsectsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\KinsectDao.java"
+			},
+			{
+				"line": 15,
+				"name": "loadLocations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\LocationDao.java"
+			},
+			{
+				"line": 20,
+				"name": "loadLocation",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\LocationDao.java"
+			},
+			{
+				"line": 25,
+				"name": "loadLocationCamps",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\LocationDao.java"
+			},
+			{
+				"line": 30,
+				"name": "loadLocationItems",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\LocationDao.java"
+			},
+			{
+				"line": 15,
+				"name": "queryLanguages",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MetaDao.java"
+			},
+			{
+				"line": 14,
+				"name": "loadMonsters",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MonsterDao.java"
+			},
+			{
+				"line": 20,
+				"name": "loadMonster",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MonsterDao.java"
+			},
+			{
+				"line": 25,
+				"name": "loadHabitats",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MonsterDao.java"
+			},
+			{
+				"line": 30,
+				"name": "loadHitzones",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MonsterDao.java"
+			},
+			{
+				"line": 35,
+				"name": "loadBreaks",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MonsterDao.java"
+			},
+			{
+				"line": 40,
+				"name": "loadRewards",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\MonsterDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadQuests",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\QuestDao.java"
+			},
+			{
+				"line": 17,
+				"name": "loadQuest",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\QuestDao.java"
+			},
+			{
+				"line": 22,
+				"name": "loadQuestRewards",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\QuestDao.java"
+			},
+			{
+				"line": 27,
+				"name": "loadQuestMonsters",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\QuestDao.java"
+			},
+			{
+				"line": 88,
+				"name": "loadAllLocationsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 93,
+				"name": "loadAllMonstersSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 98,
+				"name": "loadAllSkilltreesSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 103,
+				"name": "loadAllDecorationsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 108,
+				"name": "loadAllCharmsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 113,
+				"name": "loadAllArmorSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 118,
+				"name": "loadAllItemsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 123,
+				"name": "loadAllWeaponsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 128,
+				"name": "loadAllQuestsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 133,
+				"name": "loadAllKinsectsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 138,
+				"name": "loadAllToolsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SearchDao.java"
+			},
+			{
+				"line": 17,
+				"name": "loadSkillTrees",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SkillDao.java"
+			},
+			{
+				"line": 31,
+				"name": "loadSkills",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SkillDao.java"
+			},
+			{
+				"line": 36,
+				"name": "loadCharmsWithSkill",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SkillDao.java"
+			},
+			{
+				"line": 41,
+				"name": "loadArmorWithSkill",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SkillDao.java"
+			},
+			{
+				"line": 46,
+				"name": "loadDecorationsWithSkill",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SkillDao.java"
+			},
+			{
+				"line": 51,
+				"name": "loadSetBonusesWithSkill",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\SkillDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadTools",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ToolDao.java"
+			},
+			{
+				"line": 16,
+				"name": "loadToolsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ToolDao.java"
+			},
+			{
+				"line": 21,
+				"name": "loadTool",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ToolDao.java"
+			},
+			{
+				"line": 26,
+				"name": "loadToolSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\ToolDao.java"
+			},
+			{
+				"line": 11,
+				"name": "loadUserEquipmentSetInfo",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 15,
+				"name": "loadUserEquipmentSetInfo",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 19,
+				"name": "loadUserEquipmentSetEquipment",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 23,
+				"name": "loadUserEquipmentSetEquipment",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 28,
+				"name": "loadUserEquipmentSetEquipment",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 32,
+				"name": "loadUserEquipmentDecorations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 36,
+				"name": "loadUserEquipmentDecorations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 40,
+				"name": "loadUserEquipmentDecorations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 43,
+				"name": "deleteUserEquipmentSet",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 46,
+				"name": "deleteUserEquipmentSetEquipment",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 49,
+				"name": "deleteUserEquipmentSetDecorations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 52,
+				"name": "createUserEquipmentSet",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 56,
+				"name": "renameUserEquipmentSet",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 60,
+				"name": "createUserEquipmentEquipment",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 64,
+				"name": "deleteUserEquipmentEquipment",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 68,
+				"name": "createUserEquipmentDecoration",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 72,
+				"name": "deleteUserEquipmentDecoration",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 76,
+				"name": "deleteUserEquipmentDecorations",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\UserEquipmentSetDao.java"
+			},
+			{
+				"line": 14,
+				"name": "loadWeaponsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 22,
+				"name": "loadWeaponsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 31,
+				"name": "loadWeaponSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 36,
+				"name": "loadWeaponComponents",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 44,
+				"name": "loadWeaponAmmoData",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 54,
+				"name": "loadWeaponMelodies",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 72,
+				"name": "queryWeaponSkillsSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 93,
+				"name": "queryArmorSetBonusSync",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\dao\\WeaponDao.java"
+			},
+			{
+				"line": 11,
+				"name": "getRarity",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\data\\models\\ArmorSetBase.java"
+			},
+			{
+				"line": 18,
+				"name": "getTabMode",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\util\\pager\\BasePagerFragment.java"
+			},
+			{
+				"line": 36,
+				"name": "onAddTabs",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\build\\tmp\\kapt3\\stubs\\debug\\com\\gatheringhallstudios\\mhworlddatabase\\util\\pager\\BasePagerFragment.java"
+			},
+			{
+				"line": 164,
+				"name": "itemDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 166,
+				"name": "locationDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 168,
+				"name": "monsterDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 170,
+				"name": "skillDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 172,
+				"name": "armorDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 174,
+				"name": "charmDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 176,
+				"name": "searchDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 178,
+				"name": "decorationDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 180,
+				"name": "weaponDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 182,
+				"name": "questDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 184,
+				"name": "kinsectDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 186,
+				"name": "toolDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 188,
+				"name": "bookmarksSearchDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			},
+			{
+				"line": 191,
+				"name": "metaDao",
+				"file": "C:\\Github\\MHWorldDatabase\\app\\src\\main\\java\\com\\gatheringhallstudios\\mhworlddatabase\\data\\MHWDatabase.java"
+			}
+		]
+	}
+}

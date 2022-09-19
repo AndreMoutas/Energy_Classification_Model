@@ -1,0 +1,461 @@
+{
+	"sources": [
+		"C:\\Github\\KeepScore"
+	],
+	"total": 90,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 84,
+				"name": "getGames",
+				"file": "C:\\Github\\KeepScore\\KeepScoreTest\\src\\com\\nolanlawson\\keepscore\\test\\SerializationTest.java"
+			},
+			{
+				"line": 96,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScoreTest\\src\\com\\nolanlawson\\keepscore\\test\\SerializationTest.java"
+			},
+			{
+				"line": 126,
+				"name": "getGames",
+				"file": "C:\\Github\\KeepScore\\KeepScoreTest\\src\\com\\nolanlawson\\keepscore\\test\\SerializationTest.java"
+			},
+			{
+				"line": 382,
+				"name": "getPlayerNameTypeface",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 397,
+				"name": "getButtonBackgroundDrawableResId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 398,
+				"name": "getForegroundColorResId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 392,
+				"name": "getPlusButton",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 392,
+				"name": "getMinusButton",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 393,
+				"name": "getDeltaButton1",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 393,
+				"name": "getDeltaButton2",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 393,
+				"name": "getDeltaButton3",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 394,
+				"name": "getDeltaButton4",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 397,
+				"name": "getButtonBackgroundDrawableResId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 398,
+				"name": "getForegroundColorResId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 613,
+				"name": "getId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 728,
+				"name": "getPlusMinusTextSize",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 732,
+				"name": "getDeltaButton1",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 732,
+				"name": "getDeltaButton2",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 733,
+				"name": "getDeltaButton3",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 733,
+				"name": "getDeltaButton4",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 736,
+				"name": "getOnscreenDeltaButtonTextSize",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 893,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 132,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\HistoryActivity.java"
+			},
+			{
+				"line": 133,
+				"name": "getHistory",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\HistoryActivity.java"
+			},
+			{
+				"line": 798,
+				"name": "getLoadedGames",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 829,
+				"name": "getGames",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 862,
+				"name": "getSectionsMap",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 863,
+				"name": "getChecked",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 929,
+				"name": "getSectionsMap",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 939,
+				"name": "getSectionsMap",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 951,
+				"name": "getSectionsMap",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 1089,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 1346,
+				"name": "getSectionsMap",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 73,
+				"name": "getHistory",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\data\\HistoryItem.java"
+			},
+			{
+				"line": 169,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\Game.java"
+			},
+			{
+				"line": 50,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\HistoryRoundChartFragment.java"
+			},
+			{
+				"line": 58,
+				"name": "getHistory",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\HistoryRoundChartFragment.java"
+			},
+			{
+				"line": 159,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\HistoryRoundTableFragment.java"
+			},
+			{
+				"line": 65,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\HistoryTimelineFragment.java"
+			},
+			{
+				"line": 113,
+				"name": "getHistory",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\HistoryTimelineFragment.java"
+			},
+			{
+				"line": 176,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\SdcardHelper.java"
+			},
+			{
+				"line": 244,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\SdcardHelper.java"
+			},
+			{
+				"line": 128,
+				"name": "setAutomatic",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 216,
+				"name": "getGames",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 251,
+				"name": "getGames",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 252,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 302,
+				"name": "getHistory",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 303,
+				"name": "getHistory",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 349,
+				"name": "getGames",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 356,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 209,
+				"name": "getDataPoints",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\widget\\chart\\LineChartView.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 1141,
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 1346,
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\MainActivity.java"
+			},
+			{
+				"line": 243,
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\SdcardHelper.java"
+			},
+			{
+				"line": 405,
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\serialization\\GamesBackupSerializer.java"
+			},
+			{
+				"line": 1558,
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\widget\\dragndrop\\DragSortListView.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 78,
+				"name": "getValue",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\Delta.java"
+			},
+			{
+				"line": 86,
+				"name": "getTimestamp",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\Delta.java"
+			},
+			{
+				"line": 83,
+				"name": "getDateSaved",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\Game.java"
+			},
+			{
+				"line": 83,
+				"name": "getDateSaved",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\Game.java"
+			},
+			{
+				"line": 169,
+				"name": "getPlayerScores",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\Game.java"
+			},
+			{
+				"line": 83,
+				"name": "getDateSaved",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\GameSummary.java"
+			},
+			{
+				"line": 83,
+				"name": "getDateSaved",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\GameSummary.java"
+			},
+			{
+				"line": 107,
+				"name": "getId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\GameSummary.java"
+			},
+			{
+				"line": 115,
+				"name": "getPlayerNumber",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\PlayerScore.java"
+			},
+			{
+				"line": 115,
+				"name": "getPlayerNumber",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\PlayerScore.java"
+			},
+			{
+				"line": 125,
+				"name": "getScore",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\PlayerScore.java"
+			},
+			{
+				"line": 125,
+				"name": "getScore",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\PlayerScore.java"
+			},
+			{
+				"line": 137,
+				"name": "getName",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\PlayerScore.java"
+			},
+			{
+				"line": 137,
+				"name": "getPlayerNumber",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\db\\PlayerScore.java"
+			},
+			{
+				"line": 31,
+				"name": "getPrefResId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\Orientation.java"
+			},
+			{
+				"line": 72,
+				"name": "getFirst",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\util\\Pair.java"
+			},
+			{
+				"line": 72,
+				"name": "getFirst",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\util\\Pair.java"
+			},
+			{
+				"line": 81,
+				"name": "getSecond",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\util\\Pair.java"
+			},
+			{
+				"line": 81,
+				"name": "getSecond",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\util\\Pair.java"
+			},
+			{
+				"line": 90,
+				"name": "getFirst",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\util\\Pair.java"
+			},
+			{
+				"line": 100,
+				"name": "getSecond",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\util\\Pair.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 117,
+				"name": "hideAbsentPlayers",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 118,
+				"name": "getShouldShowOnscreenDeltaButtons",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\GameActivity.java"
+			},
+			{
+				"line": 42,
+				"name": "getSpanTypeId",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\android\\TopDownGradientSpan.java"
+			},
+			{
+				"line": 46,
+				"name": "describeContents",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\android\\TopDownGradientSpan.java"
+			},
+			{
+				"line": 118,
+				"name": "getViewTypeCount",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\data\\SeparatedListAdapter.java"
+			},
+			{
+				"line": 136,
+				"name": "areAllItemsSelectable",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\data\\SeparatedListAdapter.java"
+			},
+			{
+				"line": 33,
+				"name": "getChart",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\AbstractHistoryChartFragment.java"
+			},
+			{
+				"line": 34,
+				"name": "getContainer",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\AbstractHistoryChartFragment.java"
+			},
+			{
+				"line": 27,
+				"name": "getInflater",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\fragment\\AbstractHistoryTableFragment.java"
+			},
+			{
+				"line": 20,
+				"name": "toBackgroundDrawable",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\PlayerColor.java"
+			},
+			{
+				"line": 21,
+				"name": "toColor",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\PlayerColor.java"
+			},
+			{
+				"line": 22,
+				"name": "toChartColor",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\helper\\PlayerColor.java"
+			},
+			{
+				"line": 224,
+				"name": "onScrollStateChanged",
+				"file": "C:\\Github\\KeepScore\\KeepScore\\src\\com\\nolanlawson\\keepscore\\widget\\CustomFastScrollView.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1">
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`com.example.greenchecks.MyIssueRegistry`)&#xA;which did not specify the Lint API version it was compiled with.&#xA;&#xA;**This means that the lint checks are likely not compatible.**&#xA;&#xA;If you are the author of this lint check, make your lint&#xA;`IssueRegistry` class contain&#xA;  override val api: Int = com.android.tools.lint.detector.api.CURRENT_API&#xA;or from Java,&#xA;  @Override public int getApi() { return com.android.tools.lint.detector.api.ApiKt.CURRENT_API; }&#xA;&#xA;If you are just using lint checks from a third party library&#xA;you have no control over, you can disable these lint checks (if&#xA;they misbehave) like this:&#xA;&#xA;    android {&#xA;        lintOptions {&#xA;            disable &quot;BluetoothLowEnergy&quot;,&#xA;                    &quot;DarkUI&quot;,&#xA;                    &quot;DirtyBoot&quot;,&#xA;                    &quot;DurableWakeLock&quot;,&#xA;                    &quot;EverlastingService&quot;,&#xA;                    &quot;FusedLocationProvider&quot;,&#xA;                    &quot;InternetInTheLoop&quot;,&#xA;                    &quot;KeepCPUOn&quot;,&#xA;                    &quot;KeepScreenOn&quot;,&#xA;                    &quot;RigidAlarm&quot;,&#xA;                    &quot;SensorCoalesce&quot;,&#xA;                    &quot;SensorLeak&quot;,&#xA;                    &quot;UncompressedDataTransmission&quot;&#xA;        }&#xA;    }&#xA;"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks.">
+        <location
+            file="C:\Users\André\.android\lint\greenchecks.jar"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` **without specifying an explicit locale** is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is **not** `I`.&#xA;&#xA;If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="https://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="https://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="                var search = constraint.toString().toLowerCase();"
+        errorLine2="                                                   ~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\db\HighScoreAdapter.java"
+            line="102"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` **without specifying an explicit locale** is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is **not** `I`.&#xA;&#xA;If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="https://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="https://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="                        .filter(item -> item.getName().toLowerCase().contains(search))"
+        errorLine2="                                                       ~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\db\HighScoreAdapter.java"
+            line="104"
+            column="56"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: https://developer.android.com/reference/android/os/Build.VERSION_CODES.html as well as follow this guide:&#xA;https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        url="https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        urls="https://developer.android.com/distribute/best-practices/develop/target-sdk.html,https://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        targetSdkVersion 32"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\build.gradle"
+            line="46"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="IntentFilterUniqueDataAttributes"
+        severity="Warning"
+        message="Consider splitting data tag into multiple tags with individual attributes to avoid confusion"
+        category="Correctness"
+        priority="5"
+        summary="Data tags should only declare unique attributes"
+        explanation="`&lt;intent-filter>` `&lt;data>` tags should only declare a single unique attribute (i.e. scheme OR host, but not both). This better matches the runtime behavior of intent filters, as they combine all of the declared data attributes into a single matcher which is allowed to handle any combination across attribute types.&#xA;&#xA;For example, the following two `&lt;intent-filter>` declarations are the same:&#xA;```xml&#xA;&lt;intent-filter>&#xA;    &lt;data android:scheme=&quot;http&quot; android:host=&quot;example.com&quot; />&#xA;    &lt;data android:scheme=&quot;https&quot; android:host=&quot;example.org&quot; />&#xA;&lt;/intent-filter>&#xA;```&#xA;&#xA;```xml&#xA;&lt;intent-filter>&#xA;    &lt;data android:scheme=&quot;http&quot;/>&#xA;    &lt;data android:scheme=&quot;https&quot;/>&#xA;    &lt;data android:host=&quot;example.com&quot; />&#xA;    &lt;data android:host=&quot;example.org&quot; />&#xA;&lt;/intent-filter>&#xA;```&#xA;&#xA;They both handle all of the following:&#xA;* http://example.com&#xA;* https://example.com&#xA;* http://example.org&#xA;* https://example.org&#xA;&#xA;The second one better communicates the combining behavior and is clearer to an external reader that one should not rely on the scheme/host being self contained. It is not obvious in the first that http://example.org is also matched, which can lead to confusion (or incorrect behavior) with a more complex set of schemes/hosts.&#xA;&#xA;Note that this does not apply to host + port, as those must be declared in the same `&lt;data>` tag and are only associated with each other."
+        url="https://developer.android.com/guide/components/intents-filters"
+        urls="https://developer.android.com/guide/components/intents-filters"
+        errorLine1="                &lt;data"
+        errorLine2="                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\AndroidManifest.xml"
+            line="92"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="IntentFilterUniqueDataAttributes"
+        severity="Warning"
+        message="Consider splitting data tag into multiple tags with individual attributes to avoid confusion"
+        category="Correctness"
+        priority="5"
+        summary="Data tags should only declare unique attributes"
+        explanation="`&lt;intent-filter>` `&lt;data>` tags should only declare a single unique attribute (i.e. scheme OR host, but not both). This better matches the runtime behavior of intent filters, as they combine all of the declared data attributes into a single matcher which is allowed to handle any combination across attribute types.&#xA;&#xA;For example, the following two `&lt;intent-filter>` declarations are the same:&#xA;```xml&#xA;&lt;intent-filter>&#xA;    &lt;data android:scheme=&quot;http&quot; android:host=&quot;example.com&quot; />&#xA;    &lt;data android:scheme=&quot;https&quot; android:host=&quot;example.org&quot; />&#xA;&lt;/intent-filter>&#xA;```&#xA;&#xA;```xml&#xA;&lt;intent-filter>&#xA;    &lt;data android:scheme=&quot;http&quot;/>&#xA;    &lt;data android:scheme=&quot;https&quot;/>&#xA;    &lt;data android:host=&quot;example.com&quot; />&#xA;    &lt;data android:host=&quot;example.org&quot; />&#xA;&lt;/intent-filter>&#xA;```&#xA;&#xA;They both handle all of the following:&#xA;* http://example.com&#xA;* https://example.com&#xA;* http://example.org&#xA;* https://example.org&#xA;&#xA;The second one better communicates the combining behavior and is clearer to an external reader that one should not rely on the scheme/host being self contained. It is not obvious in the first that http://example.org is also matched, which can lead to confusion (or incorrect behavior) with a more complex set of schemes/hosts.&#xA;&#xA;Note that this does not apply to host + port, as those must be declared in the same `&lt;data>` tag and are only associated with each other."
+        url="https://developer.android.com/guide/components/intents-filters"
+        urls="https://developer.android.com/guide/components/intents-filters"
+        errorLine1="                &lt;data"
+        errorLine2="                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\AndroidManifest.xml"
+            line="96"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.android.tools:desugar_jdk_libs than 1.1.6 is available: 1.2.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    coreLibraryDesugaring &quot;com.android.tools:desugar_jdk_libs:1.1.6&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\build.gradle"
+            line="121"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.2 is available: 1.5.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.4.2&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\build.gradle"
+            line="146"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="StringFormatInvalid"
+        severity="Error"
+        message="Format string &apos;`template_short_text`&apos; is not a valid format string so it should not be passed to `String.format`"
+        category="Correctness:Messages"
+        priority="9"
+        summary="Invalid format string"
+        explanation="If a string contains a &apos;%&apos; character, then the string may be a formatting string which will be passed to `String.format` from Java code to replace each &apos;%&apos; occurrence with specific values.&#xA;&#xA;This lint warning checks for two related problems:&#xA;(1) Formatting strings that are invalid, meaning that `String.format` will throw exceptions at runtime when attempting to use the format string.&#xA;(2) Strings containing &apos;%&apos; that are not formatting strings getting passed to a `String.format` call. In this case the &apos;%&apos; will need to be escaped as &apos;%%&apos;.&#xA;&#xA;NOTE: Not all Strings which look like formatting strings are intended for use by `String.format`; for example, they may contain date formats intended for `android.text.format.Time#format()`. Lint cannot always figure out that a String is a date format, so you may get false warnings in those scenarios. See the suppress help topic for information on how to suppress errors in that case."
+        errorLine1="            shortText = context.getString(R.string.template_short_text, notificationStation.getTitle(), notificationDistance);"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\notification\NearbyBahnhofNotificationManager.java"
+            line="236"
+            column="25"/>
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\strings.xml"
+            line="60"
+            column="5"
+            message="This definition does not require arguments"/>
+    </issue>
+
+    <issue
+        id="StringFormatInvalid"
+        severity="Error"
+        message="Format string &apos;`template_long_text`&apos; is not a valid format string so it should not be passed to `String.format`"
+        category="Correctness:Messages"
+        priority="9"
+        summary="Invalid format string"
+        explanation="If a string contains a &apos;%&apos; character, then the string may be a formatting string which will be passed to `String.format` from Java code to replace each &apos;%&apos; occurrence with specific values.&#xA;&#xA;This lint warning checks for two related problems:&#xA;(1) Formatting strings that are invalid, meaning that `String.format` will throw exceptions at runtime when attempting to use the format string.&#xA;(2) Strings containing &apos;%&apos; that are not formatting strings getting passed to a `String.format` call. In this case the &apos;%&apos; will need to be escaped as &apos;%%&apos;.&#xA;&#xA;NOTE: Not all Strings which look like formatting strings are intended for use by `String.format`; for example, they may contain date formats intended for `android.text.format.Time#format()`. Lint cannot always figure out that a String is a date format, so you may get false warnings in those scenarios. See the suppress help topic for information on how to suppress errors in that case."
+        errorLine1="            var longText = context.getString(R.string.template_long_text,"
+        errorLine2="                           ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\notification\NearbyBahnhofNotificationManager.java"
+            line="237"
+            column="28"/>
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\strings.xml"
+            line="61"
+            column="5"
+            message="This definition does not require arguments"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        severity="Error"
+        message="For locale &quot;fr&quot; (French) the following quantities should also be defined: `many`"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Missing quantity translation"
+        explanation="Different languages have different rules for grammatical agreement with quantity. In English, for example, the quantity 1 is a special case. We write &quot;1 book&quot;, but for any other quantity we&apos;d write &quot;n books&quot;. This distinction between singular and plural is very common, but other languages make finer distinctions.&#xA;&#xA;This lint check looks at each translation of a `&lt;plural>` and makes sure that all the quantity strings considered by the given language are provided by this translation.&#xA;&#xA;For example, an English translation must provide a string for `quantity=&quot;one&quot;`. Similarly, a Czech translation must provide a string for `quantity=&quot;few&quot;`."
+        url="https://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        urls="https://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        errorLine1="    &lt;plurals name=&quot;stations_loaded&quot;>"
+        errorLine2="    ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values-fr-rFR\strings.xml"
+            line="125"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        severity="Error"
+        message="For locale &quot;fr&quot; (French) the following quantities should also be defined: `many`"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Missing quantity translation"
+        explanation="Different languages have different rules for grammatical agreement with quantity. In English, for example, the quantity 1 is a special case. We write &quot;1 book&quot;, but for any other quantity we&apos;d write &quot;n books&quot;. This distinction between singular and plural is very common, but other languages make finer distinctions.&#xA;&#xA;This lint check looks at each translation of a `&lt;plural>` and makes sure that all the quantity strings considered by the given language are provided by this translation.&#xA;&#xA;For example, an English translation must provide a string for `quantity=&quot;one&quot;`. Similarly, a Czech translation must provide a string for `quantity=&quot;few&quot;`."
+        url="https://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        urls="https://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        errorLine1="    &lt;plurals name=&quot;records_found&quot;>"
+        errorLine2="    ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values-fr-rFR\strings.xml"
+            line="129"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="PluralsCandidate"
+        severity="Warning"
+        message="Formatting %d followed by words (&quot;stations&quot;): This should probably be a plural rather than a string"
+        category="Correctness:Messages"
+        priority="5"
+        summary="Potential Plurals"
+        explanation="This lint check looks for potential errors in internationalization where you have translated a message which involves a quantity and it looks like other parts of the string may need grammatical changes.&#xA;&#xA;For example, rather than something like this:&#xA;```xml&#xA;  &lt;string name=&quot;try_again&quot;>Try again in %d seconds.&lt;/string>&#xA;```&#xA;you should be using a plural:&#xA;```xml&#xA;   &lt;plurals name=&quot;try_again&quot;>&#xA;        &lt;item quantity=&quot;one&quot;>Try again in %d second&lt;/item>&#xA;        &lt;item quantity=&quot;other&quot;>Try again in %d seconds&lt;/item>&#xA;    &lt;/plurals>&#xA;```&#xA;This will ensure that in other languages the right set of translations are provided for the different quantity classes.&#xA;&#xA;(This check depends on some heuristics, so it may not accurately determine whether a string really should be a quantity. You can use tools:ignore to filter out false positives."
+        url="https://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        urls="https://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        errorLine1="    &lt;string name=&quot;filter_result&quot;>Selected %1$d of %2$d stations&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\strings.xml"
+            line="191"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `drawable`."
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder.">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-v21"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`."
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder.">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\debug\res\mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`."
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder.">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `values`."
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder.">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values-v21"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (945 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="        android:pathData=&quot;M24,45.538C19.06,45.581 13.859,43.025 11.795,38.359L4.855,38.359L4.855,34.769L10.359,34.769C9.763,32.704 9.983,30.546 9.94,28.427L4.795,28.427L4.795,24.838L9.94,24.838C9.737,22.652 10.017,19.849 10.29,18.057l-5.436,-0.04v-3.59h7.179c1.093,-2.235 3.072,-3.92 5.265,-5.026L12.692,4.855 15.085,2.461 20.709,8.085c3.197,-0.816 4.669,-0.612 7.006,-0.245l5.379,-5.379 2.393,2.393 -4.547,4.547c2.21,1.078 3.963,2.928 5.205,5.026h7.06v3.59h-5.684c0.577,0.806 0.681,4.842 0.825,6.821h4.859v3.59h-5.205c0.151,2.4 -0.005,4.804 -0.289,6.342h5.494v3.59h-6.94c-1.987,4.804 -7.31,7.201 -12.265,7.179zM24,41.949c5.535,0.194 10.607,-4.797 10.41,-10.35 -0.041,-3.768 0.087,-7.543 -0.075,-11.306 -0.526,-5.336 -5.807,-9.581 -11.132,-9.009 -5.37,0.235 -9.964,5.288 -9.614,10.67 0.04,3.653 -0.086,7.312 0.075,10.96 0.512,5.049 5.267,9.189 10.336,9.036zM19.214,33.573h9.573v-3.59h-9.573zM19.214,23.222h9.573L28.786,19.632L19.214,19.632ZM24,26.632c0.018,0 0.031,0 0,0z&quot; android:strokeWidth=&quot;1.19658&quot;/>"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_bug_report_white_24px.xml"
+            line="4"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (940 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="        android:pathData=&quot;M11.99,2C6.47,2 2,6.48 2,12s4.47,10 9.99,10C17.52,22 22,17.52 22,12S17.52,2 11.99,2zM18.92,8h-2.95c-0.32,-1.25 -0.78,-2.45 -1.38,-3.56 1.84,0.63 3.37,1.91 4.33,3.56zM12,4.04c0.83,1.2 1.48,2.53 1.91,3.96h-3.82c0.43,-1.43 1.08,-2.76 1.91,-3.96zM4.26,14C4.1,13.36 4,12.69 4,12s0.1,-1.36 0.26,-2h3.38c-0.08,0.66 -0.14,1.32 -0.14,2 0,0.68 0.06,1.34 0.14,2L4.26,14zM5.08,16h2.95c0.32,1.25 0.78,2.45 1.38,3.56 -1.84,-0.63 -3.37,-1.9 -4.33,-3.56zM8.03,8L5.08,8c0.96,-1.66 2.49,-2.93 4.33,-3.56C8.81,5.55 8.35,6.75 8.03,8zM12,19.96c-0.83,-1.2 -1.48,-2.53 -1.91,-3.96h3.82c-0.43,1.43 -1.08,2.76 -1.91,3.96zM14.34,14L9.66,14c-0.09,-0.66 -0.16,-1.32 -0.16,-2 0,-0.68 0.07,-1.35 0.16,-2h4.68c0.09,0.65 0.16,1.32 0.16,2 0,0.68 -0.07,1.34 -0.16,2zM14.59,19.56c0.6,-1.11 1.06,-2.31 1.38,-3.56h2.95c-0.96,1.65 -2.49,2.93 -4.33,3.56zM16.36,14c0.08,-0.66 0.14,-1.32 0.14,-2 0,-0.68 -0.06,-1.34 -0.14,-2h3.38c0.16,0.64 0.26,1.31 0.26,2s-0.1,1.36 -0.26,2h-3.38z&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_countries_active_24px.xml"
+            line="7"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (1594 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="      android:pathData=&quot;m94.704,9.73c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.955,-4.089 2.733,-7.674 5.978,-6.156zM146.351,12.977c8.429,4.23 -3.411,16.719 -5.985,6.165 -0.982,-4.042 2.77,-7.72 5.985,-6.165zM55.082,18.535c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.983,-4.042 2.766,-7.704 5.978,-6.156zM32.36,67.53c3.624,6.202 10.829,8.879 16.612,5.269 6.617,-3.05 10.309,-13.511 6.323,-20.764 -3.12,-5.173 -4.015,-14.012 2.06,-16.733 5.648,-3.075 11.413,3.71 10.541,10.416 -0.146,7.687 6.901,19.075 13.799,12.62 6.33,-4.708 7.206,-13.919 8.018,-21.79 2.533,-10.437 17.086,-5.487 14.559,4.928 -1.557,6.736 -1.846,17.035 5.076,19.655 6.489,1.615 11.603,-5.592 15.014,-11.123 3.383,-4.322 3.019,-12.244 8.406,-14.266 8.439,-2.737 9.935,9.686 6.009,15.794 -1.819,7.211 -2.393,18.549 5.454,20.868 4.642,1.612 9.455,0.212 13.949,-1.397 -6.429,7.048 -18.175,9.514 -24.937,1.757 -2.878,-2.92 -2.807,-10.588 -6.175,-3.469 -8.448,9.081 -24.349,9.983 -31.109,-2.132 -2.14,-3.907 -6.258,6.719 -10.231,6.888 -6.456,4.375 -14.898,2.937 -20.393,-2.812 -5.379,12.93 -22.101,17.315 -31.26,7.424 -5.02,-5.992 -7.006,-14.52 -8.362,-22.485 1.846,4.061 4.113,7.849 6.649,11.354zM14.278,43.034c8.41,0.803 1.841,16.6 -3.889,8.571 -2.548,-3.442 0.06,-9.212 3.889,-8.571zM175.131,50.047c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.983,-4.042 2.766,-7.704 5.978,-6.156zM45.226,108.294c13.538,-14.034 32.127,-18.642 49.751,-18.984 16.387,0.551 33.913,3.401 46.86,16.232 3.275,2.774 6.914,11.161 1.291,4.36 -10.834,-10.705 -24.828,-16.706 -38.996,-16.328 -19.78,-0.362 -39.126,6.744 -57.213,15.621 -1.776,0.906 -8.084,5.717 -3.776,1.252l1.108,-1.147z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_crown_bronze.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (1594 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="      android:pathData=&quot;m94.704,9.73c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.955,-4.089 2.733,-7.674 5.978,-6.156zM146.351,12.977c8.429,4.23 -3.411,16.719 -5.985,6.165 -0.982,-4.042 2.77,-7.72 5.985,-6.165zM55.082,18.535c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.983,-4.042 2.766,-7.704 5.978,-6.156zM32.36,67.53c3.624,6.202 10.829,8.879 16.612,5.269 6.617,-3.05 10.309,-13.511 6.323,-20.764 -3.12,-5.173 -4.015,-14.012 2.06,-16.733 5.648,-3.075 11.413,3.71 10.541,10.416 -0.146,7.687 6.901,19.075 13.799,12.62 6.33,-4.708 7.206,-13.919 8.018,-21.79 2.533,-10.437 17.086,-5.487 14.559,4.928 -1.557,6.736 -1.846,17.035 5.076,19.655 6.489,1.615 11.603,-5.592 15.014,-11.123 3.383,-4.322 3.019,-12.244 8.406,-14.266 8.439,-2.737 9.935,9.686 6.009,15.794 -1.819,7.211 -2.393,18.549 5.454,20.868 4.642,1.612 9.455,0.212 13.949,-1.397 -6.429,7.048 -18.175,9.514 -24.937,1.757 -2.878,-2.92 -2.807,-10.588 -6.175,-3.469 -8.448,9.081 -24.349,9.983 -31.109,-2.132 -2.14,-3.907 -6.258,6.719 -10.231,6.888 -6.456,4.375 -14.898,2.937 -20.393,-2.812 -5.379,12.93 -22.101,17.315 -31.26,7.424 -5.02,-5.992 -7.006,-14.52 -8.362,-22.485 1.846,4.061 4.113,7.849 6.649,11.354zM14.278,43.034c8.41,0.803 1.841,16.6 -3.889,8.571 -2.548,-3.442 0.06,-9.212 3.889,-8.571zM175.131,50.047c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.983,-4.042 2.766,-7.704 5.978,-6.156zM45.226,108.294c13.538,-14.034 32.127,-18.642 49.751,-18.984 16.387,0.551 33.913,3.401 46.86,16.232 3.275,2.774 6.914,11.161 1.291,4.36 -10.834,-10.705 -24.828,-16.706 -38.996,-16.328 -19.78,-0.362 -39.126,6.744 -57.213,15.621 -1.776,0.906 -8.084,5.717 -3.776,1.252l1.108,-1.147z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_crown_gold.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (1594 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="      android:pathData=&quot;m94.704,9.73c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.955,-4.089 2.733,-7.674 5.978,-6.156zM146.351,12.977c8.429,4.23 -3.411,16.719 -5.985,6.165 -0.982,-4.042 2.77,-7.72 5.985,-6.165zM55.082,18.535c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.983,-4.042 2.766,-7.704 5.978,-6.156zM32.36,67.53c3.624,6.202 10.829,8.879 16.612,5.269 6.617,-3.05 10.309,-13.511 6.323,-20.764 -3.12,-5.173 -4.015,-14.012 2.06,-16.733 5.648,-3.075 11.413,3.71 10.541,10.416 -0.146,7.687 6.901,19.075 13.799,12.62 6.33,-4.708 7.206,-13.919 8.018,-21.79 2.533,-10.437 17.086,-5.487 14.559,4.928 -1.557,6.736 -1.846,17.035 5.076,19.655 6.489,1.615 11.603,-5.592 15.014,-11.123 3.383,-4.322 3.019,-12.244 8.406,-14.266 8.439,-2.737 9.935,9.686 6.009,15.794 -1.819,7.211 -2.393,18.549 5.454,20.868 4.642,1.612 9.455,0.212 13.949,-1.397 -6.429,7.048 -18.175,9.514 -24.937,1.757 -2.878,-2.92 -2.807,-10.588 -6.175,-3.469 -8.448,9.081 -24.349,9.983 -31.109,-2.132 -2.14,-3.907 -6.258,6.719 -10.231,6.888 -6.456,4.375 -14.898,2.937 -20.393,-2.812 -5.379,12.93 -22.101,17.315 -31.26,7.424 -5.02,-5.992 -7.006,-14.52 -8.362,-22.485 1.846,4.061 4.113,7.849 6.649,11.354zM14.278,43.034c8.41,0.803 1.841,16.6 -3.889,8.571 -2.548,-3.442 0.06,-9.212 3.889,-8.571zM175.131,50.047c8.45,4.247 -3.405,16.723 -5.978,6.156 -0.983,-4.042 2.766,-7.704 5.978,-6.156zM45.226,108.294c13.538,-14.034 32.127,-18.642 49.751,-18.984 16.387,0.551 33.913,3.401 46.86,16.232 3.275,2.774 6.914,11.161 1.291,4.36 -10.834,-10.705 -24.828,-16.706 -38.996,-16.328 -19.78,-0.362 -39.126,6.744 -57.213,15.621 -1.776,0.906 -8.084,5.717 -3.776,1.252l1.108,-1.147z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_crown_silver.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (892 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="    &lt;path android:fillColor=&quot;#c71c4d&quot; android:pathData=&quot;M3.2734,1.377L2.0039,2.6484L4.168,4.8125C4.0589,5.1644 4,5.5571 4,6L4,15.5C4,17.43 5.57,19 7.5,19L6,20.5L6,21L18,21L18,20.5L16.5,19C17.0402,19 17.5466,18.8679 18.0039,18.6484L20.7324,21.377L22.0039,20.1074L19.3789,17.4824C19.3822,17.4776 19.3834,17.4716 19.3867,17.4668L17.9102,15.9902C17.908,15.9964 17.9085,16.0036 17.9063,16.0098L15.9902,14.0938C15.9964,14.0915 16.0036,14.092 16.0098,14.0898L11,9.0801L11,9.1035L7.8965,6L7.9199,6L5.2285,3.3086C5.2242,3.3119 5.2191,3.315 5.2148,3.3184L3.2734,1.377zM12,2C10.081,2 8.333,2.1033 6.957,2.498L10.459,6L11,6L11,6.541L13,8.541L13,6L18,6L18,11L15.4609,11L19.998,15.5371C19.9982,15.5245 20,15.5126 20,15.5L20,6C20,2.5 16.42,2 12,2zM6,6.6445L10.3555,11L6,11L6,6.6445zM7.5,14C8.33,14 9,14.67 9,15.5C9,16.33 8.33,17 7.5,17C6.67,17 6,16.33 6,15.5C6,14.67 6.67,14 7.5,14zM15.0176,15.6621L16.3379,16.9824C15.6396,16.9067 15.0933,16.3604 15.0176,15.6621z&quot;/>"
+        errorLine2="                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_remove_station_red_48px.xml"
+            line="3"
+            column="57"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (899 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="        android:pathData=&quot;M15.259,12.469 L14.757,12.971 15.491,13.705C15.24,13.838 15.066,14.099 15.066,14.402l0,4.743c0,0.435 0.356,0.791 0.791,0.791l5.864,0 1.119,1.119 0.503,-0.503 -0.742,-0.742c0.002,-0.001 0.004,-0.001 0.005,-0.002l-1.942,-1.942 -0.003,0.005 -2.739,-2.739c0.002,-0.001 0.003,-0.002 0.005,-0.003L16.41,13.611 16.402,13.611 15.259,12.469ZM17.833,12.821 L17.256,13.451 18.638,14.834C18.762,14.81 18.889,14.797 19.019,14.797c1.091,0 1.976,0.885 1.976,1.976 0,0.13 -0.013,0.257 -0.037,0.381l2.011,2.011C22.969,19.158 22.972,19.152 22.972,19.145L22.972,14.402C22.972,13.967 22.616,13.611 22.181,13.611L20.928,13.611 20.205,12.821 17.833,12.821ZM17.412,15.626 L17.927,16.141A1.265,1.265 0,0 0,17.754 16.773,1.265 1.265,0 0,0 19.019,18.038 1.265,1.265 116.024,0 0,19.652 17.867l0.514,0.514C19.843,18.612 19.447,18.75 19.019,18.75 17.928,18.75 17.043,17.864 17.043,16.773 17.043,16.345 17.18,15.95 17.412,15.626Z&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_station_filter_all_24px.xml"
+            line="18"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (877 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="        android:pathData=&quot;m20.287,7.3631c-0.9643,0 -1.7509,0.7767 -1.7509,1.7441 0,0.9644 0.7867,1.7509 1.7509,1.7509 0.9658,0 1.7441,-0.7866 1.744,-1.7509 0,-0.9673 -0.7783,-1.7441 -1.744,-1.7441zM19.4253,11.2234c-0.3123,0 -0.5653,0.2519 -0.5653,0.5653 0,2.6939 0,5.3929 0,8.0861 0,0.3143 0.253,0.5653 0.5653,0.5653l0.6618,0 0,-4.074 0.3929,0 0,4.074 0.6618,0c0.313,0 0.5653,-0.251 0.5653,-0.5653 0,-2.6932 0,-5.3922 0,-8.0861 0,-0.3134 -0.2523,-0.5653 -0.5653,-0.5653l-1.7165,0zM18.026,11.4923c-0.1538,0 -0.2826,0.1225 -0.2826,0.2757l0,3.8535c0,0.1555 0.1288,0.2826 0.2826,0.2826l0.2206,0c0.1535,0 0.2826,-0.1272 0.2826,-0.2826l0,-3.8535c0,-0.153 -0.1291,-0.2757 -0.2826,-0.2757l-0.2206,0zM22.3206,11.4923c-0.1534,0 -0.2757,0.1225 -0.2757,0.2757l0,3.8535c0,0.1555 0.1227,0.2826 0.2757,0.2826l0.2275,0c0.1537,0 0.2757,-0.1272 0.2757,-0.2826l0,-3.8535c0,-0.153 -0.1221,-0.2757 -0.2757,-0.2757l-0.2275,0z&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_station_filter_nickname_24px.xml"
+            line="5"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (899 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="        android:pathData=&quot;M15.259,12.469 L14.757,12.971 15.491,13.705C15.24,13.838 15.066,14.099 15.066,14.402l0,4.743c0,0.435 0.356,0.791 0.791,0.791l5.864,0 1.119,1.119 0.503,-0.503 -0.742,-0.742c0.002,-0.001 0.004,-0.001 0.005,-0.002l-1.942,-1.942 -0.003,0.005 -2.739,-2.739c0.002,-0.001 0.003,-0.002 0.005,-0.003L16.41,13.611 16.402,13.611 15.259,12.469ZM17.833,12.821 L17.256,13.451 18.638,14.834C18.762,14.81 18.889,14.797 19.019,14.797c1.091,0 1.976,0.885 1.976,1.976 0,0.13 -0.013,0.257 -0.037,0.381l2.011,2.011C22.969,19.158 22.972,19.152 22.972,19.145L22.972,14.402C22.972,13.967 22.616,13.611 22.181,13.611L20.928,13.611 20.205,12.821 17.833,12.821ZM17.412,15.626 L17.927,16.141A1.265,1.265 0,0 0,17.754 16.773,1.265 1.265,0 0,0 19.019,18.038 1.265,1.265 116.024,0 0,19.652 17.867l0.514,0.514C19.843,18.612 19.447,18.75 19.019,18.75 17.928,18.75 17.043,17.864 17.043,16.773 17.043,16.345 17.18,15.95 17.412,15.626Z&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_station_filter_without_photo_24px.xml"
+            line="10"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        severity="Warning"
+        message="Very long vector path (1018 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        category="Performance"
+        priority="5"
+        summary="Long vector paths"
+        explanation="Using long vector paths is bad for performance. There are several ways to make the `pathData` shorter:&#xA;* Using less precision&#xA;* Removing some minor details&#xA;* Using the Android Studio vector conversion tool&#xA;* Rasterizing the image (converting to PNG)"
+        errorLine1="      android:pathData=&quot;M12,0.7832C9.4224,0.7832 7.0968,0.9348 5.3945,1.5801L9.3203,5.5059L10.8184,5.5059L10.8184,7.0039L13.1816,9.3672L13.1816,5.5059L19.084,5.5059L19.084,11.4102L15.2246,11.4102L21.3535,17.5391C21.409,17.2751 21.4453,17.0038 21.4453,16.7227L21.4453,5.5059C21.4453,1.3734 17.2187,0.7832 12,0.7832zM2.4102,1.1387L1.1387,2.4102L2.7754,4.0469C2.6343,4.4771 2.5547,4.9579 2.5547,5.5059L2.5547,16.7227C2.5547,19.0014 4.4088,20.8555 6.6875,20.8555L4.916,22.627L4.916,23.2168L19.084,23.2168L19.084,22.627L17.3125,20.8555C17.9711,20.8555 18.5856,20.6854 19.1387,20.4102L21.5898,22.8613L22.8613,21.5898L20.541,19.2695L18.8535,17.582L16.4531,15.1816L10.8184,9.5469L6.7773,5.5059L3.7813,2.5098L2.4102,1.1387zM4.916,6.1875L10.1387,11.4102L4.916,11.4102L4.916,6.1875zM6.6875,14.9512C7.6675,14.9512 8.457,15.7427 8.457,16.7227C8.457,17.7026 7.6675,18.4941 6.6875,18.4941C5.7075,18.4941 4.916,17.7026 4.916,16.7227C4.916,15.7427 5.7075,14.9512 6.6875,14.9512zM15.5527,16.8242L17.2129,18.4844C16.3147,18.4338 15.6043,17.7221 15.5527,16.8242z&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ic_station_inactive_active_24px.xml"
+            line="7"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ButtonCase"
+        severity="Warning"
+        message="The standard Android way to capitalize CANCEL is &quot;Cancel&quot; (tip: use `@android:string/cancel` instead)"
+        category="Usability"
+        priority="2"
+        summary="Cancel/OK dialog button capitalization"
+        explanation="The standard capitalization for OK/Cancel dialogs is &quot;OK&quot; and &quot;Cancel&quot;. To ensure that your dialogs use the standard strings, you can use the resource strings @android:string/ok and @android:string/cancel."
+        errorLine1="    &lt;string name=&quot;skip&quot;>CANCEL&lt;/string>"
+        errorLine2="                        ~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\strings.xml"
+            line="78"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="balloon_m_n.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\balloon_m_n.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="balloon_s_n.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\balloon_s_n.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="caption_background.9.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\caption_background.9.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ch.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ch.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="de.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\de.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ghost_station.jpg is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable\ghost_station.jpg"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_chat_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ic_chat_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_chat_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_chat_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_chat_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_chat_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_directions_white_24dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_directions_white_24dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_directions_white_24dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_directions_white_24dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_directions_white_36dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ic_directions_white_36dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_directions_white_36dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_directions_white_36dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_directions_white_36dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_directions_white_36dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_gps_fixed_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ic_gps_fixed_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_gps_fixed_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\ic_gps_fixed_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_gps_fixed_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_gps_fixed_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_gps_fixed_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_gps_fixed_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_language_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ic_language_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_language_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\ic_language_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_language_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_language_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_language_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_language_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_location_disabled_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_location_disabled_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_menu_info_details.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_menu_info_details.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_menu_mapmode.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_menu_mapmode.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ic_photo_camera_white.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\ic_photo_camera_white.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_photo_camera_white.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_photo_camera_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white_48px.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-hdpi\ic_photo_camera_white_48px.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white_48px.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\ic_photo_camera_white_48px.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_photo_camera_white_48px.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_photo_camera_white_48px.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_send_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-mdpi\ic_send_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_send_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xhdpi\ic_send_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="ic_send_white_48dp.png is a too bright image"
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\drawable-xxhdpi\ic_send_white_48dp.png"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.DarkActionBar&quot;>"
+        errorLine2="                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\styles.xml"
+            line="4"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;AlertDialogCustom&quot; parent=&quot;Theme.AppCompat.Light.Dialog.Alert&quot;>"
+        errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values-v21\styles.xml"
+            line="9"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;AppTheme.PopupOverlay&quot; parent=&quot;ThemeOverlay.AppCompat.Light&quot;/>"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\styles.xml"
+            line="21"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="DarkUI"
+        severity="Warning"
+        message="Light theme should be avoided. Prefer darker themes."
+        category="Greenness"
+        priority="6"
+        summary="Provide a UI with dark colors"
+        explanation="Dark colors are particularly beneficial for mobile devices with AMOLED screens, which are more energy efficient when displaying"
+        errorLine1="    &lt;style name=&quot;AlertDialogCustom&quot; parent=&quot;Theme.AppCompat.Light.Dialog.Alert&quot;>"
+        errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\res\values\styles.xml"
+            line="23"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.requestLocationUpdates()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                locationManager.requestLocationUpdates("
+        errorLine2="                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MainActivity.java"
+            line="420"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.getLastLocation()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                    myPos = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MainActivity.java"
+            line="426"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.requestLocationUpdates()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                    locationManager.requestLocationUpdates("
+        errorLine2="                    ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MainActivity.java"
+            line="435"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.getLastLocation()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                        myPos = locationManager"
+        errorLine2="                                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MainActivity.java"
+            line="441"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.requestLocationUpdates()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                locationManager.requestLocationUpdates("
+        errorLine2="                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MapsActivity.java"
+            line="841"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.getLastLocation()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                    var loc = locationManager"
+        errorLine2="                              ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MapsActivity.java"
+            line="847"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.requestLocationUpdates()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                    locationManager.requestLocationUpdates("
+        errorLine2="                    ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MapsActivity.java"
+            line="858"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.getLastLocation()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                        var loc = locationManager"
+        errorLine2="                                  ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\MapsActivity.java"
+            line="864"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.requestLocationUpdates()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                locationManager.requestLocationUpdates("
+        errorLine2="                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\NearbyNotificationService.java"
+            line="247"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.getLastLocation()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                    myPos = locationManager"
+        errorLine2="                            ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\NearbyNotificationService.java"
+            line="253"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.requestLocationUpdates()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                    locationManager.requestLocationUpdates("
+        errorLine2="                    ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\NearbyNotificationService.java"
+            line="263"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="FusedLocationProvider"
+        severity="Warning"
+        message="Call the new `FusedLocationProviderClient.getLastLocation()` instead"
+        category="Greenness"
+        priority="6"
+        summary="Use Fused APIs (Google Play Service) for energy-efficient location"
+        explanation="The fused location provider is a location API in Google Play services that&#xA; intelligently combines different signals to provide the location &#xA;information that your app needs"
+        url="https://developers.google.com/location-context/fused-location-provider/"
+        urls="https://developers.google.com/location-context/fused-location-provider/"
+        errorLine1="                        myPos = locationManager"
+        errorLine2="                                ^">
+        <location
+            file="C:\Github\RSAndroidApp\app\src\main\java\de\bahnhoefe\deutschlands\bahnhofsfotos\NearbyNotificationService.java"
+            line="269"
+            column="33"/>
+    </issue>
+
+</issues>

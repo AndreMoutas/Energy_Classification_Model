@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\apollo-trivia"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\apollo-trivia\\app\\src\\test\\java\\net\\jakevossen\\apollotrivia\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

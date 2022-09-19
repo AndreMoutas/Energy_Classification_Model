@@ -1,0 +1,115 @@
+{
+	"sources": [
+		"C:\\Github\\clash_of_balls"
+	],
+	"total": 20,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 85,
+				"name": "onGameStart",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameMenuInGame.java"
+			},
+			{
+				"line": 403,
+				"name": "initialPlayerCount",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameServer.java"
+			},
+			{
+				"line": 403,
+				"name": "currentPlayerCount",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameServer.java"
+			},
+			{
+				"line": 146,
+				"name": "pos",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\menu\\CreationMenu.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 129,
+				"name": "gameStatistics",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameStatistics.java"
+			},
+			{
+				"line": 130,
+				"name": "currentRoundStatistics",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameStatistics.java"
+			},
+			{
+				"line": 1137,
+				"name": "getWellKnownNameToJoin",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\network\\Networking.java"
+			},
+			{
+				"line": 1143,
+				"name": "getUniqueName",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\network\\Networking.java"
+			},
+			{
+				"line": 1221,
+				"name": "getUniqueName",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\network\\Networking.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 28,
+				"name": "onBind",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\NetworkService.java"
+			},
+			{
+				"line": 346,
+				"name": "beginContact",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameBase.java"
+			},
+			{
+				"line": 350,
+				"name": "endContact",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameBase.java"
+			},
+			{
+				"line": 420,
+				"name": "postSolve",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\GameBase.java"
+			},
+			{
+				"line": 115,
+				"name": "onAccuracyChanged",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\SensorThread.java"
+			},
+			{
+				"line": 79,
+				"name": "handleImpact",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\StaticGameObject.java"
+			},
+			{
+				"line": 135,
+				"name": "move",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\StaticGameObject.java"
+			},
+			{
+				"line": 65,
+				"name": "init",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\event\\Event.java"
+			},
+			{
+				"line": 67,
+				"name": "write",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\event\\Event.java"
+			},
+			{
+				"line": 70,
+				"name": "apply",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\game\\event\\Event.java"
+			},
+			{
+				"line": 98,
+				"name": "handleReceive",
+				"file": "C:\\Github\\clash_of_balls\\src\\com\\sapos_aplastados\\game\\clash_of_balls\\network\\NetworkServer.java"
+			}
+		]
+	}
+}

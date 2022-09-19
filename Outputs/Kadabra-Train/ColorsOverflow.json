@@ -1,0 +1,89 @@
+{
+	"sources": [
+		"C:\\Github\\ColorsOverflow"
+	],
+	"total": 15,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 563,
+				"name": "getWho",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\GameView.java"
+			},
+			{
+				"line": 563,
+				"name": "tag",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\GameView.java"
+			},
+			{
+				"line": 563,
+				"name": "getWho",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\GameView.java"
+			},
+			{
+				"line": 563,
+				"name": "tag",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\GameView.java"
+			},
+			{
+				"line": 83,
+				"name": "small",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\HardAI.java"
+			},
+			{
+				"line": 86,
+				"name": "middle",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\HardAI.java"
+			},
+			{
+				"line": 89,
+				"name": "large",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\HardAI.java"
+			},
+			{
+				"line": 83,
+				"name": "small",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\HardAI.java"
+			},
+			{
+				"line": 86,
+				"name": "middle",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\HardAI.java"
+			},
+			{
+				"line": 89,
+				"name": "large",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\HardAI.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 280,
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\GameView.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 48,
+				"name": "phaseOneMove",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\AI.java"
+			},
+			{
+				"line": 60,
+				"name": "phaseTwoMove",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\AI.java"
+			},
+			{
+				"line": 72,
+				"name": "move",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\AI.java"
+			},
+			{
+				"line": 80,
+				"name": "hasMove",
+				"file": "C:\\Github\\ColorsOverflow\\src\\eu\\veldsoft\\colors\\overflow\\AI.java"
+			}
+		]
+	}
+}

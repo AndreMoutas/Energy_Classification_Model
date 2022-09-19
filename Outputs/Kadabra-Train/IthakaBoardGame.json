@@ -1,0 +1,33 @@
+{
+	"sources": [
+		"C:\\Github\\IthakaBoardGame"
+	],
+	"total": 4,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 463,
+				"name": "isGameOver",
+				"file": "C:\\Github\\IthakaBoardGame\\app\\src\\main\\java\\eu\\veldsoft\\ithaka\\board\\game\\GameActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 22,
+				"file": "C:\\Github\\IthakaBoardGame\\app\\src\\main\\java\\eu\\veldsoft\\ithaka\\board\\game\\model\\ai\\BruteForceArtificialIntelligence.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\IthakaBoardGame\\app\\src\\main\\java\\eu\\veldsoft\\ithaka\\board\\game\\model\\ai\\MonteCarloArtificialIntelligence.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 845,
+				"name": "score",
+				"file": "C:\\Github\\IthakaBoardGame\\app\\src\\main\\java\\eu\\veldsoft\\ithaka\\board\\game\\model\\Board.java"
+			}
+		]
+	}
+}

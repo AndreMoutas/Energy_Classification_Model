@@ -1,0 +1,49 @@
+{
+	"sources": [
+		"C:\\Github\\EasyDice"
+	],
+	"total": 7,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 160,
+				"name": "value",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieHand.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 46,
+				"name": "testInvalidSize",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieTests.java"
+			},
+			{
+				"line": 56,
+				"name": "testInvalidNumber0",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieTests.java"
+			},
+			{
+				"line": 66,
+				"name": "testInvalidNumberBiggerThanSize",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieTests.java"
+			},
+			{
+				"line": 76,
+				"name": "testValidNumber1",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieTests.java"
+			},
+			{
+				"line": 81,
+				"name": "testValidNumberEqualToSize",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieTests.java"
+			},
+			{
+				"line": 86,
+				"name": "testInvalidMultiplier",
+				"file": "C:\\Github\\EasyDice\\androidsrc\\src\\net\\pejici\\easydice\\model\\DieTests.java"
+			}
+		]
+	}
+}

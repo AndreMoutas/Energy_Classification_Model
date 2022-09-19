@@ -1,0 +1,695 @@
+{
+	"sources": [
+		"C:\\Github\\droidfish"
+	],
+	"total": 138,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 134,
+				"name": "getXCrd",
+				"file": "C:\\Github\\droidfish\\CuckooChessApp\\src\\main\\java\\org\\petero\\cuckoochess\\ChessBoard.java"
+			},
+			{
+				"line": 496,
+				"name": "getKingSq",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Evaluate.java"
+			},
+			{
+				"line": 526,
+				"name": "getKingSq",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Evaluate.java"
+			},
+			{
+				"line": 874,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1124,
+				"name": "bishopAttacks",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1129,
+				"name": "rookAttacks",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1158,
+				"name": "bishopAttacks",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1163,
+				"name": "rookAttacks",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1210,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1214,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1215,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1238,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1239,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 1288,
+				"name": "zobristHash",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\main\\java\\chess\\Search.java"
+			},
+			{
+				"line": 76,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\BitBoardTest.java"
+			},
+			{
+				"line": 77,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\BitBoardTest.java"
+			},
+			{
+				"line": 101,
+				"name": "getXCrd",
+				"file": "C:\\Github\\droidfish\\CuckooChess\\src\\main\\java\\gui\\ChessBoardPainter.java"
+			},
+			{
+				"line": 384,
+				"name": "instance",
+				"file": "C:\\Github\\droidfish\\CuckooChess\\src\\main\\java\\uci\\EngineControl.java"
+			},
+			{
+				"line": 385,
+				"name": "instance",
+				"file": "C:\\Github\\droidfish\\CuckooChess\\src\\main\\java\\uci\\EngineControl.java"
+			},
+			{
+				"line": 3222,
+				"name": "getMenuActions",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\DroidFish.java"
+			},
+			{
+				"line": 72,
+				"name": "swapColor",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\Util.java"
+			},
+			{
+				"line": 72,
+				"name": "toUniCode",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\Util.java"
+			},
+			{
+				"line": 76,
+				"name": "toUniCode",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\Util.java"
+			},
+			{
+				"line": 365,
+				"name": "extractInt",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\book\\CtgBook.java"
+			},
+			{
+				"line": 127,
+				"name": "getCompressedMove",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\book\\EcoDb.java"
+			},
+			{
+				"line": 929,
+				"name": "zobristHash",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\engine\\DroidComputerPlayer.java"
+			},
+			{
+				"line": 867,
+				"name": "localPt",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\DroidChessController.java"
+			},
+			{
+				"line": 878,
+				"name": "localPt",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\DroidChessController.java"
+			},
+			{
+				"line": 878,
+				"name": "localPt",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\DroidChessController.java"
+			},
+			{
+				"line": 1180,
+				"name": "localPt",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\DroidChessController.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 88,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 96,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 129,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 146,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 88,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 96,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 129,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 146,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 253,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 255,
+				"name": "getMoveObj",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 260,
+				"name": "getMoveObj",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 263,
+				"name": "getMoveObj",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 302,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\MoveGen.java"
+			},
+			{
+				"line": 223,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 393,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 395,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 397,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 570,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 574,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 576,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 578,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 580,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 598,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\TextIO.java"
+			},
+			{
+				"line": 129,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\BitBoard.java"
+			},
+			{
+				"line": 92,
+				"name": "pieceToProm",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\Book.java"
+			},
+			{
+				"line": 158,
+				"name": "getCompressedMove",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\EcoBuilder.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 88,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 96,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 129,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 146,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 83,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 88,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 96,
+				"name": "getCastleMask",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 129,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 146,
+				"name": "getEpSquare",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 253,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 255,
+				"name": "getMoveObj",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 260,
+				"name": "getMoveObj",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 263,
+				"name": "getMoveObj",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 302,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\MoveGen.java"
+			},
+			{
+				"line": 192,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 270,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 272,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 274,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 427,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 431,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 433,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 435,
+				"name": "getX",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 437,
+				"name": "getY",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			},
+			{
+				"line": 455,
+				"name": "getPiece",
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\TextIO.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 117,
+				"file": "C:\\Github\\droidfish\\CuckooChessApp\\build\\generated\\ap_generated_sources\\debug\\out\\org\\petero\\cuckoochess\\DataBinderMapperImpl.java"
+			},
+			{
+				"line": 205,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\build\\generated\\ap_generated_sources\\debug\\out\\org\\petero\\droidfish\\DataBinderMapperImpl.java"
+			},
+			{
+				"line": 267,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\DroidFish.java"
+			},
+			{
+				"line": 59,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\PgnScreenText.java"
+			},
+			{
+				"line": 72,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\PieceSet.java"
+			},
+			{
+				"line": 138,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\activities\\Preferences.java"
+			},
+			{
+				"line": 251,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\book\\EcoDb.java"
+			},
+			{
+				"line": 252,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\book\\EcoDb.java"
+			},
+			{
+				"line": 79,
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\book\\InternalBook.java"
+			},
+			{
+				"line": 55,
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\EcoBuilder.java"
+			},
+			{
+				"line": 94,
+				"file": "C:\\Github\\droidfish\\buildSrc\\src\\main\\java\\chess\\EcoBuilder.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 123,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 127,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 161,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 164,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 165,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 247,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 256,
+				"name": "currPos",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			},
+			{
+				"line": 385,
+				"name": "getLastMove",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\gamelogic\\Game.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 42,
+				"name": "setUp",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\HistoryTest.java"
+			},
+			{
+				"line": 46,
+				"name": "tearDown",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\HistoryTest.java"
+			},
+			{
+				"line": 42,
+				"name": "setUp",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\MoveTest.java"
+			},
+			{
+				"line": 46,
+				"name": "tearDown",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\MoveTest.java"
+			},
+			{
+				"line": 44,
+				"name": "setUp",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\PositionTest.java"
+			},
+			{
+				"line": 48,
+				"name": "tearDown",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\PositionTest.java"
+			},
+			{
+				"line": 42,
+				"name": "setUp",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\TextIOTest.java"
+			},
+			{
+				"line": 46,
+				"name": "tearDown",
+				"file": "C:\\Github\\droidfish\\CuckooChessEngine\\src\\test\\java\\chess\\TextIOTest.java"
+			},
+			{
+				"line": 42,
+				"name": "setUp",
+				"file": "C:\\Github\\droidfish\\CuckooChess\\src\\test\\java\\uci\\UCIProtocolTest.java"
+			},
+			{
+				"line": 46,
+				"name": "tearDown",
+				"file": "C:\\Github\\droidfish\\CuckooChess\\src\\test\\java\\uci\\UCIProtocolTest.java"
+			},
+			{
+				"line": 29,
+				"name": "testIsWhite",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\androidTest\\java\\org\\petero\\droidfish\\gamelogic\\PieceTest.java"
+			},
+			{
+				"line": 354,
+				"name": "testGetSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\androidTest\\java\\org\\petero\\droidfish\\gamelogic\\TextIOTest.java"
+			},
+			{
+				"line": 363,
+				"name": "testSquareToString",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\androidTest\\java\\org\\petero\\droidfish\\gamelogic\\TextIOTest.java"
+			},
+			{
+				"line": 29,
+				"name": "testCompareScore",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\androidTest\\java\\org\\petero\\droidfish\\tb\\ProbeResultTest.java"
+			},
+			{
+				"line": 56,
+				"name": "updateColor",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\net\\margaritov\\preference\\colorpicker\\GradientPanel.java"
+			},
+			{
+				"line": 78,
+				"name": "setGradientPaint",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\net\\margaritov\\preference\\colorpicker\\GradientPanel.java"
+			},
+			{
+				"line": 81,
+				"name": "drawTracker",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\net\\margaritov\\preference\\colorpicker\\GradientPanel.java"
+			},
+			{
+				"line": 61,
+				"name": "startProcess",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\engine\\UCIEngineBase.java"
+			},
+			{
+				"line": 128,
+				"name": "getOptionsFile",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\engine\\UCIEngineBase.java"
+			},
+			{
+				"line": 385,
+				"name": "getWidth",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 386,
+				"name": "getHeight",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 387,
+				"name": "getSqSizeW",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 388,
+				"name": "getSqSizeH",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 389,
+				"name": "getMaxHeightPercentage",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 390,
+				"name": "getMaxWidthPercentage",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 412,
+				"name": "computeOrigin",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 414,
+				"name": "getXFromSq",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 415,
+				"name": "getYFromSq",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 534,
+				"name": "drawExtraSquares",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 604,
+				"name": "sqToPix",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 607,
+				"name": "pixToSq",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			},
+			{
+				"line": 632,
+				"name": "getSquare",
+				"file": "C:\\Github\\droidfish\\DroidFishApp\\src\\main\\java\\org\\petero\\droidfish\\view\\ChessBoard.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"sources": [
+		"C:\\Github\\dodge-android"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 335,
+				"name": "getBullets",
+				"file": "C:\\Github\\dodge-android\\app\\src\\main\\java\\com\\dozingcatsoftware\\dodge\\FieldView.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 394,
+				"file": "C:\\Github\\dodge-android\\app\\src\\main\\java\\com\\dozingcatsoftware\\dodge\\DodgeMain.java"
+			},
+			{
+				"line": 400,
+				"file": "C:\\Github\\dodge-android\\app\\src\\main\\java\\com\\dozingcatsoftware\\dodge\\DodgeMain.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

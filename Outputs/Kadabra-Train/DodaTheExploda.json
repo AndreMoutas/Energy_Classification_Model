@@ -1,0 +1,38 @@
+{
+	"sources": [
+		"C:\\Github\\DodaTheExploda"
+	],
+	"total": 5,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 102,
+				"name": "getOverLap",
+				"file": "C:\\Github\\DodaTheExploda\\app\\src\\main\\java\\com\\quaap\\dodatheexploda\\DodaView.java"
+			},
+			{
+				"line": 102,
+				"name": "getOverLap",
+				"file": "C:\\Github\\DodaTheExploda\\app\\src\\main\\java\\com\\quaap\\dodatheexploda\\DodaView.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 35,
+				"file": "C:\\Github\\DodaTheExploda\\app\\src\\main\\java\\com\\quaap\\dodatheexploda\\SoundEffects.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\DodaTheExploda\\app\\src\\main\\java\\com\\quaap\\dodatheexploda\\SoundEffects.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 148,
+				"name": "isReady",
+				"file": "C:\\Github\\DodaTheExploda\\app\\src\\main\\java\\com\\quaap\\dodatheexploda\\SoundEffects.java"
+			}
+		],
+		"Member Ignoring Method Detector": []
+	}
+}

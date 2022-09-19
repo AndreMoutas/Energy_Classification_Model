@@ -1,0 +1,104 @@
+{
+	"sources": [
+		"C:\\Github\\heriswap"
+	],
+	"total": 18,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 288,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 296,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 303,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 429,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 435,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 655,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 972,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1012,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1101,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1108,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1123,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1124,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1135,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			},
+			{
+				"line": 1136,
+				"name": "getContext",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacGooglePlayGameServices\\src\\net\\damsy\\soupeaucaillou\\googleplaygameservices\\GameHelper.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 58,
+				"name": "onDrawFrame",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacFramework\\src\\net\\damsy\\soupeaucaillou\\SacRenderer.java"
+			},
+			{
+				"line": 38,
+				"name": "exitGame",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacFramework\\src\\net\\damsy\\soupeaucaillou\\api\\ExitAPI.java"
+			},
+			{
+				"line": 172,
+				"name": "setPosition",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacFramework\\src\\net\\damsy\\soupeaucaillou\\api\\MusicAPI.java"
+			},
+			{
+				"line": 139,
+				"name": "closePlayerKeyboardUI",
+				"file": "C:\\Github\\heriswap\\sac\\android\\SacFramework\\src\\net\\damsy\\soupeaucaillou\\api\\StringInputAPI.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"sources": [
+		"C:\\Github\\geometri-destroyer"
+	],
+	"total": 8,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 43,
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\misc\\SpriteManager.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 76,
+				"name": "getSprite",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			},
+			{
+				"line": 76,
+				"name": "getWidth",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			},
+			{
+				"line": 76,
+				"name": "getHeight",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			},
+			{
+				"line": 76,
+				"name": "getWidth",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			},
+			{
+				"line": 76,
+				"name": "getHeight",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			},
+			{
+				"line": 76,
+				"name": "getWidth",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			},
+			{
+				"line": 76,
+				"name": "getHeight",
+				"file": "C:\\Github\\geometri-destroyer\\geometri-destroyer\\src\\se\\danielj\\geometridestroyer\\Entity.java"
+			}
+		],
+		"Member Ignoring Method Detector": []
+	}
+}

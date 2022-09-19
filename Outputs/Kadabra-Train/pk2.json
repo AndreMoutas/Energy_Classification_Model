@@ -1,0 +1,219 @@
+{
+	"sources": [
+		"C:\\Github\\pk2"
+	],
+	"total": 41,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 178,
+				"name": "getLibraries",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 54,
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 55,
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 251,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 302,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 424,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 460,
+				"name": "getId",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 471,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 472,
+				"name": "getId",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 473,
+				"name": "getId",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 486,
+				"name": "getId",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 579,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 596,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 611,
+				"name": "isRegistered",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 490,
+				"name": "onDescriptorRead",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 511,
+				"name": "onReliableWriteCompleted",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 515,
+				"name": "onReadRemoteRssi",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 519,
+				"name": "onMtuChanged",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceBLESteamController.java"
+			},
+			{
+				"line": 677,
+				"name": "HIDDeviceConnected",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 678,
+				"name": "HIDDeviceOpenPending",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 679,
+				"name": "HIDDeviceOpenResult",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 680,
+				"name": "HIDDeviceDisconnected",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 682,
+				"name": "HIDDeviceInputReport",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 683,
+				"name": "HIDDeviceFeatureReport",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\HIDDeviceManager.java"
+			},
+			{
+				"line": 152,
+				"name": "getMainFunction",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 164,
+				"name": "getLibraries",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 189,
+				"name": "getArguments",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 313,
+				"name": "pauseNativeThread",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 324,
+				"name": "resumeNativeThread",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 622,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2265,
+				"name": "nativeGenerateScancodeForUnichar",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 2267,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 133,
+				"name": "handleMotionEvent",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 140,
+				"name": "pollInputDevices",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 290,
+				"name": "getProductId",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 293,
+				"name": "getVendorId",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 296,
+				"name": "getButtonMask",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 596,
+				"name": "supportsRelativeMouse",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 600,
+				"name": "inRelativeMode",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 604,
+				"name": "setRelativeMouseEnabled",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			},
+			{
+				"line": 608,
+				"name": "reclaimRelativeMouseModeIfNeeded",
+				"file": "C:\\Github\\pk2\\external\\SDL\\android-project\\app\\src\\main\\java\\org\\libsdl\\app\\SDLControllerManager.java"
+			}
+		]
+	}
+}

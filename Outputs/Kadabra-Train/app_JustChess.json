@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\app_JustChess"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\app_JustChess\\app\\src\\test\\java\\com\\alaskalinuxuser\\justchess\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

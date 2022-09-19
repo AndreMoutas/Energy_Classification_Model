@@ -1,0 +1,124 @@
+{
+	"sources": [
+		"C:\\Github\\ingress-intel-total-conversion"
+	],
+	"total": 23,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 729,
+				"name": "isInFullscreen",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_Mobile.java"
+			},
+			{
+				"line": 730,
+				"name": "isInFullscreen",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_Mobile.java"
+			},
+			{
+				"line": 738,
+				"name": "isFollowing",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_Mobile.java"
+			},
+			{
+				"line": 587,
+				"name": "isInFullscreen",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_Mobile.java"
+			},
+			{
+				"line": 588,
+				"name": "isInFullscreen",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_Mobile.java"
+			},
+			{
+				"line": 596,
+				"name": "isFollowing",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_Mobile.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 94,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_FileManager.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\Log.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\prefs\\AboutDialogPreference.java"
+			},
+			{
+				"line": 25,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\share\\IntentComparator.java"
+			},
+			{
+				"line": 90,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_FileManager.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\Log.java"
+			},
+			{
+				"line": 25,
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\share\\IntentComparator.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 92,
+				"name": "getFullscreenStatus",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_WebView.java"
+			},
+			{
+				"line": 76,
+				"name": "getFullscreenStatus",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_WebView.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 224,
+				"name": "getFileRequestPrefix",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_FileManager.java"
+			},
+			{
+				"line": 151,
+				"name": "shouldInterrupt",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\IITC_JsDialogHelper.java"
+			},
+			{
+				"line": 24,
+				"name": "onStart",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\compass\\Compass.java"
+			},
+			{
+				"line": 26,
+				"name": "onStop",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\app\\src\\main\\java\\org\\exarhteam\\iitc_mobile\\compass\\Compass.java"
+			},
+			{
+				"line": 228,
+				"name": "getFileRequestPrefix",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_FileManager.java"
+			},
+			{
+				"line": 151,
+				"name": "shouldInterrupt",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\IITC_JsDialogHelper.java"
+			},
+			{
+				"line": 24,
+				"name": "onStart",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\compass\\Compass.java"
+			},
+			{
+				"line": 26,
+				"name": "onStop",
+				"file": "C:\\Github\\ingress-intel-total-conversion\\mobile\\src\\com\\cradle\\iitc_mobile\\compass\\Compass.java"
+			}
+		]
+	}
+}

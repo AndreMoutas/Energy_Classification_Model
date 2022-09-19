@@ -1,0 +1,1023 @@
+{
+	"sources": [
+		"C:\\Github\\MonsterHunter3UDatabase"
+	],
+	"total": 208,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 218,
+				"name": "isCollapsed",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\ActionBarContainer.java"
+			},
+			{
+				"line": 187,
+				"name": "hasSubMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\MenuInflater.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 48,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 171,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 334,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\ActionBarSherlockCompat.java"
+			},
+			{
+				"line": 67,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\AnimatorSet.java"
+			},
+			{
+				"line": 563,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\AnimatorSet.java"
+			},
+			{
+				"line": 570,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\AnimatorSet.java"
+			},
+			{
+				"line": 101,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\PropertyValuesHolder.java"
+			},
+			{
+				"line": 103,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\PropertyValuesHolder.java"
+			},
+			{
+				"line": 452,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\PropertyValuesHolder.java"
+			},
+			{
+				"line": 459,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\ValueAnimator.java"
+			},
+			{
+				"line": 1206,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\ValueAnimator.java"
+			},
+			{
+				"line": 229,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\ActivityChooserModel.java"
+			},
+			{
+				"line": 889,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\ActivityChooserModel.java"
+			},
+			{
+				"line": 458,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 535,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 666,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 761,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 870,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 948,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1058,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1167,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1283,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1435,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1576,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1780,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1860,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 1973,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2054,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2255,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2356,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2392,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2716,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			},
+			{
+				"line": 2947,
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\data\\database\\MonsterHunterDatabaseHelper.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 285,
+				"name": "isStarted",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\AnimatorSet.java"
+			},
+			{
+				"line": 320,
+				"name": "isStarted",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\AnimatorSet.java"
+			},
+			{
+				"line": 267,
+				"name": "getFraction",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Keyframe.java"
+			},
+			{
+				"line": 268,
+				"name": "getInterpolator",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Keyframe.java"
+			},
+			{
+				"line": 312,
+				"name": "getFraction",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Keyframe.java"
+			},
+			{
+				"line": 313,
+				"name": "getInterpolator",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Keyframe.java"
+			},
+			{
+				"line": 356,
+				"name": "getFraction",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Keyframe.java"
+			},
+			{
+				"line": 357,
+				"name": "getInterpolator",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Keyframe.java"
+			},
+			{
+				"line": 601,
+				"name": "getAnimatedValue",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\PropertyValuesHolder.java"
+			},
+			{
+				"line": 65,
+				"name": "getContext",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\ActionMenu.java"
+			},
+			{
+				"line": 345,
+				"name": "getActionViewStatesKey",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 355,
+				"name": "getActionViewStatesKey",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 791,
+				"name": "isQwertyMode",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 854,
+				"name": "isQwertyMode",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 1101,
+				"name": "getResources",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 324,
+				"name": "getTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuItemImpl.java"
+			},
+			{
+				"line": 342,
+				"name": "getTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuItemImpl.java"
+			},
+			{
+				"line": 540,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 858,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 910,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 911,
+				"name": "getFirstVisiblePosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 913,
+				"name": "getCount",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 921,
+				"name": "getFirstVisiblePosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 960,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 381,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			},
+			{
+				"line": 446,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			},
+			{
+				"line": 646,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			},
+			{
+				"line": 733,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			},
+			{
+				"line": 804,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			},
+			{
+				"line": 1149,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			},
+			{
+				"line": 1252,
+				"name": "isIconified",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\widget\\SearchView.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 269,
+				"name": "getActionBar",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 290,
+				"name": "dispatchConfigurationChanged",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 304,
+				"name": "dispatchPostResume",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 318,
+				"name": "dispatchPause",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 332,
+				"name": "dispatchStop",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 338,
+				"name": "dispatchInvalidateOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 356,
+				"name": "dispatchOpenOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 376,
+				"name": "dispatchCloseOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 398,
+				"name": "dispatchPostCreate",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 416,
+				"name": "dispatchTitleChanged",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 436,
+				"name": "dispatchKeyEvent",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 450,
+				"name": "dispatchCreateOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 468,
+				"name": "dispatchPrepareOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 484,
+				"name": "dispatchOptionsItemSelected",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 506,
+				"name": "dispatchMenuOpened",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 525,
+				"name": "dispatchPanelClosed",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 539,
+				"name": "dispatchDestroy",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 541,
+				"name": "dispatchSaveInstanceState",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 543,
+				"name": "dispatchRestoreInstanceState",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 625,
+				"name": "hasFeature",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 638,
+				"name": "requestFeature",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 645,
+				"name": "setUiOptions",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 655,
+				"name": "setUiOptions",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 662,
+				"name": "setContentView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 681,
+				"name": "setContentView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 691,
+				"name": "addContentView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 696,
+				"name": "setTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 715,
+				"name": "setProgressBarVisibility",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 725,
+				"name": "setProgressBarIndeterminateVisibility",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 736,
+				"name": "setProgressBarIndeterminate",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 748,
+				"name": "setProgress",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 763,
+				"name": "setSecondaryProgress",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 784,
+				"name": "getThemedContext",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 794,
+				"name": "startActionMode",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 799,
+				"name": "ensureActionBar",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\ActionBarSherlock.java"
+			},
+			{
+				"line": 146,
+				"name": "setCustomView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 166,
+				"name": "setCustomView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 185,
+				"name": "setCustomView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 200,
+				"name": "setIcon",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 215,
+				"name": "setIcon",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 230,
+				"name": "setLogo",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 245,
+				"name": "setLogo",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 262,
+				"name": "setListNavigationCallbacks",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 270,
+				"name": "setSelectedNavigationItem",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 277,
+				"name": "getSelectedNavigationIndex",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 284,
+				"name": "getNavigationItemCount",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 295,
+				"name": "setTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 306,
+				"name": "setTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 318,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 329,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 338,
+				"name": "setDisplayOptions",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 353,
+				"name": "setDisplayOptions",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 366,
+				"name": "setDisplayUseLogoEnabled",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 379,
+				"name": "setDisplayShowHomeEnabled",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 394,
+				"name": "setDisplayHomeAsUpEnabled",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 406,
+				"name": "setDisplayShowTitleEnabled",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 418,
+				"name": "setDisplayShowCustomEnabled",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 428,
+				"name": "setBackgroundDrawable",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 436,
+				"name": "setStackedBackgroundDrawable",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 446,
+				"name": "setSplitBackgroundDrawable",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 451,
+				"name": "getCustomView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 460,
+				"name": "getTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 469,
+				"name": "getSubtitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 481,
+				"name": "getNavigationMode",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 491,
+				"name": "setNavigationMode",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 496,
+				"name": "getDisplayOptions",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 512,
+				"name": "newTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 520,
+				"name": "addTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 528,
+				"name": "addTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 538,
+				"name": "addTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 548,
+				"name": "addTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 556,
+				"name": "removeTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 564,
+				"name": "removeTabAt",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 569,
+				"name": "removeAllTabs",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 578,
+				"name": "selectTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 586,
+				"name": "getSelectedTab",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 594,
+				"name": "getTabAt",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 600,
+				"name": "getTabCount",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 607,
+				"name": "getHeight",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 615,
+				"name": "show",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 623,
+				"name": "hide",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 628,
+				"name": "isShowing",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 635,
+				"name": "addOnMenuVisibilityListener",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 643,
+				"name": "removeOnMenuVisibilityListener",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 659,
+				"name": "setHomeButtonEnabled",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 670,
+				"name": "getThemedContext",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\ActionBar.java"
+			},
+			{
+				"line": 189,
+				"name": "onCreateOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockActivity.java"
+			},
+			{
+				"line": 201,
+				"name": "onPrepareOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockActivity.java"
+			},
+			{
+				"line": 213,
+				"name": "onOptionsItemSelected",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockActivity.java"
+			},
+			{
+				"line": 178,
+				"name": "onCreateOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockExpandableListActivity.java"
+			},
+			{
+				"line": 190,
+				"name": "onPrepareOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockExpandableListActivity.java"
+			},
+			{
+				"line": 202,
+				"name": "onOptionsItemSelected",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockExpandableListActivity.java"
+			},
+			{
+				"line": 189,
+				"name": "onCreateOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockListActivity.java"
+			},
+			{
+				"line": 201,
+				"name": "onPrepareOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockListActivity.java"
+			},
+			{
+				"line": 213,
+				"name": "onOptionsItemSelected",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockListActivity.java"
+			},
+			{
+				"line": 189,
+				"name": "onCreateOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockPreferenceActivity.java"
+			},
+			{
+				"line": 201,
+				"name": "onPrepareOptionsMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockPreferenceActivity.java"
+			},
+			{
+				"line": 213,
+				"name": "onOptionsItemSelected",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\app\\SherlockPreferenceActivity.java"
+			},
+			{
+				"line": 48,
+				"name": "start",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 60,
+				"name": "cancel",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 71,
+				"name": "end",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 113,
+				"name": "setInterpolator",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 121,
+				"name": "isRunning",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 216,
+				"name": "setupStartValues",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 228,
+				"name": "setupEndValues",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 239,
+				"name": "setTarget",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\nineoldandroids\\animation\\Animator.java"
+			},
+			{
+				"line": 125,
+				"name": "onCloseMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\StandaloneActionMode.java"
+			},
+			{
+				"line": 137,
+				"name": "onCloseSubMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\StandaloneActionMode.java"
+			},
+			{
+				"line": 538,
+				"name": "dispatchPopulateAccessibilityEvent",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\ActionMenuView.java"
+			},
+			{
+				"line": 186,
+				"name": "bindItemView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\BaseMenuPresenter.java"
+			},
+			{
+				"line": 195,
+				"name": "shouldIncludeItem",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\BaseMenuPresenter.java"
+			},
+			{
+				"line": 384,
+				"name": "getActionViewStatesKey",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 1206,
+				"name": "getRootMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 310,
+				"name": "layout",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAbsSpinner.java"
+			},
+			{
+				"line": 406,
+				"name": "getAdapter",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 414,
+				"name": "setAdapter",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 532,
+				"name": "getSelectedView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 617,
+				"name": "setSelection",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 647,
+				"name": "isInFilterMode",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 1097,
+				"name": "lookForSelectablePosition",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\internal\\widget\\IcsAdapterView.java"
+			},
+			{
+				"line": 67,
+				"name": "setTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 78,
+				"name": "setTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 89,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 100,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 111,
+				"name": "setCustomView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 120,
+				"name": "invalidate",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 126,
+				"name": "finish",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 132,
+				"name": "getMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 138,
+				"name": "getTitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 144,
+				"name": "getSubtitle",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 150,
+				"name": "getCustomView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 155,
+				"name": "getMenuInflater",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 165,
+				"name": "isUiFocusable",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionMode.java"
+			},
+			{
+				"line": 77,
+				"name": "onCreateActionView",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionProvider.java"
+			},
+			{
+				"line": 114,
+				"name": "onPerformDefaultAction",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionProvider.java"
+			},
+			{
+				"line": 128,
+				"name": "hasSubMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionProvider.java"
+			},
+			{
+				"line": 141,
+				"name": "onPrepareSubMenu",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\ActionBarSherlock\\src\\com\\actionbarsherlock\\view\\ActionProvider.java"
+			},
+			{
+				"line": 18,
+				"name": "loadCursor",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\loader\\SQLiteCursorLoader.java"
+			},
+			{
+				"line": 31,
+				"name": "createFragment",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\ui\\general\\GenericActivity.java"
+			},
+			{
+				"line": 161,
+				"name": "getDetailAdapter",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\ui\\list\\WeaponListFragment.java"
+			},
+			{
+				"line": 163,
+				"name": "getDetailWeapon",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\ui\\list\\WeaponListFragment.java"
+			},
+			{
+				"line": 165,
+				"name": "getThisFragment",
+				"file": "C:\\Github\\MonsterHunter3UDatabase\\MonsterHunter3UDatabase\\src\\com\\daviancorp\\android\\ui\\list\\WeaponListFragment.java"
+			}
+		]
+	}
+}

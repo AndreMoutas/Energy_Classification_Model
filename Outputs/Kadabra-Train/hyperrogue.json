@@ -1,0 +1,128 @@
+{
+	"sources": [
+		"C:\\Github\\hyperrogue"
+	],
+	"total": 23,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 192,
+				"name": "initGame",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 193,
+				"name": "getland",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 194,
+				"name": "update",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 195,
+				"name": "draw",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 196,
+				"name": "drawScreenshot",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 197,
+				"name": "loadMap",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 198,
+				"name": "captureBack",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 199,
+				"name": "keepinmemory",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 200,
+				"name": "getImmersive",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 201,
+				"name": "getGL",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 202,
+				"name": "getMusicVolume",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 203,
+				"name": "getEffVolume",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 204,
+				"name": "getLanguage",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 205,
+				"name": "syncScore",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 206,
+				"name": "setFilesDir",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 207,
+				"name": "getGoogleConnection",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 208,
+				"name": "setGoogleSignin",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 209,
+				"name": "handleKey",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 210,
+				"name": "glhrinit",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 211,
+				"name": "getaPosition",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 212,
+				"name": "getaTexture",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 213,
+				"name": "getuColor",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperRogue.java"
+			},
+			{
+				"line": 45,
+				"name": "realpha",
+				"file": "C:\\Github\\hyperrogue\\hyperroid\\app\\src\\main\\java\\com\\roguetemple\\hyperroid\\HyperView.java"
+			}
+		]
+	}
+}

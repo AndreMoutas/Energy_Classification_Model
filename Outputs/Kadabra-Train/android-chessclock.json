@@ -1,0 +1,144 @@
+{
+	"sources": [
+		"C:\\Github\\android-chessclock"
+	],
+	"total": 26,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 95,
+				"name": "getTimeControlPlayerOne",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlParser.java"
+			},
+			{
+				"line": 95,
+				"name": "getStageManager",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlParser.java"
+			},
+			{
+				"line": 103,
+				"name": "getTimeControlPlayerTwo",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlParser.java"
+			},
+			{
+				"line": 103,
+				"name": "getStageManager",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlParser.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 158,
+				"name": "getTime",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\CountDownTimer.java"
+			},
+			{
+				"line": 241,
+				"name": "getTime",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\CountDownTimer.java"
+			},
+			{
+				"line": 502,
+				"name": "getTime",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\CountDownTimer.java"
+			},
+			{
+				"line": 505,
+				"name": "getTime",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\CountDownTimer.java"
+			},
+			{
+				"line": 149,
+				"name": "getId",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 154,
+				"name": "getStageType",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 156,
+				"name": "getStageType",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 160,
+				"name": "getDuration",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 161,
+				"name": "getDuration",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 165,
+				"name": "getTotalMoves",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 251,
+				"name": "getDuration",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 252,
+				"name": "getTotalMoves",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\Stage.java"
+			},
+			{
+				"line": 101,
+				"name": "getName",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControl.java"
+			},
+			{
+				"line": 102,
+				"name": "getName",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControl.java"
+			},
+			{
+				"line": 105,
+				"name": "getStageManager",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControl.java"
+			},
+			{
+				"line": 106,
+				"name": "getTimeIncrement",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControl.java"
+			},
+			{
+				"line": 83,
+				"name": "getTimeControlPlayerOne",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlWrapper.java"
+			},
+			{
+				"line": 84,
+				"name": "getTimeControlPlayerTwo",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlWrapper.java"
+			},
+			{
+				"line": 85,
+				"name": "isSameAsPlayerOne",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeControlWrapper.java"
+			},
+			{
+				"line": 97,
+				"name": "getValue",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeIncrement.java"
+			},
+			{
+				"line": 100,
+				"name": "getType",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeIncrement.java"
+			},
+			{
+				"line": 114,
+				"name": "getValue",
+				"file": "C:\\Github\\android-chessclock\\app\\src\\main\\java\\com\\chess\\clock\\engine\\TimeIncrement.java"
+			}
+		],
+		"Member Ignoring Method Detector": []
+	}
+}

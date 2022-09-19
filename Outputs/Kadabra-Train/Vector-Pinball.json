@@ -1,0 +1,274 @@
+{
+	"sources": [
+		"C:\\Github\\Vector-Pinball"
+	],
+	"total": 54,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 210,
+				"name": "getAudioPlayer",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\RolloverGroupElement.java"
+			},
+			{
+				"line": 217,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\RolloverGroupElement.java"
+			},
+			{
+				"line": 223,
+				"name": "getAudioPlayer",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\RolloverGroupElement.java"
+			},
+			{
+				"line": 210,
+				"name": "getAudioPlayer",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\RolloverGroupElement.java"
+			},
+			{
+				"line": 217,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\RolloverGroupElement.java"
+			},
+			{
+				"line": 223,
+				"name": "getAudioPlayer",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\RolloverGroupElement.java"
+			},
+			{
+				"line": 82,
+				"name": "getGameTimeNanos",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\SensorElement.java"
+			},
+			{
+				"line": 84,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\SensorElement.java"
+			},
+			{
+				"line": 85,
+				"name": "getElementId",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\SensorElement.java"
+			},
+			{
+				"line": 129,
+				"name": "getFieldElements",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\fields\\Field3Delegate.java"
+			},
+			{
+				"line": 161,
+				"name": "withAlpha",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\fields\\Field3Delegate.java"
+			},
+			{
+				"line": 149,
+				"name": "getFieldElements",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 529,
+				"name": "getFieldElementsArray",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 554,
+				"name": "getBalls",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 70,
+				"name": "getTargetTimeRatio",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\FieldDriver.java"
+			},
+			{
+				"line": 75,
+				"name": "getTargetTimeRatio",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\FieldDriver.java"
+			},
+			{
+				"line": 89,
+				"name": "setAverageFPS",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\FieldDriver.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 16,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\bouncy\\FieldLayoutReader.java"
+			},
+			{
+				"line": 53,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\bouncy\\VPSoundpool.java"
+			},
+			{
+				"line": 54,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\bouncy\\util\\JSONUtils.java"
+			},
+			{
+				"line": 12,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElementCollection.java"
+			},
+			{
+				"line": 18,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElementCollection.java"
+			},
+			{
+				"line": 159,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\fields\\Field4Delegate.java"
+			},
+			{
+				"line": 35,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\fields\\Field5Delegate.java"
+			},
+			{
+				"line": 295,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\fields\\Field5Delegate.java"
+			},
+			{
+				"line": 97,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\fields\\Stars.java"
+			},
+			{
+				"line": 145,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 146,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 18,
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\WorldLayers.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 134,
+				"name": "getLayer",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElement.java"
+			},
+			{
+				"line": 129,
+				"name": "getBody",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Ball.java"
+			},
+			{
+				"line": 129,
+				"name": "getBody",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Ball.java"
+			},
+			{
+				"line": 199,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 240,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 412,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 432,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 435,
+				"name": "getBalls",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 495,
+				"name": "getFieldElementsArray",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 529,
+				"name": "getFieldElementsArray",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 532,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 554,
+				"name": "getBalls",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 558,
+				"name": "getGameState",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 560,
+				"name": "getDelegate",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 701,
+				"name": "getBalls",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 705,
+				"name": "getBalls",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			},
+			{
+				"line": 20,
+				"name": "getLayer",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Shape.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 425,
+				"name": "highScorePrefsKeyForLevel",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\bouncy\\BouncyActivity.java"
+			},
+			{
+				"line": 176,
+				"name": "currentMillis",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\bouncy\\ScoreView.java"
+			},
+			{
+				"line": 147,
+				"name": "flippersActivated",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElement.java"
+			},
+			{
+				"line": 161,
+				"name": "finishCreateElement",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElement.java"
+			},
+			{
+				"line": 168,
+				"name": "createBodies",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElement.java"
+			},
+			{
+				"line": 174,
+				"name": "getBodies",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElement.java"
+			},
+			{
+				"line": 186,
+				"name": "handleCollision",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\elements\\FieldElement.java"
+			},
+			{
+				"line": 752,
+				"name": "getDebugMessage",
+				"file": "C:\\Github\\Vector-Pinball\\app\\src\\main\\java\\com\\dozingcatsoftware\\vectorpinball\\model\\Field.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,305 @@
+{
+	"sources": [
+		"C:\\Github\\RaumBaller"
+	],
+	"total": 58,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 153,
+				"name": "pfWidth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\AndroidGame.java"
+			},
+			{
+				"line": 154,
+				"name": "pfHeight",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\AndroidGame.java"
+			},
+			{
+				"line": 775,
+				"name": "moduloFloor",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 780,
+				"name": "moduloFloor",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 271,
+				"name": "toString",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\SortedArray.java"
+			},
+			{
+				"line": 1048,
+				"name": "viewWidth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\StdGame.java"
+			},
+			{
+				"line": 1051,
+				"name": "viewWidth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\StdGame.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 99,
+				"name": "getHealth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\ship\\Ship.java"
+			},
+			{
+				"line": 101,
+				"name": "getHealth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\ship\\Ship.java"
+			},
+			{
+				"line": 143,
+				"name": "getHealth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\ship\\Ship.java"
+			},
+			{
+				"line": 143,
+				"name": "getHealth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\ship\\Ship.java"
+			},
+			{
+				"line": 177,
+				"name": "getHealth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\ship\\Ship.java"
+			},
+			{
+				"line": 51,
+				"name": "getSpawned",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\wave\\Wave.java"
+			},
+			{
+				"line": 67,
+				"name": "getSpawned",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\wave\\Wave.java"
+			},
+			{
+				"line": 67,
+				"name": "getMaxAmount",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\wave\\Wave.java"
+			},
+			{
+				"line": 69,
+				"name": "getFreq",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\wave\\Wave.java"
+			},
+			{
+				"line": 1460,
+				"name": "isAlive",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 2170,
+				"name": "tileWidth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 2170,
+				"name": "tileHeight",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 2174,
+				"name": "tileWidth",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 2174,
+				"name": "tileHeight",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 27,
+				"name": "shoot",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\cannon\\Cannon.java"
+			},
+			{
+				"line": 12,
+				"name": "start",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\gamestates\\GameState.java"
+			},
+			{
+				"line": 14,
+				"name": "doFrame",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\gamestates\\GameState.java"
+			},
+			{
+				"line": 16,
+				"name": "paintFrame",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\gamestates\\GameState.java"
+			},
+			{
+				"line": 184,
+				"name": "onScore",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\ship\\Ship.java"
+			},
+			{
+				"line": 28,
+				"name": "spawn",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\com\\kaeruct\\raumballer\\wave\\Wave.java"
+			},
+			{
+				"line": 1468,
+				"name": "destroy",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 1474,
+				"name": "move",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 1480,
+				"name": "hit",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 1486,
+				"name": "hit_bg",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 1494,
+				"name": "hit_bg",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 1505,
+				"name": "hit_bg",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 1511,
+				"name": "paint",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGObject.java"
+			},
+			{
+				"line": 100,
+				"name": "alarm",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\JGTimer.java"
+			},
+			{
+				"line": 1842,
+				"name": "divFloor",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 1851,
+				"name": "moduloFloor",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 1859,
+				"name": "moduloFloor",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 2145,
+				"name": "and",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\impl\\EngineLogic.java"
+			},
+			{
+				"line": 315,
+				"name": "getParameter",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1458,
+				"name": "startLoader",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1470,
+				"name": "startSelectLevel",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1524,
+				"name": "startPaused",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1530,
+				"name": "doFrameLoader",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1542,
+				"name": "doFrameSelectLevel",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1548,
+				"name": "doFrameHighscores",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1560,
+				"name": "doFrameStartLevel",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1566,
+				"name": "doFrameStartGame",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1578,
+				"name": "doFrameLifeLost",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1598,
+				"name": "doFramePaused",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1604,
+				"name": "paintFrameLoader",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 1616,
+				"name": "paintFrameSelectLevel",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 3005,
+				"name": "addMenuItem",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\JGEngine.java"
+			},
+			{
+				"line": 120,
+				"name": "onStartTrackingTouch",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\SeekBarPreference.java"
+			},
+			{
+				"line": 123,
+				"name": "onStopTrackingTouch",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\SeekBarPreference.java"
+			},
+			{
+				"line": 502,
+				"name": "initNewLife",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\StdGame.java"
+			},
+			{
+				"line": 508,
+				"name": "defineLevel",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\StdGame.java"
+			},
+			{
+				"line": 1110,
+				"name": "getZoomingFont",
+				"file": "C:\\Github\\RaumBaller\\app\\src\\main\\java\\jgame\\platform\\StdGame.java"
+			}
+		]
+	}
+}

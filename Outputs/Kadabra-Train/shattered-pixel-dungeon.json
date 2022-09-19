@@ -1,0 +1,3694 @@
+{
+	"sources": [
+		"C:\\Github\\shattered-pixel-dungeon"
+	],
+	"total": 746,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 144,
+				"name": "needsRender",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Tilemap.java"
+			},
+			{
+				"line": 56,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\particles\\BitmaskEmitter.java"
+			},
+			{
+				"line": 57,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\particles\\BitmaskEmitter.java"
+			},
+			{
+				"line": 838,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 839,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 846,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 846,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 847,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 848,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 848,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 856,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 856,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 857,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 858,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 858,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 866,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 866,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 867,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 868,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 868,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 874,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 874,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 875,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 876,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 876,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 882,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 882,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 883,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 884,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 884,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 888,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 892,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 893,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 898,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 900,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 905,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 909,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 908,
+				"name": "or",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 909,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 942,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 971,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Dungeon.java"
+			},
+			{
+				"line": 234,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Rankings.java"
+			},
+			{
+				"line": 208,
+				"name": "allActions",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\SPDAction.java"
+			},
+			{
+				"line": 271,
+				"name": "allActions",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\SPDAction.java"
+			},
+			{
+				"line": 342,
+				"name": "allActions",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\SPDAction.java"
+			},
+			{
+				"line": 362,
+				"name": "getAllBindings",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\SPDAction.java"
+			},
+			{
+				"line": 395,
+				"name": "allActions",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\SPDAction.java"
+			},
+			{
+				"line": 415,
+				"name": "getAllControllerBindings",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\SPDAction.java"
+			},
+			{
+				"line": 336,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 671,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 873,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 893,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blizzard.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blizzard.java"
+			},
+			{
+				"line": 66,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 137,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 137,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 152,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 167,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 168,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 171,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 172,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 152,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 167,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 168,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 171,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 172,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\ConfusionGas.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\ConfusionGas.java"
+			},
+			{
+				"line": 55,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\CorrosiveGas.java"
+			},
+			{
+				"line": 55,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\CorrosiveGas.java"
+			},
+			{
+				"line": 58,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Electricity.java"
+			},
+			{
+				"line": 58,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Electricity.java"
+			},
+			{
+				"line": 69,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Electricity.java"
+			},
+			{
+				"line": 69,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Electricity.java"
+			},
+			{
+				"line": 51,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Fire.java"
+			},
+			{
+				"line": 77,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Fire.java"
+			},
+			{
+				"line": 78,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Fire.java"
+			},
+			{
+				"line": 51,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Fire.java"
+			},
+			{
+				"line": 77,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Fire.java"
+			},
+			{
+				"line": 78,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Fire.java"
+			},
+			{
+				"line": 47,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Foliage.java"
+			},
+			{
+				"line": 47,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Foliage.java"
+			},
+			{
+				"line": 48,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Freezing.java"
+			},
+			{
+				"line": 48,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Freezing.java"
+			},
+			{
+				"line": 49,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\GooWarn.java"
+			},
+			{
+				"line": 49,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\GooWarn.java"
+			},
+			{
+				"line": 46,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Inferno.java"
+			},
+			{
+				"line": 70,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Inferno.java"
+			},
+			{
+				"line": 71,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Inferno.java"
+			},
+			{
+				"line": 46,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Inferno.java"
+			},
+			{
+				"line": 70,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Inferno.java"
+			},
+			{
+				"line": 71,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Inferno.java"
+			},
+			{
+				"line": 49,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\ParalyticGas.java"
+			},
+			{
+				"line": 49,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\ParalyticGas.java"
+			},
+			{
+				"line": 45,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Regrowth.java"
+			},
+			{
+				"line": 45,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Regrowth.java"
+			},
+			{
+				"line": 68,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\SacrificialFire.java"
+			},
+			{
+				"line": 68,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\SacrificialFire.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\StenchGas.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\StenchGas.java"
+			},
+			{
+				"line": 40,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\StormCloud.java"
+			},
+			{
+				"line": 40,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\StormCloud.java"
+			},
+			{
+				"line": 47,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\ToxicGas.java"
+			},
+			{
+				"line": 47,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\ToxicGas.java"
+			},
+			{
+				"line": 49,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Web.java"
+			},
+			{
+				"line": 49,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Web.java"
+			},
+			{
+				"line": 43,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 43,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 48,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ArtifactRecharge.java"
+			},
+			{
+				"line": 207,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ChampionEnemy.java"
+			},
+			{
+				"line": 356,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Combo.java"
+			},
+			{
+				"line": 359,
+				"name": "damageRoll",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Combo.java"
+			},
+			{
+				"line": 365,
+				"name": "flash",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Combo.java"
+			},
+			{
+				"line": 41,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Corruption.java"
+			},
+			{
+				"line": 48,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\MagicImmune.java"
+			},
+			{
+				"line": 110,
+				"name": "damageRoll",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Preparation.java"
+			},
+			{
+				"line": 412,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\Hero.java"
+			},
+			{
+				"line": 1302,
+				"name": "flashForDocument",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\Hero.java"
+			},
+			{
+				"line": 1682,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\Hero.java"
+			},
+			{
+				"line": 1770,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\Hero.java"
+			},
+			{
+				"line": 141,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\huntress\\SpiritHawk.java"
+			},
+			{
+				"line": 117,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\rogue\\DeathMark.java"
+			},
+			{
+				"line": 140,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\rogue\\ShadowClone.java"
+			},
+			{
+				"line": 109,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\rogue\\SmokeBomb.java"
+			},
+			{
+				"line": 139,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\warrior\\Endure.java"
+			},
+			{
+				"line": 357,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DM300.java"
+			},
+			{
+				"line": 430,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DM300.java"
+			},
+			{
+				"line": 432,
+				"name": "insideMap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DM300.java"
+			},
+			{
+				"line": 659,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DM300.java"
+			},
+			{
+				"line": 428,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DwarfKing.java"
+			},
+			{
+				"line": 521,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DwarfKing.java"
+			},
+			{
+				"line": 736,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DwarfKing.java"
+			},
+			{
+				"line": 186,
+				"name": "flash",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Eye.java"
+			},
+			{
+				"line": 169,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Ghoul.java"
+			},
+			{
+				"line": 329,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Ghoul.java"
+			},
+			{
+				"line": 332,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Ghoul.java"
+			},
+			{
+				"line": 295,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Goo.java"
+			},
+			{
+				"line": 250,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 896,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 1179,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 1180,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 185,
+				"name": "findChar",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Necromancer.java"
+			},
+			{
+				"line": 149,
+				"name": "immunities",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Piranha.java"
+			},
+			{
+				"line": 113,
+				"name": "findChar",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\SpectralNecromancer.java"
+			},
+			{
+				"line": 329,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 488,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 518,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 840,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 840,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 1023,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 1023,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Tengu.java"
+			},
+			{
+				"line": 207,
+				"name": "center",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 207,
+				"name": "raisedTileCenterToWorld",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 226,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 235,
+				"name": "flash",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 335,
+				"name": "findFist",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 464,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 518,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogDzewa.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\effects\\BlobEmitter.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\effects\\BlobEmitter.java"
+			},
+			{
+				"line": 73,
+				"name": "all",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\effects\\Pushing.java"
+			},
+			{
+				"line": 206,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Honeypot.java"
+			},
+			{
+				"line": 221,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Honeypot.java"
+			},
+			{
+				"line": 219,
+				"name": "isIdentified",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 300,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 125,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 109,
+				"name": "quantity",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Recipe.java"
+			},
+			{
+				"line": 349,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\armor\\Armor.java"
+			},
+			{
+				"line": 249,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\AlchemistsToolkit.java"
+			},
+			{
+				"line": 272,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\HornOfPlenty.java"
+			},
+			{
+				"line": 214,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\MasterThievesArmband.java"
+			},
+			{
+				"line": 274,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\MasterThievesArmband.java"
+			},
+			{
+				"line": 318,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\MasterThievesArmband.java"
+			},
+			{
+				"line": 177,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\TalismanOfForesight.java"
+			},
+			{
+				"line": 186,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\TalismanOfForesight.java"
+			},
+			{
+				"line": 281,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\TalismanOfForesight.java"
+			},
+			{
+				"line": 281,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\TalismanOfForesight.java"
+			},
+			{
+				"line": 170,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\TimekeepersHourglass.java"
+			},
+			{
+				"line": 236,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\UnstableSpellbook.java"
+			},
+			{
+				"line": 333,
+				"name": "busy",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\UnstableSpellbook.java"
+			},
+			{
+				"line": 151,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\bombs\\Bomb.java"
+			},
+			{
+				"line": 45,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\bombs\\Flashbang.java"
+			},
+			{
+				"line": 77,
+				"name": "tileCenterToWorld",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\bombs\\ShockBomb.java"
+			},
+			{
+				"line": 63,
+				"name": "bossLevel",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\bombs\\WoollyBomb.java"
+			},
+			{
+				"line": 77,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\potions\\exotic\\PotionOfCleansing.java"
+			},
+			{
+				"line": 109,
+				"name": "busy",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\quest\\Pickaxe.java"
+			},
+			{
+				"line": 143,
+				"name": "rooms",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\ScrollOfTeleportation.java"
+			},
+			{
+				"line": 101,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\SummonElemental.java"
+			},
+			{
+				"line": 61,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\WildEnergy.java"
+			},
+			{
+				"line": 66,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\stones\\StoneOfDisarming.java"
+			},
+			{
+				"line": 168,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 667,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 83,
+				"name": "chargesPerCast",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfBlastWave.java"
+			},
+			{
+				"line": 68,
+				"name": "chargesPerCast",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfCorrosion.java"
+			},
+			{
+				"line": 163,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfCorruption.java"
+			},
+			{
+				"line": 197,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfCorruption.java"
+			},
+			{
+				"line": 113,
+				"name": "chargesPerCast",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfDisintegration.java"
+			},
+			{
+				"line": 116,
+				"name": "flash",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfDisintegration.java"
+			},
+			{
+				"line": 77,
+				"name": "shake",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfLightning.java"
+			},
+			{
+				"line": 79,
+				"name": "flash",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfLightning.java"
+			},
+			{
+				"line": 84,
+				"name": "chargesPerCast",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfLightning.java"
+			},
+			{
+				"line": 125,
+				"name": "center",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfLightning.java"
+			},
+			{
+				"line": 125,
+				"name": "center",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfLightning.java"
+			},
+			{
+				"line": 73,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfWarding.java"
+			},
+			{
+				"line": 80,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfWarding.java"
+			},
+			{
+				"line": 174,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfWarding.java"
+			},
+			{
+				"line": 47,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\curses\\Dazzling.java"
+			},
+			{
+				"line": 165,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\melee\\MagesStaff.java"
+			},
+			{
+				"line": 46,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\missiles\\darts\\CleansingDart.java"
+			},
+			{
+				"line": 143,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\missiles\\darts\\TippedDart.java"
+			},
+			{
+				"line": 154,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\missiles\\darts\\TippedDart.java"
+			},
+			{
+				"line": 124,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 124,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 126,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 128,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 507,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 508,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 509,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 510,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 589,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 590,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 591,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 592,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 732,
+				"name": "cellToPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 732,
+				"name": "inside",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 812,
+				"name": "flash",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 843,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\CavesBossLevel.java"
+			},
+			{
+				"line": 56,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\DeadEndLevel.java"
+			},
+			{
+				"line": 56,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\DeadEndLevel.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\DeadEndLevel.java"
+			},
+			{
+				"line": 62,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\DeadEndLevel.java"
+			},
+			{
+				"line": 63,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\DeadEndLevel.java"
+			},
+			{
+				"line": 64,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\DeadEndLevel.java"
+			},
+			{
+				"line": 117,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\HallsBossLevel.java"
+			},
+			{
+				"line": 124,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\HallsBossLevel.java"
+			},
+			{
+				"line": 135,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\HallsBossLevel.java"
+			},
+			{
+				"line": 141,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\HallsBossLevel.java"
+			},
+			{
+				"line": 72,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastLevel.java"
+			},
+			{
+				"line": 122,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastLevel.java"
+			},
+			{
+				"line": 223,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastLevel.java"
+			},
+			{
+				"line": 270,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastLevel.java"
+			},
+			{
+				"line": 291,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastLevel.java"
+			},
+			{
+				"line": 291,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastLevel.java"
+			},
+			{
+				"line": 66,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\LastShopLevel.java"
+			},
+			{
+				"line": 572,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 575,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 575,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 576,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 692,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 703,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 739,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 756,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 762,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 762,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 765,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 765,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 766,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 766,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 771,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 807,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 813,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 813,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 934,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1214,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1224,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1226,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1297,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1298,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 321,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 324,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 338,
+				"name": "cellToPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 338,
+				"name": "inside",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 356,
+				"name": "cellToPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 363,
+				"name": "cellToPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 363,
+				"name": "inside",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 668,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 753,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\PrisonBossLevel.java"
+			},
+			{
+				"line": 515,
+				"name": "cellToPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\RegularLevel.java"
+			},
+			{
+				"line": 87,
+				"name": "minWidth",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\builders\\FigureEightBuilder.java"
+			},
+			{
+				"line": 87,
+				"name": "minHeight",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\builders\\FigureEightBuilder.java"
+			},
+			{
+				"line": 48,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\features\\Door.java"
+			},
+			{
+				"line": 134,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\Painter.java"
+			},
+			{
+				"line": 203,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\RegularPainter.java"
+			},
+			{
+				"line": 263,
+				"name": "tunnelTile",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\RegularPainter.java"
+			},
+			{
+				"line": 203,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\RegularPainter.java"
+			},
+			{
+				"line": 263,
+				"name": "tunnelTile",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\RegularPainter.java"
+			},
+			{
+				"line": 59,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\RatKingRoom.java"
+			},
+			{
+				"line": 60,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\RatKingRoom.java"
+			},
+			{
+				"line": 64,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\RatKingRoom.java"
+			},
+			{
+				"line": 65,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\RatKingRoom.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretGardenRoom.java"
+			},
+			{
+				"line": 44,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretGardenRoom.java"
+			},
+			{
+				"line": 67,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretGardenRoom.java"
+			},
+			{
+				"line": 67,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretGardenRoom.java"
+			},
+			{
+				"line": 114,
+				"name": "square",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\CrystalChoiceRoom.java"
+			},
+			{
+				"line": 97,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\DemonSpawnerRoom.java"
+			},
+			{
+				"line": 58,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\GardenRoom.java"
+			},
+			{
+				"line": 58,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\GardenRoom.java"
+			},
+			{
+				"line": 178,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\MagicalFireRoom.java"
+			},
+			{
+				"line": 204,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\MagicalFireRoom.java"
+			},
+			{
+				"line": 205,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\MagicalFireRoom.java"
+			},
+			{
+				"line": 178,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\MagicalFireRoom.java"
+			},
+			{
+				"line": 204,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\MagicalFireRoom.java"
+			},
+			{
+				"line": 205,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\MagicalFireRoom.java"
+			},
+			{
+				"line": 93,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\SentryRoom.java"
+			},
+			{
+				"line": 111,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\SentryRoom.java"
+			},
+			{
+				"line": 129,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\SentryRoom.java"
+			},
+			{
+				"line": 147,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\SentryRoom.java"
+			},
+			{
+				"line": 123,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\ToxicGasRoom.java"
+			},
+			{
+				"line": 123,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\ToxicGasRoom.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\BurnedRoom.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\BurnedRoom.java"
+			},
+			{
+				"line": 55,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CaveRoom.java"
+			},
+			{
+				"line": 55,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CaveRoom.java"
+			},
+			{
+				"line": 211,
+				"name": "shrink",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 218,
+				"name": "shrink",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 211,
+				"name": "shrink",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 218,
+				"name": "shrink",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 247,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 257,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 276,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 286,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CavesFissureRoom.java"
+			},
+			{
+				"line": 80,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 81,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 82,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 83,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 80,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 81,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 82,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 83,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CellBlockRoom.java"
+			},
+			{
+				"line": 56,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\ChasmRoom.java"
+			},
+			{
+				"line": 56,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\ChasmRoom.java"
+			},
+			{
+				"line": 86,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CircleBasinRoom.java"
+			},
+			{
+				"line": 89,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CircleBasinRoom.java"
+			},
+			{
+				"line": 90,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CircleBasinRoom.java"
+			},
+			{
+				"line": 86,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CircleBasinRoom.java"
+			},
+			{
+				"line": 89,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CircleBasinRoom.java"
+			},
+			{
+				"line": 90,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\CircleBasinRoom.java"
+			},
+			{
+				"line": 53,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\GrassyGraveRoom.java"
+			},
+			{
+				"line": 54,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\GrassyGraveRoom.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\RuinsRoom.java"
+			},
+			{
+				"line": 61,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\RuinsRoom.java"
+			},
+			{
+				"line": 68,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedLibraryRoom.java"
+			},
+			{
+				"line": 69,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedLibraryRoom.java"
+			},
+			{
+				"line": 90,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedLibraryRoom.java"
+			},
+			{
+				"line": 91,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedLibraryRoom.java"
+			},
+			{
+				"line": 76,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedRoom.java"
+			},
+			{
+				"line": 77,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedRoom.java"
+			},
+			{
+				"line": 98,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedRoom.java"
+			},
+			{
+				"line": 99,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\SegmentedRoom.java"
+			},
+			{
+				"line": 56,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\DisintegrationTrap.java"
+			},
+			{
+				"line": 56,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\GrimTrap.java"
+			},
+			{
+				"line": 68,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\PoisonDartTrap.java"
+			},
+			{
+				"line": 90,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\RockfallTrap.java"
+			},
+			{
+				"line": 52,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\WornDartTrap.java"
+			},
+			{
+				"line": 85,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ConeAOE.java"
+			},
+			{
+				"line": 86,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ConeAOE.java"
+			},
+			{
+				"line": 97,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ConeAOE.java"
+			},
+			{
+				"line": 98,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ConeAOE.java"
+			},
+			{
+				"line": 104,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ShadowCaster.java"
+			},
+			{
+				"line": 107,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ShadowCaster.java"
+			},
+			{
+				"line": 108,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ShadowCaster.java"
+			},
+			{
+				"line": 147,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ShadowCaster.java"
+			},
+			{
+				"line": 147,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\mechanics\\ShadowCaster.java"
+			},
+			{
+				"line": 86,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\plants\\Plant.java"
+			},
+			{
+				"line": 386,
+				"name": "availableEnergy",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\AlchemyScene.java"
+			},
+			{
+				"line": 101,
+				"name": "overlapsPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\CellSelector.java"
+			},
+			{
+				"line": 102,
+				"name": "tileCenterToWorld",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\CellSelector.java"
+			},
+			{
+				"line": 112,
+				"name": "overlapsPoint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\CellSelector.java"
+			},
+			{
+				"line": 113,
+				"name": "tileCenterToWorld",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\CellSelector.java"
+			},
+			{
+				"line": 137,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\CellSelector.java"
+			},
+			{
+				"line": 180,
+				"name": "innerWidth",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\ChangesScene.java"
+			},
+			{
+				"line": 186,
+				"name": "innerWidth",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\ChangesScene.java"
+			},
+			{
+				"line": 191,
+				"name": "innerWidth",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\ChangesScene.java"
+			},
+			{
+				"line": 191,
+				"name": "innerWidth",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\ChangesScene.java"
+			},
+			{
+				"line": 438,
+				"name": "isChallenged",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\GameScene.java"
+			},
+			{
+				"line": 488,
+				"name": "chars",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\GameScene.java"
+			},
+			{
+				"line": 522,
+				"name": "rooms",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\GameScene.java"
+			},
+			{
+				"line": 293,
+				"name": "resetFade",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\HeroSelectScene.java"
+			},
+			{
+				"line": 406,
+				"name": "resetColor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\HeroSelectScene.java"
+			},
+			{
+				"line": 407,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\HeroSelectScene.java"
+			},
+			{
+				"line": 452,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\HeroSelectScene.java"
+			},
+			{
+				"line": 564,
+				"name": "marginLeft",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\HeroSelectScene.java"
+			},
+			{
+				"line": 564,
+				"name": "marginHor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\scenes\\HeroSelectScene.java"
+			},
+			{
+				"line": 198,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 198,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 198,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 231,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 231,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 231,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 235,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 235,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 252,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 252,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 252,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 256,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 256,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 266,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 266,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 271,
+				"name": "getCellFog",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\FogOfWar.java"
+			},
+			{
+				"line": 158,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\BuffIndicator.java"
+			},
+			{
+				"line": 177,
+				"name": "set",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\BuffIndicator.java"
+			},
+			{
+				"line": 137,
+				"name": "hardlight",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\GameLog.java"
+			},
+			{
+				"line": 116,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\QuickRecipe.java"
+			},
+			{
+				"line": 128,
+				"name": "alpha",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\QuickRecipe.java"
+			},
+			{
+				"line": 87,
+				"name": "getSweep",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RadialMenu.java"
+			},
+			{
+				"line": 143,
+				"name": "set",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RenderedTextBlock.java"
+			},
+			{
+				"line": 256,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RenderedTextBlock.java"
+			},
+			{
+				"line": 261,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RenderedTextBlock.java"
+			},
+			{
+				"line": 256,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RenderedTextBlock.java"
+			},
+			{
+				"line": 261,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RenderedTextBlock.java"
+			},
+			{
+				"line": 142,
+				"name": "marginHor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RightClickMenu.java"
+			},
+			{
+				"line": 143,
+				"name": "marginHor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RightClickMenu.java"
+			},
+			{
+				"line": 168,
+				"name": "marginLeft",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RightClickMenu.java"
+			},
+			{
+				"line": 168,
+				"name": "marginHor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RightClickMenu.java"
+			},
+			{
+				"line": 242,
+				"name": "right",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\TalentsPane.java"
+			},
+			{
+				"line": 803,
+				"name": "getItem",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Toolbar.java"
+			},
+			{
+				"line": 807,
+				"name": "getItem",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Toolbar.java"
+			},
+			{
+				"line": 816,
+				"name": "isPlaceholder",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Toolbar.java"
+			},
+			{
+				"line": 85,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndChallenges.java"
+			},
+			{
+				"line": 67,
+				"name": "armorAbilities",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndChooseAbility.java"
+			},
+			{
+				"line": 61,
+				"name": "subClasses",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndChooseSubclass.java"
+			},
+			{
+				"line": 67,
+				"name": "getComboCount",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndCombo.java"
+			},
+			{
+				"line": 105,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndDailies.java"
+			},
+			{
+				"line": 276,
+				"name": "buffs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndHero.java"
+			},
+			{
+				"line": 279,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndHero.java"
+			},
+			{
+				"line": 280,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndHeroInfo.java"
+			},
+			{
+				"line": 340,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndHeroInfo.java"
+			},
+			{
+				"line": 473,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 478,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 500,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 473,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 690,
+				"name": "getKnown",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 696,
+				"name": "getKnown",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 699,
+				"name": "getKnown",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 109,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndQuickBag.java"
+			},
+			{
+				"line": 125,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndQuickBag.java"
+			},
+			{
+				"line": 394,
+				"name": "scene",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndRanking.java"
+			},
+			{
+				"line": 270,
+				"name": "subClasses",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndStartGame.java"
+			},
+			{
+				"line": 120,
+				"name": "tabHeight",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndTabbed.java"
+			},
+			{
+				"line": 57,
+				"name": "updateQuickslot",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndUseItem.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 33,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\glscripts\\Script.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\gltextures\\Atlas.java"
+			},
+			{
+				"line": 33,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\gltextures\\TextureCache.java"
+			},
+			{
+				"line": 112,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\input\\PointerEvent.java"
+			},
+			{
+				"line": 154,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\RenderedText.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\TextureFilm.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\audio\\Sample.java"
+			},
+			{
+				"line": 34,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\BitmapCache.java"
+			},
+			{
+				"line": 32,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\BitmapFilm.java"
+			},
+			{
+				"line": 56,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\Bundle.java"
+			},
+			{
+				"line": 193,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidPlatformSupport.java"
+			},
+			{
+				"line": 259,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidPlatformSupport.java"
+			},
+			{
+				"line": 260,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidPlatformSupport.java"
+			},
+			{
+				"line": 261,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidPlatformSupport.java"
+			},
+			{
+				"line": 262,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidPlatformSupport.java"
+			},
+			{
+				"line": 222,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\Badges.java"
+			},
+			{
+				"line": 42,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\GamesInProgress.java"
+			},
+			{
+				"line": 42,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\AscensionChallenge.java"
+			},
+			{
+				"line": 90,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\mage\\ElementalBlast.java"
+			},
+			{
+				"line": 107,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\mage\\ElementalBlast.java"
+			},
+			{
+				"line": 140,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\effects\\BadgeBanner.java"
+			},
+			{
+				"line": 63,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\effects\\SpellSprite.java"
+			},
+			{
+				"line": 353,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\bombs\\Bomb.java"
+			},
+			{
+				"line": 45,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\potions\\AlchemicalCatalyst.java"
+			},
+			{
+				"line": 446,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\potions\\Potion.java"
+			},
+			{
+				"line": 51,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\potions\\exotic\\ExoticPotion.java"
+			},
+			{
+				"line": 52,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\potions\\exotic\\ExoticPotion.java"
+			},
+			{
+				"line": 291,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\Scroll.java"
+			},
+			{
+				"line": 47,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\exotic\\ExoticScroll.java"
+			},
+			{
+				"line": 48,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\exotic\\ExoticScroll.java"
+			},
+			{
+				"line": 174,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\exotic\\ScrollOfMetamorphosis.java"
+			},
+			{
+				"line": 54,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\ArcaneCatalyst.java"
+			},
+			{
+				"line": 89,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfCorruption.java"
+			},
+			{
+				"line": 108,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfCorruption.java"
+			},
+			{
+				"line": 196,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\WandOfCorruption.java"
+			},
+			{
+				"line": 173,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\missiles\\darts\\TippedDart.java"
+			},
+			{
+				"line": 263,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 336,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 187,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\RegularPainter.java"
+			},
+			{
+				"line": 50,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretLaboratoryRoom.java"
+			},
+			{
+				"line": 89,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretLaboratoryRoom.java"
+			},
+			{
+				"line": 56,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretLibraryRoom.java"
+			},
+			{
+				"line": 87,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\secret\\SecretLibraryRoom.java"
+			},
+			{
+				"line": 289,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\special\\ShopRoom.java"
+			},
+			{
+				"line": 89,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\MissileSprite.java"
+			},
+			{
+				"line": 678,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndJournal.java"
+			},
+			{
+				"line": 99,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopPlatformSupport.java"
+			},
+			{
+				"line": 108,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopPlatformSupport.java"
+			},
+			{
+				"line": 109,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopPlatformSupport.java"
+			},
+			{
+				"line": 113,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\ios\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ios\\IOSPlatformSupport.java"
+			},
+			{
+				"line": 122,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\ios\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ios\\IOSPlatformSupport.java"
+			},
+			{
+				"line": 123,
+				"file": "C:\\Github\\shattered-pixel-dungeon\\ios\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ios\\IOSPlatformSupport.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 50,
+				"name": "shader",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\NoosaScript.java"
+			},
+			{
+				"line": 43,
+				"name": "regencap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Regeneration.java"
+			},
+			{
+				"line": 47,
+				"name": "regencap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Regeneration.java"
+			},
+			{
+				"line": 701,
+				"name": "maxPoints",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\Talent.java"
+			},
+			{
+				"line": 734,
+				"name": "maxPoints",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\Talent.java"
+			},
+			{
+				"line": 113,
+				"name": "isBlessed",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Ankh.java"
+			},
+			{
+				"line": 134,
+				"name": "getGlyph",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\BrokenSeal.java"
+			},
+			{
+				"line": 134,
+				"name": "getGlyph",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\BrokenSeal.java"
+			},
+			{
+				"line": 137,
+				"name": "getGlyph",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\BrokenSeal.java"
+			},
+			{
+				"line": 138,
+				"name": "getGlyph",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\BrokenSeal.java"
+			},
+			{
+				"line": 143,
+				"name": "getGlyph",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\BrokenSeal.java"
+			},
+			{
+				"line": 246,
+				"name": "quantity",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 334,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 336,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 379,
+				"name": "level",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 556,
+				"name": "throwPos",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 569,
+				"name": "throwPos",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 578,
+				"name": "castDelay",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 41,
+				"name": "document",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\journal\\AlchemyPage.java"
+			},
+			{
+				"line": 55,
+				"name": "page",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\journal\\DocumentPage.java"
+			},
+			{
+				"line": 58,
+				"name": "page",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\journal\\DocumentPage.java"
+			},
+			{
+				"line": 83,
+				"name": "page",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\journal\\DocumentPage.java"
+			},
+			{
+				"line": 41,
+				"name": "document",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\journal\\GuidePage.java"
+			},
+			{
+				"line": 576,
+				"name": "collisionProperties",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 572,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 575,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 575,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 576,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 692,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 703,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 739,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 755,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 755,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 756,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 762,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 762,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 765,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 765,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 766,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 766,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 771,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 804,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 807,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 813,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1150,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1151,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1214,
+				"name": "height",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1224,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1226,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1246,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1297,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1298,
+				"name": "length",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1334,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1335,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1336,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1337,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1347,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1348,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1349,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1350,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1363,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1363,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1367,
+				"name": "width",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 100,
+				"name": "code",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\messages\\Languages.java"
+			},
+			{
+				"line": 123,
+				"name": "secondaryTooltipAction",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\QuickSlotButton.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 81,
+				"name": "processAllEvents",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\input\\InputHandler.java"
+			},
+			{
+				"line": 46,
+				"name": "update",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Gizmo.java"
+			},
+			{
+				"line": 49,
+				"name": "draw",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Gizmo.java"
+			},
+			{
+				"line": 184,
+				"name": "script",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Image.java"
+			},
+			{
+				"line": 188,
+				"name": "shader",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\NoosaScript.java"
+			},
+			{
+				"line": 117,
+				"name": "onPointerDown",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\PointerArea.java"
+			},
+			{
+				"line": 119,
+				"name": "onPointerUp",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\PointerArea.java"
+			},
+			{
+				"line": 123,
+				"name": "onDrag",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\PointerArea.java"
+			},
+			{
+				"line": 125,
+				"name": "onHoverStart",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\PointerArea.java"
+			},
+			{
+				"line": 127,
+				"name": "onHoverEnd",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\PointerArea.java"
+			},
+			{
+				"line": 53,
+				"name": "onPause",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Scene.java"
+			},
+			{
+				"line": 57,
+				"name": "onResume",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Scene.java"
+			},
+			{
+				"line": 58,
+				"name": "onScroll",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\ScrollArea.java"
+			},
+			{
+				"line": 111,
+				"name": "enterPressed",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\TextInput.java"
+			},
+			{
+				"line": 234,
+				"name": "script",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\Tilemap.java"
+			},
+			{
+				"line": 108,
+				"name": "isFrozen",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\particles\\Emitter.java"
+			},
+			{
+				"line": 79,
+				"name": "updateValues",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\tweeners\\Tweener.java"
+			},
+			{
+				"line": 104,
+				"name": "createChildren",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\ui\\Component.java"
+			},
+			{
+				"line": 107,
+				"name": "layout",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\noosa\\ui\\Component.java"
+			},
+			{
+				"line": 35,
+				"name": "updateDisplaySize",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 37,
+				"name": "updateSystemUI",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 39,
+				"name": "connectedToUnmeteredNetwork",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 46,
+				"name": "setHonorSilentSwitch",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 61,
+				"name": "setupFontGenerators",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 63,
+				"name": "getGeneratorForString",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 65,
+				"name": "splitforTextBlock",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PlatformSupport.java"
+			},
+			{
+				"line": 54,
+				"name": "clone",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\Point.java"
+			},
+			{
+				"line": 51,
+				"name": "clone",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\SPD-classes\\src\\main\\java\\com\\watabou\\utils\\PointF.java"
+			},
+			{
+				"line": 42,
+				"name": "onBackup",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidBackupHandler.java"
+			},
+			{
+				"line": 43,
+				"name": "onRestore",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\android\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\android\\AndroidBackupHandler.java"
+			},
+			{
+				"line": 98,
+				"name": "onAdd",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 100,
+				"name": "onRemove",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 215,
+				"name": "next",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Actor.java"
+			},
+			{
+				"line": 173,
+				"name": "name",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 259,
+				"name": "blockSound",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 502,
+				"name": "defenseSkill",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 506,
+				"name": "defenseVerb",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 514,
+				"name": "damageRoll",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 528,
+				"name": "defenseProc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 809,
+				"name": "stealth",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 850,
+				"name": "onMotionComplete",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 907,
+				"name": "isInvulnerable",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\Char.java"
+			},
+			{
+				"line": 222,
+				"name": "onBuildFlagMaps",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 226,
+				"name": "tileDesc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\Blob.java"
+			},
+			{
+				"line": 111,
+				"name": "affectHero",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 113,
+				"name": "affectItem",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 115,
+				"name": "record",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\blobs\\WellWater.java"
+			},
+			{
+				"line": 112,
+				"name": "fx",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Buff.java"
+			},
+			{
+				"line": 116,
+				"name": "heroMessage",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\Buff.java"
+			},
+			{
+				"line": 74,
+				"name": "onAttackProc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ChampionEnemy.java"
+			},
+			{
+				"line": 78,
+				"name": "canAttackWithExtraReach",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ChampionEnemy.java"
+			},
+			{
+				"line": 82,
+				"name": "meleeDamageFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ChampionEnemy.java"
+			},
+			{
+				"line": 86,
+				"name": "damageTakenFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ChampionEnemy.java"
+			},
+			{
+				"line": 90,
+				"name": "evasionAndAccuracyFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\buffs\\ChampionEnemy.java"
+			},
+			{
+				"line": 57,
+				"name": "targetingPrompt",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\ArmorAbility.java"
+			},
+			{
+				"line": 74,
+				"name": "activate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\ArmorAbility.java"
+			},
+			{
+				"line": 76,
+				"name": "name",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\ArmorAbility.java"
+			},
+			{
+				"line": 80,
+				"name": "shortDesc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\ArmorAbility.java"
+			},
+			{
+				"line": 88,
+				"name": "icon",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\ArmorAbility.java"
+			},
+			{
+				"line": 92,
+				"name": "talents",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\hero\\abilities\\ArmorAbility.java"
+			},
+			{
+				"line": 478,
+				"name": "totalPylonsToActivate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\DM300.java"
+			},
+			{
+				"line": 173,
+				"name": "meleeProc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Elemental.java"
+			},
+			{
+				"line": 174,
+				"name": "rangedProc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Elemental.java"
+			},
+			{
+				"line": 838,
+				"name": "spawningWeight",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 842,
+				"name": "reset",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 856,
+				"name": "description",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Mob.java"
+			},
+			{
+				"line": 134,
+				"name": "debuff",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\Shaman.java"
+			},
+			{
+				"line": 141,
+				"name": "zap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\actors\\mobs\\YogFist.java"
+			},
+			{
+				"line": 111,
+				"name": "time2equip",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\EquipableItem.java"
+			},
+			{
+				"line": 115,
+				"name": "doEquip",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\EquipableItem.java"
+			},
+			{
+				"line": 110,
+				"name": "actionName",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 142,
+				"name": "doThrow",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 318,
+				"name": "onDetach",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 390,
+				"name": "isUpgradable",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 398,
+				"name": "isEquipped",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 455,
+				"name": "glowing",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 459,
+				"name": "emitter",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 484,
+				"name": "energyVal",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 497,
+				"name": "random",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 625,
+				"name": "castDelay",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Item.java"
+			},
+			{
+				"line": 101,
+				"name": "min",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 102,
+				"name": "max",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 108,
+				"name": "accuracyFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 112,
+				"name": "delayFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 116,
+				"name": "reachFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 135,
+				"name": "defenseFactor",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 139,
+				"name": "proc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\KindOfWeapon.java"
+			},
+			{
+				"line": 68,
+				"name": "testIngredients",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Recipe.java"
+			},
+			{
+				"line": 70,
+				"name": "cost",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Recipe.java"
+			},
+			{
+				"line": 72,
+				"name": "brew",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Recipe.java"
+			},
+			{
+				"line": 74,
+				"name": "sampleOutput",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\Recipe.java"
+			},
+			{
+				"line": 206,
+				"name": "passiveBuff",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\Artifact.java"
+			},
+			{
+				"line": 210,
+				"name": "activeBuff",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\Artifact.java"
+			},
+			{
+				"line": 212,
+				"name": "charge",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\artifacts\\Artifact.java"
+			},
+			{
+				"line": 86,
+				"name": "explodesDestructively",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\bombs\\Bomb.java"
+			},
+			{
+				"line": 40,
+				"name": "document",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\journal\\DocumentPage.java"
+			},
+			{
+				"line": 267,
+				"name": "buff",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\rings\\Ring.java"
+			},
+			{
+				"line": 79,
+				"name": "usableOnItem",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\InventoryScroll.java"
+			},
+			{
+				"line": 83,
+				"name": "onItemSelected",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\InventoryScroll.java"
+			},
+			{
+				"line": 182,
+				"name": "doRead",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\scrolls\\Scroll.java"
+			},
+			{
+				"line": 48,
+				"name": "usableOnItem",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\InventorySpell.java"
+			},
+			{
+				"line": 52,
+				"name": "onItemSelected",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\InventorySpell.java"
+			},
+			{
+				"line": 76,
+				"name": "onCast",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\Spell.java"
+			},
+			{
+				"line": 46,
+				"name": "affectTarget",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\spells\\TargetedSpell.java"
+			},
+			{
+				"line": 80,
+				"name": "usableOnItem",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\stones\\InventoryStone.java"
+			},
+			{
+				"line": 84,
+				"name": "onItemSelected",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\stones\\InventoryStone.java"
+			},
+			{
+				"line": 50,
+				"name": "activate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\stones\\Runestone.java"
+			},
+			{
+				"line": 124,
+				"name": "onZap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 262,
+				"name": "statsDesc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 359,
+				"name": "chargesPerCast",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\wands\\Wand.java"
+			},
+			{
+				"line": 286,
+				"name": "knockArrow",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\SpiritBow.java"
+			},
+			{
+				"line": 205,
+				"name": "speedMultiplier",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\items\\weapon\\Weapon.java"
+			},
+			{
+				"line": 469,
+				"name": "tilesTex",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 473,
+				"name": "waterTex",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 477,
+				"name": "build",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 491,
+				"name": "createMobs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 493,
+				"name": "createItems",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 583,
+				"name": "mobLimit",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 962,
+				"name": "disarmTrap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 1329,
+				"name": "isLevelExplored",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\Level.java"
+			},
+			{
+				"line": 151,
+				"name": "standardRooms",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\RegularLevel.java"
+			},
+			{
+				"line": 155,
+				"name": "specialRooms",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\RegularLevel.java"
+			},
+			{
+				"line": 174,
+				"name": "painter",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\RegularLevel.java"
+			},
+			{
+				"line": 184,
+				"name": "trapChances",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\RegularLevel.java"
+			},
+			{
+				"line": 41,
+				"name": "build",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\builders\\Builder.java"
+			},
+			{
+				"line": 237,
+				"name": "randomBranchAngle",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\builders\\RegularBuilder.java"
+			},
+			{
+				"line": 38,
+				"name": "paint",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\Painter.java"
+			},
+			{
+				"line": 147,
+				"name": "decorate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\painters\\RegularPainter.java"
+			},
+			{
+				"line": 173,
+				"name": "minConnections",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 200,
+				"name": "maxConnections",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 241,
+				"name": "canMerge",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 285,
+				"name": "canPlaceWater",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 301,
+				"name": "canPlaceGrass",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 317,
+				"name": "canPlaceTrap",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 402,
+				"name": "onLevelLoad",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\Room.java"
+			},
+			{
+				"line": 62,
+				"name": "sizeCatProbs",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\rooms\\standard\\StandardRoom.java"
+			},
+			{
+				"line": 49,
+				"name": "poisonAmount",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\PoisonDartTrap.java"
+			},
+			{
+				"line": 53,
+				"name": "canTarget",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\PoisonDartTrap.java"
+			},
+			{
+				"line": 102,
+				"name": "activate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\Trap.java"
+			},
+			{
+				"line": 109,
+				"name": "name",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\Trap.java"
+			},
+			{
+				"line": 113,
+				"name": "desc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\levels\\traps\\Trap.java"
+			},
+			{
+				"line": 76,
+				"name": "activate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\plants\\Plant.java"
+			},
+			{
+				"line": 115,
+				"name": "name",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\plants\\Plant.java"
+			},
+			{
+				"line": 347,
+				"name": "blood",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\CharSprite.java"
+			},
+			{
+				"line": 43,
+				"name": "texOffset",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\ElementalSprite.java"
+			},
+			{
+				"line": 46,
+				"name": "createEmitter",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\ElementalSprite.java"
+			},
+			{
+				"line": 48,
+				"name": "texOffset",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\FistSprite.java"
+			},
+			{
+				"line": 51,
+				"name": "createEmitter",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\FistSprite.java"
+			},
+			{
+				"line": 39,
+				"name": "texOffset",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\MimicSprite.java"
+			},
+			{
+				"line": 35,
+				"name": "texOffset",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\sprites\\ShamanSprite.java"
+			},
+			{
+				"line": 107,
+				"name": "name",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\CustomTilemap.java"
+			},
+			{
+				"line": 111,
+				"name": "desc",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\tiles\\CustomTilemap.java"
+			},
+			{
+				"line": 135,
+				"name": "keyAction",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Button.java"
+			},
+			{
+				"line": 140,
+				"name": "secondaryTooltipAction",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Button.java"
+			},
+			{
+				"line": 165,
+				"name": "onPointerDown",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Button.java"
+			},
+			{
+				"line": 168,
+				"name": "onRightClick",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Button.java"
+			},
+			{
+				"line": 169,
+				"name": "onMiddleClick",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Button.java"
+			},
+			{
+				"line": 174,
+				"name": "hoverText",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Button.java"
+			},
+			{
+				"line": 119,
+				"name": "get",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Icons.java"
+			},
+			{
+				"line": 82,
+				"name": "onChange",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\OptionSlider.java"
+			},
+			{
+				"line": 144,
+				"name": "onSelect",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RadialMenu.java"
+			},
+			{
+				"line": 128,
+				"name": "onSelect",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\RightClickMenu.java"
+			},
+			{
+				"line": 161,
+				"name": "onClick",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\ScrollPane.java"
+			},
+			{
+				"line": 92,
+				"name": "onClose",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\ui\\Toast.java"
+			},
+			{
+				"line": 119,
+				"name": "enabled",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 123,
+				"name": "onSelect",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 125,
+				"name": "hasInfo",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 129,
+				"name": "onInfo",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 131,
+				"name": "hasIcon",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 135,
+				"name": "getIcon",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndOptions.java"
+			},
+			{
+				"line": 127,
+				"name": "tabHeight",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndTabbed.java"
+			},
+			{
+				"line": 154,
+				"name": "onSelect",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\core\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\windows\\WndTextInput.java"
+			},
+			{
+				"line": 44,
+				"name": "focusLost",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopWindowListener.java"
+			},
+			{
+				"line": 45,
+				"name": "focusGained",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopWindowListener.java"
+			},
+			{
+				"line": 46,
+				"name": "closeRequested",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopWindowListener.java"
+			},
+			{
+				"line": 47,
+				"name": "filesDropped",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopWindowListener.java"
+			},
+			{
+				"line": 48,
+				"name": "refreshRequested",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\desktop\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\desktop\\DesktopWindowListener.java"
+			},
+			{
+				"line": 33,
+				"name": "checkForArticles",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\news\\NewsService.java"
+			},
+			{
+				"line": 35,
+				"name": "isUpdateable",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 38,
+				"name": "supportsBetaChannel",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 40,
+				"name": "checkForUpdate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 42,
+				"name": "initializeUpdate",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 45,
+				"name": "isInstallable",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 47,
+				"name": "initializeInstall",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 53,
+				"name": "supportsReviews",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 55,
+				"name": "initializeReview",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			},
+			{
+				"line": 57,
+				"name": "openReviewURI",
+				"file": "C:\\Github\\shattered-pixel-dungeon\\services\\src\\main\\java\\com\\shatteredpixel\\shatteredpixeldungeon\\services\\updates\\UpdateService.java"
+			}
+		]
+	}
+}

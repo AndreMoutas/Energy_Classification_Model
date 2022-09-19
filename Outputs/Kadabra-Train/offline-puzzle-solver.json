@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\offline-puzzle-solver"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 18,
+				"file": "C:\\Github\\offline-puzzle-solver\\lib\\src\\main\\java\\t20kdc\\libofflinepuzzlesolver\\genlog\\ComplexPathfinder.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 37,
+				"name": "onStreamline",
+				"file": "C:\\Github\\offline-puzzle-solver\\app\\src\\main\\java\\t20kdc\\offlinepuzzlesolver\\StreamlineActivity.java"
+			}
+		]
+	}
+}

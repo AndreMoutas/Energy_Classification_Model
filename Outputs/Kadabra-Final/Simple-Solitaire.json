@@ -1,0 +1,1105 @@
+{
+	"sources": [
+		"C:\\Github\\Simple-Solitaire"
+	],
+	"total": 218,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 196,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 217,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 223,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 263,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 294,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 88,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 102,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 103,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 119,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 119,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 125,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 126,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 167,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 168,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 190,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 190,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 196,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 197,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 209,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\AcesUp.java"
+			},
+			{
+				"line": 110,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Calculation.java"
+			},
+			{
+				"line": 110,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Calculation.java"
+			},
+			{
+				"line": 185,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 197,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 204,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 246,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 247,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 248,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 441,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 450,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 454,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 465,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Canfield.java"
+			},
+			{
+				"line": 283,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\DummyGame.java"
+			},
+			{
+				"line": 498,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\DummyGame.java"
+			},
+			{
+				"line": 501,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\DummyGame.java"
+			},
+			{
+				"line": 501,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\DummyGame.java"
+			},
+			{
+				"line": 101,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 101,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 117,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 118,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 118,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 206,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 210,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 251,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 251,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\FortyEight.java"
+			},
+			{
+				"line": 96,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Freecell.java"
+			},
+			{
+				"line": 96,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Freecell.java"
+			},
+			{
+				"line": 102,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Golf.java"
+			},
+			{
+				"line": 116,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Golf.java"
+			},
+			{
+				"line": 116,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Golf.java"
+			},
+			{
+				"line": 143,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Golf.java"
+			},
+			{
+				"line": 144,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Golf.java"
+			},
+			{
+				"line": 237,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\GrandfathersClock.java"
+			},
+			{
+				"line": 237,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\GrandfathersClock.java"
+			},
+			{
+				"line": 331,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\GrandfathersClock.java"
+			},
+			{
+				"line": 331,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\GrandfathersClock.java"
+			},
+			{
+				"line": 89,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Gypsy.java"
+			},
+			{
+				"line": 89,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Gypsy.java"
+			},
+			{
+				"line": 105,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Gypsy.java"
+			},
+			{
+				"line": 106,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Gypsy.java"
+			},
+			{
+				"line": 131,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 139,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 139,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 184,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 185,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 186,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 378,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 381,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 381,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Klondike.java"
+			},
+			{
+				"line": 122,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Maze.java"
+			},
+			{
+				"line": 129,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Maze.java"
+			},
+			{
+				"line": 129,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Maze.java"
+			},
+			{
+				"line": 130,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Maze.java"
+			},
+			{
+				"line": 204,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Maze.java"
+			},
+			{
+				"line": 234,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Maze.java"
+			},
+			{
+				"line": 87,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 99,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 100,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 143,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 150,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 152,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 152,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 189,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 209,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Mod3.java"
+			},
+			{
+				"line": 106,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 117,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 136,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 137,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 137,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 191,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 210,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 230,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 235,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 235,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Pyramid.java"
+			},
+			{
+				"line": 82,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\SimpleSimon.java"
+			},
+			{
+				"line": 82,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\SimpleSimon.java"
+			},
+			{
+				"line": 88,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\SimpleSimon.java"
+			},
+			{
+				"line": 88,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\SimpleSimon.java"
+			},
+			{
+				"line": 130,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\SimpleSimon.java"
+			},
+			{
+				"line": 79,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 80,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 89,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 89,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 94,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 123,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 127,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 127,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 127,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 127,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 134,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 254,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 258,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 254,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 266,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 266,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 376,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spider.java"
+			},
+			{
+				"line": 79,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 80,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 89,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 89,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 94,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 123,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 127,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 127,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 127,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 127,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 134,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 254,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 254,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 261,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 261,
+				"name": "getMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 378,
+				"name": "getColor",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Spiderette.java"
+			},
+			{
+				"line": 124,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\TriPeaks.java"
+			},
+			{
+				"line": 134,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\TriPeaks.java"
+			},
+			{
+				"line": 173,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\TriPeaks.java"
+			},
+			{
+				"line": 174,
+				"name": "getDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\TriPeaks.java"
+			},
+			{
+				"line": 92,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 92,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 155,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 158,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 162,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 182,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 191,
+				"name": "getStackId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 198,
+				"name": "getValue",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Yukon.java"
+			},
+			{
+				"line": 313,
+				"name": "isAnimating",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\Animate.java"
+			},
+			{
+				"line": 128,
+				"name": "getCard",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\AutoComplete.java"
+			},
+			{
+				"line": 129,
+				"name": "getCard",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\AutoComplete.java"
+			},
+			{
+				"line": 129,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\AutoComplete.java"
+			},
+			{
+				"line": 138,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\EnsureMovability.java"
+			},
+			{
+				"line": 146,
+				"name": "hasMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\EnsureMovability.java"
+			},
+			{
+				"line": 106,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 106,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 193,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 228,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 228,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 230,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 230,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 233,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			},
+			{
+				"line": 385,
+				"name": "getDealStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\RecordList.java"
+			},
+			{
+				"line": 293,
+				"name": "getLastTableauId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\ui\\GameManager.java"
+			},
+			{
+				"line": 616,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\ui\\GameManager.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 29,
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\StableArrayAdapter.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 195,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 196,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 217,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 222,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 223,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 263,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 294,
+				"name": "getGameCount",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\LoadGame.java"
+			},
+			{
+				"line": 103,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 122,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 270,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 282,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 285,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 293,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 315,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 315,
+				"name": "isUp",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 323,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 327,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 331,
+				"name": "getStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Card.java"
+			},
+			{
+				"line": 72,
+				"name": "isRunning",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\HelperCardMovement.java"
+			},
+			{
+				"line": 103,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Stack.java"
+			},
+			{
+				"line": 105,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Stack.java"
+			},
+			{
+				"line": 589,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Stack.java"
+			},
+			{
+				"line": 591,
+				"name": "getId",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\Stack.java"
+			},
+			{
+				"line": 322,
+				"name": "hasLimitedRecycles",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 1217,
+				"name": "hasMainStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 1221,
+				"name": "hasDiscardStack",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 1233,
+				"name": "getLastFoundationID",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 63,
+				"name": "isRunning",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\EnsureMovability.java"
+			},
+			{
+				"line": 71,
+				"name": "isRunning",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\EnsureMovability.java"
+			},
+			{
+				"line": 150,
+				"name": "hasWon",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\GameLogic.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 106,
+				"name": "moveCard",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\HelperCardMovement.java"
+			},
+			{
+				"line": 108,
+				"name": "saveState",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\HelperCardMovement.java"
+			},
+			{
+				"line": 112,
+				"name": "loadState",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\HelperCardMovement.java"
+			},
+			{
+				"line": 135,
+				"name": "stopCondition",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\classes\\HelperCardMovement.java"
+			},
+			{
+				"line": 260,
+				"name": "setStacks",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 268,
+				"name": "winTest",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 273,
+				"name": "dealCards",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 282,
+				"name": "cardTest",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 291,
+				"name": "addCardToMovementGameTest",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 299,
+				"name": "hintTest",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 314,
+				"name": "addPointsToScore",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 319,
+				"name": "onMainStackTouch",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 364,
+				"name": "doubleTapTest",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 371,
+				"name": "autoCompleteStartTest",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 381,
+				"name": "autoCompletePhaseOne",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 391,
+				"name": "autoCompletePhaseTwo",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 395,
+				"name": "saveRecentScore",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 404,
+				"name": "save",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 410,
+				"name": "load",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 417,
+				"name": "afterUndo",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 453,
+				"name": "testAfterMove",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 465,
+				"name": "processScore",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 481,
+				"name": "setAdditionalStatisticsData",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 488,
+				"name": "deleteAdditionalStatisticsData",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 494,
+				"name": "onGameEnd",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 722,
+				"name": "setNumberOfStacks",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\games\\Game.java"
+			},
+			{
+				"line": 58,
+				"name": "isRunning",
+				"file": "C:\\Github\\Simple-Solitaire\\app\\src\\main\\java\\de\\tobiasbielefeld\\solitaire\\helper\\EnsureMovability.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"sources": [
+		"C:\\Github\\gridle"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 344,
+				"file": "C:\\Github\\gridle\\src\\main\\java\\android\\support\\v4\\content\\FileProvider.java"
+			},
+			{
+				"line": 660,
+				"file": "C:\\Github\\gridle\\src\\main\\java\\android\\support\\v4\\content\\FileProvider.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

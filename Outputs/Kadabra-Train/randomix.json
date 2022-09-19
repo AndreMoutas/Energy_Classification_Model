@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\randomix"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 93,
+				"name": "onAccuracyChanged",
+				"file": "C:\\Github\\randomix\\app\\src\\main\\java\\com\\minar\\randomix\\utilities\\ShakeEventListener.java"
+			},
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\randomix\\app\\src\\test\\java\\com\\minar\\randomix\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

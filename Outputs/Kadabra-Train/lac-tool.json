@@ -1,0 +1,18 @@
+{
+	"sources": [
+		"C:\\Github\\lac-tool"
+	],
+	"total": 1,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 89,
+				"name": "copyFile",
+				"file": "C:\\Github\\lac-tool\\app\\src\\main\\java\\com\\aliernfrog\\LacMapTool\\RestoreActivity.java"
+			}
+		]
+	}
+}

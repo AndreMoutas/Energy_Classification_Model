@@ -1,0 +1,48 @@
+{
+	"sources": [
+		"C:\\Github\\androidsoft-tuxmemory"
+	],
+	"total": 7,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 58,
+				"name": "getGameView",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\AbstractMainActivity.java"
+			},
+			{
+				"line": 60,
+				"name": "newGame",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\AbstractMainActivity.java"
+			},
+			{
+				"line": 62,
+				"name": "about",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\AbstractMainActivity.java"
+			},
+			{
+				"line": 63,
+				"name": "getItem",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\ImageAdapter.java"
+			},
+			{
+				"line": 68,
+				"name": "getItemId",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\ImageAdapter.java"
+			},
+			{
+				"line": 107,
+				"name": "getMaxTilesPerRow",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\Memory.java"
+			},
+			{
+				"line": 112,
+				"name": "getMinTilesPerRow",
+				"file": "C:\\Github\\androidsoft-tuxmemory\\src\\main\\java\\org\\androidsoft\\games\\memory\\tux\\Memory.java"
+			}
+		]
+	}
+}

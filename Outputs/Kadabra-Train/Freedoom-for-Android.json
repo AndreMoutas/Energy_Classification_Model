@@ -1,0 +1,64 @@
+{
+	"sources": [
+		"C:\\Github\\Freedoom-for-Android"
+	],
+	"total": 10,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 1227,
+				"name": "shouldReleaseEGLContextWhenPausing",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\net\\nullsum\\freedoom\\MyGLSurfaceView.java"
+			},
+			{
+				"line": 1229,
+				"name": "shouldReleaseEGLContextWhenPausing",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\net\\nullsum\\freedoom\\MyGLSurfaceView.java"
+			},
+			{
+				"line": 1657,
+				"name": "ableToDraw",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\net\\nullsum\\freedoom\\MyGLSurfaceView.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 24,
+				"file": "C:\\Github\\Freedoom-for-Android\\touchcontrols\\src\\main\\java\\com\\beloko\\touchcontrols\\ControlInterpreter.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 130,
+				"name": "getActivity",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\net\\nullsum\\freedoom\\EntryActivity.java"
+			},
+			{
+				"line": 131,
+				"name": "resultResult",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\net\\nullsum\\freedoom\\ModSelectDialog.java"
+			},
+			{
+				"line": 501,
+				"name": "onUnhandledMessage",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 934,
+				"name": "nativeCommitText",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 936,
+				"name": "nativeSetComposingText",
+				"file": "C:\\Github\\Freedoom-for-Android\\doom\\src\\main\\java\\org\\libsdl\\app\\SDLActivity.java"
+			},
+			{
+				"line": 379,
+				"name": "onKeyUp",
+				"file": "C:\\Github\\Freedoom-for-Android\\touchcontrols\\src\\main\\java\\com\\beloko\\touchcontrols\\ControlConfig.java"
+			}
+		]
+	}
+}

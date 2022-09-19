@@ -1,0 +1,2028 @@
+{
+	"sources": [
+		"C:\\Github\\gloomy-dungeons-2"
+	],
+	"total": 408,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 275,
+				"name": "isCollapsed",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\widget\\ActionBarContainer.java"
+			},
+			{
+				"line": 159,
+				"name": "areAllListInfosSelectable",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\HeaderViewListAdapter.java"
+			},
+			{
+				"line": 174,
+				"name": "areAllListInfosSelectable",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\HeaderViewListAdapter.java"
+			},
+			{
+				"line": 645,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Game.java"
+			},
+			{
+				"line": 144,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroControllerAuto.java"
+			},
+			{
+				"line": 439,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 465,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 469,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 479,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 542,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 589,
+				"name": "modLightMap",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 673,
+				"name": "modLightMap",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 715,
+				"name": "modLightMap",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 776,
+				"name": "modLightMap",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Level.java"
+			},
+			{
+				"line": 79,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 81,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 81,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 94,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 96,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 96,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 105,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 107,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 107,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 122,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 208,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 273,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 319,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 645,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1125,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1150,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1294,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1331,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1346,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1395,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1410,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1426,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1452,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 1465,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\LevelRenderer.java"
+			},
+			{
+				"line": 488,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\State.java"
+			},
+			{
+				"line": 177,
+				"name": "first",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\data\\DataWriter.java"
+			},
+			{
+				"line": 31,
+				"name": "isPurchased",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\store\\ProfileLevel.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 210,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 287,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 40,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\BaseMenuWrapper.java"
+			},
+			{
+				"line": 59,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\BaseMenuWrapper.java"
+			},
+			{
+				"line": 227,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\widget\\ActivityChooserModel.java"
+			},
+			{
+				"line": 934,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\widget\\ActivityChooserModel.java"
+			},
+			{
+				"line": 50,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\FontLoader.java"
+			},
+			{
+				"line": 50,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\LayoutInflater.java"
+			},
+			{
+				"line": 55,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\LayoutInflater.java"
+			},
+			{
+				"line": 58,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\LayoutInflater.java"
+			},
+			{
+				"line": 400,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\LayoutInflater.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\SystemServiceManager.java"
+			},
+			{
+				"line": 37,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\SystemServiceManager.java"
+			},
+			{
+				"line": 34,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddon.java"
+			},
+			{
+				"line": 77,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddon.java"
+			},
+			{
+				"line": 17,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonBasicAttacher.java"
+			},
+			{
+				"line": 79,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonBasicAttacher.java"
+			},
+			{
+				"line": 28,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GenericInflater.java"
+			},
+			{
+				"line": 27,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\drawable\\DrawableCompat.java"
+			},
+			{
+				"line": 278,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\util\\XmlUtils.java"
+			},
+			{
+				"line": 106,
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\date\\SimpleMonthAdapter.java"
+			},
+			{
+				"line": 492,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\Common.java"
+			},
+			{
+				"line": 495,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\Common.java"
+			},
+			{
+				"line": 59,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Labels.java"
+			},
+			{
+				"line": 36,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\fragments\\SelectEpisodeFragment.java"
+			},
+			{
+				"line": 143,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\misc\\ViewServer.java"
+			},
+			{
+				"line": 121,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\store\\Profile.java"
+			},
+			{
+				"line": 130,
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\store\\Profile.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 169,
+				"name": "getDialogMessage",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\DialogPreference.java"
+			},
+			{
+				"line": 94,
+				"name": "getText",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\EditTextPreference.java"
+			},
+			{
+				"line": 140,
+				"name": "getText",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\EditTextPreference.java"
+			},
+			{
+				"line": 165,
+				"name": "getValue",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\ListPreference.java"
+			},
+			{
+				"line": 171,
+				"name": "getValues",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\MultiSelectListPreference.java"
+			},
+			{
+				"line": 241,
+				"name": "getTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 245,
+				"name": "getSummary",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 613,
+				"name": "getTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 623,
+				"name": "getSummary",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 635,
+				"name": "getContext",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 722,
+				"name": "getPreferenceManager",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 733,
+				"name": "getContext",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 983,
+				"name": "isPersistent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 85,
+				"name": "getRingtoneType",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\RingtonePreference.java"
+			},
+			{
+				"line": 103,
+				"name": "getProgress",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\SeekBarPreference.java"
+			},
+			{
+				"line": 107,
+				"name": "getProgress",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\SeekBarPreference.java"
+			},
+			{
+				"line": 82,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\SwitchScreenPreference.java"
+			},
+			{
+				"line": 97,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\SwitchScreenPreference.java"
+			},
+			{
+				"line": 139,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\SwitchScreenPreference.java"
+			},
+			{
+				"line": 52,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\TwoStatePreference.java"
+			},
+			{
+				"line": 67,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\TwoStatePreference.java"
+			},
+			{
+				"line": 88,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\TwoStatePreference.java"
+			},
+			{
+				"line": 120,
+				"name": "isChecked",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\TwoStatePreference.java"
+			},
+			{
+				"line": 67,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 277,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 287,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 289,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 294,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 303,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 316,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 326,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 336,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 342,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 348,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 367,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 388,
+				"name": "getData",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\_SharedPreferencesImpl_JSON.java"
+			},
+			{
+				"line": 993,
+				"name": "isShowHideAnimationEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarImplBase.java"
+			},
+			{
+				"line": 1016,
+				"name": "isShowHideAnimationEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarImplBase.java"
+			},
+			{
+				"line": 354,
+				"name": "getActionViewStatesKey",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 364,
+				"name": "getActionViewStatesKey",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 825,
+				"name": "isQwertyMode",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 890,
+				"name": "isQwertyMode",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 935,
+				"name": "getContext",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 1154,
+				"name": "getResources",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 302,
+				"name": "getShortcut",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuItemImpl.java"
+			},
+			{
+				"line": 336,
+				"name": "getShortcut",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuItemImpl.java"
+			},
+			{
+				"line": 352,
+				"name": "getTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuItemImpl.java"
+			},
+			{
+				"line": 370,
+				"name": "getTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuItemImpl.java"
+			},
+			{
+				"line": 382,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 447,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 647,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 734,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 805,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 1084,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 1187,
+				"name": "isIconified",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\SearchView.java"
+			},
+			{
+				"line": 59,
+				"name": "getThemeFlag",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonThemes.java"
+			},
+			{
+				"line": 60,
+				"name": "getDarkTheme",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonThemes.java"
+			},
+			{
+				"line": 60,
+				"name": "getLightTheme",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonThemes.java"
+			},
+			{
+				"line": 60,
+				"name": "getMixedTheme",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonThemes.java"
+			},
+			{
+				"line": 229,
+				"name": "getTheme",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\DialogFragment.java"
+			},
+			{
+				"line": 232,
+				"name": "getTheme",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\DialogFragment.java"
+			},
+			{
+				"line": 64,
+				"name": "getClassLoader",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GenericInflater.java"
+			},
+			{
+				"line": 162,
+				"name": "getContext",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GenericInflater.java"
+			},
+			{
+				"line": 48,
+				"name": "getThumbOffset",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AbsSeekBar.java"
+			},
+			{
+				"line": 203,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 308,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 345,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 384,
+				"name": "getFirstVisiblePosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 409,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 410,
+				"name": "getFirstVisiblePosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 412,
+				"name": "getCount",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 451,
+				"name": "getSelectedItemPosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 248,
+				"name": "getAdapter",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ExpandableListConnector.java"
+			},
+			{
+				"line": 290,
+				"name": "getAdapter",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ExpandableListConnector.java"
+			},
+			{
+				"line": 496,
+				"name": "getAdapter",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ExpandableListConnector.java"
+			},
+			{
+				"line": 47,
+				"name": "getState",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\FastScroller.java"
+			},
+			{
+				"line": 62,
+				"name": "getState",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\FastScroller.java"
+			},
+			{
+				"line": 956,
+				"name": "getCheckedItemCount",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\GridView.java"
+			},
+			{
+				"line": 479,
+				"name": "isMeasureWithLargestChildEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\LinearLayout.java"
+			},
+			{
+				"line": 773,
+				"name": "isMeasureWithLargestChildEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\LinearLayout.java"
+			},
+			{
+				"line": 199,
+				"name": "getAnchorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListPopupWindow.java"
+			},
+			{
+				"line": 291,
+				"name": "getAnchorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListPopupWindow.java"
+			},
+			{
+				"line": 796,
+				"name": "getAnchorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListPopupWindow.java"
+			},
+			{
+				"line": 819,
+				"name": "getAnchorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListPopupWindow.java"
+			},
+			{
+				"line": 826,
+				"name": "getAnchorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListPopupWindow.java"
+			},
+			{
+				"line": 845,
+				"name": "getAnchorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListPopupWindow.java"
+			},
+			{
+				"line": 986,
+				"name": "getCheckedItemCount",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListView.java"
+			},
+			{
+				"line": 651,
+				"name": "getValue",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\NumberPicker.java"
+			},
+			{
+				"line": 92,
+				"name": "getWidth",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 92,
+				"name": "getHeight",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 319,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 560,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 642,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 662,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 704,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 744,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 784,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\PopupWindow.java"
+			},
+			{
+				"line": 769,
+				"name": "getHours",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\time\\RadialPickerLayout.java"
+			},
+			{
+				"line": 770,
+				"name": "getMinutes",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\time\\RadialPickerLayout.java"
+			},
+			{
+				"line": 51,
+				"name": "getPrice",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\store\\products\\Product.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 154,
+				"name": "needInputMethod",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\DialogPreference.java"
+			},
+			{
+				"line": 219,
+				"name": "onCreateDialogView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\DialogPreference.java"
+			},
+			{
+				"line": 234,
+				"name": "onDialogClosed",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\DialogPreference.java"
+			},
+			{
+				"line": 252,
+				"name": "onPrepareDialogBuilder",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\DialogPreference.java"
+			},
+			{
+				"line": 648,
+				"name": "onClick",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 676,
+				"name": "onGetDefaultValue",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 680,
+				"name": "onKey",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 701,
+				"name": "onSetInitialValue",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\Preference.java"
+			},
+			{
+				"line": 551,
+				"name": "onBuildHeaders",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceActivity.java"
+			},
+			{
+				"line": 719,
+				"name": "onGetNewHeader",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceActivity.java"
+			},
+			{
+				"line": 162,
+				"name": "isOnSameScreenAsChildren",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceGroup.java"
+			},
+			{
+				"line": 398,
+				"name": "onInitInflater",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceManager.java"
+			},
+			{
+				"line": 97,
+				"name": "onCreateRootAdapter",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceScreen.java"
+			},
+			{
+				"line": 181,
+				"name": "onPrepareDialog",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceScreen.java"
+			},
+			{
+				"line": 184,
+				"name": "onOptionsItemSelected",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceScreen.java"
+			},
+			{
+				"line": 188,
+				"name": "onCreateOptionsMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere-preferences\\src\\org\\holoeverywhere\\preference\\PreferenceScreen.java"
+			},
+			{
+				"line": 120,
+				"name": "getDefaultSharedPreferences",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 124,
+				"name": "getDefaultSharedPreferences",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 137,
+				"name": "getSharedPreferences",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 166,
+				"name": "getSupportApplication",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 315,
+				"name": "onPostInit",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 319,
+				"name": "onPreInit",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 421,
+				"name": "onSupportContentChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloActivity.java"
+			},
+			{
+				"line": 47,
+				"name": "getLayoutInflater",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v4\\app\\_HoloFragment.java"
+			},
+			{
+				"line": 155,
+				"name": "setCustomView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 172,
+				"name": "setCustomView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 188,
+				"name": "setCustomView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 201,
+				"name": "setIcon",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 214,
+				"name": "setIcon",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 227,
+				"name": "setLogo",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 240,
+				"name": "setLogo",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 256,
+				"name": "setListNavigationCallbacks",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 264,
+				"name": "setSelectedNavigationItem",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 271,
+				"name": "getSelectedNavigationIndex",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 278,
+				"name": "getNavigationItemCount",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 288,
+				"name": "setTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 298,
+				"name": "setTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 308,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 318,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 327,
+				"name": "setDisplayOptions",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 342,
+				"name": "setDisplayOptions",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 354,
+				"name": "setDisplayUseLogoEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 366,
+				"name": "setDisplayShowHomeEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 380,
+				"name": "setDisplayHomeAsUpEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 391,
+				"name": "setDisplayShowTitleEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 403,
+				"name": "setDisplayShowCustomEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 412,
+				"name": "setBackgroundDrawable",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 420,
+				"name": "setStackedBackgroundDrawable",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 431,
+				"name": "setSplitBackgroundDrawable",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 437,
+				"name": "getCustomView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 445,
+				"name": "getTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 453,
+				"name": "getSubtitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 467,
+				"name": "getNavigationMode",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 477,
+				"name": "setNavigationMode",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 482,
+				"name": "getDisplayOptions",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 497,
+				"name": "newTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 505,
+				"name": "addTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 513,
+				"name": "addTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 522,
+				"name": "addTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 532,
+				"name": "addTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 540,
+				"name": "removeTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 548,
+				"name": "removeTabAt",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 553,
+				"name": "removeAllTabs",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 562,
+				"name": "selectTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 570,
+				"name": "getSelectedTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 577,
+				"name": "getTabAt",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 584,
+				"name": "getTabCount",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 591,
+				"name": "getHeight",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 601,
+				"name": "show",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 613,
+				"name": "hide",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 618,
+				"name": "isShowing",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 625,
+				"name": "addOnMenuVisibilityListener",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 633,
+				"name": "removeOnMenuVisibilityListener",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 648,
+				"name": "setHomeButtonEnabled",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 660,
+				"name": "getThemedContext",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBar.java"
+			},
+			{
+				"line": 168,
+				"name": "onSupportActionModeStarted",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivity.java"
+			},
+			{
+				"line": 177,
+				"name": "onSupportActionModeFinished",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivity.java"
+			},
+			{
+				"line": 330,
+				"name": "onPrepareSupportNavigateUpTaskStack",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivity.java"
+			},
+			{
+				"line": 69,
+				"name": "createSupportActionBar",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 111,
+				"name": "onConfigurationChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 113,
+				"name": "onStop",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 115,
+				"name": "onPostResume",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 117,
+				"name": "setContentView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 119,
+				"name": "setContentView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 121,
+				"name": "setContentView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 123,
+				"name": "addContentView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 125,
+				"name": "onTitleChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 127,
+				"name": "supportInvalidateOptionsMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 129,
+				"name": "supportRequestWindowFeature",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 132,
+				"name": "onCreatePanelView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 134,
+				"name": "onPreparePanel",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 136,
+				"name": "onCreatePanelMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 138,
+				"name": "onMenuItemSelected",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 140,
+				"name": "onBackPressed",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 142,
+				"name": "startSupportActionMode",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 144,
+				"name": "setSupportProgressBarVisibility",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 146,
+				"name": "setSupportProgressBarIndeterminateVisibility",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 148,
+				"name": "setSupportProgressBarIndeterminate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 150,
+				"name": "setSupportProgress",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 152,
+				"name": "getDrawerToggleDelegate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegate.java"
+			},
+			{
+				"line": 88,
+				"name": "createWindowCallbackWrapper",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\app\\ActionBarActivityDelegateICS.java"
+			},
+			{
+				"line": 92,
+				"name": "getMenuInfo",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuItem.java"
+			},
+			{
+				"line": 104,
+				"name": "getSubMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuItem.java"
+			},
+			{
+				"line": 116,
+				"name": "hasSubMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuItem.java"
+			},
+			{
+				"line": 227,
+				"name": "setShowAsAction",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuItem.java"
+			},
+			{
+				"line": 231,
+				"name": "setActionView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuItem.java"
+			},
+			{
+				"line": 235,
+				"name": "getActionView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuItem.java"
+			},
+			{
+				"line": 571,
+				"name": "dispatchPopulateAccessibilityEvent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\ActionMenuView.java"
+			},
+			{
+				"line": 190,
+				"name": "bindItemView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\BaseMenuPresenter.java"
+			},
+			{
+				"line": 199,
+				"name": "shouldIncludeItem",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\BaseMenuPresenter.java"
+			},
+			{
+				"line": 388,
+				"name": "getActionViewStatesKey",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuBuilder.java"
+			},
+			{
+				"line": 316,
+				"name": "createActionProviderWrapper",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\view\\menu\\MenuItemWrapperICS.java"
+			},
+			{
+				"line": 181,
+				"name": "onHoverEvent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\widget\\ActionBarContainer.java"
+			},
+			{
+				"line": 227,
+				"name": "startActionModeForChild",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\widget\\ActionBarContainer.java"
+			},
+			{
+				"line": 303,
+				"name": "shouldDelayChildPressedState",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\internal\\widget\\ActionBarView.java"
+			},
+			{
+				"line": 78,
+				"name": "setTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 88,
+				"name": "setTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 98,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 108,
+				"name": "setSubtitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 141,
+				"name": "isTitleOptional",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 153,
+				"name": "setCustomView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 161,
+				"name": "invalidate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 167,
+				"name": "finish",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 174,
+				"name": "getMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 181,
+				"name": "getTitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 188,
+				"name": "getSubtitle",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 195,
+				"name": "getCustomView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 200,
+				"name": "getMenuInflater",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 210,
+				"name": "isUiFocusable",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\view\\ActionMode.java"
+			},
+			{
+				"line": 174,
+				"name": "onCloseSubMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\PopupMenu.java"
+			},
+			{
+				"line": 180,
+				"name": "onMenuModeChange",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\android\\support\\v7\\widget\\PopupMenu.java"
+			},
+			{
+				"line": 18,
+				"name": "closeOptionsMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 22,
+				"name": "dispatchKeyEvent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 26,
+				"name": "findViewById",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 34,
+				"name": "installDecorView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 38,
+				"name": "invalidateOptionsMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 42,
+				"name": "onActivityResult",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 45,
+				"name": "onConfigurationChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 49,
+				"name": "onContentChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 53,
+				"name": "onCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 57,
+				"name": "onCreatePanelMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 61,
+				"name": "onDestroy",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 65,
+				"name": "onNavigateUp",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 69,
+				"name": "onMenuItemSelected",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 73,
+				"name": "onMenuOpened",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 77,
+				"name": "onNewIntent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 81,
+				"name": "onPanelClosed",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 85,
+				"name": "onPause",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 89,
+				"name": "onPostCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 93,
+				"name": "onPostResume",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 97,
+				"name": "onPreCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 101,
+				"name": "onPreparePanel",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 105,
+				"name": "onRestart",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 109,
+				"name": "onResume",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 113,
+				"name": "onSaveInstanceState",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 117,
+				"name": "onStart",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 121,
+				"name": "onStop",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 125,
+				"name": "onTitleChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 129,
+				"name": "openOptionsMenu",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 133,
+				"name": "requestWindowFeature",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonActivity.java"
+			},
+			{
+				"line": 10,
+				"name": "onCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonApplication.java"
+			},
+			{
+				"line": 14,
+				"name": "onPreCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonApplication.java"
+			},
+			{
+				"line": 41,
+				"name": "onAttach",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonBase.java"
+			},
+			{
+				"line": 13,
+				"name": "onCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonFragment.java"
+			},
+			{
+				"line": 17,
+				"name": "onDestroyView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonFragment.java"
+			},
+			{
+				"line": 21,
+				"name": "onPreCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonFragment.java"
+			},
+			{
+				"line": 25,
+				"name": "onViewCreated",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\addon\\IAddonFragment.java"
+			},
+			{
+				"line": 11,
+				"name": "onCreateDialog",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\AlertDialogFragment.java"
+			},
+			{
+				"line": 87,
+				"name": "getSupportApplication",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\Application.java"
+			},
+			{
+				"line": 52,
+				"name": "cloneInContext",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GenericInflater.java"
+			},
+			{
+				"line": 218,
+				"name": "onCreateCustomFromTag",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GenericInflater.java"
+			},
+			{
+				"line": 231,
+				"name": "onMergeRoots",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GenericInflater.java"
+			},
+			{
+				"line": 133,
+				"name": "onGridItemClick",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\GridFragment.java"
+			},
+			{
+				"line": 91,
+				"name": "onListItemClick",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\ListActivity.java"
+			},
+			{
+				"line": 133,
+				"name": "onListItemClick",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\ListFragment.java"
+			},
+			{
+				"line": 195,
+				"name": "onHandleTabs",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\app\\TabSwipeController.java"
+			},
+			{
+				"line": 205,
+				"name": "createConstantState",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\drawable\\LayerDrawable.java"
+			},
+			{
+				"line": 88,
+				"name": "isInScrollingContainer",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AbsSeekBar.java"
+			},
+			{
+				"line": 135,
+				"name": "onKeyChange",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AbsSeekBar.java"
+			},
+			{
+				"line": 128,
+				"name": "layout",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AbsSpinner.java"
+			},
+			{
+				"line": 213,
+				"name": "getAdapter",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 215,
+				"name": "setAdapter",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 326,
+				"name": "getSelectedView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 375,
+				"name": "isInFilterMode",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 389,
+				"name": "lookForSelectablePosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 577,
+				"name": "setSelection",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\AdapterView.java"
+			},
+			{
+				"line": 181,
+				"name": "createContextMenuInfo",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\GridView.java"
+			},
+			{
+				"line": 186,
+				"name": "createContextMenuInfo",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ListView.java"
+			},
+			{
+				"line": 326,
+				"name": "getResolvedLayoutDirection",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\ProgressBar.java"
+			},
+			{
+				"line": 409,
+				"name": "performActionForItem",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 426,
+				"name": "populateEventForItem",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 444,
+				"name": "populateNodeForItem",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 455,
+				"name": "getVisibleItems",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 464,
+				"name": "getItemAt",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 477,
+				"name": "getIdForItem",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 486,
+				"name": "getItemForId",
+				"file": "C:\\Github\\gloomy-dungeons-2\\libraries\\holoeverywhere\\src\\org\\holoeverywhere\\widget\\datetimepicker\\TouchExplorationHelper.java"
+			},
+			{
+				"line": 94,
+				"name": "onCreateEngine",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\MyWallpaperService.java"
+			},
+			{
+				"line": 22,
+				"name": "getVersion",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\BaseState.java"
+			},
+			{
+				"line": 26,
+				"name": "versionUpgrade",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\BaseState.java"
+			},
+			{
+				"line": 47,
+				"name": "getAccel",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\Config.java"
+			},
+			{
+				"line": 16,
+				"name": "updateHero",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 18,
+				"name": "reload",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 24,
+				"name": "onDrawFrame",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 27,
+				"name": "updateAfterLoadOrCreate",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 30,
+				"name": "renderControls",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 33,
+				"name": "onKeyUp",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 37,
+				"name": "onKeyDown",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 41,
+				"name": "onTouchEvent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 44,
+				"name": "onTrackballEvent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 47,
+				"name": "setAccelerometerValues",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 50,
+				"name": "initJoystickVars",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 53,
+				"name": "setJoystickValues",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 56,
+				"name": "joystickButtonPressed",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 59,
+				"name": "joystickButtonReleased",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\HeroController.java"
+			},
+			{
+				"line": 91,
+				"name": "angleDiff",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\PortalTracer.java"
+			},
+			{
+				"line": 46,
+				"name": "pointerDown",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 72,
+				"name": "render",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 75,
+				"name": "updateHero",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 151,
+				"name": "ensureSelectedTab",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\fragments\\AchievementsFragment.java"
+			},
+			{
+				"line": 21,
+				"name": "onWindowFocusChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\fragments\\BaseFragment.java"
+			},
+			{
+				"line": 24,
+				"name": "onBackPressed",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\fragments\\BaseFragment.java"
+			},
+			{
+				"line": 66,
+				"name": "getFocusMask",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\fragments\\dialogs\\BaseDialogFragment.java"
+			},
+			{
+				"line": 102,
+				"name": "calcChildPosition",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\libs\\AbsoluteLayout.java"
+			},
+			{
+				"line": 136,
+				"name": "onStartTrackingTouch",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\libs\\SeekBarPreference.java"
+			},
+			{
+				"line": 137,
+				"name": "onStopTrackingTouch",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\libs\\SeekBarPreference.java"
+			},
+			{
+				"line": 144,
+				"name": "setSoundEnabledSetting",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 145,
+				"name": "setMusicVolumeSetting",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 146,
+				"name": "setEffectsVolumeSetting",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 147,
+				"name": "onSettingsUpdated",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 149,
+				"name": "playSound",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 150,
+				"name": "setPlaylist",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 151,
+				"name": "onWindowFocusChanged",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 152,
+				"name": "initialize",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 153,
+				"name": "shutdown",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\managers\\SoundManager.java"
+			},
+			{
+				"line": 76,
+				"name": "runEarn",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\main\\java\\zame\\game\\store\\products\\Product.java"
+			},
+			{
+				"line": 35,
+				"name": "onActivityResult",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\withgplay\\java\\zame\\game\\MainActivityGPlayHelper.java"
+			},
+			{
+				"line": 23,
+				"name": "sendView",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\withgplay\\java\\zame\\game\\managers\\Tracker.java"
+			},
+			{
+				"line": 24,
+				"name": "sendEvent",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\withgplay\\java\\zame\\game\\managers\\Tracker.java"
+			},
+			{
+				"line": 25,
+				"name": "flushEvents",
+				"file": "C:\\Github\\gloomy-dungeons-2\\src\\withgplay\\java\\zame\\game\\managers\\Tracker.java"
+			}
+		]
+	}
+}

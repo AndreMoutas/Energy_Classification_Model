@@ -1,0 +1,28 @@
+{
+	"sources": [
+		"C:\\Github\\ChessWatch"
+	],
+	"total": 3,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 67,
+				"name": "onTick",
+				"file": "C:\\Github\\ChessWatch\\src\\org\\hekmatof\\chesswatch\\ChessTimer.java"
+			},
+			{
+				"line": 69,
+				"name": "onPause",
+				"file": "C:\\Github\\ChessWatch\\src\\org\\hekmatof\\chesswatch\\ChessTimer.java"
+			},
+			{
+				"line": 71,
+				"name": "onStart",
+				"file": "C:\\Github\\ChessWatch\\src\\org\\hekmatof\\chesswatch\\ChessTimer.java"
+			}
+		]
+	}
+}

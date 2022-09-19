@@ -1,0 +1,120 @@
+{
+	"sources": [
+		"C:\\Github\\aeonsend-randomizer"
+	],
+	"total": 21,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 67,
+				"name": "getExpansionCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 74,
+				"name": "getNemesisCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 81,
+				"name": "getCharacterCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 88,
+				"name": "getGemCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 95,
+				"name": "getRelicCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 102,
+				"name": "getSpellCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 67,
+				"name": "getExpansionCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 74,
+				"name": "getNemesisCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 81,
+				"name": "getCharacterCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 88,
+				"name": "getGemCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 95,
+				"name": "getRelicCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 102,
+				"name": "getSpellCardList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 325,
+				"name": "getValue",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\database\\DatabaseHandler.java"
+			},
+			{
+				"line": 141,
+				"name": "getGemsPriceList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\fragments\\MarketFragment.java"
+			},
+			{
+				"line": 145,
+				"name": "getRelicsPriceList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\fragments\\MarketFragment.java"
+			},
+			{
+				"line": 149,
+				"name": "getSpellsPriceList",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\fragments\\MarketFragment.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 56,
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\fragments\\ExpansionFragment.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 158,
+				"name": "getFragmentValuesBundle",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\MainActivity.java"
+			},
+			{
+				"line": 35,
+				"name": "getNumberofRelics",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\cards\\MarketSetupCard.java"
+			},
+			{
+				"line": 36,
+				"name": "getNumberOfSpells",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\main\\java\\com\\games\\boardgames\\aeonsend\\cards\\MarketSetupCard.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 14,
+				"name": "addition_isCorrect",
+				"file": "C:\\Github\\aeonsend-randomizer\\app\\src\\test\\java\\com\\games\\boardgames\\aeonsend\\ExampleUnitTest.java"
+			}
+		]
+	}
+}

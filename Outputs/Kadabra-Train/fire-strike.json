@@ -1,0 +1,419 @@
+{
+	"sources": [
+		"C:\\Github\\fire-strike"
+	],
+	"total": 81,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 195,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\core\\serializer\\DataWriter.java"
+			},
+			{
+				"line": 220,
+				"name": "requestBuildPathToWave",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\Game.java"
+			},
+			{
+				"line": 688,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\Game.java"
+			},
+			{
+				"line": 837,
+				"name": "showOverlay",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\Game.java"
+			},
+			{
+				"line": 501,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 529,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 533,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 547,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 570,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 661,
+				"name": "requestBuildPathToWave",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 707,
+				"name": "requestBuildPathToWave",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 914,
+				"name": "requestBuildPathToWave",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 921,
+				"name": "requestBuildPathToWave",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 648,
+				"name": "modLightMap",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 692,
+				"name": "modLightMap",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 733,
+				"name": "modLightMap",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 766,
+				"name": "modLightMap",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\Level.java"
+			},
+			{
+				"line": 108,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 110,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 110,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 123,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 125,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 125,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 134,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 136,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 136,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 151,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 286,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 332,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 728,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 1067,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 1093,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 1163,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\level\\LevelRenderer.java"
+			},
+			{
+				"line": 118,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 158,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 200,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 216,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 230,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 246,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 261,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 283,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			},
+			{
+				"line": 295,
+				"name": "first",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\visual\\AutoMap.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 87,
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\graphics\\Labels.java"
+			},
+			{
+				"line": 39,
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\state\\Profile.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 103,
+				"name": "getHelpDiagSize",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 154,
+				"name": "onActivityCreate",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\esmediadtor\\Mediadtor.java"
+			},
+			{
+				"line": 204,
+				"name": "isInterstitialLoaded",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\esmediadtor\\Mediadtor.java"
+			},
+			{
+				"line": 210,
+				"name": "showInterstitial",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\esmediadtor\\Mediadtor.java"
+			},
+			{
+				"line": 216,
+				"name": "isRewardedVideoEnabled",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\esmediadtor\\Mediadtor.java"
+			},
+			{
+				"line": 221,
+				"name": "isRewardedVideoLoaded",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\esmediadtor\\Mediadtor.java"
+			},
+			{
+				"line": 227,
+				"name": "showRewardedVideo",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\esmediadtor\\Mediadtor.java"
+			},
+			{
+				"line": 67,
+				"name": "trackEventInternal",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\com\\eightsines\\estracker\\tracker\\AbstractTracker.java"
+			},
+			{
+				"line": 104,
+				"name": "getFocusMask",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\core\\app\\BaseDialogFragment.java"
+			},
+			{
+				"line": 48,
+				"name": "onWindowFocusChanged",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\core\\app\\BaseFragment.java"
+			},
+			{
+				"line": 119,
+				"name": "calcChildPosition",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\core\\widget\\AbsoluteLayout.java"
+			},
+			{
+				"line": 13,
+				"name": "updateHero",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 15,
+				"name": "reload",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 18,
+				"name": "surfaceSizeChanged",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 21,
+				"name": "onDrawFrame",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 24,
+				"name": "updateAfterLevelLoadedOrCreated",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 27,
+				"name": "render",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 30,
+				"name": "onKeyUp",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 34,
+				"name": "onKeyDown",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 38,
+				"name": "onTouchEvent",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 41,
+				"name": "onTrackballEvent",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 44,
+				"name": "setAccelerometerValues",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controller\\HeroController.java"
+			},
+			{
+				"line": 52,
+				"name": "pointerDown",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 78,
+				"name": "render",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 81,
+				"name": "updateHero",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 84,
+				"name": "getHelpDiagSize",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\controls\\OnScreenController.java"
+			},
+			{
+				"line": 28,
+				"name": "getVersion",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\state\\BaseState.java"
+			},
+			{
+				"line": 32,
+				"name": "versionUpgrade",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\engine\\state\\BaseState.java"
+			},
+			{
+				"line": 117,
+				"name": "setSoundEnabledSetting",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 119,
+				"name": "setMusicVolumeSetting",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 121,
+				"name": "setEffectsVolumeSetting",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 125,
+				"name": "playSound",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 131,
+				"name": "setPlaylist",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 133,
+				"name": "onWindowFocusChanged",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 135,
+				"name": "initialize",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 137,
+				"name": "shutdown",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\feature\\sound\\SoundManager.java"
+			},
+			{
+				"line": 43,
+				"name": "onActivityResult",
+				"file": "C:\\Github\\fire-strike\\android\\src\\main\\java\\zame\\game\\flavour\\gplay\\MainActivityGPlayHelper.java"
+			}
+		]
+	}
+}

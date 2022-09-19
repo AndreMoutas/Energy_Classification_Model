@@ -1,0 +1,21 @@
+{
+	"sources": [
+		"C:\\Github\\DSAAssistant"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [],
+		"HashMap Usage Detector": [
+			{
+				"line": 99,
+				"file": "C:\\Github\\DSAAssistant\\app\\src\\main\\java\\eu\\roggstar\\luigithehunter\\dsaassistent\\GMActivity.java"
+			},
+			{
+				"line": 246,
+				"file": "C:\\Github\\DSAAssistant\\app\\src\\main\\java\\eu\\roggstar\\luigithehunter\\dsaassistent\\GMActivity.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"sources": [
+		"C:\\Github\\HouseOfCards"
+	],
+	"total": 2,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 42,
+				"name": "getCards",
+				"file": "C:\\Github\\HouseOfCards\\HouseOfCards\\src\\main\\java\\eu\\veldsoft\\house\\of\\cards\\ScoreRule.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 35,
+				"file": "C:\\Github\\HouseOfCards\\HouseOfCards\\src\\main\\java\\eu\\veldsoft\\house\\of\\cards\\GameActivity.java"
+			}
+		],
+		"Internal Getter Detector": [],
+		"Member Ignoring Method Detector": []
+	}
+}

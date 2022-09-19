@@ -1,0 +1,315 @@
+{
+	"sources": [
+		"C:\\Github\\DragonGoApp"
+	],
+	"total": 60,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 461,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 222,
+				"name": "string",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 958,
+				"name": "parentPos",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 1668,
+				"name": "node",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 1692,
+				"name": "node",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 2206,
+				"name": "ishand",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 2366,
+				"name": "parent",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 264,
+				"name": "xmlMissing",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\SGFTree.java"
+			},
+			{
+				"line": 264,
+				"name": "xmlMissing",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\SGFTree.java"
+			},
+			{
+				"line": 113,
+				"name": "file",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\FileList.java"
+			},
+			{
+				"line": 396,
+				"name": "get",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\regexp\\RegExp.java"
+			},
+			{
+				"line": 399,
+				"name": "get",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\regexp\\RegExp.java"
+			},
+			{
+				"line": 207,
+				"name": "getTag",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\xml\\XmlReader.java"
+			},
+			{
+				"line": 231,
+				"name": "getTag",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\xml\\XmlReader.java"
+			},
+			{
+				"line": 231,
+				"name": "name",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\xml\\XmlReader.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 27,
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\EventManager.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 142,
+				"name": "getUrl",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\AndroidServerConnection.java"
+			},
+			{
+				"line": 351,
+				"name": "getUrl",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\AndroidServerConnection.java"
+			},
+			{
+				"line": 372,
+				"name": "getUrl",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\AndroidServerConnection.java"
+			},
+			{
+				"line": 404,
+				"name": "getUrl",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\AndroidServerConnection.java"
+			},
+			{
+				"line": 74,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 290,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 438,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 439,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 461,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 461,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 608,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 739,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 795,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 845,
+				"name": "getGameID",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 221,
+				"name": "getMessageId",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Message.java"
+			},
+			{
+				"line": 229,
+				"name": "getMessageId",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Message.java"
+			},
+			{
+				"line": 244,
+				"name": "getMessageId",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Message.java"
+			},
+			{
+				"line": 405,
+				"name": "getUrl",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\ServerConnection.java"
+			},
+			{
+				"line": 466,
+				"name": "getUrl",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\ServerConnection.java"
+			},
+			{
+				"line": 240,
+				"name": "main",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Node.java"
+			},
+			{
+				"line": 46,
+				"name": "color",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Position.java"
+			},
+			{
+				"line": 50,
+				"name": "parent",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\list\\Tree.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 537,
+				"name": "addResignToSGF",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\Game.java"
+			},
+			{
+				"line": 16,
+				"name": "sendSgf1",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\jsgo\\WebAppInterface.java"
+			},
+			{
+				"line": 468,
+				"name": "twodigits",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 840,
+				"name": "update",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 847,
+				"name": "copy",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 2340,
+				"name": "updateall",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 2345,
+				"name": "updateboard",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\Board.java"
+			},
+			{
+				"line": 30,
+				"name": "addmenuitems",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\GoFrame.java"
+			},
+			{
+				"line": 616,
+				"name": "notepass",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\GoFrame.java"
+			},
+			{
+				"line": 631,
+				"name": "moveset",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\GoFrame.java"
+			},
+			{
+				"line": 637,
+				"name": "movepass",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\GoFrame.java"
+			},
+			{
+				"line": 652,
+				"name": "undo",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\GoFrame.java"
+			},
+			{
+				"line": 643,
+				"name": "wrongBoardPosition",
+				"file": "C:\\Github\\DragonGoApp\\src\\fr\\xtof54\\sgfsearch\\SGFTree.java"
+			},
+			{
+				"line": 183,
+				"name": "directory",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\FileList.java"
+			},
+			{
+				"line": 190,
+				"name": "file",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\FileList.java"
+			},
+			{
+				"line": 196,
+				"name": "parsed",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\FileList.java"
+			},
+			{
+				"line": 137,
+				"name": "iterator",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\MyVector.java"
+			},
+			{
+				"line": 79,
+				"name": "scan",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\regexp\\RegExp.java"
+			},
+			{
+				"line": 87,
+				"name": "match",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\regexp\\RegExp.java"
+			},
+			{
+				"line": 94,
+				"name": "nextMatch",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\regexp\\RegExp.java"
+			},
+			{
+				"line": 238,
+				"name": "inRange",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\regexp\\RegExp.java"
+			},
+			{
+				"line": 111,
+				"name": "remove",
+				"file": "C:\\Github\\DragonGoApp\\src\\rene\\util\\xml\\XmlTree.java"
+			}
+		]
+	}
+}

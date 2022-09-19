@@ -1,0 +1,385 @@
+{
+	"sources": [
+		"C:\\Github\\crazyflie-android-client"
+	],
+	"total": 76,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 255,
+				"name": "getFiles",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 256,
+				"name": "getTargets",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 293,
+				"name": "getTargets",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 457,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 461,
+				"name": "getId",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 466,
+				"name": "getBufferPages",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 471,
+				"name": "getId",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 453,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Cloader.java"
+			},
+			{
+				"line": 548,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Cloader.java"
+			},
+			{
+				"line": 213,
+				"name": "getPayload",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyflie\\Crazyflie.java"
+			},
+			{
+				"line": 380,
+				"name": "getHeader",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyflie\\Crazyflie.java"
+			},
+			{
+				"line": 380,
+				"name": "getPort",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyflie\\Crazyflie.java"
+			},
+			{
+				"line": 400,
+				"name": "getDriver",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyflie\\Crazyflie.java"
+			},
+			{
+				"line": 233,
+				"name": "getLogVariables",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\LogConfig.java"
+			},
+			{
+				"line": 166,
+				"name": "getLogVariables",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\Logg.java"
+			},
+			{
+				"line": 172,
+				"name": "setValid",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\Logg.java"
+			},
+			{
+				"line": 189,
+				"name": "getLogVariables",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\Logg.java"
+			},
+			{
+				"line": 202,
+				"name": "setValid",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\Logg.java"
+			},
+			{
+				"line": 225,
+				"name": "getVariableTypeMapLog",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			}
+		],
+		"HashMap Usage Detector": [
+			{
+				"line": 68,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Cloader.java"
+			},
+			{
+				"line": 38,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Manifest.java"
+			},
+			{
+				"line": 76,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\Logg.java"
+			},
+			{
+				"line": 371,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\Logg.java"
+			},
+			{
+				"line": 67,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\Param.java"
+			},
+			{
+				"line": 72,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\Param.java"
+			},
+			{
+				"line": 73,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\Param.java"
+			},
+			{
+				"line": 172,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\Param.java"
+			},
+			{
+				"line": 49,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			},
+			{
+				"line": 51,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			},
+			{
+				"line": 52,
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			}
+		],
+		"Internal Getter Detector": [
+			{
+				"line": 457,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 479,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Bootloader.java"
+			},
+			{
+				"line": 453,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Cloader.java"
+			},
+			{
+				"line": 548,
+				"name": "isCancelled",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\Cloader.java"
+			},
+			{
+				"line": 125,
+				"name": "getTagName",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\bootloader\\FirmwareRelease.java"
+			},
+			{
+				"line": 400,
+				"name": "getDriver",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyflie\\Crazyflie.java"
+			},
+			{
+				"line": 52,
+				"name": "getChannel",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyradio\\ConnectionData.java"
+			},
+			{
+				"line": 52,
+				"name": "getDataRate",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyradio\\ConnectionData.java"
+			},
+			{
+				"line": 88,
+				"name": "getText",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\ConsolePacket.java"
+			},
+			{
+				"line": 235,
+				"name": "getDataByteCount",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpPacket.java"
+			},
+			{
+				"line": 245,
+				"name": "getHeader",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpPacket.java"
+			},
+			{
+				"line": 245,
+				"name": "getHeader",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpPacket.java"
+			},
+			{
+				"line": 70,
+				"name": "getNumber",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpPort.java"
+			},
+			{
+				"line": 186,
+				"name": "getPeriodInMs",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\LogConfig.java"
+			},
+			{
+				"line": 233,
+				"name": "getLogVariables",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\log\\LogConfig.java"
+			},
+			{
+				"line": 310,
+				"name": "getValuesMap",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\Param.java"
+			},
+			{
+				"line": 311,
+				"name": "getValuesMap",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\Param.java"
+			},
+			{
+				"line": 225,
+				"name": "getVariableTypeMapLog",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			},
+			{
+				"line": 137,
+				"name": "getAccess",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 156,
+				"name": "getGroup",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 156,
+				"name": "getName",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 156,
+				"name": "getIdent",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 156,
+				"name": "getCtype",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 211,
+				"name": "getIdent",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 211,
+				"name": "getIdent",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 304,
+				"name": "getMaxRollPitchAngle",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\Controls.java"
+			},
+			{
+				"line": 308,
+				"name": "getMaxYawAngle",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\Controls.java"
+			},
+			{
+				"line": 313,
+				"name": "getMaxThrust",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\Controls.java"
+			},
+			{
+				"line": 313,
+				"name": "getMinThrust",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\Controls.java"
+			},
+			{
+				"line": 316,
+				"name": "getMaxThrust",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\Controls.java"
+			},
+			{
+				"line": 316,
+				"name": "getMinThrust",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\Controls.java"
+			},
+			{
+				"line": 224,
+				"name": "useSplitAxisYaw",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\GamepadController.java"
+			},
+			{
+				"line": 242,
+				"name": "isHover",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\GamepadController.java"
+			},
+			{
+				"line": 262,
+				"name": "isHover",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\GamepadController.java"
+			},
+			{
+				"line": 280,
+				"name": "isHover",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyfliecontrol\\controller\\GamepadController.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 54,
+				"name": "dataReceived",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crazyflie\\DataListener.java"
+			},
+			{
+				"line": 56,
+				"name": "connect",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpDriver.java"
+			},
+			{
+				"line": 61,
+				"name": "disconnect",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpDriver.java"
+			},
+			{
+				"line": 68,
+				"name": "isConnected",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpDriver.java"
+			},
+			{
+				"line": 75,
+				"name": "sendPacket",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpDriver.java"
+			},
+			{
+				"line": 83,
+				"name": "receivePacket",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\crtp\\CrtpDriver.java"
+			},
+			{
+				"line": 62,
+				"name": "updated",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\param\\ParamListener.java"
+			},
+			{
+				"line": 216,
+				"name": "getVariableTypeMapParam",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			},
+			{
+				"line": 220,
+				"name": "getVariableTypeMapLog",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\Toc.java"
+			},
+			{
+				"line": 86,
+				"name": "fillVariableTypeMap",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocElement.java"
+			},
+			{
+				"line": 44,
+				"name": "tocFetchFinished",
+				"file": "C:\\Github\\crazyflie-android-client\\src\\se\\bitcraze\\crazyflie\\lib\\toc\\TocFetchFinishedListener.java"
+			}
+		]
+	}
+}

@@ -1,0 +1,275 @@
+{
+	"sources": [
+		"C:\\Github\\droidzebra"
+	],
+	"total": 52,
+	"detectors": {
+		"Excessive Method Calls Detector": [
+			{
+				"line": 280,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 280,
+				"name": "getBoard",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 281,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 281,
+				"name": "getBoard",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 285,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 285,
+				"name": "getBoard",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 280,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 280,
+				"name": "getBoard",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 281,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 281,
+				"name": "getBoard",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 285,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 285,
+				"name": "getBoard",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 319,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 319,
+				"name": "getCandidateMoves",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 320,
+				"name": "getX",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 320,
+				"name": "getY",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 321,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 321,
+				"name": "evalsDisplayEnabled",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 226,
+				"name": "getX",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\DroidZebra.java"
+			},
+			{
+				"line": 226,
+				"name": "getX",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\DroidZebra.java"
+			},
+			{
+				"line": 226,
+				"name": "getY",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\DroidZebra.java"
+			},
+			{
+				"line": 226,
+				"name": "getY",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\DroidZebra.java"
+			},
+			{
+				"line": 741,
+				"name": "getText",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\DroidZebra.java"
+			}
+		],
+		"HashMap Usage Detector": [],
+		"Internal Getter Detector": [
+			{
+				"line": 124,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 129,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 270,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 280,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 281,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 285,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 315,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 315,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 316,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 319,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 321,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 346,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 346,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 347,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 513,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 519,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 522,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 534,
+				"name": "getDroidZebra",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\BoardView.java"
+			},
+			{
+				"line": 311,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 329,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 334,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 354,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 359,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 378,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 383,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 402,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 575,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			},
+			{
+				"line": 813,
+				"name": "getEngineState",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			}
+		],
+		"Member Ignoring Method Detector": [
+			{
+				"line": 920,
+				"name": "zeJsonTest",
+				"file": "C:\\Github\\droidzebra\\project\\src\\com\\shurik\\droidzebra\\ZebraEngine.java"
+			}
+		]
+	}
+}
